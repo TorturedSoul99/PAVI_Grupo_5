@@ -35,7 +35,6 @@ namespace WindowsFormsApp1.Formularios
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,23 +82,13 @@ namespace WindowsFormsApp1.Formularios
             this.Modificar.HeaderText = "Column1";
             this.Modificar.Name = "Modificar";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(403, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "label1";
-            // 
             // MenuLaboratorios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._787538;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(494, 306);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
@@ -120,6 +109,5 @@ namespace WindowsFormsApp1.Formularios
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
-        private System.Windows.Forms.Label label1;
     }
 }
