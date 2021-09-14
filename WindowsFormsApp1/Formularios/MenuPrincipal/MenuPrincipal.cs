@@ -9,11 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
-<<<<<<< HEAD
-using WindowsFormsApp1.Formularios.ABM_Laboratorios;
-=======
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
->>>>>>> 783358122e05ce3ba6f50b95763c49ff30ad99f5
 
 namespace WindowsFormsApp1
 {
@@ -47,20 +43,11 @@ namespace WindowsFormsApp1
 
         }
 
-<<<<<<< HEAD
-        private void aBMLaboratorioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MenuLaboratorios abmLaboratorio = new MenuLaboratorios();
-            abmLaboratorio.ShowDialog();
-
-            
-=======
         private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ABMSucursales aBMSucursales = new ABMSucursales();
             aBMSucursales.ShowDialog();
 
->>>>>>> 783358122e05ce3ba6f50b95763c49ff30ad99f5
         }
     }
 }

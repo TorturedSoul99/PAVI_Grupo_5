@@ -21,7 +21,6 @@ namespace WindowsFormsApp1
             Application.Run(new frmMenuPPAL());
             //Application.Run(new MenuConsulta());
             //Application.Run(new ABM_Empleado());
-            //Application.Run(new inicio_de_sesion());
         }
     }
 }

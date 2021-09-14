@@ -127,7 +127,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "ABM_Empleado";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ABM_Empleado";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleado)).EndInit();
             this.ResumeLayout(false);
