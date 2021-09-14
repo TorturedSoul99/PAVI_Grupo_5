@@ -33,11 +33,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dgvSucursales = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(209, 391);
+            this.btnModificar.Location = new System.Drawing.Point(171, 391);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(119, 23);
             this.btnModificar.TabIndex = 24;
@@ -81,25 +81,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.dgvSucursales.TabIndex = 23;
             this.dgvSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
             // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(357, 391);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(103, 23);
-            this.btnEliminar.TabIndex = 22;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(88, 391);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
-            this.btnNuevo.TabIndex = 21;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
             // Nuevo
             // 
             this.Nuevo.HeaderText = "IDSucursal";
@@ -117,6 +98,25 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Modificar.HeaderText = "IDSupervisorSuplente";
             this.Modificar.Name = "Modificar";
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(319, 391);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(103, 23);
+            this.btnEliminar.TabIndex = 22;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(50, 391);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
+            this.btnNuevo.TabIndex = 21;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // ABMSucursales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,7 +130,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "ABMSucursales";
-            this.Text = "ABMSucursales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Sucursales";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

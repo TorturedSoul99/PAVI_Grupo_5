@@ -56,7 +56,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.txtbConsulta.Name = "txtbConsulta";
             this.txtbConsulta.Size = new System.Drawing.Size(276, 20);
             this.txtbConsulta.TabIndex = 19;
-            this.txtbConsulta.Text = "Buscar Segun denominacion";
+            this.txtbConsulta.Text = "Buscar Segun denominacion...";
             // 
             // btnModificar
             // 
@@ -66,6 +66,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnModificar.TabIndex = 18;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // dgvRaza
             // 
@@ -74,9 +75,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Nuevo,
             this.Consultar,
             this.Modificar});
-            this.dgvRaza.Location = new System.Drawing.Point(96, 144);
+            this.dgvRaza.Location = new System.Drawing.Point(81, 144);
             this.dgvRaza.Name = "dgvRaza";
-            this.dgvRaza.Size = new System.Drawing.Size(335, 179);
+            this.dgvRaza.Size = new System.Drawing.Size(372, 179);
             this.dgvRaza.TabIndex = 17;
             // 
             // Nuevo
@@ -111,6 +112,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnNuevo.TabIndex = 15;
             this.btnNuevo.Text = "Nueva";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Raza
             // 
@@ -125,6 +127,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "Raza";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Raza";
             ((System.ComponentModel.ISupportInitialize)(this.dgvRaza)).EndInit();
             this.ResumeLayout(false);

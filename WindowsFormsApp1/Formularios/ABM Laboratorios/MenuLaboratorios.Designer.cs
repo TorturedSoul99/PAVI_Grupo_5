@@ -32,6 +32,9 @@ namespace WindowsFormsApp1.Formularios
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnagregar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,23 +67,54 @@ namespace WindowsFormsApp1.Formularios
             this.Modificar});
             this.dataGridView1.Location = new System.Drawing.Point(12, 97);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(372, 179);
+            this.dataGridView1.Size = new System.Drawing.Size(393, 179);
             this.dataGridView1.TabIndex = 23;
+            // 
+            // btnagregar
+            // 
+            this.btnagregar.Location = new System.Drawing.Point(16, 352);
+            this.btnagregar.Name = "btnagregar";
+            this.btnagregar.Size = new System.Drawing.Size(90, 23);
+            this.btnagregar.TabIndex = 24;
+            this.btnagregar.Text = "Agregar";
+            this.btnagregar.UseVisualStyleBackColor = true;
+            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(168, 352);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(90, 23);
+            this.btnModificar.TabIndex = 25;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btneliminar
+            // 
+            this.btneliminar.Location = new System.Drawing.Point(315, 352);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(90, 23);
+            this.btneliminar.TabIndex = 26;
+            this.btneliminar.Text = "Eliminar";
+            this.btneliminar.UseVisualStyleBackColor = true;
             // 
             // Nuevo
             // 
-            this.Nuevo.HeaderText = "Column1";
+            this.Nuevo.HeaderText = "ID";
             this.Nuevo.Name = "Nuevo";
+            this.Nuevo.Visible = false;
             // 
             // Consultar
             // 
-            this.Consultar.HeaderText = "Column1";
+            this.Consultar.HeaderText = "Nombre";
             this.Consultar.Name = "Consultar";
             // 
             // Modificar
             // 
-            this.Modificar.HeaderText = "Column1";
+            this.Modificar.HeaderText = "Descripcion";
             this.Modificar.Name = "Modificar";
+            this.Modificar.Width = 250;
             // 
             // MenuLaboratorios
             // 
@@ -88,13 +122,17 @@ namespace WindowsFormsApp1.Formularios
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(402, 320);
+            this.ClientSize = new System.Drawing.Size(430, 412);
+            this.Controls.Add(this.btneliminar);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnagregar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.DoubleBuffered = true;
             this.Name = "MenuLaboratorios";
-            this.Text = "MenuLaboratorios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Menu Laboratorios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -109,5 +147,8 @@ namespace WindowsFormsApp1.Formularios
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
+        private System.Windows.Forms.Button btnagregar;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btneliminar;
     }
 }

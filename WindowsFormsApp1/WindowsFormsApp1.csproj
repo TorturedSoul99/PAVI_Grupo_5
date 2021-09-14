@@ -94,11 +94,65 @@
     <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.Designer.cs">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.Designer.cs">
+      <DependentUpon>Alta_raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.Designer.cs">
+      <DependentUpon>Modificar_raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.Designer.cs">
+      <DependentUpon>Alta_laboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Modificar_laboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Modificar_laboratorio.Designer.cs">
+      <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Alta_receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Alta_receta.Designer.cs">
+      <DependentUpon>Alta_receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Menu_receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Menu_receta.Designer.cs">
+      <DependentUpon>Menu_receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Modificar_receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Receta\Modificar_receta.Designer.cs">
+      <DependentUpon>Modificar_receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.Designer.cs">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.Designer.cs">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
@@ -174,8 +228,35 @@
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.resx">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.resx">
+      <DependentUpon>Alta_raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.resx">
+      <DependentUpon>Modificar_raza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.resx">
       <DependentUpon>Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Laboratorios\Alta_laboratorio.resx">
+      <DependentUpon>Alta_laboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Laboratorios\Modificar_laboratorio.resx">
+      <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Receta\Alta_receta.resx">
+      <DependentUpon>Alta_receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Receta\Menu_receta.resx">
+      <DependentUpon>Menu_receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Receta\Modificar_receta.resx">
+      <DependentUpon>Modificar_receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\Alta_vacunacion.resx">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\modificar_vacunacion.resx">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>

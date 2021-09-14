@@ -210,6 +210,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.Controls.Add(this.lblHC);
             this.Controls.Add(this.btnAgregar);
             this.Name = "ModificarConsulta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Consulta";
             this.ResumeLayout(false);
             this.PerformLayout();

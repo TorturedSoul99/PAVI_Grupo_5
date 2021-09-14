@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
+using WindowsFormsApp1.Formularios.ABM_Laboratorios;
+using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
+using WindowsFormsApp1.Formularios.ABM_Vacunacion;
+using WindowsFormsApp1.Formularios.ABM_Receta;
 
 namespace WindowsFormsApp1
 {
@@ -48,6 +52,30 @@ namespace WindowsFormsApp1
             ABMSucursales aBMSucursales = new ABMSucursales();
             aBMSucursales.ShowDialog();
 
+        }
+
+        private void informacionDeLaboratoriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuLaboratorios menu_lab = new MenuLaboratorios();
+            menu_lab.ShowDialog();
+        }
+
+        private void razaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Raza abm_raza = new Raza();
+            abm_raza.ShowDialog();
+        }
+
+        private void aBMVacunacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuVacunacion menu_vac = new MenuVacunacion();
+            menu_vac.ShowDialog();
+        }
+
+        private void recetaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu_receta men_receta = new Menu_receta();
+            men_receta.ShowDialog();
         }
     }
 }
