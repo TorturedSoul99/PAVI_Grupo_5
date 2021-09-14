@@ -33,11 +33,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dgvSucursales = new System.Windows.Forms.DataGridView();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,25 +75,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Nuevo,
             this.Consultar,
             this.Modificar});
-            this.dgvSucursales.Location = new System.Drawing.Point(87, 144);
+            this.dgvSucursales.Location = new System.Drawing.Point(71, 144);
             this.dgvSucursales.Name = "dgvSucursales";
-            this.dgvSucursales.Size = new System.Drawing.Size(335, 179);
+            this.dgvSucursales.Size = new System.Drawing.Size(333, 179);
             this.dgvSucursales.TabIndex = 23;
-            // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "Column1";
-            this.Nuevo.Name = "Nuevo";
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "Column1";
-            this.Consultar.Name = "Consultar";
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Column1";
-            this.Modificar.Name = "Modificar";
+            this.dgvSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
             // 
             // btnEliminar
             // 
@@ -113,6 +99,23 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.btnNuevo.Text = "Nueva";
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // Nuevo
+            // 
+            this.Nuevo.HeaderText = "IDSucursal";
+            this.Nuevo.MinimumWidth = 10;
+            this.Nuevo.Name = "Nuevo";
+            // 
+            // Consultar
+            // 
+            this.Consultar.HeaderText = "IDSupervisor";
+            this.Consultar.Name = "Consultar";
+            // 
+            // Modificar
+            // 
+            this.Modificar.DividerWidth = 10;
+            this.Modificar.HeaderText = "IDSupervisorSuplente";
+            this.Modificar.Name = "Modificar";
             // 
             // ABMSucursales
             // 
@@ -140,10 +143,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
         private System.Windows.Forms.TextBox txtbConsulta;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.DataGridView dgvSucursales;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnNuevo;
     }
 }

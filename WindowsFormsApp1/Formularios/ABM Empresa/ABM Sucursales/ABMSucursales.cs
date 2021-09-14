@@ -29,5 +29,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             modif.ShowDialog();
 
         }
+
+        private void dgvSucursales_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
