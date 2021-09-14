@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
             this.menuEstadisticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLaboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informacionDeLaboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -143,7 +144,8 @@ namespace WindowsFormsApp1
             // laboratoriosToolStripMenuItem
             // 
             this.laboratoriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLaboratoriosToolStripMenuItem});
+            this.menuLaboratoriosToolStripMenuItem,
+            this.informacionDeLaboratoriosToolStripMenuItem});
             this.laboratoriosToolStripMenuItem.Name = "laboratoriosToolStripMenuItem";
             this.laboratoriosToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.laboratoriosToolStripMenuItem.Text = "Laboratorios";
@@ -151,8 +153,15 @@ namespace WindowsFormsApp1
             // menuLaboratoriosToolStripMenuItem
             // 
             this.menuLaboratoriosToolStripMenuItem.Name = "menuLaboratoriosToolStripMenuItem";
-            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.menuLaboratoriosToolStripMenuItem.Text = "Consulta de analisis";
+            // 
+            // informacionDeLaboratoriosToolStripMenuItem
+            // 
+            this.informacionDeLaboratoriosToolStripMenuItem.Name = "informacionDeLaboratoriosToolStripMenuItem";
+            this.informacionDeLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.informacionDeLaboratoriosToolStripMenuItem.Text = "Informacion de laboratorios";
+            this.informacionDeLaboratoriosToolStripMenuItem.Click += new System.EventHandler(this.informacionDeLaboratoriosToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
             // 
@@ -202,8 +211,9 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.razaToolStripMenuItem.Text = "Raza";
+            this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -215,6 +225,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenuPPAL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -246,6 +257,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem depositosPorSucursalesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miselaneoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem razaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem informacionDeLaboratoriosToolStripMenuItem;
     }
 }
 
