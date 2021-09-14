@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 
 namespace WindowsFormsApp1
 {
@@ -17,8 +18,9 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
-            Application.Run(new MenuConsulta());
+            Application.Run(new frmMenuPPAL());
+            //Application.Run(new MenuConsulta());
+            //Application.Run(new ABM_Empleado());
         }
     }
 }
