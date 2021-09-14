@@ -2,16 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\WindowsFormsApp1",
-    "\\WindowsFormsApp1\\Formularios"
+    "\\WindowsFormsApp1\\Formularios",
+    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal"
   ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\inicio de sesion.cs",
-=======
-  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\MenuConsulta.cs",
->>>>>>> 96230dde8c78e6bf94d042bbc46c6d3062af1fa7
-=======
-  "SelectedNode": "\\WindowsFormsApp1\\Program.cs",
->>>>>>> 5ff53c1651386e3323bbbaac49b7f33923bd480a
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\MenuPrincipal\\MenuPrincipal.cs",
   "PreviewInSolutionExplorer": false
 }
