@@ -100,6 +100,7 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Formularios\ABM Vacunacion\AltaVacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +112,19 @@
     </Compile>
     <Compile Include="Formularios\ABM Vacunacion\ModificarVacunacion.Designer.cs">
       <DependentUpon>ModificarVacunacion.cs</DependentUpon>
+=======
+    <Compile Include="Formularios\ABM Laboratorios\alta_laboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\alta_laboratorio.Designer.cs">
+      <DependentUpon>alta_laboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Modificar_laboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Laboratorios\Modificar_laboratorio.Designer.cs">
+      <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
+>>>>>>> c61987fec1399d7540ce1fc259f7b02e9c90688a
     </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
@@ -189,11 +203,19 @@
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.resx">
       <DependentUpon>Raza.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Formularios\ABM Vacunacion\AltaVacunacion.resx">
       <DependentUpon>AltaVacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Vacunacion\ModificarVacunacion.resx">
       <DependentUpon>ModificarVacunacion.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Formularios\ABM Laboratorios\alta_laboratorio.resx">
+      <DependentUpon>alta_laboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Laboratorios\Modificar_laboratorio.resx">
+      <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
+>>>>>>> c61987fec1399d7540ce1fc259f7b02e9c90688a
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
