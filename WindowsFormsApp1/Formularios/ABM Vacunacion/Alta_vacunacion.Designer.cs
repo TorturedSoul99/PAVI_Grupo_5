@@ -163,6 +163,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(525, 385);
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.cmb_id_empleado);

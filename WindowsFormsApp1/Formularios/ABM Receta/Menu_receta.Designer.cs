@@ -33,10 +33,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.txtbreceta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dgvSucursales = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +78,18 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.dgvSucursales.Size = new System.Drawing.Size(332, 179);
             this.dgvSucursales.TabIndex = 29;
             // 
+            // Nuevo
+            // 
+            this.Nuevo.HeaderText = "ID Receta";
+            this.Nuevo.MinimumWidth = 10;
+            this.Nuevo.Name = "Nuevo";
+            // 
+            // Consultar
+            // 
+            this.Consultar.HeaderText = "Medicamento";
+            this.Consultar.Name = "Consultar";
+            this.Consultar.Width = 200;
+            // 
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(337, 354);
@@ -97,22 +109,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "ID Receta";
-            this.Nuevo.MinimumWidth = 10;
-            this.Nuevo.Name = "Nuevo";
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "Medicamento";
-            this.Consultar.Name = "Consultar";
-            this.Consultar.Width = 200;
-            // 
             // Menu_receta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(500, 450);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbreceta);

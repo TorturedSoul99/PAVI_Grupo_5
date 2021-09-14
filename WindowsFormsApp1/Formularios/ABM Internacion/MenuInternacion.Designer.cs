@@ -116,7 +116,7 @@ namespace WindowsFormsApp1.Formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(514, 441);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);

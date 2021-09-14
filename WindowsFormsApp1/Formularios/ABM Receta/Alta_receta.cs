@@ -16,5 +16,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
         {
             InitializeComponent();
         }
+
+        private void Alta_receta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

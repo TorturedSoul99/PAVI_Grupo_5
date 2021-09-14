@@ -66,6 +66,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(452, 154);
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.comboBox1);
@@ -73,6 +74,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.Name = "Alta_receta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta Receta";
+            this.Load += new System.EventHandler(this.Alta_receta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -84,6 +84,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Laboratorios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(399, 219);
             this.Controls.Add(this.btnagregar);
             this.Controls.Add(this.txtdescripcion);
