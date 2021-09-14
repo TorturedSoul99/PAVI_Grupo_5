@@ -83,20 +83,21 @@ namespace WindowsFormsApp1
             // altaConsultaToolStripMenuItem
             // 
             this.altaConsultaToolStripMenuItem.Name = "altaConsultaToolStripMenuItem";
-            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.altaConsultaToolStripMenuItem.Text = "ABM Consulta";
             this.altaConsultaToolStripMenuItem.Click += new System.EventHandler(this.altaConsultaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem
             // 
             this.recetaToolStripMenuItem.Name = "recetaToolStripMenuItem";
-            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.recetaToolStripMenuItem.Text = "Receta";
+            this.recetaToolStripMenuItem.Click += new System.EventHandler(this.recetaToolStripMenuItem_Click);
             // 
             // historiaClinicaToolStripMenuItem
             // 
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
-            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.historiaClinicaToolStripMenuItem.Text = "HistoriaClinica";
             // 
             // vacunacionToolStripMenuItem
@@ -110,7 +111,7 @@ namespace WindowsFormsApp1
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.aBMVacunacionToolStripMenuItem.Text = "ABM Vacunacion";
             this.aBMVacunacionToolStripMenuItem.Click += new System.EventHandler(this.aBMVacunacionToolStripMenuItem_Click);
             // 
@@ -212,7 +213,7 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
             // 
