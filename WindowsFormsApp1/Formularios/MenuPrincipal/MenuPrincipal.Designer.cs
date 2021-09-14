@@ -110,8 +110,9 @@ namespace WindowsFormsApp1
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aBMVacunacionToolStripMenuItem.Text = "ABM Vacunacion";
+            this.aBMVacunacionToolStripMenuItem.Click += new System.EventHandler(this.aBMVacunacionToolStripMenuItem_Click);
             // 
             // internacionToolStripMenuItem
             // 

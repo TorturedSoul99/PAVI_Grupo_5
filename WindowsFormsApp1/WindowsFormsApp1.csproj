@@ -124,6 +124,18 @@
     <Compile Include="Formularios\ABM Laboratorios\Modificar_laboratorio.Designer.cs">
       <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.Designer.cs">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.Designer.cs">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +224,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Laboratorios\Modificar_laboratorio.resx">
       <DependentUpon>Modificar_laboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\Alta_vacunacion.resx">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\modificar_vacunacion.resx">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>

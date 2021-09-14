@@ -12,6 +12,7 @@ using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
 using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
+using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 
 namespace WindowsFormsApp1
 {
@@ -62,6 +63,12 @@ namespace WindowsFormsApp1
         {
             Raza abm_raza = new Raza();
             abm_raza.ShowDialog();
+        }
+
+        private void aBMVacunacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuVacunacion menu_vac = new MenuVacunacion();
+            menu_vac.ShowDialog();
         }
     }
 }
