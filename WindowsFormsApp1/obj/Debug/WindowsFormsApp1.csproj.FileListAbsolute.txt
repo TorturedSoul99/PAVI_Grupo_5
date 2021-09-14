@@ -33,3 +33,6 @@ C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\D
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.AltaEmpleado.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.Modificar_Empleado.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.AltaSucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Modificar_Sucursales.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.ABMSucursales.resources

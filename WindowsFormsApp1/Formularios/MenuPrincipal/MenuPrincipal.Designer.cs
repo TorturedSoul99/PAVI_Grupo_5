@@ -151,7 +151,7 @@ namespace WindowsFormsApp1
             // menuLaboratoriosToolStripMenuItem
             // 
             this.menuLaboratoriosToolStripMenuItem.Name = "menuLaboratoriosToolStripMenuItem";
-            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.menuLaboratoriosToolStripMenuItem.Text = "Consulta de analisis";
             // 
             // empresaToolStripMenuItem
@@ -170,6 +170,7 @@ namespace WindowsFormsApp1
             this.sucursalesToolStripMenuItem.Name = "sucursalesToolStripMenuItem";
             this.sucursalesToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.sucursalesToolStripMenuItem.Text = "Sucursales";
+            this.sucursalesToolStripMenuItem.Click += new System.EventHandler(this.sucursalesToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 
@@ -201,7 +202,7 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             // 
             // frmMenuPPAL

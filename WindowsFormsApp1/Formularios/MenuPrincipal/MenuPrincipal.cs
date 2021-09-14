@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
 
 namespace WindowsFormsApp1
 {
@@ -39,6 +40,13 @@ namespace WindowsFormsApp1
         {
             ABM_Empleado aBM_Empleado = new ABM_Empleado();
             aBM_Empleado.ShowDialog();
+
+        }
+
+        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMSucursales aBMSucursales = new ABMSucursales();
+            aBMSucursales.ShowDialog();
 
         }
     }

@@ -76,6 +76,24 @@
     <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.Designer.cs">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\ABMSucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\ABMSucursales.Designer.cs">
+      <DependentUpon>ABMSucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\AltaSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\AltaSucursal.Designer.cs">
+      <DependentUpon>AltaSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.Designer.cs">
+      <DependentUpon>Modificar Sucursales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +164,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.resx">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\ABMSucursales.resx">
+      <DependentUpon>ABMSucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\AltaSucursal.resx">
+      <DependentUpon>AltaSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.resx">
+      <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.resx">
       <DependentUpon>Raza.cs</DependentUpon>
