@@ -56,3 +56,5 @@ C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Deb
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.alta_laboratorio.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources

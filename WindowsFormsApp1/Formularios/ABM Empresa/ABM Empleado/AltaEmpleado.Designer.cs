@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lbl7 = new System.Windows.Forms.Label();
-            this.lbl6 = new System.Windows.Forms.Label();
+            this.lblsucursal = new System.Windows.Forms.Label();
             this.lblE4 = new System.Windows.Forms.Label();
             this.lbl5 = new System.Windows.Forms.Label();
             this.lbl3 = new System.Windows.Forms.Label();
@@ -71,14 +71,14 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.lbl7.TabIndex = 32;
             this.lbl7.Text = "Matricula";
             // 
-            // lbl6
+            // lblsucursal
             // 
-            this.lbl6.AutoSize = true;
-            this.lbl6.Location = new System.Drawing.Point(71, 307);
-            this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(57, 13);
-            this.lbl6.TabIndex = 31;
-            this.lbl6.Text = "IdSucursal";
+            this.lblsucursal.AutoSize = true;
+            this.lblsucursal.Location = new System.Drawing.Point(71, 307);
+            this.lblsucursal.Name = "lblsucursal";
+            this.lblsucursal.Size = new System.Drawing.Size(60, 13);
+            this.lblsucursal.TabIndex = 31;
+            this.lblsucursal.Text = "Id Sucursal";
             // 
             // lblE4
             // 
@@ -201,7 +201,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lbl7);
-            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.lblsucursal);
             this.Controls.Add(this.lblE4);
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.lbl3);
@@ -210,7 +210,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.lbltipoDoc);
             this.Controls.Add(this.btnAgregar);
             this.Name = "AltaEmpleado";
-            this.Text = "AltaEmpleado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Tag = " ";
+            this.Text = "Alta Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,7 +222,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lbl7;
-        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label lblsucursal;
         private System.Windows.Forms.Label lblE4;
         private System.Windows.Forms.Label lbl5;
         private System.Windows.Forms.Label lbl3;

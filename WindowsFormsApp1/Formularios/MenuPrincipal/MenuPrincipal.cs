@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
+using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 
 namespace WindowsFormsApp1
 {
@@ -40,6 +41,14 @@ namespace WindowsFormsApp1
             ABM_Empleado aBM_Empleado = new ABM_Empleado();
             aBM_Empleado.ShowDialog();
 
+        }
+
+        private void aBMLaboratorioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuLaboratorios abmLaboratorio = new MenuLaboratorios();
+            abmLaboratorio.ShowDialog();
+
+            
         }
     }
 }
