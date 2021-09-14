@@ -37,18 +37,6 @@ namespace WindowsFormsApp1.Formularios
             lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblUsuario
-            // 
-            lblUsuario.AutoSize = true;
-            lblUsuario.BackColor = System.Drawing.SystemColors.Desktop;
-            lblUsuario.ForeColor = System.Drawing.SystemColors.Control;
-            lblUsuario.Location = new System.Drawing.Point(29, 52);
-            lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new System.Drawing.Size(43, 13);
-            lblUsuario.TabIndex = 8;
-            lblUsuario.Text = "Usuario";
-            lblUsuario.Click += new System.EventHandler(this.label1_Click);
-            // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(96, 49);
@@ -66,6 +54,18 @@ namespace WindowsFormsApp1.Formularios
             this.lblContraseña.Size = new System.Drawing.Size(61, 13);
             this.lblContraseña.TabIndex = 9;
             this.lblContraseña.Text = "Contraseña";
+            // 
+            // lblUsuario
+            // 
+            lblUsuario.AutoSize = true;
+            lblUsuario.BackColor = System.Drawing.SystemColors.Desktop;
+            lblUsuario.ForeColor = System.Drawing.SystemColors.Control;
+            lblUsuario.Location = new System.Drawing.Point(29, 52);
+            lblUsuario.Name = "lblUsuario";
+            lblUsuario.Size = new System.Drawing.Size(43, 13);
+            lblUsuario.TabIndex = 8;
+            lblUsuario.Text = "Usuario";
+            lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnIngresar
             // 
@@ -95,11 +95,8 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(lblUsuario);
             this.Controls.Add(this.btnIngresar);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "inicio_de_sesion";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Inicio de sesion";
+            this.Text = "inicio_de_sesion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

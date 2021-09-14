@@ -208,11 +208,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.lbltipoDoc);
             this.Controls.Add(this.btnAgregar);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Modificar_Empleado";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar Empleado";
+            this.Text = "Modificar_Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

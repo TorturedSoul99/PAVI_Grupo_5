@@ -49,7 +49,6 @@ namespace WindowsFormsApp1
             this.depositosPorSucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aBMLaboratorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,20 +82,20 @@ namespace WindowsFormsApp1
             // altaConsultaToolStripMenuItem
             // 
             this.altaConsultaToolStripMenuItem.Name = "altaConsultaToolStripMenuItem";
-            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.altaConsultaToolStripMenuItem.Text = "ABM Consulta";
             this.altaConsultaToolStripMenuItem.Click += new System.EventHandler(this.altaConsultaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem
             // 
             this.recetaToolStripMenuItem.Name = "recetaToolStripMenuItem";
-            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.recetaToolStripMenuItem.Text = "Receta";
             // 
             // historiaClinicaToolStripMenuItem
             // 
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
-            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.historiaClinicaToolStripMenuItem.Text = "HistoriaClinica";
             // 
             // vacunacionToolStripMenuItem
@@ -110,7 +109,7 @@ namespace WindowsFormsApp1
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.aBMVacunacionToolStripMenuItem.Text = "ABM Vacunacion";
             // 
             // internacionToolStripMenuItem
@@ -124,7 +123,7 @@ namespace WindowsFormsApp1
             // menuInternacionToolStripMenuItem
             // 
             this.menuInternacionToolStripMenuItem.Name = "menuInternacionToolStripMenuItem";
-            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.menuInternacionToolStripMenuItem.Text = "Menu Internacion";
             // 
             // estadisticasToolStripMenuItem
@@ -138,14 +137,13 @@ namespace WindowsFormsApp1
             // menuEstadisticaToolStripMenuItem
             // 
             this.menuEstadisticaToolStripMenuItem.Name = "menuEstadisticaToolStripMenuItem";
-            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.menuEstadisticaToolStripMenuItem.Text = "Menu Estadisticas";
             // 
             // laboratoriosToolStripMenuItem
             // 
             this.laboratoriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLaboratoriosToolStripMenuItem,
-            this.aBMLaboratorioToolStripMenuItem});
+            this.menuLaboratoriosToolStripMenuItem});
             this.laboratoriosToolStripMenuItem.Name = "laboratoriosToolStripMenuItem";
             this.laboratoriosToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.laboratoriosToolStripMenuItem.Text = "Laboratorios";
@@ -153,7 +151,7 @@ namespace WindowsFormsApp1
             // menuLaboratoriosToolStripMenuItem
             // 
             this.menuLaboratoriosToolStripMenuItem.Name = "menuLaboratoriosToolStripMenuItem";
-            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.menuLaboratoriosToolStripMenuItem.Text = "Consulta de analisis";
             // 
             // empresaToolStripMenuItem
@@ -172,6 +170,7 @@ namespace WindowsFormsApp1
             this.sucursalesToolStripMenuItem.Name = "sucursalesToolStripMenuItem";
             this.sucursalesToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.sucursalesToolStripMenuItem.Text = "Sucursales";
+            this.sucursalesToolStripMenuItem.Click += new System.EventHandler(this.sucursalesToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 
@@ -203,15 +202,8 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.razaToolStripMenuItem.Text = "Raza";
-            // 
-            // aBMLaboratorioToolStripMenuItem
-            // 
-            this.aBMLaboratorioToolStripMenuItem.Name = "aBMLaboratorioToolStripMenuItem";
-            this.aBMLaboratorioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aBMLaboratorioToolStripMenuItem.Text = "ABM Laboratorio";
-            this.aBMLaboratorioToolStripMenuItem.Click += new System.EventHandler(this.aBMLaboratorioToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -223,7 +215,6 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenuPPAL";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -255,7 +246,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem depositosPorSucursalesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miselaneoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem razaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aBMLaboratorioToolStripMenuItem;
     }
 }
 

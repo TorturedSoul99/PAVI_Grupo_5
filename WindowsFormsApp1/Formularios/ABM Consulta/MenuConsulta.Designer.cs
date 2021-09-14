@@ -130,7 +130,6 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "MenuConsulta";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Consulta";
             this.Load += new System.EventHandler(this.NuevaConsulta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
