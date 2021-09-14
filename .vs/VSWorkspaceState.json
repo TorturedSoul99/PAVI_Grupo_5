@@ -4,6 +4,10 @@
     "\\WindowsFormsApp1",
     "\\WindowsFormsApp1\\Formularios"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\WindowsFormsApp1\\Formularios\\inicio de sesion.cs",
+=======
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\MenuConsulta.cs",
+>>>>>>> 96230dde8c78e6bf94d042bbc46c6d3062af1fa7
   "PreviewInSolutionExplorer": false
 }

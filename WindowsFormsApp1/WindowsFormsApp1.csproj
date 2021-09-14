@@ -46,17 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\ABM Consulta\ModificarConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Consulta\ModificarConsulta.Designer.cs">
+      <DependentUpon>ModificarConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Consulta\NuevaConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Consulta\NuevaConsulta.Designer.cs">
+      <DependentUpon>NuevaConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\ABM Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\ABM Empleado.Designer.cs">
+      <DependentUpon>ABM Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\AltaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\AltaEmpleado.Designer.cs">
+      <DependentUpon>AltaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.Designer.cs">
+      <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
+      <DependentUpon>Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Menu Estadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Menu Estadisticas.Designer.cs">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Form1.cs">
+    <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\inicio de sesion.cs">
       <SubType>Form</SubType>
@@ -64,51 +106,72 @@
     <Compile Include="Formularios\inicio de sesion.Designer.cs">
       <DependentUpon>inicio de sesion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\MenuConsulta.cs">
+    <Compile Include="Formularios\ABM Consulta\MenuConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\MenuConsulta.Designer.cs">
+    <Compile Include="Formularios\ABM Consulta\MenuConsulta.Designer.cs">
       <DependentUpon>MenuConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\MenuInternacion.cs">
+    <Compile Include="Formularios\ABM Internacion\MenuInternacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\MenuInternacion.Designer.cs">
+    <Compile Include="Formularios\ABM Internacion\MenuInternacion.Designer.cs">
       <DependentUpon>MenuInternacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\MenuLaboratorios.cs">
+    <Compile Include="Formularios\ABM Laboratorios\MenuLaboratorios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\MenuLaboratorios.Designer.cs">
+    <Compile Include="Formularios\ABM Laboratorios\MenuLaboratorios.Designer.cs">
       <DependentUpon>MenuLaboratorios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\MenuVacunacion.cs">
+    <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\MenuVacunacion.Designer.cs">
+    <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.Designer.cs">
       <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\ABM Consulta\ModificarConsulta.resx">
+      <DependentUpon>ModificarConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Consulta\NuevaConsulta.resx">
+      <DependentUpon>NuevaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\ABM Empleado.resx">
+      <DependentUpon>ABM Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\AltaEmpleado.resx">
+      <DependentUpon>AltaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.resx">
+      <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.resx">
+      <DependentUpon>Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Menu Estadisticas.resx">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\inicio de sesion.resx">
       <DependentUpon>inicio de sesion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\MenuConsulta.resx">
+    <EmbeddedResource Include="Formularios\ABM Consulta\MenuConsulta.resx">
       <DependentUpon>MenuConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\MenuInternacion.resx">
+    <EmbeddedResource Include="Formularios\ABM Internacion\MenuInternacion.resx">
       <DependentUpon>MenuInternacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\MenuLaboratorios.resx">
+    <EmbeddedResource Include="Formularios\ABM Laboratorios\MenuLaboratorios.resx">
       <DependentUpon>MenuLaboratorios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\MenuVacunacion.resx">
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\MenuVacunacion.resx">
       <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -152,5 +215,6 @@
   <ItemGroup>
     <None Include="Resources\Windows 7 02.bmp" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
