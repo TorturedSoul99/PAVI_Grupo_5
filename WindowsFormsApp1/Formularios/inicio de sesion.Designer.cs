@@ -37,9 +37,22 @@ namespace WindowsFormsApp1.Formularios
             lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // lblUsuario
+            // 
+            lblUsuario.AutoSize = true;
+            lblUsuario.BackColor = System.Drawing.SystemColors.Desktop;
+            lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblUsuario.ForeColor = System.Drawing.SystemColors.Control;
+            lblUsuario.Location = new System.Drawing.Point(80, 52);
+            lblUsuario.Name = "lblUsuario";
+            lblUsuario.Size = new System.Drawing.Size(64, 20);
+            lblUsuario.TabIndex = 8;
+            lblUsuario.Text = "Usuario";
+            lblUsuario.Click += new System.EventHandler(this.label1_Click);
+            // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(96, 49);
+            this.txtUsuario.Location = new System.Drawing.Point(150, 52);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(152, 20);
             this.txtUsuario.TabIndex = 10;
@@ -48,30 +61,20 @@ namespace WindowsFormsApp1.Formularios
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.BackColor = System.Drawing.Color.Black;
+            this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContraseña.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblContraseña.Location = new System.Drawing.Point(29, 96);
+            this.lblContraseña.Location = new System.Drawing.Point(52, 101);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(61, 13);
+            this.lblContraseña.Size = new System.Drawing.Size(92, 20);
             this.lblContraseña.TabIndex = 9;
             this.lblContraseña.Text = "Contraseña";
             // 
-            // lblUsuario
-            // 
-            lblUsuario.AutoSize = true;
-            lblUsuario.BackColor = System.Drawing.SystemColors.Desktop;
-            lblUsuario.ForeColor = System.Drawing.SystemColors.Control;
-            lblUsuario.Location = new System.Drawing.Point(29, 52);
-            lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new System.Drawing.Size(43, 13);
-            lblUsuario.TabIndex = 8;
-            lblUsuario.Text = "Usuario";
-            lblUsuario.Click += new System.EventHandler(this.label1_Click);
-            // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(273, 136);
+            this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Location = new System.Drawing.Point(300, 134);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(75, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(72, 32);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -79,7 +82,7 @@ namespace WindowsFormsApp1.Formularios
             // maskedTextBox1
             // 
             this.maskedTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.maskedTextBox1.Location = new System.Drawing.Point(96, 96);
+            this.maskedTextBox1.Location = new System.Drawing.Point(150, 101);
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(152, 20);
             this.maskedTextBox1.TabIndex = 12;
@@ -95,8 +98,9 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(lblUsuario);
             this.Controls.Add(this.btnIngresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "inicio_de_sesion";
-            this.Text = "inicio_de_sesion";
+            this.Text = "Inicio De Sesion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
