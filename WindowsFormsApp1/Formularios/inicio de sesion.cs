@@ -21,5 +21,19 @@ namespace WindowsFormsApp1.Formularios
         {
 
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "")
+            {
+                MessageBox.Show("Falta cargar el nombre del usuario", "Importante", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+
+                return;
+            }
+            if (txt_contraseña.Text == "")
+            {
+                MessageBox.Show("Falta cargar la contraseña del usuario", "Importante", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+        }
     }
 }

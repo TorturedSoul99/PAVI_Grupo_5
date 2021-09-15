@@ -33,7 +33,7 @@ namespace WindowsFormsApp1.Formularios
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txt_contraseña = new System.Windows.Forms.MaskedTextBox();
             lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -78,14 +78,15 @@ namespace WindowsFormsApp1.Formularios
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // maskedTextBox1
+            // txt_contraseña
             // 
-            this.maskedTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.maskedTextBox1.Location = new System.Drawing.Point(150, 101);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(152, 20);
-            this.maskedTextBox1.TabIndex = 12;
+            this.txt_contraseña.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txt_contraseña.Location = new System.Drawing.Point(150, 101);
+            this.txt_contraseña.Name = "txt_contraseña";
+            this.txt_contraseña.Size = new System.Drawing.Size(152, 20);
+            this.txt_contraseña.TabIndex = 12;
             // 
             // inicio_de_sesion
             // 
@@ -93,7 +94,7 @@ namespace WindowsFormsApp1.Formularios
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(384, 178);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(lblUsuario);
@@ -110,6 +111,6 @@ namespace WindowsFormsApp1.Formularios
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox txt_contraseña;
     }
 }

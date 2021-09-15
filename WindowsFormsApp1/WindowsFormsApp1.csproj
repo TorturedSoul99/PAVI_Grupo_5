@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Back-end\BE_Acceso_datos.cs" />
     <Compile Include="Formularios\ABM Consulta\ModificarConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +203,7 @@
     <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.Designer.cs">
       <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\ABM Consulta\ModificarConsulta.resx">
