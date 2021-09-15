@@ -52,5 +52,7 @@ namespace WindowsFormsApp1.Formularios
             }
             
         }
+
+        
     }
 }
