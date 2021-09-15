@@ -84,6 +84,7 @@ namespace WindowsFormsApp1
         {
             frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
             inicio.ShowDialog();
+            inicio.Dispose();
         }
     }
 }

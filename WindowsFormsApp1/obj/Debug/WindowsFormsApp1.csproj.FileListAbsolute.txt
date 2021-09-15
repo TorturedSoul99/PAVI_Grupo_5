@@ -52,7 +52,6 @@ C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Deb
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
-C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.inicio_de_sesion.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
@@ -71,3 +70,4 @@ C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Deb
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
