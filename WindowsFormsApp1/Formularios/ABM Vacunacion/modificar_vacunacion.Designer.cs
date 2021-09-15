@@ -177,6 +177,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             this.Controls.Add(this.lblfechavacunacion);
             this.Controls.Add(this.lblfecharealvacunacion);
             this.Controls.Add(this.lblvacuna);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "modificar_vacunacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "modificar_vacunacion";

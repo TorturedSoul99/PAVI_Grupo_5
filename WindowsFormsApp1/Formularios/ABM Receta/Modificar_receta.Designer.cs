@@ -70,6 +70,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.cmb_medicamento);
             this.Controls.Add(this.lbl_medicamento);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Modificar_receta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Receta";

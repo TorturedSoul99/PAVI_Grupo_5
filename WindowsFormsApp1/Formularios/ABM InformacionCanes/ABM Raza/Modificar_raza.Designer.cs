@@ -111,6 +111,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Controls.Add(this.lblcuidadosespeciales);
             this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.lbldenominacion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Modificar_raza";

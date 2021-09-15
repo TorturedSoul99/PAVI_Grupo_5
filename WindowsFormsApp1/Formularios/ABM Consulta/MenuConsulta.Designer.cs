@@ -32,9 +32,6 @@ namespace WindowsFormsApp1.Formularios
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.txtbConsulta = new System.Windows.Forms.TextBox();
-            this.btnConsultar = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,6 +41,9 @@ namespace WindowsFormsApp1.Formularios
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.txtbConsulta = new System.Windows.Forms.TextBox();
+            this.btnConsultar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,35 +83,6 @@ namespace WindowsFormsApp1.Formularios
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(893, 254);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(400, 495);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(119, 23);
-            this.btnModificar.TabIndex = 5;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
-            // 
-            // txtbConsulta
-            // 
-            this.txtbConsulta.Location = new System.Drawing.Point(161, 102);
-            this.txtbConsulta.Name = "txtbConsulta";
-            this.txtbConsulta.Size = new System.Drawing.Size(235, 20);
-            this.txtbConsulta.TabIndex = 7;
-            this.txtbConsulta.Text = "Buscar Segun Numero de orden...";
-            this.txtbConsulta.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // btnConsultar
-            // 
-            this.btnConsultar.Location = new System.Drawing.Point(34, 99);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(90, 23);
-            this.btnConsultar.TabIndex = 8;
-            this.btnConsultar.Text = "Consultar";
-            this.btnConsultar.UseVisualStyleBackColor = true;
-            this.btnConsultar.Click += new System.EventHandler(this.button2_Click);
             // 
             // Nuevo
             // 
@@ -160,6 +131,35 @@ namespace WindowsFormsApp1.Formularios
             this.Column6.HeaderText = "ID Receta";
             this.Column6.Name = "Column6";
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(400, 495);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(119, 23);
+            this.btnModificar.TabIndex = 5;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // txtbConsulta
+            // 
+            this.txtbConsulta.Location = new System.Drawing.Point(161, 102);
+            this.txtbConsulta.Name = "txtbConsulta";
+            this.txtbConsulta.Size = new System.Drawing.Size(235, 20);
+            this.txtbConsulta.TabIndex = 7;
+            this.txtbConsulta.Text = "Buscar Segun Numero de orden...";
+            this.txtbConsulta.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Location = new System.Drawing.Point(34, 99);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(90, 23);
+            this.btnConsultar.TabIndex = 8;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.button2_Click);
+            // 
             // MenuConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +173,9 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MenuConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Consulta";

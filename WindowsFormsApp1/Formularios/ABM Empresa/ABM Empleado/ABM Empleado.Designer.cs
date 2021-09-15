@@ -126,6 +126,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.dgvEmpleado);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ABM_Empleado";
             this.Text = "ABM_Empleado";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleado)).EndInit();

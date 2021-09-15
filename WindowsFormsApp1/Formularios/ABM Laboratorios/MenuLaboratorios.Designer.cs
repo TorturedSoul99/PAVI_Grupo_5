@@ -32,12 +32,12 @@ namespace WindowsFormsApp1.Formularios
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnagregar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btneliminar = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnagregar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +70,23 @@ namespace WindowsFormsApp1.Formularios
             this.dataGridView1.Size = new System.Drawing.Size(393, 179);
             this.dataGridView1.TabIndex = 23;
             // 
+            // Nuevo
+            // 
+            this.Nuevo.HeaderText = "ID";
+            this.Nuevo.Name = "Nuevo";
+            this.Nuevo.Visible = false;
+            // 
+            // Consultar
+            // 
+            this.Consultar.HeaderText = "Nombre";
+            this.Consultar.Name = "Consultar";
+            // 
+            // Modificar
+            // 
+            this.Modificar.HeaderText = "Descripcion";
+            this.Modificar.Name = "Modificar";
+            this.Modificar.Width = 250;
+            // 
             // btnagregar
             // 
             this.btnagregar.Location = new System.Drawing.Point(16, 352);
@@ -99,23 +116,6 @@ namespace WindowsFormsApp1.Formularios
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
             // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "ID";
-            this.Nuevo.Name = "Nuevo";
-            this.Nuevo.Visible = false;
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "Nombre";
-            this.Consultar.Name = "Consultar";
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Descripcion";
-            this.Modificar.Name = "Modificar";
-            this.Modificar.Width = 250;
-            // 
             // MenuLaboratorios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,6 +130,9 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MenuLaboratorios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Laboratorios";

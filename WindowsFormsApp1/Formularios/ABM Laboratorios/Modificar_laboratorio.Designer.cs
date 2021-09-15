@@ -91,6 +91,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Laboratorios
             this.Controls.Add(this.txtdescripcion);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblnombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Modificar_laboratorio";

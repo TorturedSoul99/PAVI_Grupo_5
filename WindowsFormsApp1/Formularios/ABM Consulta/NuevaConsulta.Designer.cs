@@ -60,127 +60,135 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             // lblHC
             // 
             this.lblHC.AutoSize = true;
-            this.lblHC.Location = new System.Drawing.Point(51, 32);
+            this.lblHC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHC.Location = new System.Drawing.Point(20, 32);
             this.lblHC.Name = "lblHC";
-            this.lblHC.Size = new System.Drawing.Size(131, 13);
+            this.lblHC.Size = new System.Drawing.Size(195, 20);
             this.lblHC.TabIndex = 1;
             this.lblHC.Text = "Numero de Historia Clinica";
             // 
             // lblSucursal
             // 
             this.lblSucursal.AutoSize = true;
-            this.lblSucursal.Location = new System.Drawing.Point(51, 71);
+            this.lblSucursal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSucursal.Location = new System.Drawing.Point(144, 72);
             this.lblSucursal.Name = "lblSucursal";
-            this.lblSucursal.Size = new System.Drawing.Size(48, 13);
+            this.lblSucursal.Size = new System.Drawing.Size(71, 20);
             this.lblSucursal.TabIndex = 3;
             this.lblSucursal.Text = "Sucursal";
             // 
             // lblFechaE
             // 
             this.lblFechaE.AutoSize = true;
-            this.lblFechaE.Location = new System.Drawing.Point(51, 115);
+            this.lblFechaE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaE.Location = new System.Drawing.Point(80, 115);
             this.lblFechaE.Name = "lblFechaE";
-            this.lblFechaE.Size = new System.Drawing.Size(91, 13);
+            this.lblFechaE.Size = new System.Drawing.Size(135, 20);
             this.lblFechaE.TabIndex = 5;
             this.lblFechaE.Text = "Fecha de entrada";
             // 
             // lblFechaS
             // 
             this.lblFechaS.AutoSize = true;
-            this.lblFechaS.Location = new System.Drawing.Point(51, 153);
+            this.lblFechaS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaS.Location = new System.Drawing.Point(94, 152);
             this.lblFechaS.Name = "lblFechaS";
-            this.lblFechaS.Size = new System.Drawing.Size(82, 13);
+            this.lblFechaS.Size = new System.Drawing.Size(121, 20);
             this.lblFechaS.TabIndex = 7;
             this.lblFechaS.Text = "Fecha de salida";
             // 
             // lblSintoma
             // 
             this.lblSintoma.AutoSize = true;
-            this.lblSintoma.Location = new System.Drawing.Point(51, 277);
+            this.lblSintoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSintoma.Location = new System.Drawing.Point(147, 280);
             this.lblSintoma.Name = "lblSintoma";
-            this.lblSintoma.Size = new System.Drawing.Size(45, 13);
+            this.lblSintoma.Size = new System.Drawing.Size(68, 20);
             this.lblSintoma.TabIndex = 13;
             this.lblSintoma.Text = "Sintoma";
             // 
             // lblEmpleado
             // 
             this.lblEmpleado.AutoSize = true;
-            this.lblEmpleado.Location = new System.Drawing.Point(51, 198);
+            this.lblEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmpleado.Location = new System.Drawing.Point(134, 198);
             this.lblEmpleado.Name = "lblEmpleado";
-            this.lblEmpleado.Size = new System.Drawing.Size(54, 13);
+            this.lblEmpleado.Size = new System.Drawing.Size(81, 20);
             this.lblEmpleado.TabIndex = 11;
             this.lblEmpleado.Text = "Empleado";
             // 
             // lblDiagnostico
             // 
             this.lblDiagnostico.AutoSize = true;
-            this.lblDiagnostico.Location = new System.Drawing.Point(51, 242);
+            this.lblDiagnostico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiagnostico.Location = new System.Drawing.Point(122, 242);
             this.lblDiagnostico.Name = "lblDiagnostico";
-            this.lblDiagnostico.Size = new System.Drawing.Size(63, 13);
+            this.lblDiagnostico.Size = new System.Drawing.Size(93, 20);
             this.lblDiagnostico.TabIndex = 9;
             this.lblDiagnostico.Text = "Diagnostico";
             // 
             // lblReceta
             // 
             this.lblReceta.AutoSize = true;
-            this.lblReceta.Location = new System.Drawing.Point(51, 314);
+            this.lblReceta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReceta.Location = new System.Drawing.Point(131, 317);
             this.lblReceta.Name = "lblReceta";
-            this.lblReceta.Size = new System.Drawing.Size(57, 13);
+            this.lblReceta.Size = new System.Drawing.Size(84, 20);
             this.lblReceta.TabIndex = 15;
             this.lblReceta.Text = "Id_Receta";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 32);
+            this.textBox1.Location = new System.Drawing.Point(221, 32);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(202, 20);
             this.textBox1.TabIndex = 2;
             // 
             // comboBox1
             // 
-            this.comboBox1.Location = new System.Drawing.Point(198, 71);
+            this.comboBox1.Location = new System.Drawing.Point(221, 71);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(202, 21);
             this.comboBox1.TabIndex = 0;
             // 
             // comboBox2
             // 
-            this.comboBox2.Location = new System.Drawing.Point(198, 195);
+            this.comboBox2.Location = new System.Drawing.Point(221, 197);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(202, 21);
             this.comboBox2.TabIndex = 16;
             // 
             // comboBox3
             // 
-            this.comboBox3.Location = new System.Drawing.Point(198, 274);
+            this.comboBox3.Location = new System.Drawing.Point(221, 279);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(202, 21);
             this.comboBox3.TabIndex = 17;
             // 
             // comboBox4
             // 
-            this.comboBox4.Location = new System.Drawing.Point(198, 311);
+            this.comboBox4.Location = new System.Drawing.Point(221, 316);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(202, 21);
             this.comboBox4.TabIndex = 18;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(198, 239);
+            this.textBox2.Location = new System.Drawing.Point(221, 242);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(202, 20);
             this.textBox2.TabIndex = 19;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(198, 153);
+            this.dateTimePicker1.Location = new System.Drawing.Point(221, 152);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(202, 20);
             this.dateTimePicker1.TabIndex = 20;
             // 
             // dateTimePicker0
             // 
-            this.dateTimePicker0.Location = new System.Drawing.Point(198, 115);
+            this.dateTimePicker0.Location = new System.Drawing.Point(221, 115);
             this.dateTimePicker0.Name = "dateTimePicker0";
             this.dateTimePicker0.Size = new System.Drawing.Size(202, 20);
             this.dateTimePicker0.TabIndex = 21;
@@ -190,7 +198,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
-            this.ClientSize = new System.Drawing.Size(431, 409);
+            this.ClientSize = new System.Drawing.Size(478, 398);
             this.Controls.Add(this.dateTimePicker0);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox2);
@@ -208,6 +216,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblHC);
             this.Controls.Add(this.btnAgregar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "NuevaConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NuevaConsulta";
