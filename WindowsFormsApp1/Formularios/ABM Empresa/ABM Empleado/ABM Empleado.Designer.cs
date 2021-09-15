@@ -60,7 +60,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(227, 416);
+            this.btnModificar.Location = new System.Drawing.Point(203, 416);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(119, 23);
             this.btnModificar.TabIndex = 12;
@@ -97,7 +97,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(375, 416);
+            this.btnEliminar.Location = new System.Drawing.Point(351, 416);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(103, 23);
             this.btnEliminar.TabIndex = 10;
@@ -106,7 +106,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(106, 416);
+            this.btnNuevo.Location = new System.Drawing.Point(82, 416);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(90, 23);
             this.btnNuevo.TabIndex = 9;

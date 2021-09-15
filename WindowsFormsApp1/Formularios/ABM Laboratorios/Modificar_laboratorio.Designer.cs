@@ -57,7 +57,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Laboratorios
             // 
             this.lbldescripcion.AutoSize = true;
             this.lbldescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldescripcion.Location = new System.Drawing.Point(12, 92);
+            this.lbldescripcion.Location = new System.Drawing.Point(61, 89);
             this.lbldescripcion.Name = "lbldescripcion";
             this.lbldescripcion.Size = new System.Drawing.Size(92, 20);
             this.lbldescripcion.TabIndex = 52;
@@ -67,7 +67,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Laboratorios
             // 
             this.lblnombre.AutoSize = true;
             this.lblnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombre.Location = new System.Drawing.Point(12, 54);
+            this.lblnombre.Location = new System.Drawing.Point(88, 54);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(65, 20);
             this.lblnombre.TabIndex = 51;

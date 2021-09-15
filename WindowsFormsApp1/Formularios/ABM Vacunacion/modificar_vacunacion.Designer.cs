@@ -57,14 +57,14 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // cmb_id_empleado
             // 
             this.cmb_id_empleado.FormattingEnabled = true;
-            this.cmb_id_empleado.Location = new System.Drawing.Point(282, 193);
+            this.cmb_id_empleado.Location = new System.Drawing.Point(214, 193);
             this.cmb_id_empleado.Name = "cmb_id_empleado";
             this.cmb_id_empleado.Size = new System.Drawing.Size(199, 21);
             this.cmb_id_empleado.TabIndex = 24;
             // 
             // txb_dosis
             // 
-            this.txb_dosis.Location = new System.Drawing.Point(282, 275);
+            this.txb_dosis.Location = new System.Drawing.Point(214, 275);
             this.txb_dosis.Name = "txb_dosis";
             this.txb_dosis.Size = new System.Drawing.Size(199, 20);
             this.txb_dosis.TabIndex = 23;
@@ -72,21 +72,21 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // cmb_laboratorio
             // 
             this.cmb_laboratorio.FormattingEnabled = true;
-            this.cmb_laboratorio.Location = new System.Drawing.Point(282, 232);
+            this.cmb_laboratorio.Location = new System.Drawing.Point(214, 232);
             this.cmb_laboratorio.Name = "cmb_laboratorio";
             this.cmb_laboratorio.Size = new System.Drawing.Size(199, 21);
             this.cmb_laboratorio.TabIndex = 22;
             // 
             // dtm_fecha_real_vacunacion
             // 
-            this.dtm_fecha_real_vacunacion.Location = new System.Drawing.Point(282, 151);
+            this.dtm_fecha_real_vacunacion.Location = new System.Drawing.Point(214, 151);
             this.dtm_fecha_real_vacunacion.Name = "dtm_fecha_real_vacunacion";
             this.dtm_fecha_real_vacunacion.Size = new System.Drawing.Size(200, 20);
             this.dtm_fecha_real_vacunacion.TabIndex = 21;
             // 
             // dtp_fecha_vacunacion
             // 
-            this.dtp_fecha_vacunacion.Location = new System.Drawing.Point(282, 111);
+            this.dtp_fecha_vacunacion.Location = new System.Drawing.Point(214, 111);
             this.dtp_fecha_vacunacion.Name = "dtp_fecha_vacunacion";
             this.dtp_fecha_vacunacion.Size = new System.Drawing.Size(200, 20);
             this.dtp_fecha_vacunacion.TabIndex = 20;
@@ -94,7 +94,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // cmb_vacuna
             // 
             this.cmb_vacuna.FormattingEnabled = true;
-            this.cmb_vacuna.Location = new System.Drawing.Point(282, 70);
+            this.cmb_vacuna.Location = new System.Drawing.Point(214, 70);
             this.cmb_vacuna.Name = "cmb_vacuna";
             this.cmb_vacuna.Size = new System.Drawing.Size(199, 21);
             this.cmb_vacuna.TabIndex = 19;
@@ -103,7 +103,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lbl_dosis.AutoSize = true;
             this.lbl_dosis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dosis.Location = new System.Drawing.Point(52, 273);
+            this.lbl_dosis.Location = new System.Drawing.Point(159, 275);
             this.lbl_dosis.Name = "lbl_dosis";
             this.lbl_dosis.Size = new System.Drawing.Size(49, 20);
             this.lbl_dosis.TabIndex = 18;
@@ -113,7 +113,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lblid_empleado.AutoSize = true;
             this.lblid_empleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblid_empleado.Location = new System.Drawing.Point(52, 193);
+            this.lblid_empleado.Location = new System.Drawing.Point(67, 194);
             this.lblid_empleado.Name = "lblid_empleado";
             this.lblid_empleado.Size = new System.Drawing.Size(141, 20);
             this.lblid_empleado.TabIndex = 17;
@@ -123,7 +123,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lbl_laboratorio.AutoSize = true;
             this.lbl_laboratorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_laboratorio.Location = new System.Drawing.Point(52, 232);
+            this.lbl_laboratorio.Location = new System.Drawing.Point(118, 233);
             this.lbl_laboratorio.Name = "lbl_laboratorio";
             this.lbl_laboratorio.Size = new System.Drawing.Size(90, 20);
             this.lbl_laboratorio.TabIndex = 16;
@@ -133,7 +133,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lblfechavacunacion.AutoSize = true;
             this.lblfechavacunacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfechavacunacion.Location = new System.Drawing.Point(52, 111);
+            this.lblfechavacunacion.Location = new System.Drawing.Point(66, 111);
             this.lblfechavacunacion.Name = "lblfechavacunacion";
             this.lblfechavacunacion.Size = new System.Drawing.Size(142, 20);
             this.lblfechavacunacion.TabIndex = 15;
@@ -143,7 +143,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lblfecharealvacunacion.AutoSize = true;
             this.lblfecharealvacunacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfecharealvacunacion.Location = new System.Drawing.Point(52, 151);
+            this.lblfecharealvacunacion.Location = new System.Drawing.Point(14, 151);
             this.lblfecharealvacunacion.Name = "lblfecharealvacunacion";
             this.lblfecharealvacunacion.Size = new System.Drawing.Size(194, 20);
             this.lblfecharealvacunacion.TabIndex = 14;
@@ -153,7 +153,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             this.lblvacuna.AutoSize = true;
             this.lblvacuna.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblvacuna.Location = new System.Drawing.Point(52, 71);
+            this.lblvacuna.Location = new System.Drawing.Point(144, 71);
             this.lblvacuna.Name = "lblvacuna";
             this.lblvacuna.Size = new System.Drawing.Size(64, 20);
             this.lblvacuna.TabIndex = 13;

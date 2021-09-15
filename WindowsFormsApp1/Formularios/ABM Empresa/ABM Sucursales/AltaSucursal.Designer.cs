@@ -40,7 +40,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(30, 81);
+            this.lbl2.Location = new System.Drawing.Point(48, 81);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(152, 20);
             this.lbl2.TabIndex = 48;
@@ -50,7 +50,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(30, 37);
+            this.lbl1.Location = new System.Drawing.Point(116, 38);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(84, 20);
             this.lbl1.TabIndex = 47;

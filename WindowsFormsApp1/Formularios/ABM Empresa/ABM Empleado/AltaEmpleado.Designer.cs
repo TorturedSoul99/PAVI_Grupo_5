@@ -65,36 +65,40 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // lbl7
             // 
             this.lbl7.AutoSize = true;
-            this.lbl7.Location = new System.Drawing.Point(71, 344);
+            this.lbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7.Location = new System.Drawing.Point(139, 342);
             this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(50, 13);
+            this.lbl7.Size = new System.Drawing.Size(73, 20);
             this.lbl7.TabIndex = 32;
             this.lbl7.Text = "Matricula";
             // 
             // lbl6
             // 
             this.lbl6.AutoSize = true;
-            this.lbl6.Location = new System.Drawing.Point(71, 307);
+            this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.Location = new System.Drawing.Point(127, 305);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(57, 13);
+            this.lbl6.Size = new System.Drawing.Size(85, 20);
             this.lbl6.TabIndex = 31;
             this.lbl6.Text = "IdSucursal";
             // 
             // lblE4
             // 
             this.lblE4.AutoSize = true;
-            this.lblE4.Location = new System.Drawing.Point(71, 228);
+            this.lblE4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblE4.Location = new System.Drawing.Point(75, 222);
             this.lblE4.Name = "lblE4";
-            this.lblE4.Size = new System.Drawing.Size(93, 13);
+            this.lblE4.Size = new System.Drawing.Size(137, 20);
             this.lblE4.TabIndex = 30;
             this.lblE4.Text = "Fecha Nacimiento";
             // 
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(71, 272);
+            this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5.Location = new System.Drawing.Point(80, 264);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(89, 13);
+            this.lbl5.Size = new System.Drawing.Size(132, 20);
             this.lbl5.TabIndex = 29;
             this.lbl5.Text = "Fecha de ingreso";
             this.lbl5.Click += new System.EventHandler(this.lblDiagnostico_Click);
@@ -102,36 +106,40 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(71, 183);
+            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.Location = new System.Drawing.Point(147, 180);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(44, 13);
+            this.lbl3.Size = new System.Drawing.Size(65, 20);
             this.lbl3.TabIndex = 28;
             this.lbl3.Text = "Apellido";
             // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(71, 145);
+            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(147, 142);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(44, 13);
+            this.lbl2.Size = new System.Drawing.Size(65, 20);
             this.lbl2.TabIndex = 27;
             this.lbl2.Text = "Nombre";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(71, 101);
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(41, 98);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(115, 13);
+            this.lbl1.Size = new System.Drawing.Size(171, 20);
             this.lbl1.TabIndex = 26;
             this.lbl1.Text = "Numero de documento";
             // 
             // lbltipoDoc
             // 
             this.lbltipoDoc.AutoSize = true;
-            this.lbltipoDoc.Location = new System.Drawing.Point(71, 62);
+            this.lbltipoDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipoDoc.Location = new System.Drawing.Point(86, 60);
             this.lbltipoDoc.Name = "lbltipoDoc";
-            this.lbltipoDoc.Size = new System.Drawing.Size(86, 13);
+            this.lbltipoDoc.Size = new System.Drawing.Size(126, 20);
             this.lbltipoDoc.TabIndex = 24;
             this.lbltipoDoc.Text = "Tipo Documento";
             // 
