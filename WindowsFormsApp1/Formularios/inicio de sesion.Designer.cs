@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1.Formularios
 {
-    partial class inicio_de_sesion
+    partial class frm_inicio_de_sesion
     {
         /// <summary>
         /// Required designer variable.
@@ -88,19 +88,23 @@ namespace WindowsFormsApp1.Formularios
             this.txt_contraseña.Size = new System.Drawing.Size(152, 20);
             this.txt_contraseña.TabIndex = 12;
             // 
-            // inicio_de_sesion
+            // frm_inicio_de_sesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(384, 178);
+            this.ControlBox = false;
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(lblUsuario);
             this.Controls.Add(this.btnIngresar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "inicio_de_sesion";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frm_inicio_de_sesion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio De Sesion";
             this.ResumeLayout(false);
             this.PerformLayout();

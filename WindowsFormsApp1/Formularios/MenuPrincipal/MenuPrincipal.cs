@@ -31,6 +31,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
+            inicio.ShowDialog();
 
         }
 
@@ -76,6 +78,12 @@ namespace WindowsFormsApp1
         {
             Menu_receta men_receta = new Menu_receta();
             men_receta.ShowDialog();
+        }
+
+        private void frmMenuPPAL_Load(object sender, EventArgs e)
+        {
+            frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
+            inicio.ShowDialog();
         }
     }
 }

@@ -83,21 +83,21 @@ namespace WindowsFormsApp1
             // altaConsultaToolStripMenuItem
             // 
             this.altaConsultaToolStripMenuItem.Name = "altaConsultaToolStripMenuItem";
-            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.altaConsultaToolStripMenuItem.Text = "ABM Consulta";
             this.altaConsultaToolStripMenuItem.Click += new System.EventHandler(this.altaConsultaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem
             // 
             this.recetaToolStripMenuItem.Name = "recetaToolStripMenuItem";
-            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.recetaToolStripMenuItem.Text = "Receta";
             this.recetaToolStripMenuItem.Click += new System.EventHandler(this.recetaToolStripMenuItem_Click);
             // 
             // historiaClinicaToolStripMenuItem
             // 
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
-            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.historiaClinicaToolStripMenuItem.Text = "HistoriaClinica";
             // 
             // vacunacionToolStripMenuItem
@@ -229,7 +229,7 @@ namespace WindowsFormsApp1
             this.Name = "frmMenuPPAL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.frmMenuPPAL_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
