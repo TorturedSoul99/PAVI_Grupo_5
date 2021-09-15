@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WindowsFormsApp1",
+    "\\WindowsFormsApp1\\Formularios",
+    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal"
   ],
-  "SelectedNode": "\\WindowsFormsApp1.sln",
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\MenuPrincipal\\MenuPrincipal.cs",
   "PreviewInSolutionExplorer": false
 }
