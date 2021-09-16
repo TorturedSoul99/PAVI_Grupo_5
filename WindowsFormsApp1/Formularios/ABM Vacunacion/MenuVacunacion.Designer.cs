@@ -161,7 +161,7 @@ namespace WindowsFormsApp1.Formularios
             this.MinimizeBox = false;
             this.Name = "MenuVacunacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MenuVacunacion";
+            this.Text = "Menu Vacunacion";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

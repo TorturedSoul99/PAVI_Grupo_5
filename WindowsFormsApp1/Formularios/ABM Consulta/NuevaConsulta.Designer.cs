@@ -221,7 +221,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.MinimizeBox = false;
             this.Name = "NuevaConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NuevaConsulta";
+            this.Text = "Nueva Consulta";
             this.ResumeLayout(false);
             this.PerformLayout();
 

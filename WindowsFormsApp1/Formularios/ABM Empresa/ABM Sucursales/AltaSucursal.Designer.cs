@@ -98,7 +98,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.MinimizeBox = false;
             this.Name = "AltaSucursal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AltaSucursal";
+            this.Text = "Alta Sucursal";
             this.ResumeLayout(false);
             this.PerformLayout();
 

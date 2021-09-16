@@ -130,7 +130,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ABM_Empleado";
-            this.Text = "ABM_Empleado";
+            this.Text = "Menu Empleados";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

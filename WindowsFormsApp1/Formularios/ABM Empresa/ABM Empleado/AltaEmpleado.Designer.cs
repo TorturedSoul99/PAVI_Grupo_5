@@ -222,7 +222,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.MinimizeBox = false;
             this.Name = "AltaEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AltaEmpleado";
+            this.Text = "Alta Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -116,7 +116,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.MinimizeBox = false;
             this.Name = "Alta_raza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Alta_raza";
+            this.Text = "Alta raza";
             this.Load += new System.EventHandler(this.Alta_raza_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

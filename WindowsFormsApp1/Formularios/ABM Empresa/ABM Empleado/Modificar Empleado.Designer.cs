@@ -220,7 +220,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Modificar_Empleado";
-            this.Text = "Modificar_Empleado";
+            this.Text = "Modificar Empleado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

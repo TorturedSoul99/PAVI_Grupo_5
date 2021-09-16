@@ -101,11 +101,23 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.Designer.cs">
       <DependentUpon>Alta_raza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Borrar_raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Borrar_raza.Designer.cs">
+      <DependentUpon>Borrar_raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.Designer.cs">
       <DependentUpon>Modificar_raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Mostrar_raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Mostrar_raza.Designer.cs">
+      <DependentUpon>Mostrar_raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.cs">
       <SubType>Form</SubType>
@@ -233,8 +245,14 @@
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.resx">
       <DependentUpon>Alta_raza.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Borrar_raza.resx">
+      <DependentUpon>Borrar_raza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Modificar_raza.resx">
       <DependentUpon>Modificar_raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Mostrar_raza.resx">
+      <DependentUpon>Mostrar_raza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.resx">
       <DependentUpon>Raza.cs</DependentUpon>

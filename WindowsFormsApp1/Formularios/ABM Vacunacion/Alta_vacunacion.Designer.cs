@@ -182,7 +182,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             this.MinimizeBox = false;
             this.Name = "Alta_vacunacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Alta_vacunacion";
+            this.Text = "Alta vacunacion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

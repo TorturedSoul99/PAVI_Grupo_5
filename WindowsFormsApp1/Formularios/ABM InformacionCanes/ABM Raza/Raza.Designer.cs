@@ -38,12 +38,14 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
+            this.btn_volver = new System.Windows.Forms.Button();
+            this.chk_todos = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRaza)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(12, 49);
+            this.btnConsultar.Location = new System.Drawing.Point(12, 87);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(90, 23);
             this.btnConsultar.TabIndex = 20;
@@ -52,7 +54,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             // txtbConsulta
             // 
-            this.txtbConsulta.Location = new System.Drawing.Point(139, 52);
+            this.txtbConsulta.Location = new System.Drawing.Point(139, 90);
             this.txtbConsulta.Name = "txtbConsulta";
             this.txtbConsulta.Size = new System.Drawing.Size(276, 20);
             this.txtbConsulta.TabIndex = 19;
@@ -75,7 +77,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Nuevo,
             this.Consultar,
             this.Modificar});
-            this.dgvRaza.Location = new System.Drawing.Point(81, 144);
+            this.dgvRaza.Location = new System.Drawing.Point(81, 168);
             this.dgvRaza.Name = "dgvRaza";
             this.dgvRaza.Size = new System.Drawing.Size(372, 179);
             this.dgvRaza.TabIndex = 17;
@@ -114,12 +116,34 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
+            // btn_volver
+            // 
+            this.btn_volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_volver.Location = new System.Drawing.Point(309, 25);
+            this.btn_volver.Name = "btn_volver";
+            this.btn_volver.Size = new System.Drawing.Size(196, 31);
+            this.btn_volver.TabIndex = 21;
+            this.btn_volver.Text = "Regresar al menu principal";
+            this.btn_volver.UseVisualStyleBackColor = true;
+            // 
+            // chk_todos
+            // 
+            this.chk_todos.AutoSize = true;
+            this.chk_todos.Location = new System.Drawing.Point(139, 121);
+            this.chk_todos.Name = "chk_todos";
+            this.chk_todos.Size = new System.Drawing.Size(56, 17);
+            this.chk_todos.TabIndex = 22;
+            this.chk_todos.Text = "Todos";
+            this.chk_todos.UseVisualStyleBackColor = true;
+            // 
             // Raza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(517, 441);
+            this.Controls.Add(this.chk_todos);
+            this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.Controls.Add(this.btnModificar);
@@ -149,5 +173,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btn_volver;
+        private System.Windows.Forms.CheckBox chk_todos;
     }
 }
