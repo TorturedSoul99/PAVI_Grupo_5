@@ -64,6 +64,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.btnModificar.TabIndex = 12;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // dataGridView1
             // 
@@ -90,6 +91,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.btnNuevo.TabIndex = 9;
             this.btnNuevo.Text = "Nueva";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // MenuDiagnostico
             // 

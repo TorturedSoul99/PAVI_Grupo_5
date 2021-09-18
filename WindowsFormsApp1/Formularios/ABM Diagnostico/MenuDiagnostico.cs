@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 
 namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 {
@@ -20,6 +21,19 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         private void txtbConsulta_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            NuevoDiagnostico nuevoDiagnostico = new NuevoDiagnostico();
+            nuevoDiagnostico.ShowDialog();
+
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            ModificarDiagnostico modificar = new ModificarDiagnostico();
+            modificar.ShowDialog();
         }
     }
 }

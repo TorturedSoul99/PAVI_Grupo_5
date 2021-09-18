@@ -14,6 +14,7 @@ using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
+using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 
 namespace WindowsFormsApp1
 {
@@ -90,6 +91,12 @@ namespace WindowsFormsApp1
         private void menuEstadisticaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void diagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuDiagnostico menu = new MenuDiagnostico();
+            menu.ShowDialog();
         }
     }
 }
