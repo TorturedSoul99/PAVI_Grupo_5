@@ -86,5 +86,10 @@ namespace WindowsFormsApp1
             inicio.ShowDialog();
             inicio.Dispose();
         }
+
+        private void menuEstadisticaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

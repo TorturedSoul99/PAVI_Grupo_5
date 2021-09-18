@@ -50,6 +50,7 @@ namespace WindowsFormsApp1
             this.depositosPorSucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +75,8 @@ namespace WindowsFormsApp1
             this.consulñtaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.altaConsultaToolStripMenuItem,
             this.recetaToolStripMenuItem,
-            this.historiaClinicaToolStripMenuItem});
+            this.historiaClinicaToolStripMenuItem,
+            this.diagnosticoToolStripMenuItem});
             this.consulñtaToolStripMenuItem.Name = "consulñtaToolStripMenuItem";
             this.consulñtaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consulñtaToolStripMenuItem.Text = "Consulta";
@@ -83,22 +85,22 @@ namespace WindowsFormsApp1
             // altaConsultaToolStripMenuItem
             // 
             this.altaConsultaToolStripMenuItem.Name = "altaConsultaToolStripMenuItem";
-            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
-            this.altaConsultaToolStripMenuItem.Text = "ABM Consulta";
+            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaConsultaToolStripMenuItem.Text = "Consulta";
             this.altaConsultaToolStripMenuItem.Click += new System.EventHandler(this.altaConsultaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem
             // 
             this.recetaToolStripMenuItem.Name = "recetaToolStripMenuItem";
-            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.recetaToolStripMenuItem.Text = "Receta";
             this.recetaToolStripMenuItem.Click += new System.EventHandler(this.recetaToolStripMenuItem_Click);
             // 
             // historiaClinicaToolStripMenuItem
             // 
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
-            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
-            this.historiaClinicaToolStripMenuItem.Text = "HistoriaClinica";
+            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.historiaClinicaToolStripMenuItem.Text = "Historia Clínica";
             // 
             // vacunacionToolStripMenuItem
             // 
@@ -106,13 +108,13 @@ namespace WindowsFormsApp1
             this.aBMVacunacionToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
             this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
-            this.vacunacionToolStripMenuItem.Text = "Vacunacion";
+            this.vacunacionToolStripMenuItem.Text = "Vacunación";
             // 
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.aBMVacunacionToolStripMenuItem.Text = "ABM Vacunacion";
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMVacunacionToolStripMenuItem.Text = "Vacunación";
             this.aBMVacunacionToolStripMenuItem.Click += new System.EventHandler(this.aBMVacunacionToolStripMenuItem_Click);
             // 
             // internacionToolStripMenuItem
@@ -121,13 +123,13 @@ namespace WindowsFormsApp1
             this.menuInternacionToolStripMenuItem});
             this.internacionToolStripMenuItem.Name = "internacionToolStripMenuItem";
             this.internacionToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
-            this.internacionToolStripMenuItem.Text = "Internacion";
+            this.internacionToolStripMenuItem.Text = "Internación";
             // 
             // menuInternacionToolStripMenuItem
             // 
             this.menuInternacionToolStripMenuItem.Name = "menuInternacionToolStripMenuItem";
-            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.menuInternacionToolStripMenuItem.Text = "Menu Internacion";
+            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuInternacionToolStripMenuItem.Text = "Menú Internación";
             // 
             // estadisticasToolStripMenuItem
             // 
@@ -135,13 +137,14 @@ namespace WindowsFormsApp1
             this.menuEstadisticaToolStripMenuItem});
             this.estadisticasToolStripMenuItem.Name = "estadisticasToolStripMenuItem";
             this.estadisticasToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
-            this.estadisticasToolStripMenuItem.Text = "Estadisticas";
+            this.estadisticasToolStripMenuItem.Text = "Estadísticas";
             // 
             // menuEstadisticaToolStripMenuItem
             // 
             this.menuEstadisticaToolStripMenuItem.Name = "menuEstadisticaToolStripMenuItem";
-            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.menuEstadisticaToolStripMenuItem.Text = "Menu Estadisticas";
+            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuEstadisticaToolStripMenuItem.Text = "Menú Estadísticas";
+            this.menuEstadisticaToolStripMenuItem.Click += new System.EventHandler(this.menuEstadisticaToolStripMenuItem_Click);
             // 
             // laboratoriosToolStripMenuItem
             // 
@@ -156,13 +159,13 @@ namespace WindowsFormsApp1
             // 
             this.menuLaboratoriosToolStripMenuItem.Name = "menuLaboratoriosToolStripMenuItem";
             this.menuLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
-            this.menuLaboratoriosToolStripMenuItem.Text = "Consulta de analisis";
+            this.menuLaboratoriosToolStripMenuItem.Text = "Consulta de análisis";
             // 
             // informacionDeLaboratoriosToolStripMenuItem
             // 
             this.informacionDeLaboratoriosToolStripMenuItem.Name = "informacionDeLaboratoriosToolStripMenuItem";
             this.informacionDeLaboratoriosToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
-            this.informacionDeLaboratoriosToolStripMenuItem.Text = "Informacion de laboratorios";
+            this.informacionDeLaboratoriosToolStripMenuItem.Text = "Información de laboratorios";
             this.informacionDeLaboratoriosToolStripMenuItem.Click += new System.EventHandler(this.informacionDeLaboratoriosToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
@@ -207,8 +210,8 @@ namespace WindowsFormsApp1
             this.miselaneoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.razaToolStripMenuItem});
             this.miselaneoToolStripMenuItem.Name = "miselaneoToolStripMenuItem";
-            this.miselaneoToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
-            this.miselaneoToolStripMenuItem.Text = "InformacionCanes";
+            this.miselaneoToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
+            this.miselaneoToolStripMenuItem.Text = "Información Canes";
             // 
             // razaToolStripMenuItem
             // 
@@ -216,6 +219,12 @@ namespace WindowsFormsApp1
             this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
+            // 
+            // diagnosticoToolStripMenuItem
+            // 
+            this.diagnosticoToolStripMenuItem.Name = "diagnosticoToolStripMenuItem";
+            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diagnosticoToolStripMenuItem.Text = "Diagnóstico";
             // 
             // frmMenuPPAL
             // 
@@ -260,6 +269,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem miselaneoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem razaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informacionDeLaboratoriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diagnosticoToolStripMenuItem;
     }
 }
 
