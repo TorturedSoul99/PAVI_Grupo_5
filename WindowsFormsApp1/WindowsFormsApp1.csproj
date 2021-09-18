@@ -47,6 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Back-end\BE_Acceso_datos.cs" />
+    <Compile Include="BD3K3G05_2021DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Consulta\ModificarConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -366,6 +376,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="BD3K3G05_2021DataSet.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet.xss">
+      <DependentUpon>BD3K3G05_2021DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet1.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet1.xss">
+      <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

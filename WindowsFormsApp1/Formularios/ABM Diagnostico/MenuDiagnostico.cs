@@ -35,5 +35,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             ModificarDiagnostico modificar = new ModificarDiagnostico();
             modificar.ShowDialog();
         }
+
+        private void MenuDiagnostico_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet.diagnostico' Puede moverla o quitarla según sea necesario.
+            this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
+
+        }
     }
 }

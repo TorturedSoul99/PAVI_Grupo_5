@@ -35,5 +35,19 @@ namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
             modificar.ShowDialog();
 
         }
+
+        private void MenuMedicamentosXReceta_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet1.medicamentosXReceta' Puede moverla o quitarla según sea necesario.
+            this.medicamentosXRecetaTableAdapter.Fill(this.bD3K3G05_2021DataSet1.medicamentosXReceta);
+            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet.diagnostico' Puede moverla o quitarla según sea necesario.
+            this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

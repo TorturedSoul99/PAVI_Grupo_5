@@ -29,13 +29,21 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
+            this.bD3K3G05_2021DataSet = new WindowsFormsApp1.BD3K3G05_2021DataSet();
+            this.diagnosticoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.diagnosticoTableAdapter = new WindowsFormsApp1.BD3K3G05_2021DataSetTableAdapters.diagnosticoTableAdapter();
+            this.iDdiagnosticoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
@@ -58,7 +66,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(244, 432);
+            this.btnModificar.Location = new System.Drawing.Point(185, 427);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(119, 23);
             this.btnModificar.TabIndex = 12;
@@ -68,15 +76,20 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 117);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDdiagnosticoDataGridViewTextBoxColumn,
+            this.nombreDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.diagnosticoBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(89, 113);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(626, 265);
+            this.dataGridView1.Size = new System.Drawing.Size(321, 264);
             this.dataGridView1.TabIndex = 11;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(392, 432);
+            this.btnEliminar.Location = new System.Drawing.Point(333, 427);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(103, 23);
             this.btnEliminar.TabIndex = 10;
@@ -85,7 +98,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(123, 432);
+            this.btnNuevo.Location = new System.Drawing.Point(64, 427);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(90, 23);
             this.btnNuevo.TabIndex = 9;
@@ -93,12 +106,39 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
+            // bD3K3G05_2021DataSet
+            // 
+            this.bD3K3G05_2021DataSet.DataSetName = "BD3K3G05_2021DataSet";
+            this.bD3K3G05_2021DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // diagnosticoBindingSource
+            // 
+            this.diagnosticoBindingSource.DataMember = "diagnostico";
+            this.diagnosticoBindingSource.DataSource = this.bD3K3G05_2021DataSet;
+            // 
+            // diagnosticoTableAdapter
+            // 
+            this.diagnosticoTableAdapter.ClearBeforeFill = true;
+            // 
+            // iDdiagnosticoDataGridViewTextBoxColumn
+            // 
+            this.iDdiagnosticoDataGridViewTextBoxColumn.DataPropertyName = "ID_diagnostico";
+            this.iDdiagnosticoDataGridViewTextBoxColumn.HeaderText = "ID_diagnostico";
+            this.iDdiagnosticoDataGridViewTextBoxColumn.Name = "iDdiagnosticoDataGridViewTextBoxColumn";
+            this.iDdiagnosticoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            // 
             // MenuDiagnostico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Otros40;
-            this.ClientSize = new System.Drawing.Size(686, 484);
+            this.ClientSize = new System.Drawing.Size(507, 466);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.Controls.Add(this.btnModificar);
@@ -111,7 +151,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.Name = "MenuDiagnostico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuDiagnostico";
+            this.Load += new System.EventHandler(this.MenuDiagnostico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,5 +168,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
+        private BD3K3G05_2021DataSet bD3K3G05_2021DataSet;
+        private System.Windows.Forms.BindingSource diagnosticoBindingSource;
+        private BD3K3G05_2021DataSetTableAdapters.diagnosticoTableAdapter diagnosticoTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDdiagnosticoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
     }
 }
