@@ -15,6 +15,7 @@ using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
+using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
 
 namespace WindowsFormsApp1
 {
@@ -96,6 +97,12 @@ namespace WindowsFormsApp1
         private void diagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MenuDiagnostico menu = new MenuDiagnostico();
+            menu.ShowDialog();
+        }
+
+        private void medicamentosPorRecetaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuMedicamentosXReceta menu = new MenuMedicamentosXReceta();
             menu.ShowDialog();
         }
     }

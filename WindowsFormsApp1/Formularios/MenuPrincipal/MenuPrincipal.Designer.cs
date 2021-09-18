@@ -35,6 +35,7 @@ namespace WindowsFormsApp1
             this.recetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historiaClinicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medicamentosPorRecetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMVacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.internacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,7 +77,8 @@ namespace WindowsFormsApp1
             this.altaConsultaToolStripMenuItem,
             this.recetaToolStripMenuItem,
             this.historiaClinicaToolStripMenuItem,
-            this.diagnosticoToolStripMenuItem});
+            this.diagnosticoToolStripMenuItem,
+            this.medicamentosPorRecetaToolStripMenuItem});
             this.consulñtaToolStripMenuItem.Name = "consulñtaToolStripMenuItem";
             this.consulñtaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consulñtaToolStripMenuItem.Text = "Consulta";
@@ -85,29 +87,36 @@ namespace WindowsFormsApp1
             // altaConsultaToolStripMenuItem
             // 
             this.altaConsultaToolStripMenuItem.Name = "altaConsultaToolStripMenuItem";
-            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.altaConsultaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.altaConsultaToolStripMenuItem.Text = "Consulta";
             this.altaConsultaToolStripMenuItem.Click += new System.EventHandler(this.altaConsultaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem
             // 
             this.recetaToolStripMenuItem.Name = "recetaToolStripMenuItem";
-            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recetaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.recetaToolStripMenuItem.Text = "Receta";
             this.recetaToolStripMenuItem.Click += new System.EventHandler(this.recetaToolStripMenuItem_Click);
             // 
             // historiaClinicaToolStripMenuItem
             // 
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
-            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.historiaClinicaToolStripMenuItem.Text = "Historia Clínica";
             // 
             // diagnosticoToolStripMenuItem
             // 
             this.diagnosticoToolStripMenuItem.Name = "diagnosticoToolStripMenuItem";
-            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.diagnosticoToolStripMenuItem.Text = "Diagnóstico";
             this.diagnosticoToolStripMenuItem.Click += new System.EventHandler(this.diagnosticoToolStripMenuItem_Click);
+            // 
+            // medicamentosPorRecetaToolStripMenuItem
+            // 
+            this.medicamentosPorRecetaToolStripMenuItem.Name = "medicamentosPorRecetaToolStripMenuItem";
+            this.medicamentosPorRecetaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.medicamentosPorRecetaToolStripMenuItem.Text = "Medicamentos por Receta";
+            this.medicamentosPorRecetaToolStripMenuItem.Click += new System.EventHandler(this.medicamentosPorRecetaToolStripMenuItem_Click);
             // 
             // vacunacionToolStripMenuItem
             // 
@@ -271,6 +280,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem razaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informacionDeLaboratoriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diagnosticoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medicamentosPorRecetaToolStripMenuItem;
     }
 }
 
