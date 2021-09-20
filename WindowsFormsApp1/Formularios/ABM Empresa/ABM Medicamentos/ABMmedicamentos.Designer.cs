@@ -33,8 +33,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dgvSucursales = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.ID_medicamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,6 +40,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +70,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.btnModificar.TabIndex = 30;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // dgvSucursales
             // 
@@ -86,24 +87,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.dgvSucursales.Name = "dgvSucursales";
             this.dgvSucursales.Size = new System.Drawing.Size(634, 179);
             this.dgvSucursales.TabIndex = 29;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(438, 390);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
-            this.btnEliminar.TabIndex = 28;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(169, 390);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
-            this.btnNuevo.TabIndex = 27;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
             // 
             // ID_medicamento
             // 
@@ -141,6 +124,25 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Column6.HeaderText = "Cantidad minima";
             this.Column6.Name = "Column6";
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(438, 390);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
+            this.btnEliminar.TabIndex = 28;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(169, 390);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
+            this.btnNuevo.TabIndex = 27;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // Menu_medicamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,7 +159,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.MinimizeBox = false;
             this.Name = "Menu_medicamentos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu_medicamentos";
+            this.Text = "Menu Medicamentos";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

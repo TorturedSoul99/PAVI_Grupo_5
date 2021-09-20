@@ -16,6 +16,8 @@ using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
+
 
 namespace WindowsFormsApp1
 {

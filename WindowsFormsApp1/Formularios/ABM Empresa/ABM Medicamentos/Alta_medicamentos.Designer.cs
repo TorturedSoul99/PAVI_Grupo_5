@@ -176,8 +176,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Controls.Add(this.lbl_fecha_compra);
             this.Controls.Add(this.lbl_laboratorio_medicamento);
             this.Controls.Add(this.lbl_nombre_medicamento);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Alta_medicamentos";
-            this.Text = "Alta_medicamentos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Alta Medicamentos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
