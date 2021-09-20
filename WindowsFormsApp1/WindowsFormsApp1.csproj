@@ -69,6 +69,24 @@
     <Compile Include="Formularios\ABM Consulta\NuevaConsulta.Designer.cs">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.Designer.cs">
+      <DependentUpon>ABMdeposito_x_sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.Designer.cs">
+      <DependentUpon>Alta_deposito_x_sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.Designer.cs">
+      <DependentUpon>Modificar_deposito_x_sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Diagnostico\MenuDiagnostico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -287,6 +305,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Consulta\NuevaConsulta.resx">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.resx">
+      <DependentUpon>ABMdeposito_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.resx">
+      <DependentUpon>Alta_deposito_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.resx">
+      <DependentUpon>Modificar_deposito_x_sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Diagnostico\MenuDiagnostico.resx">
       <DependentUpon>MenuDiagnostico.cs</DependentUpon>

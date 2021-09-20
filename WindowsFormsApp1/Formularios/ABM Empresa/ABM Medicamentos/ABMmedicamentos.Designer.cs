@@ -33,21 +33,19 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.dgvSucursales = new System.Windows.Forms.DataGridView();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             this.ID_medicamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(30, 64);
+            this.btnConsultar.Location = new System.Drawing.Point(89, 72);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(89, 23);
             this.btnConsultar.TabIndex = 32;
@@ -56,7 +54,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             // txtbConsulta
             // 
-            this.txtbConsulta.Location = new System.Drawing.Point(157, 67);
+            this.txtbConsulta.Location = new System.Drawing.Point(216, 75);
             this.txtbConsulta.Name = "txtbConsulta";
             this.txtbConsulta.Size = new System.Drawing.Size(234, 20);
             this.txtbConsulta.TabIndex = 31;
@@ -64,7 +62,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(290, 390);
+            this.btnModificar.Location = new System.Drawing.Point(273, 395);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(118, 23);
             this.btnModificar.TabIndex = 30;
@@ -77,16 +75,33 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.dgvSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSucursales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_medicamento,
+            this.Column4,
             this.Column1,
             this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
-            this.dgvSucursales.Location = new System.Drawing.Point(27, 170);
+            this.Column3});
+            this.dgvSucursales.Location = new System.Drawing.Point(89, 172);
             this.dgvSucursales.Name = "dgvSucursales";
-            this.dgvSucursales.Size = new System.Drawing.Size(634, 179);
+            this.dgvSucursales.Size = new System.Drawing.Size(493, 179);
             this.dgvSucursales.TabIndex = 29;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(421, 395);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
+            this.btnEliminar.TabIndex = 28;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(152, 395);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
+            this.btnNuevo.TabIndex = 27;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // ID_medicamento
             // 
@@ -94,10 +109,16 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.ID_medicamento.Name = "ID_medicamento";
             this.ID_medicamento.Visible = false;
             // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Sucursal";
+            this.Column4.Name = "Column4";
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "Nombre";
             this.Column1.Name = "Column1";
+            this.Column1.Width = 150;
             // 
             // Column2
             // 
@@ -108,40 +129,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             this.Column3.HeaderText = "Fecha de compra";
             this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Sucursal";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Cantidad en sucursal";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Cantidad minima";
-            this.Column6.Name = "Column6";
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(438, 390);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
-            this.btnEliminar.TabIndex = 28;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(169, 390);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
-            this.btnNuevo.TabIndex = 27;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Menu_medicamentos
             // 
@@ -175,11 +162,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_medicamento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }
