@@ -14,6 +14,8 @@ using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
+using WindowsFormsApp1.Formularios.ABM_Diagnostico;
+using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
 
 namespace WindowsFormsApp1
 {
@@ -85,6 +87,23 @@ namespace WindowsFormsApp1
             frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
             inicio.ShowDialog();
             inicio.Dispose();
+        }
+
+        private void menuEstadisticaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void diagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuDiagnostico menu = new MenuDiagnostico();
+            menu.ShowDialog();
+        }
+
+        private void medicamentosPorRecetaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuMedicamentosXReceta menu = new MenuMedicamentosXReceta();
+            menu.ShowDialog();
         }
     }
 }
