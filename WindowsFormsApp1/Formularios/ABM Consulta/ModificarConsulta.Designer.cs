@@ -33,7 +33,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblReceta = new System.Windows.Forms.Label();
@@ -46,6 +45,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblHC = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnAgregarSintomas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dateTimePicker0
@@ -75,13 +76,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(202, 21);
             this.comboBox4.TabIndex = 35;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Location = new System.Drawing.Point(213, 275);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(202, 21);
-            this.comboBox3.TabIndex = 34;
             // 
             // comboBox2
             // 
@@ -194,6 +188,27 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(213, 276);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(202, 20);
+            this.textBox3.TabIndex = 39;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // btnAgregarSintomas
+            // 
+            this.btnAgregarSintomas.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._3puntos;
+            this.btnAgregarSintomas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAgregarSintomas.FlatAppearance.BorderSize = 0;
+            this.btnAgregarSintomas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarSintomas.Location = new System.Drawing.Point(424, 275);
+            this.btnAgregarSintomas.Name = "btnAgregarSintomas";
+            this.btnAgregarSintomas.Size = new System.Drawing.Size(48, 23);
+            this.btnAgregarSintomas.TabIndex = 40;
+            this.btnAgregarSintomas.UseVisualStyleBackColor = true;
+            this.btnAgregarSintomas.Click += new System.EventHandler(this.btnAgregarSintomas_Click);
+            // 
             // ModificarConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,11 +216,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(484, 398);
+            this.Controls.Add(this.btnAgregarSintomas);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dateTimePicker0);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblReceta);
@@ -235,7 +251,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lblReceta;
@@ -248,5 +263,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblHC;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnAgregarSintomas;
     }
 }

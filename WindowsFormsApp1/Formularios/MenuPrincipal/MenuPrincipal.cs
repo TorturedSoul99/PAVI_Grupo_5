@@ -16,6 +16,7 @@ using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
+using WindowsFormsApp1.Formularios.ABM_Sintomas;
 
 namespace WindowsFormsApp1
 {
@@ -104,6 +105,12 @@ namespace WindowsFormsApp1
         {
             MenuMedicamentosXReceta menu = new MenuMedicamentosXReceta();
             menu.ShowDialog();
+        }
+
+        private void síntomasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABM_Sintomas abm_sintomas = new ABM_Sintomas();
+            abm_sintomas.ShowDialog();
         }
     }
 }

@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
             this.historiaClinicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentosPorRecetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.síntomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMVacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.internacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,7 +79,8 @@ namespace WindowsFormsApp1
             this.recetaToolStripMenuItem,
             this.historiaClinicaToolStripMenuItem,
             this.diagnosticoToolStripMenuItem,
-            this.medicamentosPorRecetaToolStripMenuItem});
+            this.medicamentosPorRecetaToolStripMenuItem,
+            this.síntomasToolStripMenuItem});
             this.consulñtaToolStripMenuItem.Name = "consulñtaToolStripMenuItem";
             this.consulñtaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consulñtaToolStripMenuItem.Text = "Consulta";
@@ -117,6 +119,13 @@ namespace WindowsFormsApp1
             this.medicamentosPorRecetaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.medicamentosPorRecetaToolStripMenuItem.Text = "Medicamentos por Receta";
             this.medicamentosPorRecetaToolStripMenuItem.Click += new System.EventHandler(this.medicamentosPorRecetaToolStripMenuItem_Click);
+            // 
+            // síntomasToolStripMenuItem
+            // 
+            this.síntomasToolStripMenuItem.Name = "síntomasToolStripMenuItem";
+            this.síntomasToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.síntomasToolStripMenuItem.Text = "Síntomas";
+            this.síntomasToolStripMenuItem.Click += new System.EventHandler(this.síntomasToolStripMenuItem_Click);
             // 
             // vacunacionToolStripMenuItem
             // 
@@ -281,6 +290,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem informacionDeLaboratoriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diagnosticoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem medicamentosPorRecetaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem síntomasToolStripMenuItem;
     }
 }
 

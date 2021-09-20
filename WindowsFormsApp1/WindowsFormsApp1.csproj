@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Back-end\BE_Acceso_datos.cs" />
+    <Compile Include="Back-end\ComboBox01.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Back-end\DataGridView01.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -201,6 +207,30 @@
     <Compile Include="Formularios\ABM Receta\Modificar_receta.Designer.cs">
       <DependentUpon>Modificar_receta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Sintomas\ABM Sintomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\ABM Sintomas.Designer.cs">
+      <DependentUpon>ABM Sintomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Agregar_sintomas_a_consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Agregar_sintomas_a_consulta.Designer.cs">
+      <DependentUpon>Agregar_sintomas_a_consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Alta Sintoma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Alta Sintoma.Designer.cs">
+      <DependentUpon>Alta Sintoma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Modificar Sintomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Sintomas\Modificar Sintomas.Designer.cs">
+      <DependentUpon>Modificar Sintomas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,6 +291,7 @@
     <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.Designer.cs">
       <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_sintomas.cs" />
     <Compile Include="Negocio\NE_usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -335,6 +366,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Receta\Modificar_receta.resx">
       <DependentUpon>Modificar_receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Sintomas\ABM Sintomas.resx">
+      <DependentUpon>ABM Sintomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Sintomas\Agregar_sintomas_a_consulta.resx">
+      <DependentUpon>Agregar_sintomas_a_consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Sintomas\Alta Sintoma.resx">
+      <DependentUpon>Alta Sintoma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Sintomas\Modificar Sintomas.resx">
+      <DependentUpon>Modificar Sintomas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Vacunacion\Alta_vacunacion.resx">
       <DependentUpon>Alta_vacunacion.cs</DependentUpon>
@@ -429,6 +472,8 @@
   <ItemGroup>
     <None Include="Resources\Windows 7 02.bmp" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\3puntos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
