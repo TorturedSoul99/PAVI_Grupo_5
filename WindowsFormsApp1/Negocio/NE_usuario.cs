@@ -35,4 +35,5 @@ namespace WindowsFormsApp1.Negocio
 
 
     }
+
 }

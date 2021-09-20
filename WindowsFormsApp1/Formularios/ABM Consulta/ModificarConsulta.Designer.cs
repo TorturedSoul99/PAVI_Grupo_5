@@ -171,6 +171,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             // 
             this.textBox1.Location = new System.Drawing.Point(213, 28);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(202, 20);
             this.textBox1.TabIndex = 25;
             // 
