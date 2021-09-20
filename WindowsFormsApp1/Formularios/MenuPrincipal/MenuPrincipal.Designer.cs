@@ -52,6 +52,7 @@ namespace WindowsFormsApp1
             this.depositosPorSucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medicamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,7 +130,7 @@ namespace WindowsFormsApp1
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aBMVacunacionToolStripMenuItem.Text = "Vacunación";
             this.aBMVacunacionToolStripMenuItem.Click += new System.EventHandler(this.aBMVacunacionToolStripMenuItem_Click);
             // 
@@ -144,7 +145,7 @@ namespace WindowsFormsApp1
             // menuInternacionToolStripMenuItem
             // 
             this.menuInternacionToolStripMenuItem.Name = "menuInternacionToolStripMenuItem";
-            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.menuInternacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.menuInternacionToolStripMenuItem.Text = "Menú Internación";
             // 
             // estadisticasToolStripMenuItem
@@ -158,7 +159,7 @@ namespace WindowsFormsApp1
             // menuEstadisticaToolStripMenuItem
             // 
             this.menuEstadisticaToolStripMenuItem.Name = "menuEstadisticaToolStripMenuItem";
-            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.menuEstadisticaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.menuEstadisticaToolStripMenuItem.Text = "Menú Estadísticas";
             this.menuEstadisticaToolStripMenuItem.Click += new System.EventHandler(this.menuEstadisticaToolStripMenuItem_Click);
             // 
@@ -190,7 +191,8 @@ namespace WindowsFormsApp1
             this.sucursalesToolStripMenuItem,
             this.usuariosToolStripMenuItem,
             this.empleadosToolStripMenuItem,
-            this.depositosPorSucursalesToolStripMenuItem});
+            this.depositosPorSucursalesToolStripMenuItem,
+            this.medicamentosToolStripMenuItem});
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
             this.empresaToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.empresaToolStripMenuItem.Text = "Empresa";
@@ -232,9 +234,15 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
+            // 
+            // medicamentosToolStripMenuItem
+            // 
+            this.medicamentosToolStripMenuItem.Name = "medicamentosToolStripMenuItem";
+            this.medicamentosToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.medicamentosToolStripMenuItem.Text = "Medicamentos";
             // 
             // frmMenuPPAL
             // 
@@ -281,6 +289,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem informacionDeLaboratoriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diagnosticoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem medicamentosPorRecetaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medicamentosToolStripMenuItem;
     }
 }
 
