@@ -35,6 +35,19 @@ namespace WindowsFormsApp1.Negocio
             _BD.EjecutarABM(sql);
         }
 
+        public void Eliminar_sintoma(string id_sintoma)
+        {
+            string sql = "DELETE FROM sintomas WHERE ID_sintoma=" + id_sintoma + ";";
+            _BD.EjecutarABM(sql);
+        }
 
+        public DataTable Buscar_sintoma(string buscar)
+        {
+            string sql = @"SELECT * 
+                           FROM sintomas 
+                           WHERE Nombre LIKE '%" + buscar + "%';";
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            return tabla;
+        }
     }
 }

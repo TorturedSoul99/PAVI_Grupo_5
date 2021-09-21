@@ -33,7 +33,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
-            this.txtbConsulta = new System.Windows.Forms.TextBox();
+            this.txtConsulta = new System.Windows.Forms.TextBox();
             this.dataGridViewSintomas = new WindowsFormsApp1.Back_end.DataGridView01();
             this.ID_sintomas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_sintomas = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,6 +48,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             this.btnEliminar.TabIndex = 32;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnModificar
             // 
@@ -77,14 +78,15 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             this.btnConsultar.TabIndex = 28;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
-            // txtbConsulta
+            // txtConsulta
             // 
-            this.txtbConsulta.Location = new System.Drawing.Point(136, 34);
-            this.txtbConsulta.Name = "txtbConsulta";
-            this.txtbConsulta.Size = new System.Drawing.Size(235, 20);
-            this.txtbConsulta.TabIndex = 27;
-            this.txtbConsulta.Text = "Buscar Nombre de Síntoma";
+            this.txtConsulta.Location = new System.Drawing.Point(136, 34);
+            this.txtConsulta.Name = "txtConsulta";
+            this.txtConsulta.Size = new System.Drawing.Size(235, 20);
+            this.txtConsulta.TabIndex = 27;
+            this.txtConsulta.Text = "Buscar Nombre de Síntoma";
             // 
             // dataGridViewSintomas
             // 
@@ -125,7 +127,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnConsultar);
-            this.Controls.Add(this.txtbConsulta);
+            this.Controls.Add(this.txtConsulta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -145,7 +147,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnConsultar;
-        private System.Windows.Forms.TextBox txtbConsulta;
+        private System.Windows.Forms.TextBox txtConsulta;
         private Back_end.DataGridView01 dataGridViewSintomas;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_sintomas;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_sintomas;
