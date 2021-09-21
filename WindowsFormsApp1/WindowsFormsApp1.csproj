@@ -69,6 +69,24 @@
     <Compile Include="Formularios\ABM Consulta\NuevaConsulta.Designer.cs">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.Designer.cs">
+      <DependentUpon>ABMdeposito_x_sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.Designer.cs">
+      <DependentUpon>Alta_deposito_x_sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.Designer.cs">
+      <DependentUpon>Modificar_deposito_x_sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Diagnostico\MenuDiagnostico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +122,24 @@
     </Compile>
     <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.Designer.cs">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.Designer.cs">
+      <DependentUpon>ABMmedicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\Alta_medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\Alta_medicamentos.Designer.cs">
+      <DependentUpon>Alta_medicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\Modificar_medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\Modificar_medicamentos.Designer.cs">
+      <DependentUpon>Modificar_medicamentos.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Empresa\ABM Sucursales\ABMSucursales.cs">
       <SubType>Form</SubType>
@@ -270,6 +306,15 @@
     <EmbeddedResource Include="Formularios\ABM Consulta\NuevaConsulta.resx">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\ABMdeposito_x_sucursal.resx">
+      <DependentUpon>ABMdeposito_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\Alta_deposito_x_sucursal.resx">
+      <DependentUpon>Alta_deposito_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM DepositoXSucursal\Modificar_deposito_x_sucursal.resx">
+      <DependentUpon>Modificar_deposito_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Diagnostico\MenuDiagnostico.resx">
       <DependentUpon>MenuDiagnostico.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +332,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.resx">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.resx">
+      <DependentUpon>ABMmedicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Medicamentos\Alta_medicamentos.resx">
+      <DependentUpon>Alta_medicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Medicamentos\Modificar_medicamentos.resx">
+      <DependentUpon>Modificar_medicamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\ABMSucursales.resx">
       <DependentUpon>ABMSucursales.cs</DependentUpon>
