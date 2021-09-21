@@ -16,6 +16,8 @@ using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
+using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
 using WindowsFormsApp1.Formularios.ABM_Sintomas;
 
 namespace WindowsFormsApp1
@@ -105,6 +107,18 @@ namespace WindowsFormsApp1
         {
             MenuMedicamentosXReceta menu = new MenuMedicamentosXReceta();
             menu.ShowDialog();
+        }
+
+        private void medicamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu_medicamentos abm_medicamentos = new Menu_medicamentos();
+            abm_medicamentos.ShowDialog();
+        }
+
+        private void depositoPorSucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMdeposito_x_sucursal menu_deposito_x_sucursal = new ABMdeposito_x_sucursal();
+            menu_deposito_x_sucursal.ShowDialog();
         }
 
         private void síntomasToolStripMenuItem_Click(object sender, EventArgs e)
