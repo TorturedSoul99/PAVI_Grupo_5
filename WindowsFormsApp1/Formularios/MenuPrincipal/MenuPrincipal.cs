@@ -19,6 +19,7 @@ using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
 using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
 using WindowsFormsApp1.Formularios.ABM_Sintomas;
+using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
 
 namespace WindowsFormsApp1
 {
@@ -125,6 +126,12 @@ namespace WindowsFormsApp1
         {
             ABM_Sintomas abm_sintomas = new ABM_Sintomas();
             abm_sintomas.ShowDialog();
+        }
+
+        private void calendarioDeVacunaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABM_CalendarioVacunas abm_calendario_vacunas = new ABM_CalendarioVacunas();
+            abm_calendario_vacunas.ShowDialog();
         }
     }
 }

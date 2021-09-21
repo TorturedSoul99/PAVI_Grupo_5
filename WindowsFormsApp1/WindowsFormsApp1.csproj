@@ -63,6 +63,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.Designer.cs">
+      <DependentUpon>ABM CalendarioVacunas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\Alta CalendarioVacunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\Alta CalendarioVacunas.Designer.cs">
+      <DependentUpon>Alta CalendarioVacunas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\Modificar CalendarioVacunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM CalendarioVacunas\Modificar CalendarioVacunas.Designer.cs">
+      <DependentUpon>Modificar CalendarioVacunas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Consulta\ModificarConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -331,6 +349,15 @@
     <Compile Include="Negocio\NE_usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.resx">
+      <DependentUpon>ABM CalendarioVacunas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM CalendarioVacunas\Alta CalendarioVacunas.resx">
+      <DependentUpon>Alta CalendarioVacunas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM CalendarioVacunas\Modificar CalendarioVacunas.resx">
+      <DependentUpon>Modificar CalendarioVacunas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Consulta\ModificarConsulta.resx">
       <DependentUpon>ModificarConsulta.cs</DependentUpon>
     </EmbeddedResource>

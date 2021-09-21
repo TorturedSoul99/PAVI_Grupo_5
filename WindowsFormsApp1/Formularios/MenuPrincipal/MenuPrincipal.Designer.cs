@@ -37,6 +37,7 @@ namespace WindowsFormsApp1
             this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentosPorRecetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.depositoPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.síntomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMVacunacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.internacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,7 +55,7 @@ namespace WindowsFormsApp1
             this.medicamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.síntomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calendarioDeVacunaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -130,10 +131,18 @@ namespace WindowsFormsApp1
             this.depositoPorSucursalToolStripMenuItem.Text = "Deposito por Sucursal";
             this.depositoPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.depositoPorSucursalToolStripMenuItem_Click);
             // 
+            // síntomasToolStripMenuItem
+            // 
+            this.síntomasToolStripMenuItem.Name = "síntomasToolStripMenuItem";
+            this.síntomasToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.síntomasToolStripMenuItem.Text = "Síntomas";
+            this.síntomasToolStripMenuItem.Click += new System.EventHandler(this.síntomasToolStripMenuItem_Click);
+            // 
             // vacunacionToolStripMenuItem
             // 
             this.vacunacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aBMVacunacionToolStripMenuItem});
+            this.aBMVacunacionToolStripMenuItem,
+            this.calendarioDeVacunaciónToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
             this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.vacunacionToolStripMenuItem.Text = "Vacunación";
@@ -141,7 +150,7 @@ namespace WindowsFormsApp1
             // aBMVacunacionToolStripMenuItem
             // 
             this.aBMVacunacionToolStripMenuItem.Name = "aBMVacunacionToolStripMenuItem";
-            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.aBMVacunacionToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.aBMVacunacionToolStripMenuItem.Text = "Vacunación";
             this.aBMVacunacionToolStripMenuItem.Click += new System.EventHandler(this.aBMVacunacionToolStripMenuItem_Click);
             // 
@@ -256,12 +265,12 @@ namespace WindowsFormsApp1
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
             // 
-            // síntomasToolStripMenuItem
+            // calendarioDeVacunaciónToolStripMenuItem
             // 
-            this.síntomasToolStripMenuItem.Name = "síntomasToolStripMenuItem";
-            this.síntomasToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.síntomasToolStripMenuItem.Text = "Síntomas";
-            this.síntomasToolStripMenuItem.Click += new System.EventHandler(this.síntomasToolStripMenuItem_Click);
+            this.calendarioDeVacunaciónToolStripMenuItem.Name = "calendarioDeVacunaciónToolStripMenuItem";
+            this.calendarioDeVacunaciónToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calendarioDeVacunaciónToolStripMenuItem.Text = "Calendario de vacunación";
+            this.calendarioDeVacunaciónToolStripMenuItem.Click += new System.EventHandler(this.calendarioDeVacunaciónToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -311,6 +320,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem medicamentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem depositoPorSucursalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem síntomasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calendarioDeVacunaciónToolStripMenuItem;
     }
 }
 
