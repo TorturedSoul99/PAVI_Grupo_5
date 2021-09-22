@@ -33,17 +33,17 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblHC = new System.Windows.Forms.Label();
-            this.textBoxVacuna = new System.Windows.Forms.TextBox();
-            this.textBoxFechaEstimada = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePickerFechaReal = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxEmpleado = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxDosis = new System.Windows.Forms.TextBox();
             this.comboBoxLaboratorio = new WindowsFormsApp1.Back_end.ComboBox01();
             this.comboBoxNHC = new WindowsFormsApp1.Back_end.ComboBox01();
+            this.comboBox011 = new WindowsFormsApp1.Back_end.ComboBox01();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox012 = new WindowsFormsApp1.Back_end.ComboBox01();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -86,22 +86,6 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.lblHC.TabIndex = 8;
             this.lblHC.Text = "Numero de Historia Clinica";
             // 
-            // textBoxVacuna
-            // 
-            this.textBoxVacuna.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxVacuna.Location = new System.Drawing.Point(222, 70);
-            this.textBoxVacuna.Name = "textBoxVacuna";
-            this.textBoxVacuna.Size = new System.Drawing.Size(177, 24);
-            this.textBoxVacuna.TabIndex = 12;
-            // 
-            // textBoxFechaEstimada
-            // 
-            this.textBoxFechaEstimada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFechaEstimada.Location = new System.Drawing.Point(222, 109);
-            this.textBoxFechaEstimada.Name = "textBoxFechaEstimada";
-            this.textBoxFechaEstimada.Size = new System.Drawing.Size(200, 24);
-            this.textBoxFechaEstimada.TabIndex = 12;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -114,10 +98,10 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             // 
             // dateTimePickerFechaReal
             // 
-            this.dateTimePickerFechaReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerFechaReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerFechaReal.Location = new System.Drawing.Point(222, 151);
             this.dateTimePickerFechaReal.Name = "dateTimePickerFechaReal";
-            this.dateTimePickerFechaReal.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePickerFechaReal.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerFechaReal.TabIndex = 13;
             // 
             // label4
@@ -129,14 +113,6 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.label4.Size = new System.Drawing.Size(81, 20);
             this.label4.TabIndex = 6;
             this.label4.Text = "Empleado";
-            // 
-            // textBoxEmpleado
-            // 
-            this.textBoxEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmpleado.Location = new System.Drawing.Point(222, 191);
-            this.textBoxEmpleado.Name = "textBoxEmpleado";
-            this.textBoxEmpleado.Size = new System.Drawing.Size(200, 24);
-            this.textBoxEmpleado.TabIndex = 12;
             // 
             // label5
             // 
@@ -192,19 +168,53 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.comboBoxNHC.Size = new System.Drawing.Size(71, 26);
             this.comboBoxNHC.TabIndex = 10;
             // 
+            // comboBox011
+            // 
+            this.comboBox011._ComboSinSeleccion = false;
+            this.comboBox011._tabla_cargar_combo = null;
+            this.comboBox011._tabla_cargar_descriptor = null;
+            this.comboBox011._tabla_cargar_pk = null;
+            this.comboBox011.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox011.FormattingEnabled = true;
+            this.comboBox011.Location = new System.Drawing.Point(222, 71);
+            this.comboBox011.Name = "comboBox011";
+            this.comboBox011.Size = new System.Drawing.Size(180, 26);
+            this.comboBox011.TabIndex = 10;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(222, 111);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 13;
+            // 
+            // comboBox012
+            // 
+            this.comboBox012._ComboSinSeleccion = false;
+            this.comboBox012._tabla_cargar_combo = null;
+            this.comboBox012._tabla_cargar_descriptor = null;
+            this.comboBox012._tabla_cargar_pk = null;
+            this.comboBox012.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox012.FormattingEnabled = true;
+            this.comboBox012.Location = new System.Drawing.Point(222, 190);
+            this.comboBox012.Name = "comboBox012";
+            this.comboBox012.Size = new System.Drawing.Size(200, 26);
+            this.comboBox012.TabIndex = 10;
+            // 
             // Modificar_CalendarioVacunas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(432, 378);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dateTimePickerFechaReal);
             this.Controls.Add(this.textBoxDosis);
-            this.Controls.Add(this.textBoxEmpleado);
-            this.Controls.Add(this.textBoxFechaEstimada);
-            this.Controls.Add(this.textBoxVacuna);
             this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.comboBox012);
             this.Controls.Add(this.comboBoxLaboratorio);
+            this.Controls.Add(this.comboBox011);
             this.Controls.Add(this.comboBoxNHC);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -231,15 +241,15 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHC;
-        private System.Windows.Forms.TextBox textBoxVacuna;
-        private System.Windows.Forms.TextBox textBoxFechaEstimada;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePickerFechaReal;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxEmpleado;
         private System.Windows.Forms.Label label5;
         private Back_end.ComboBox01 comboBoxLaboratorio;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxDosis;
+        private Back_end.ComboBox01 comboBox011;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private Back_end.ComboBox01 comboBox012;
     }
 }
