@@ -8,7 +8,7 @@ using WindowsFormsApp1.Back_end;
 
 namespace WindowsFormsApp1.Negocio
 {
-    class Ne_laboratorio
+    class NE_laboratorio
     {
         BE_Acceso_datos _BD = new BE_Acceso_datos();
 

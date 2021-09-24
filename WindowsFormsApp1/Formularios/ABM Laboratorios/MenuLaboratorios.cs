@@ -33,7 +33,7 @@ namespace WindowsFormsApp1.Formularios
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            Ne_laboratorio laboratorio = new Ne_laboratorio();
+            NE_laboratorio laboratorio = new NE_laboratorio();
             
             DataTable tabla = new DataTable();
             tabla = laboratorio.BuscarLaboratorio(txtbConsulta.Text);
