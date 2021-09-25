@@ -42,9 +42,10 @@ namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(290, 200);
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(282, 196);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(83, 27);
             this.btnAgregar.TabIndex = 22;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
