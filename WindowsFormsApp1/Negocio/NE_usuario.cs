@@ -31,7 +31,7 @@ namespace WindowsFormsApp1.Negocio
                 return Validacion.incorrecta;
             }
         }
-
+        
 
 
     }

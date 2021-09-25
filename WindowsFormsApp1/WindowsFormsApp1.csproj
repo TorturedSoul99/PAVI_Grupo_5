@@ -347,6 +347,10 @@
     </Compile>
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
     <Compile Include="Negocio\NE_sintomas.cs" />
+    <Compile Include="Negocio\NE_Empleados.cs" />
+    <Compile Include="Negocio\NE_laboratorio.cs" />
+    <Compile Include="Negocio\NE_Raza.cs" />
+    <Compile Include="Negocio\NE_Sucursal.cs" />
     <Compile Include="Negocio\NE_usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
