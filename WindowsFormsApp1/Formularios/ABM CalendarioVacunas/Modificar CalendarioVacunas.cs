@@ -17,6 +17,11 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             InitializeComponent();
         }
 
-
+        private void Modificar_CalendarioVacunas_Load(object sender, EventArgs e)
+        {
+            comboBoxNHC._CargarDistintos();
+            comboBoxEmpleados._Cargar();
+            comboBoxLaboratorio._Cargar();
+        }
     }
 }

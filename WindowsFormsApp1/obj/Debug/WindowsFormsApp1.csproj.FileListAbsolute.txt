@@ -128,7 +128,6 @@ C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Deb
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
-C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.ModificarConsulta.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.NuevaConsulta.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
@@ -181,3 +180,4 @@ C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de 
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache

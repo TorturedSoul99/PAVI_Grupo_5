@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Negocio;
-using System.Data;
 
 
 namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
@@ -26,6 +25,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         {
             Alta_CalendarioVacunas alta = new Alta_CalendarioVacunas();
             alta.ShowDialog();
+            Cargar_calendario_vacunas();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -37,14 +37,17 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         private void ABM_CalendarioVacunas_Load(object sender, EventArgs e)
         {
             Cargar_calendario_vacunas();
+            comboBoxConsulta._Cargar();
             dataGridViewCalendarioVacunas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            if (maskedTextBoxCalendarioVacunas.Text != string.Empty)
+            if (maskedTextBoxCalendarioVacunas.Text != string.Empty && comboBoxConsulta.SelectedIndex != -1)
             {
-                DataTable tabla = negocio.Buscar_calendario_vacunas(maskedTextBoxCalendarioVacunas.Text);
+                string nhc = maskedTextBoxCalendarioVacunas.Text;
+                string sucursal = comboBoxConsulta.SelectedValue.ToString();
+                DataTable tabla = negocio.Buscar_calendario_vacunas(nhc, sucursal);
                 dataGridViewCalendarioVacunas.Cargar(tabla);
             }
             else

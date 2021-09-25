@@ -31,11 +31,11 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         {
             this.dateTimePickerFechaEstimada = new System.Windows.Forms.DateTimePicker();
             this.lblHC = new System.Windows.Forms.Label();
-            this.comboBoxNHC = new WindowsFormsApp1.Back_end.ComboBox01();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBoxVacuna = new WindowsFormsApp1.Back_end.ComboBox01();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.comboBoxVacuna = new WindowsFormsApp1.Back_end.ComboBox01();
+            this.comboBoxNHC = new WindowsFormsApp1.Back_end.ComboBox01();
             this.SuspendLayout();
             // 
             // dateTimePickerFechaEstimada
@@ -56,19 +56,6 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.lblHC.TabIndex = 2;
             this.lblHC.Text = "Numero de Historia Clinica";
             // 
-            // comboBoxNHC
-            // 
-            this.comboBoxNHC._ComboSinSeleccion = false;
-            this.comboBoxNHC._tabla_cargar_combo = null;
-            this.comboBoxNHC._tabla_cargar_descriptor = null;
-            this.comboBoxNHC._tabla_cargar_pk = null;
-            this.comboBoxNHC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxNHC.FormattingEnabled = true;
-            this.comboBoxNHC.Location = new System.Drawing.Point(222, 20);
-            this.comboBoxNHC.Name = "comboBoxNHC";
-            this.comboBoxNHC.Size = new System.Drawing.Size(71, 26);
-            this.comboBoxNHC.TabIndex = 3;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -78,19 +65,6 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Vacuna";
-            // 
-            // comboBoxVacuna
-            // 
-            this.comboBoxVacuna._ComboSinSeleccion = false;
-            this.comboBoxVacuna._tabla_cargar_combo = null;
-            this.comboBoxVacuna._tabla_cargar_descriptor = null;
-            this.comboBoxVacuna._tabla_cargar_pk = null;
-            this.comboBoxVacuna.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxVacuna.FormattingEnabled = true;
-            this.comboBoxVacuna.Location = new System.Drawing.Point(222, 68);
-            this.comboBoxVacuna.Name = "comboBoxVacuna";
-            this.comboBoxVacuna.Size = new System.Drawing.Size(177, 26);
-            this.comboBoxVacuna.TabIndex = 3;
             // 
             // label2
             // 
@@ -111,6 +85,33 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.btnAgregar.TabIndex = 4;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // comboBoxVacuna
+            // 
+            this.comboBoxVacuna._ComboSinSeleccion = true;
+            this.comboBoxVacuna._tabla_cargar_combo = "vacunas";
+            this.comboBoxVacuna._tabla_cargar_descriptor = "Nombre";
+            this.comboBoxVacuna._tabla_cargar_pk = "ID_vacuna";
+            this.comboBoxVacuna.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxVacuna.FormattingEnabled = true;
+            this.comboBoxVacuna.Location = new System.Drawing.Point(222, 68);
+            this.comboBoxVacuna.Name = "comboBoxVacuna";
+            this.comboBoxVacuna.Size = new System.Drawing.Size(177, 26);
+            this.comboBoxVacuna.TabIndex = 3;
+            // 
+            // comboBoxNHC
+            // 
+            this.comboBoxNHC._ComboSinSeleccion = true;
+            this.comboBoxNHC._tabla_cargar_combo = "historia_clinica";
+            this.comboBoxNHC._tabla_cargar_descriptor = "Nro_historia_clinica";
+            this.comboBoxNHC._tabla_cargar_pk = "Nro_historia_clinica";
+            this.comboBoxNHC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxNHC.FormattingEnabled = true;
+            this.comboBoxNHC.Location = new System.Drawing.Point(222, 20);
+            this.comboBoxNHC.Name = "comboBoxNHC";
+            this.comboBoxNHC.Size = new System.Drawing.Size(71, 26);
+            this.comboBoxNHC.TabIndex = 3;
             // 
             // Alta_CalendarioVacunas
             // 
@@ -126,9 +127,12 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.Controls.Add(this.lblHC);
             this.Controls.Add(this.dateTimePickerFechaEstimada);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Alta_CalendarioVacunas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Alta Calendario de Vacunación";
+            this.Load += new System.EventHandler(this.Alta_CalendarioVacunas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

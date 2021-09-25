@@ -37,12 +37,14 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.lblHC = new System.Windows.Forms.Label();
             this.dataGridViewCalendarioVacunas = new WindowsFormsApp1.Back_end.DataGridView01();
             this.Nro_historia_clinica = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Vacuna = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha_vacunacion_estimada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha_vacunacion_real = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Empleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Laboratorio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dosis = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBoxConsulta = new WindowsFormsApp1.Back_end.ComboBox01();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCalendarioVacunas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +54,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.btnConsultar.FlatAppearance.BorderSize = 0;
             this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(306, 14);
+            this.btnConsultar.Location = new System.Drawing.Point(443, 12);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(85, 29);
             this.btnConsultar.TabIndex = 14;
@@ -92,7 +94,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             // maskedTextBoxCalendarioVacunas
             // 
             this.maskedTextBoxCalendarioVacunas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxCalendarioVacunas.Location = new System.Drawing.Point(216, 14);
+            this.maskedTextBoxCalendarioVacunas.Location = new System.Drawing.Point(366, 10);
             this.maskedTextBoxCalendarioVacunas.Mask = "99999";
             this.maskedTextBoxCalendarioVacunas.Name = "maskedTextBoxCalendarioVacunas";
             this.maskedTextBoxCalendarioVacunas.Size = new System.Drawing.Size(59, 29);
@@ -107,9 +109,9 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.lblHC.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblHC.Location = new System.Drawing.Point(50, 8);
             this.lblHC.Name = "lblHC";
-            this.lblHC.Size = new System.Drawing.Size(150, 40);
+            this.lblHC.Size = new System.Drawing.Size(164, 40);
             this.lblHC.TabIndex = 17;
-            this.lblHC.Text = "Buscar por Número \r\nde Historia Clinica:";
+            this.lblHC.Text = "Buscar por sucursal y \r\nN° de Historia Clinica:";
             // 
             // dataGridViewCalendarioVacunas
             // 
@@ -118,6 +120,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.dataGridViewCalendarioVacunas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCalendarioVacunas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nro_historia_clinica,
+            this.ID_sucursal,
             this.Vacuna,
             this.Fecha_vacunacion_estimada,
             this.Fecha_vacunacion_real,
@@ -127,7 +130,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.dataGridViewCalendarioVacunas.Location = new System.Drawing.Point(31, 68);
             this.dataGridViewCalendarioVacunas.Name = "dataGridViewCalendarioVacunas";
             this.dataGridViewCalendarioVacunas.ReadOnly = true;
-            this.dataGridViewCalendarioVacunas.Size = new System.Drawing.Size(662, 272);
+            this.dataGridViewCalendarioVacunas.Size = new System.Drawing.Size(737, 272);
             this.dataGridViewCalendarioVacunas.TabIndex = 15;
             // 
             // Nro_historia_clinica
@@ -136,6 +139,13 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.Nro_historia_clinica.Name = "Nro_historia_clinica";
             this.Nro_historia_clinica.ReadOnly = true;
             this.Nro_historia_clinica.Width = 50;
+            // 
+            // ID_sucursal
+            // 
+            this.ID_sucursal.HeaderText = "Sucursal";
+            this.ID_sucursal.Name = "ID_sucursal";
+            this.ID_sucursal.ReadOnly = true;
+            this.ID_sucursal.Width = 80;
             // 
             // Vacuna
             // 
@@ -178,13 +188,26 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.Dosis.Name = "Dosis";
             this.Dosis.ReadOnly = true;
             // 
+            // comboBoxConsulta
+            // 
+            this.comboBoxConsulta._ComboSinSeleccion = true;
+            this.comboBoxConsulta._tabla_cargar_combo = "sucursal";
+            this.comboBoxConsulta._tabla_cargar_descriptor = "Nombre_sucursal";
+            this.comboBoxConsulta._tabla_cargar_pk = "ID_sucursal";
+            this.comboBoxConsulta.FormattingEnabled = true;
+            this.comboBoxConsulta.Location = new System.Drawing.Point(235, 18);
+            this.comboBoxConsulta.Name = "comboBoxConsulta";
+            this.comboBoxConsulta.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxConsulta.TabIndex = 18;
+            // 
             // ABM_CalendarioVacunas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(713, 417);
+            this.ClientSize = new System.Drawing.Size(789, 417);
+            this.Controls.Add(this.comboBoxConsulta);
             this.Controls.Add(this.lblHC);
             this.Controls.Add(this.maskedTextBoxCalendarioVacunas);
             this.Controls.Add(this.dataGridViewCalendarioVacunas);
@@ -212,14 +235,16 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
         private Back_end.DataGridView01 dataGridViewCalendarioVacunas;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxCalendarioVacunas;
+        private System.Windows.Forms.Label lblHC;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nro_historia_clinica;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_sucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn Vacuna;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_vacunacion_estimada;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_vacunacion_real;
         private System.Windows.Forms.DataGridViewTextBoxColumn Empleado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Laboratorio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Dosis;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxCalendarioVacunas;
-        private System.Windows.Forms.Label lblHC;
+        private Back_end.ComboBox01 comboBoxConsulta;
     }
 }
