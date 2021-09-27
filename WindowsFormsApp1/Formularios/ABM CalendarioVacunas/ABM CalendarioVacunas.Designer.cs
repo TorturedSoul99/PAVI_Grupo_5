@@ -80,6 +80,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.btnEliminar.TabIndex = 10;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -192,8 +193,12 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             // 
             this.comboBoxConsulta._ComboSinSeleccion = true;
             this.comboBoxConsulta._tabla_cargar_combo = "sucursal";
+            this.comboBoxConsulta._tabla_cargar_condicion = null;
             this.comboBoxConsulta._tabla_cargar_descriptor = "Nombre_sucursal";
+            this.comboBoxConsulta._tabla_cargar_fk = null;
             this.comboBoxConsulta._tabla_cargar_pk = "ID_sucursal";
+            this.comboBoxConsulta._tabla_cargar_relacion = null;
+            this.comboBoxConsulta._tabla_cargar_relacion_pk = null;
             this.comboBoxConsulta.FormattingEnabled = true;
             this.comboBoxConsulta.Location = new System.Drawing.Point(235, 18);
             this.comboBoxConsulta.Name = "comboBoxConsulta";

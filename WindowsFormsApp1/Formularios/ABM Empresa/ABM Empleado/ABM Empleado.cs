@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
-using System.Data;
 using WindowsFormsApp1.Negocio;
 
 

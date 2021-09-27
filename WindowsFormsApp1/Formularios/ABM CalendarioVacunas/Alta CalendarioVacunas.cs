@@ -22,7 +22,8 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
 
         private void Alta_CalendarioVacunas_Load(object sender, EventArgs e)
         {
-            comboBoxNHC._Cargar();
+            comboBoxSucursal._Cargar();
+            comboBoxNHC._CargarDistintos();
             comboBoxVacuna._Cargar();
         }
 
@@ -30,13 +31,21 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
         {
             // Faltan hacer validaciones
 
+            string sucursal = comboBoxSucursal.SelectedValue.ToString();
             string nhc = comboBoxNHC.Text;
             string vacuna = comboBoxVacuna.SelectedValue.ToString();
             string fecha = dateTimePickerFechaEstimada.Value.ToString().Split()[0];
 
-            negocio.Alta_calendario_vacunas(nhc, vacuna, fecha);
+            bool agregar = negocio.Alta_calendario_vacunas(nhc, vacuna, sucursal, fecha);
 
-            this.Close();
+            if (agregar)
+            {
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Ya existe una vacuna registrada en la historia clínica seleccionada o la historia clínica no existe, por favor seleccione otra vacuna o historia clínica", "Error al cargar vacuna", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 }
