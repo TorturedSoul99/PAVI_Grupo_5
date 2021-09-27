@@ -31,14 +31,14 @@ namespace WindowsFormsApp1.Formularios
         {
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Grid_laboratorio = new System.Windows.Forms.DataGridView();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnagregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid_laboratorio)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
@@ -49,6 +49,7 @@ namespace WindowsFormsApp1.Formularios
             this.btnConsultar.TabIndex = 22;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txtbConsulta
             // 
@@ -56,19 +57,19 @@ namespace WindowsFormsApp1.Formularios
             this.txtbConsulta.Name = "txtbConsulta";
             this.txtbConsulta.Size = new System.Drawing.Size(235, 20);
             this.txtbConsulta.TabIndex = 21;
-            this.txtbConsulta.Text = "Buscar Nombre de laboratorio";
+            this.txtbConsulta.Text = "Nombre de laboratorio";
             // 
-            // dataGridView1
+            // Grid_laboratorio
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Grid_laboratorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Grid_laboratorio.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nuevo,
             this.Consultar,
             this.Modificar});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 97);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(393, 179);
-            this.dataGridView1.TabIndex = 23;
+            this.Grid_laboratorio.Location = new System.Drawing.Point(12, 97);
+            this.Grid_laboratorio.Name = "Grid_laboratorio";
+            this.Grid_laboratorio.Size = new System.Drawing.Size(393, 179);
+            this.Grid_laboratorio.TabIndex = 23;
             // 
             // Nuevo
             // 
@@ -126,7 +127,7 @@ namespace WindowsFormsApp1.Formularios
             this.Controls.Add(this.btneliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnagregar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Grid_laboratorio);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.DoubleBuffered = true;
@@ -136,7 +137,7 @@ namespace WindowsFormsApp1.Formularios
             this.Name = "MenuLaboratorios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Laboratorios";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid_laboratorio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,7 +147,7 @@ namespace WindowsFormsApp1.Formularios
 
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtbConsulta;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView Grid_laboratorio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;

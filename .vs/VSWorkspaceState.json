@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\WindowsFormsApp1",
-    "\\WindowsFormsApp1\\Back-end",
     "\\WindowsFormsApp1\\Formularios",
-    "\\WindowsFormsApp1\\Formularios\\ABM Empresa",
-    "\\WindowsFormsApp1\\Formularios\\ABM Empresa\\ABM Sucursales",
-    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal"
+    "\\WindowsFormsApp1\\Negocio"
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\Back-end\\BE_Acceso_datos.cs",
+  "SelectedNode": "\\WindowsFormsApp1\\Negocio\\NE_usuario.cs",
   "PreviewInSolutionExplorer": false
 }
