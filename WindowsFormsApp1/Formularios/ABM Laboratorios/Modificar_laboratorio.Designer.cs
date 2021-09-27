@@ -43,7 +43,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Laboratorios
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(82, 30);
             this.btnagregar.TabIndex = 55;
-            this.btnagregar.Text = "Agregar";
+            this.btnagregar.Text = "Modificar";
             this.btnagregar.UseVisualStyleBackColor = true;
             // 
             // txtdescripcion

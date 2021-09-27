@@ -119,5 +119,11 @@ namespace WindowsFormsApp1
             ABMdeposito_x_sucursal menu_deposito_x_sucursal = new ABMdeposito_x_sucursal();
             menu_deposito_x_sucursal.ShowDialog();
         }
+
+        private void depositosPorSucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMdeposito_x_sucursal menu_deposito_x_sucu = new ABMdeposito_x_sucursal();
+            menu_deposito_x_sucu.ShowDialog();
+        }
     }
 }
