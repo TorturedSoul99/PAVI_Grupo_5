@@ -14,7 +14,7 @@ namespace WindowsFormsApp1.Negocio
 
         public DataTable BuscarDeposito_x_sucursal(String id_medicamento)
         {
-            string sql = "SELECT * FROM medicamentos WHERE ID_Medicamento like '%" + id_medicamento + "%'";
+            string sql = "SELECT * FROM deposito_x_sucursal WHERE ID_Medicamento like '%" + id_medicamento + "%'";
             return _BD.EjecutarSelect(sql);
         }
     }
