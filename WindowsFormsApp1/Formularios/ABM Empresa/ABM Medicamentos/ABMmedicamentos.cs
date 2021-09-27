@@ -48,9 +48,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
                 grid_medicamentos.Rows[i].Cells[0].Value = tabla.Rows[i]["ID_medicamento"].ToString();
                 grid_medicamentos.Rows[i].Cells[1].Value = tabla.Rows[i]["ID_Sucursal"].ToString();
                 grid_medicamentos.Rows[i].Cells[2].Value = tabla.Rows[i]["Laboratorio"].ToString();
-                grid_medicamentos.Rows[i].Cells[2].Value = tabla.Rows[i]["Nombre"].ToString();
-                grid_medicamentos.Rows[i].Cells[2].Value = tabla.Rows[i]["FechaUltimaCompra"].ToString();
+                grid_medicamentos.Rows[i].Cells[3].Value = tabla.Rows[i]["Nombre"].ToString();
+                grid_medicamentos.Rows[i].Cells[4].Value = tabla.Rows[i]["FechaUltimaCompra"].ToString();
 
             }
         }
+    }
+
 }

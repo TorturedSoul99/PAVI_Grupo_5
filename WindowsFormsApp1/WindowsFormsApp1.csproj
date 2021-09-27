@@ -297,6 +297,7 @@
     <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.Designer.cs">
       <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_Empleados.cs" />
     <Compile Include="Negocio\NE_laboratorio.cs" />
     <Compile Include="Negocio\NE_Medicamento.cs" />

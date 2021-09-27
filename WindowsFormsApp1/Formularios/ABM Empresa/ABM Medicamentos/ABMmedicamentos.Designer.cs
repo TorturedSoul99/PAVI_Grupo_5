@@ -29,6 +29,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
@@ -128,6 +129,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             // Column3
             // 
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = null;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column3.HeaderText = "Fecha de compra";
             this.Column3.Name = "Column3";
             // 

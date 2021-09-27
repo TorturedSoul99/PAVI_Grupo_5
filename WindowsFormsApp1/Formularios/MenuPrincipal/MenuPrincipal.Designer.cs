@@ -231,6 +231,7 @@ namespace WindowsFormsApp1
             this.depositosPorSucursalesToolStripMenuItem.Name = "depositosPorSucursalesToolStripMenuItem";
             this.depositosPorSucursalesToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.depositosPorSucursalesToolStripMenuItem.Text = "Depositos por Sucursales";
+            this.depositosPorSucursalesToolStripMenuItem.Click += new System.EventHandler(this.depositosPorSucursalesToolStripMenuItem_Click);
             // 
             // medicamentosToolStripMenuItem
             // 
