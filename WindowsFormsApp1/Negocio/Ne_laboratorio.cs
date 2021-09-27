@@ -18,6 +18,12 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sql);
         }
 
+        public void AltaLaboratorio(string nombre,string descripcion) 
+        {
+            string sqlInsertar = "INSERT INTO laboratorios(Nombre,Descripcion) VALUES('"+nombre+"','"+descripcion+"')";
+            _BD.Insertar(sqlInsertar);
+        }
+
     }    
     
     
