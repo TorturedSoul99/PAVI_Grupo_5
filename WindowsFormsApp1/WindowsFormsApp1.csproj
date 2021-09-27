@@ -299,6 +299,7 @@
     </Compile>
     <Compile Include="Negocio\NE_Empleados.cs" />
     <Compile Include="Negocio\NE_laboratorio.cs" />
+    <Compile Include="Negocio\NE_Medicamento.cs" />
     <Compile Include="Negocio\NE_Raza.cs" />
     <Compile Include="Negocio\NE_Sucursal.cs" />
     <Compile Include="Negocio\NE_usuario.cs" />
