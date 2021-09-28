@@ -28,7 +28,7 @@ namespace WindowsFormsApp1.Negocio
 
         public DataTable Buscar_calendario_vacunas(string nhc, string sucursal)
         {
-            string sql = @"SELECT cv.ID_historia_clinica, s.Nombre_sucursal, v.Nombre as 'Vacuna', cv.Fecha_estimada, 
+            string sql = @"SELECT DISTINCT cv.ID_historia_clinica, s.Nombre_sucursal, v.Nombre as 'Vacuna', cv.Fecha_estimada, 
                            cv.Fecha_real, e.Nombre as Empleado, l.Nombre as 'Laboratorio', cv.Dosis
                            FROM calendario_vacunas cv JOIN historia_clinica hc ON cv.ID_historia_clinica = hc.Nro_historia_clinica
                            JOIN vacunas v ON cv.ID_vacuna = v.ID_vacuna

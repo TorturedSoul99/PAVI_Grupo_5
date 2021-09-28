@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
 using WindowsFormsApp1.Negocio;
-using System.Data;
 
 namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
 {
