@@ -133,6 +133,7 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.dataGridViewCalendarioVacunas.ReadOnly = true;
             this.dataGridViewCalendarioVacunas.Size = new System.Drawing.Size(737, 272);
             this.dataGridViewCalendarioVacunas.TabIndex = 15;
+            this.dataGridViewCalendarioVacunas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCalendarioVacunas_CellContentClick);
             // 
             // Nro_historia_clinica
             // 
@@ -202,8 +203,14 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.comboBoxConsulta.FormattingEnabled = true;
             this.comboBoxConsulta.Location = new System.Drawing.Point(235, 18);
             this.comboBoxConsulta.Name = "comboBoxConsulta";
+            this.comboBoxConsulta.Pp_conseleccion = false;
+            this.comboBoxConsulta.Pp_Descripcion = null;
+            this.comboBoxConsulta.Pp_MessageError = null;
+            this.comboBoxConsulta.Pp_Pk = null;
+            this.comboBoxConsulta.Pp_Tabla = null;
             this.comboBoxConsulta.Size = new System.Drawing.Size(121, 21);
             this.comboBoxConsulta.TabIndex = 18;
+            this.comboBoxConsulta.validable = false;
             // 
             // ABM_CalendarioVacunas
             // 

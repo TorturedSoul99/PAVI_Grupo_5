@@ -10,8 +10,15 @@ namespace WindowsFormsApp1.Negocio
 {
     class NE_receta
     {
-       
+
         BE_Acceso_datos _BD = new BE_Acceso_datos();
+
+        public DataTable Cargar_receta()
+        {
+            string sql = "SELECT * FROM receta;";
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            return tabla;
+        }
         public DataTable BuscarReceta(int ID, string columna = "ID")
         {
             string sql = @"SELECT ID, ID_sucursal
@@ -19,7 +26,7 @@ namespace WindowsFormsApp1.Negocio
 
             return _BD.EjecutarSelect(sql);
         }
-        
+
         public bool Alta_receta(int sucu)
         {
             string sql = "SELECT ID, ID_sucursal FROM receta";
@@ -28,7 +35,7 @@ namespace WindowsFormsApp1.Negocio
 
             if (receta.Rows.Count == 0)
             {
-               return false;
+                return false;
             }
             sql = @"INSERT INTO receta ( ID_sucursal )
                     VALUES (" + sucu + ");";
@@ -36,9 +43,23 @@ namespace WindowsFormsApp1.Negocio
             _BD.EjecutarABM(sql);
 
             return true;
-        
+
         }
 
+        public void Modificar_receta(int id_sucursal, int nuevaSucursal)
+        {
+            string sql = "SELECT ID FROM receta WHERE ID_sucursal = '" + id_sucursal + "';";
 
-}
+            DataTable tabla = _BD.EjecutarSelect(sql);
+
+            int id_receta = int.Parse(tabla.Rows[0][0].ToString());
+
+            sql = @"UPDATE receta
+                           SET ID_sucursal = '" + nuevaSucursal +
+                         "' WHERE ID = " + id_receta + ";";
+
+            _BD.EjecutarABM(sql);
+
+        }
+    }
 }

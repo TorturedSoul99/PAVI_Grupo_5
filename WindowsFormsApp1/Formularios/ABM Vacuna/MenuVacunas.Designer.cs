@@ -128,6 +128,7 @@ namespace WindowsFormsApp1.Formularios
             this.Name = "MenuVacunas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Vacunas";
+            this.Load += new System.EventHandler(this.MenuVacunas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvVacunas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

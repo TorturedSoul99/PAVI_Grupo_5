@@ -132,6 +132,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.dgvreceta.Name = "dgvreceta";
             this.dgvreceta.Size = new System.Drawing.Size(420, 234);
             this.dgvreceta.TabIndex = 33;
+            this.dgvreceta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvreceta_CellContentClick);
             // 
             // ID
             // 

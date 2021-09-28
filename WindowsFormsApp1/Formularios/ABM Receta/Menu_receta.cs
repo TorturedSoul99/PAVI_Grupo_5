@@ -14,6 +14,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
 {
     public partial class Menu_receta : Form
     {
+        NE_receta rece = new NE_receta();
         public Menu_receta()
         {
             InitializeComponent();
@@ -27,14 +28,34 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            Modificar_receta mod_receta = new Modificar_receta();
-            mod_receta.ShowDialog();
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvreceta.SelectedRows;
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea modificar para continuar", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Debe seleccionar una sola fila", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                int id = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+                int idSucursal = int.Parse(fila_seleccionada[0].Cells[1].Value.ToString());
+
+                Modificar_receta modificar = new Modificar_receta();
+                modificar._id = id;
+                modificar._idSucursal = idSucursal;
+                modificar.ShowDialog();
+                Cargar_receta();
+            }
         }
 
         private void Menu_receta_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet2.receta' Puede moverla o quitarla según sea necesario.
-                }
+            DataTable receta = rece.Cargar_receta();
+            dgvreceta.Cargar(receta);
+        }
 
         private void dgvSucursales_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -43,9 +64,19 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            NE_receta rece = new NE_receta();
             DataTable tabla = new DataTable();
             tabla = rece.BuscarReceta(Int32.Parse(txtbreceta.Text));
+            dgvreceta.Cargar(tabla);
+        }
+
+        private void dgvreceta_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        
+        private void Cargar_receta()
+        {
+            DataTable tabla = rece.Cargar_receta();
             dgvreceta.Cargar(tabla);
         }
     }

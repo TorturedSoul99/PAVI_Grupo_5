@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.lblSucursal = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblHC = new System.Windows.Forms.Label();
-            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -48,6 +48,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(135, 38);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -65,15 +66,15 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.lblHC.Text = "ID Diagnostico";
             this.lblHC.Click += new System.EventHandler(this.lblHC_Click);
             // 
-            // btnAgregar
+            // btnModificar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(230, 134);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 31;
-            this.btnAgregar.Text = "Modificar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.btnModificar.Location = new System.Drawing.Point(230, 134);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 31;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // textBox2
             // 
@@ -89,7 +90,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(406, 190);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.lblSucursal);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblHC);
@@ -99,6 +100,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.Name = "ModificarDiagnostico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ModificarDiagnostico";
+            this.Load += new System.EventHandler(this.ModificarDiagnostico_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,7 +110,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         private System.Windows.Forms.Label lblSucursal;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblHC;
-        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.TextBox textBox2;
     }
 }

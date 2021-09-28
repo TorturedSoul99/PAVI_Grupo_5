@@ -65,12 +65,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(138, 26);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(202, 20);
             this.textBox1.TabIndex = 34;
-            this.textBox1.Visible = false;
             // 
             // lblHC
             // 
