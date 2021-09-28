@@ -17,10 +17,22 @@ namespace WindowsFormsApp1.Negocio
             string sql = "SELECT * FROM sucursal WHERE Nombre_sucursal like '%" + nombre + "%'";
             return _BD.EjecutarSelect(sql);
         }
+
         public DataTable BuscarTodosSurcursales()
         {
             string sql = "SELECT * FROM sucursal";
             return _BD.EjecutarSelect(sql);
+        }
+
+        public void AltaSucursal(string nombre, int supervisor, int supervisorSuplente)
+        {
+            string sqlInsertar = "INSERT INTO sucursal(Nombre_sucursal,ID_supervisor,ID_supervisor_suplente) VALUES('" + nombre + "'," + supervisor + "," + supervisorSuplente + ")";
+            _BD.Insertar(sqlInsertar);
+        }
+
+        public void BorrarSucursal()
+        {
+            string sqlBorrar = "DELETE FROM sucursal WHERE ID_sucursal = ";
         }
     }
 }

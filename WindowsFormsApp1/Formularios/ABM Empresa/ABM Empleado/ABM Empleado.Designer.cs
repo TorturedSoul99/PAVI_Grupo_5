@@ -33,10 +33,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.grid_empleados = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.txt_IDEmpleado = new System.Windows.Forms.TextBox();
-            this.txt_IDSucursal = new System.Windows.Forms.TextBox();
             this.ID_empleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tipo_documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nro_documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,6 +42,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Fecha_ingreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.txt_IDEmpleado = new System.Windows.Forms.TextBox();
+            this.txt_NOMSucursal = new System.Windows.Forms.TextBox();
             this.btnConsultaID = new System.Windows.Forms.Button();
             this.btnIDSucursal = new System.Windows.Forms.Button();
             this.chkBuscarTodos = new System.Windows.Forms.CheckBox();
@@ -56,7 +56,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             this.btnConsultarNombre.Location = new System.Drawing.Point(36, 24);
             this.btnConsultarNombre.Name = "btnConsultarNombre";
-            this.btnConsultarNombre.Size = new System.Drawing.Size(127, 23);
+            this.btnConsultarNombre.Size = new System.Drawing.Size(159, 23);
             this.btnConsultarNombre.TabIndex = 14;
             this.btnConsultarNombre.Text = "Consultar Nombre";
             this.btnConsultarNombre.UseVisualStyleBackColor = true;
@@ -69,6 +69,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.txt_nombre.Size = new System.Drawing.Size(235, 20);
             this.txt_nombre.TabIndex = 13;
             this.txt_nombre.Text = "Buscar Segun Nombre";
+            this.txt_nombre.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_nombre_MouseClick);
             // 
             // btnModificar
             // 
@@ -97,39 +98,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.grid_empleados.Name = "grid_empleados";
             this.grid_empleados.Size = new System.Drawing.Size(922, 211);
             this.grid_empleados.TabIndex = 11;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(384, 440);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(103, 23);
-            this.btnEliminar.TabIndex = 10;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(115, 440);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
-            this.btnNuevo.TabIndex = 9;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // txt_IDEmpleado
-            // 
-            this.txt_IDEmpleado.Location = new System.Drawing.Point(201, 76);
-            this.txt_IDEmpleado.Name = "txt_IDEmpleado";
-            this.txt_IDEmpleado.Size = new System.Drawing.Size(235, 20);
-            this.txt_IDEmpleado.TabIndex = 15;
-            // 
-            // txt_IDSucursal
-            // 
-            this.txt_IDSucursal.Location = new System.Drawing.Point(201, 126);
-            this.txt_IDSucursal.Name = "txt_IDSucursal";
-            this.txt_IDSucursal.Size = new System.Drawing.Size(235, 20);
-            this.txt_IDSucursal.TabIndex = 16;
+            this.grid_empleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_empleados_CellClick);
+            this.grid_empleados.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_empleados_CellDoubleClick);
             // 
             // ID_empleado
             // 
@@ -176,11 +146,48 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Matricula.HeaderText = "Matricula";
             this.Matricula.Name = "Matricula";
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(384, 440);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(103, 23);
+            this.btnEliminar.TabIndex = 10;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(115, 440);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
+            this.btnNuevo.TabIndex = 9;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // txt_IDEmpleado
+            // 
+            this.txt_IDEmpleado.Location = new System.Drawing.Point(201, 76);
+            this.txt_IDEmpleado.Name = "txt_IDEmpleado";
+            this.txt_IDEmpleado.Size = new System.Drawing.Size(235, 20);
+            this.txt_IDEmpleado.TabIndex = 15;
+            this.txt_IDEmpleado.Text = "Buscar segun ID del Empleado";
+            this.txt_IDEmpleado.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_IDEmpleado_MouseClick);
+            // 
+            // txt_NOMSucursal
+            // 
+            this.txt_NOMSucursal.Location = new System.Drawing.Point(201, 126);
+            this.txt_NOMSucursal.Name = "txt_NOMSucursal";
+            this.txt_NOMSucursal.Size = new System.Drawing.Size(235, 20);
+            this.txt_NOMSucursal.TabIndex = 16;
+            this.txt_NOMSucursal.Text = "Buscar Segun Nombre de sucursal";
+            this.txt_NOMSucursal.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txt_NOMSucursal_MouseClick);
+            // 
             // btnConsultaID
             // 
             this.btnConsultaID.Location = new System.Drawing.Point(36, 74);
             this.btnConsultaID.Name = "btnConsultaID";
-            this.btnConsultaID.Size = new System.Drawing.Size(127, 23);
+            this.btnConsultaID.Size = new System.Drawing.Size(159, 23);
             this.btnConsultaID.TabIndex = 17;
             this.btnConsultaID.Text = "Consultar ID Empleado";
             this.btnConsultaID.UseVisualStyleBackColor = true;
@@ -190,9 +197,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             this.btnIDSucursal.Location = new System.Drawing.Point(36, 124);
             this.btnIDSucursal.Name = "btnIDSucursal";
-            this.btnIDSucursal.Size = new System.Drawing.Size(127, 23);
+            this.btnIDSucursal.Size = new System.Drawing.Size(159, 23);
             this.btnIDSucursal.TabIndex = 18;
-            this.btnIDSucursal.Text = "Consultar ID Surcursal";
+            this.btnIDSucursal.Text = "Consultar Nombre Surcursal";
             this.btnIDSucursal.UseVisualStyleBackColor = true;
             this.btnIDSucursal.Click += new System.EventHandler(this.btnIDSucursal_Click);
             // 
@@ -215,7 +222,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.chkBuscarTodos);
             this.Controls.Add(this.btnIDSucursal);
             this.Controls.Add(this.btnConsultaID);
-            this.Controls.Add(this.txt_IDSucursal);
+            this.Controls.Add(this.txt_NOMSucursal);
             this.Controls.Add(this.txt_IDEmpleado);
             this.Controls.Add(this.btnConsultarNombre);
             this.Controls.Add(this.txt_nombre);
@@ -243,7 +250,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.TextBox txt_IDEmpleado;
-        private System.Windows.Forms.TextBox txt_IDSucursal;
+        private System.Windows.Forms.TextBox txt_NOMSucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_empleado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo_documento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nro_documento;

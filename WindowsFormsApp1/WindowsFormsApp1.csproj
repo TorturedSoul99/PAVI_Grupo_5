@@ -50,6 +50,10 @@
     <Compile Include="Back-end\ComboBox01.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Back-end\Sabueso_Feliz_Validaciones.cs" />
+    <Compile Include="Back-end\TextBox01.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -125,6 +129,12 @@
     </Compile>
     <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.Designer.cs">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.Designer.cs">
+      <DependentUpon>MostrarEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.cs">
       <SubType>Form</SubType>
@@ -347,6 +357,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.resx">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.resx">
+      <DependentUpon>MostrarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.resx">
       <DependentUpon>ABMmedicamentos.cs</DependentUpon>

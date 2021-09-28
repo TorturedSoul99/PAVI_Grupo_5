@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Formularios
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.Grid_laboratorio = new System.Windows.Forms.DataGridView();
-            this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_lab = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnagregar = new System.Windows.Forms.Button();
@@ -63,19 +63,19 @@ namespace WindowsFormsApp1.Formularios
             // 
             this.Grid_laboratorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Grid_laboratorio.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nuevo,
+            this.ID_lab,
             this.Consultar,
             this.Modificar});
             this.Grid_laboratorio.Location = new System.Drawing.Point(12, 97);
             this.Grid_laboratorio.Name = "Grid_laboratorio";
             this.Grid_laboratorio.Size = new System.Drawing.Size(393, 179);
             this.Grid_laboratorio.TabIndex = 23;
+            this.Grid_laboratorio.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Grid_laboratorio_CellClick);
             // 
-            // Nuevo
+            // ID_lab
             // 
-            this.Nuevo.HeaderText = "ID";
-            this.Nuevo.Name = "Nuevo";
-            this.Nuevo.Visible = false;
+            this.ID_lab.HeaderText = "ID";
+            this.ID_lab.Name = "ID_lab";
             // 
             // Consultar
             // 
@@ -116,6 +116,7 @@ namespace WindowsFormsApp1.Formularios
             this.btneliminar.TabIndex = 26;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // MenuLaboratorios
             // 
@@ -148,11 +149,11 @@ namespace WindowsFormsApp1.Formularios
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtbConsulta;
         private System.Windows.Forms.DataGridView Grid_laboratorio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
         private System.Windows.Forms.Button btnagregar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btneliminar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_lab;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
     }
 }

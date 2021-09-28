@@ -14,6 +14,8 @@ namespace WindowsFormsApp1.Formularios
 {
     public partial class MenuLaboratorios : Form
     {
+        public string id_laboratorio { get; set; }
+        NE_laboratorio laboratorio = new NE_laboratorio();
         public MenuLaboratorios()
         {
             InitializeComponent();
@@ -28,12 +30,12 @@ namespace WindowsFormsApp1.Formularios
         private void btnModificar_Click(object sender, EventArgs e)
         {
             Modificar_laboratorio modificar_lab = new Modificar_laboratorio();
+            modificar_lab.ID_LABORATORIO = id_laboratorio;
             modificar_lab.ShowDialog();
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
-        {
-            NE_laboratorio laboratorio = new NE_laboratorio();
+        {            
             
             DataTable tabla = new DataTable();
             tabla = laboratorio.BuscarLaboratorio(txtbConsulta.Text);
@@ -51,6 +53,17 @@ namespace WindowsFormsApp1.Formularios
                 Grid_laboratorio.Rows[i].Cells[2].Value = tabla.Rows[i]["Descripcion"].ToString();
 
             }
+        }
+
+        private void Grid_laboratorio_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            id_laboratorio = Grid_laboratorio.CurrentRow.Cells["ID_lab"].Value.ToString();
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            laboratorio.Eliminar_laboratorio(Convert.ToInt32(id_laboratorio));
+            MessageBox.Show("El laboratorio se elimino correctamente");
         }
     }
     
