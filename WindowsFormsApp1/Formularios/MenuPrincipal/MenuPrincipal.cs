@@ -14,6 +14,12 @@ using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
+using WindowsFormsApp1.Formularios.ABM_Diagnostico;
+using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
+using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
+using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
+using WindowsFormsApp1.Formularios.ABM_Sintomas;
 
 namespace WindowsFormsApp1
 {
@@ -31,6 +37,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
+            inicio.ShowDialog();
 
         }
 
@@ -68,7 +76,7 @@ namespace WindowsFormsApp1
 
         private void aBMVacunacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MenuVacunacion menu_vac = new MenuVacunacion();
+            MenuVacunas menu_vac = new MenuVacunas();
             menu_vac.ShowDialog();
         }
 
@@ -76,6 +84,60 @@ namespace WindowsFormsApp1
         {
             Menu_receta men_receta = new Menu_receta();
             men_receta.ShowDialog();
+        }
+
+        private void frmMenuPPAL_Load(object sender, EventArgs e)
+        {
+            frm_inicio_de_sesion inicio = new frm_inicio_de_sesion();
+            inicio.ShowDialog();
+            inicio.Dispose();
+        }
+
+        private void menuEstadisticaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void diagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuDiagnostico menu = new MenuDiagnostico();
+            menu.ShowDialog();
+        }
+
+        private void medicamentosPorRecetaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuMedicamentosXReceta menu = new MenuMedicamentosXReceta();
+            menu.ShowDialog();
+        }
+
+        private void medicamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu_medicamentos abm_medicamentos = new Menu_medicamentos();
+            abm_medicamentos.ShowDialog();
+        }
+
+        private void depositoPorSucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMdeposito_x_sucursal menu_deposito_x_sucursal = new ABMdeposito_x_sucursal();
+            menu_deposito_x_sucursal.ShowDialog();
+        }
+
+        private void depositosPorSucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMdeposito_x_sucursal menu_deposito_x_sucu = new ABMdeposito_x_sucursal();
+            menu_deposito_x_sucu.ShowDialog();
+        }
+
+        private void síntomasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABM_Sintomas sintomas = new ABM_Sintomas();
+            sintomas.ShowDialog();
+        }
+
+        private void calendarioDeVacunaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABM_CalendarioVacunas calendario_vacunas = new ABM_CalendarioVacunas();
+            calendario_vacunas.ShowDialog();
         }
     }
 }

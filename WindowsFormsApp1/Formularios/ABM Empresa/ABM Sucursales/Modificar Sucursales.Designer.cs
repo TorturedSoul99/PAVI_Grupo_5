@@ -56,7 +56,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(24, 79);
+            this.lbl2.Location = new System.Drawing.Point(43, 78);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(152, 20);
             this.lbl2.TabIndex = 66;
@@ -66,7 +66,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(24, 35);
+            this.lbl1.Location = new System.Drawing.Point(111, 35);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(84, 20);
             this.lbl1.TabIndex = 65;
@@ -93,9 +93,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnAgregar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Modificar_Sucursales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar_Sucursales";
+            this.Text = "Modificar Sucursal";
             this.ResumeLayout(false);
             this.PerformLayout();
 

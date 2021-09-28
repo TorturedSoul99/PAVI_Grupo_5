@@ -56,7 +56,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             // 
             this.lbl_medicamento.AutoSize = true;
             this.lbl_medicamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_medicamento.Location = new System.Drawing.Point(24, 36);
+            this.lbl_medicamento.Location = new System.Drawing.Point(71, 36);
             this.lbl_medicamento.Name = "lbl_medicamento";
             this.lbl_medicamento.Size = new System.Drawing.Size(105, 20);
             this.lbl_medicamento.TabIndex = 3;
@@ -70,6 +70,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.Controls.Add(this.btn_agregar);
             this.Controls.Add(this.cmb_medicamento);
             this.Controls.Add(this.lbl_medicamento);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Modificar_receta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Receta";

@@ -29,14 +29,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
         /// </summary>
         private void InitializeComponent()
         {
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dtp_FechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.dtp_FechaIngreso = new System.Windows.Forms.DateTimePicker();
+            this.txt_Apellido = new System.Windows.Forms.TextBox();
+            this.txt_Nombre = new System.Windows.Forms.TextBox();
+            this.txt_nroDoc = new System.Windows.Forms.TextBox();
             this.lbl7 = new System.Windows.Forms.Label();
             this.lbl6 = new System.Windows.Forms.Label();
             this.lblE4 = new System.Windows.Forms.Label();
@@ -45,145 +42,165 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.lbl2 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
             this.lbltipoDoc = new System.Windows.Forms.Label();
-            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btn_aceptar = new System.Windows.Forms.Button();
+            this.txt_tipoDoc = new System.Windows.Forms.TextBox();
+            this.txt_Matricula = new System.Windows.Forms.TextBox();
+            this.cmb_IDSucursal = new WindowsFormsApp1.Back_end.ComboBox01();
             this.SuspendLayout();
             // 
-            // dateTimePicker2
+            // dtp_FechaNacimiento
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(193, 241);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 60;
+            this.dtp_FechaNacimiento.Location = new System.Drawing.Point(193, 241);
+            this.dtp_FechaNacimiento.Name = "dtp_FechaNacimiento";
+            this.dtp_FechaNacimiento.Size = new System.Drawing.Size(200, 20);
+            this.dtp_FechaNacimiento.TabIndex = 60;
+            this.dtp_FechaNacimiento.Value = new System.DateTime(2001, 9, 27, 19, 10, 0, 0);
             // 
-            // dateTimePicker1
+            // dtp_FechaIngreso
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(193, 283);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 59;
+            this.dtp_FechaIngreso.Location = new System.Drawing.Point(193, 283);
+            this.dtp_FechaIngreso.Name = "dtp_FechaIngreso";
+            this.dtp_FechaIngreso.Size = new System.Drawing.Size(200, 20);
+            this.dtp_FechaIngreso.TabIndex = 59;
             // 
-            // textBox4
+            // txt_Apellido
             // 
-            this.textBox4.Location = new System.Drawing.Point(193, 199);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(202, 20);
-            this.textBox4.TabIndex = 58;
+            this.txt_Apellido.Location = new System.Drawing.Point(193, 199);
+            this.txt_Apellido.Name = "txt_Apellido";
+            this.txt_Apellido.Size = new System.Drawing.Size(202, 20);
+            this.txt_Apellido.TabIndex = 58;
             // 
-            // textBox3
+            // txt_Nombre
             // 
-            this.textBox3.Location = new System.Drawing.Point(193, 161);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(202, 20);
-            this.textBox3.TabIndex = 57;
+            this.txt_Nombre.Location = new System.Drawing.Point(193, 161);
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(202, 20);
+            this.txt_Nombre.TabIndex = 57;
             // 
-            // textBox1
+            // txt_nroDoc
             // 
-            this.textBox1.Location = new System.Drawing.Point(193, 117);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 20);
-            this.textBox1.TabIndex = 56;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.Location = new System.Drawing.Point(193, 360);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(202, 21);
-            this.comboBox4.TabIndex = 55;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Location = new System.Drawing.Point(193, 323);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(202, 21);
-            this.comboBox3.TabIndex = 54;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Location = new System.Drawing.Point(193, 78);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(202, 21);
-            this.comboBox1.TabIndex = 45;
+            this.txt_nroDoc.Location = new System.Drawing.Point(193, 117);
+            this.txt_nroDoc.Name = "txt_nroDoc";
+            this.txt_nroDoc.Size = new System.Drawing.Size(202, 20);
+            this.txt_nroDoc.TabIndex = 56;
             // 
             // lbl7
             // 
             this.lbl7.AutoSize = true;
-            this.lbl7.Location = new System.Drawing.Point(46, 363);
+            this.lbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7.Location = new System.Drawing.Point(114, 361);
             this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(50, 13);
+            this.lbl7.Size = new System.Drawing.Size(73, 20);
             this.lbl7.TabIndex = 53;
             this.lbl7.Text = "Matricula";
             // 
             // lbl6
             // 
             this.lbl6.AutoSize = true;
-            this.lbl6.Location = new System.Drawing.Point(46, 326);
+            this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.Location = new System.Drawing.Point(102, 324);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(57, 13);
+            this.lbl6.Size = new System.Drawing.Size(85, 20);
             this.lbl6.TabIndex = 52;
             this.lbl6.Text = "IdSucursal";
             // 
             // lblE4
             // 
             this.lblE4.AutoSize = true;
-            this.lblE4.Location = new System.Drawing.Point(46, 247);
+            this.lblE4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblE4.Location = new System.Drawing.Point(50, 241);
             this.lblE4.Name = "lblE4";
-            this.lblE4.Size = new System.Drawing.Size(93, 13);
+            this.lblE4.Size = new System.Drawing.Size(137, 20);
             this.lblE4.TabIndex = 51;
             this.lblE4.Text = "Fecha Nacimiento";
             // 
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(46, 291);
+            this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5.Location = new System.Drawing.Point(55, 283);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(89, 13);
+            this.lbl5.Size = new System.Drawing.Size(132, 20);
             this.lbl5.TabIndex = 50;
             this.lbl5.Text = "Fecha de ingreso";
             // 
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(46, 202);
+            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.Location = new System.Drawing.Point(122, 199);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(44, 13);
+            this.lbl3.Size = new System.Drawing.Size(65, 20);
             this.lbl3.TabIndex = 49;
             this.lbl3.Text = "Apellido";
             // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(46, 164);
+            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(122, 161);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(44, 13);
+            this.lbl2.Size = new System.Drawing.Size(65, 20);
             this.lbl2.TabIndex = 48;
             this.lbl2.Text = "Nombre";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(46, 120);
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(16, 117);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(115, 13);
+            this.lbl1.Size = new System.Drawing.Size(171, 20);
             this.lbl1.TabIndex = 47;
             this.lbl1.Text = "Numero de documento";
             // 
             // lbltipoDoc
             // 
             this.lbltipoDoc.AutoSize = true;
-            this.lbltipoDoc.Location = new System.Drawing.Point(46, 81);
+            this.lbltipoDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipoDoc.Location = new System.Drawing.Point(61, 78);
             this.lbltipoDoc.Name = "lbltipoDoc";
-            this.lbltipoDoc.Size = new System.Drawing.Size(86, 13);
+            this.lbltipoDoc.Size = new System.Drawing.Size(126, 20);
             this.lbltipoDoc.TabIndex = 46;
             this.lbltipoDoc.Text = "Tipo Documento";
             // 
-            // btnAgregar
+            // btn_aceptar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(356, 429);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 44;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btn_aceptar.Location = new System.Drawing.Point(244, 429);
+            this.btn_aceptar.Name = "btn_aceptar";
+            this.btn_aceptar.Size = new System.Drawing.Size(187, 23);
+            this.btn_aceptar.TabIndex = 44;
+            this.btn_aceptar.Text = "Aceptar Modificacion Cliente";
+            this.btn_aceptar.UseVisualStyleBackColor = true;
+            this.btn_aceptar.Click += new System.EventHandler(this.btn_aceptar_Click);
+            // 
+            // txt_tipoDoc
+            // 
+            this.txt_tipoDoc.Location = new System.Drawing.Point(194, 77);
+            this.txt_tipoDoc.Name = "txt_tipoDoc";
+            this.txt_tipoDoc.Size = new System.Drawing.Size(199, 20);
+            this.txt_tipoDoc.TabIndex = 61;
+            // 
+            // txt_Matricula
+            // 
+            this.txt_Matricula.Location = new System.Drawing.Point(194, 360);
+            this.txt_Matricula.Name = "txt_Matricula";
+            this.txt_Matricula.Size = new System.Drawing.Size(199, 20);
+            this.txt_Matricula.TabIndex = 62;
+            // 
+            // cmb_IDSucursal
+            // 
+            this.cmb_IDSucursal.FormattingEnabled = true;
+            this.cmb_IDSucursal.Location = new System.Drawing.Point(194, 322);
+            this.cmb_IDSucursal.Name = "cmb_IDSucursal";
+            this.cmb_IDSucursal.Pp_conseleccion = false;
+            this.cmb_IDSucursal.Pp_Descripcion = "Nombre_sucursal";
+            this.cmb_IDSucursal.Pp_MessageError = null;
+            this.cmb_IDSucursal.Pp_Pk = "ID_sucursal";
+            this.cmb_IDSucursal.Pp_Tabla = "sucursal";
+            this.cmb_IDSucursal.Size = new System.Drawing.Size(199, 21);
+            this.cmb_IDSucursal.TabIndex = 63;
+            this.cmb_IDSucursal.validable = false;
             // 
             // Modificar_Empleado
             // 
@@ -191,14 +208,14 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(477, 476);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_IDSucursal);
+            this.Controls.Add(this.txt_Matricula);
+            this.Controls.Add(this.txt_tipoDoc);
+            this.Controls.Add(this.dtp_FechaNacimiento);
+            this.Controls.Add(this.dtp_FechaIngreso);
+            this.Controls.Add(this.txt_Apellido);
+            this.Controls.Add(this.txt_Nombre);
+            this.Controls.Add(this.txt_nroDoc);
             this.Controls.Add(this.lbl7);
             this.Controls.Add(this.lbl6);
             this.Controls.Add(this.lblE4);
@@ -207,9 +224,13 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.lbltipoDoc);
-            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btn_aceptar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Modificar_Empleado";
-            this.Text = "Modificar_Empleado";
+            this.Text = "Modificar Empleado";
+            this.Load += new System.EventHandler(this.Modificar_Empleado_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,14 +238,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DateTimePicker dtp_FechaNacimiento;
+        private System.Windows.Forms.DateTimePicker dtp_FechaIngreso;
+        private System.Windows.Forms.TextBox txt_Apellido;
+        private System.Windows.Forms.TextBox txt_Nombre;
+        private System.Windows.Forms.TextBox txt_nroDoc;
         private System.Windows.Forms.Label lbl7;
         private System.Windows.Forms.Label lbl6;
         private System.Windows.Forms.Label lblE4;
@@ -233,6 +251,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label lbltipoDoc;
-        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btn_aceptar;
+        private System.Windows.Forms.TextBox txt_tipoDoc;
+        private System.Windows.Forms.TextBox txt_Matricula;
+        private Back_end.ComboBox01 cmb_IDSucursal;
     }
 }

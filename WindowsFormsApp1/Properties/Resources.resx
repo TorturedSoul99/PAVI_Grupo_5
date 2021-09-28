@@ -121,19 +121,22 @@
   <data name="gray-background-lines-strips-material-design-geometry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gray-background-lines-strips-material-design-geometry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="787538" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\787538.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="leather black minimalistic 1920x1080 wallpaper_www.wallpaperto.com_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leather black minimalistic 1920x1080 wallpaper_www.wallpaperto.com_44.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Otros40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Otros40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="787538" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\787538.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhatsApp Image 2021-09-07 at 15.52.30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2021-09-07 at 15.52.30.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="leather black minimalistic 1920x1080 wallpaper_www.wallpaperto.com_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leather black minimalistic 1920x1080 wallpaper_www.wallpaperto.com_44.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Windows 7 02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows 7 02.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3puntos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3puntos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

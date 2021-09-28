@@ -30,33 +30,36 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         private void InitializeComponent()
         {
             this.btnConsultar = new System.Windows.Forms.Button();
-            this.txtbConsulta = new System.Windows.Forms.TextBox();
+            this.txt_denominacion = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.dgvRaza = new System.Windows.Forms.DataGridView();
+            this.grid_raza = new System.Windows.Forms.DataGridView();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRaza)).BeginInit();
+            this.btn_volver = new System.Windows.Forms.Button();
+            this.chk_todos = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(12, 49);
+            this.btnConsultar.Location = new System.Drawing.Point(12, 87);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(90, 23);
             this.btnConsultar.TabIndex = 20;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
-            // txtbConsulta
+            // txt_denominacion
             // 
-            this.txtbConsulta.Location = new System.Drawing.Point(139, 52);
-            this.txtbConsulta.Name = "txtbConsulta";
-            this.txtbConsulta.Size = new System.Drawing.Size(276, 20);
-            this.txtbConsulta.TabIndex = 19;
-            this.txtbConsulta.Text = "Buscar Segun denominacion...";
+            this.txt_denominacion.Location = new System.Drawing.Point(139, 90);
+            this.txt_denominacion.Name = "txt_denominacion";
+            this.txt_denominacion.Size = new System.Drawing.Size(276, 20);
+            this.txt_denominacion.TabIndex = 19;
+            this.txt_denominacion.Text = "Buscar Segun denominacion...";
             // 
             // btnModificar
             // 
@@ -68,17 +71,17 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // dgvRaza
+            // grid_raza
             // 
-            this.dgvRaza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRaza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.grid_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nuevo,
             this.Consultar,
             this.Modificar});
-            this.dgvRaza.Location = new System.Drawing.Point(81, 144);
-            this.dgvRaza.Name = "dgvRaza";
-            this.dgvRaza.Size = new System.Drawing.Size(372, 179);
-            this.dgvRaza.TabIndex = 17;
+            this.grid_raza.Location = new System.Drawing.Point(81, 168);
+            this.grid_raza.Name = "grid_raza";
+            this.grid_raza.Size = new System.Drawing.Size(372, 179);
+            this.grid_raza.TabIndex = 17;
             // 
             // Nuevo
             // 
@@ -114,22 +117,47 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
+            // btn_volver
+            // 
+            this.btn_volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_volver.Location = new System.Drawing.Point(309, 25);
+            this.btn_volver.Name = "btn_volver";
+            this.btn_volver.Size = new System.Drawing.Size(196, 31);
+            this.btn_volver.TabIndex = 21;
+            this.btn_volver.Text = "Regresar al menu principal";
+            this.btn_volver.UseVisualStyleBackColor = true;
+            // 
+            // chk_todos
+            // 
+            this.chk_todos.AutoSize = true;
+            this.chk_todos.Location = new System.Drawing.Point(139, 121);
+            this.chk_todos.Name = "chk_todos";
+            this.chk_todos.Size = new System.Drawing.Size(56, 17);
+            this.chk_todos.TabIndex = 22;
+            this.chk_todos.Text = "Todos";
+            this.chk_todos.UseVisualStyleBackColor = true;
+            // 
             // Raza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(517, 441);
+            this.Controls.Add(this.chk_todos);
+            this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.btnConsultar);
-            this.Controls.Add(this.txtbConsulta);
+            this.Controls.Add(this.txt_denominacion);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.dgvRaza);
+            this.Controls.Add(this.grid_raza);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Raza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Raza";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRaza)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,13 +166,15 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         #endregion
 
         private System.Windows.Forms.Button btnConsultar;
-        private System.Windows.Forms.TextBox txtbConsulta;
+        private System.Windows.Forms.TextBox txt_denominacion;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.DataGridView dgvRaza;
+        private System.Windows.Forms.DataGridView grid_raza;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btn_volver;
+        private System.Windows.Forms.CheckBox chk_todos;
     }
 }

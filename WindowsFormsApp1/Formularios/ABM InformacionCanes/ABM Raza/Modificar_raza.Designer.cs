@@ -73,7 +73,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             this.lblcuidadosespeciales.AutoSize = true;
             this.lblcuidadosespeciales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcuidadosespeciales.Location = new System.Drawing.Point(12, 155);
+            this.lblcuidadosespeciales.Location = new System.Drawing.Point(23, 153);
             this.lblcuidadosespeciales.Name = "lblcuidadosespeciales";
             this.lblcuidadosespeciales.Size = new System.Drawing.Size(157, 20);
             this.lblcuidadosespeciales.TabIndex = 9;
@@ -83,7 +83,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             this.lblsexo.AutoSize = true;
             this.lblsexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsexo.Location = new System.Drawing.Point(12, 101);
+            this.lblsexo.Location = new System.Drawing.Point(135, 101);
             this.lblsexo.Name = "lblsexo";
             this.lblsexo.Size = new System.Drawing.Size(45, 20);
             this.lblsexo.TabIndex = 8;
@@ -93,7 +93,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             this.lbldenominacion.AutoSize = true;
             this.lbldenominacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldenominacion.Location = new System.Drawing.Point(12, 53);
+            this.lbldenominacion.Location = new System.Drawing.Point(69, 53);
             this.lbldenominacion.Name = "lbldenominacion";
             this.lbldenominacion.Size = new System.Drawing.Size(111, 20);
             this.lbldenominacion.TabIndex = 7;
@@ -111,11 +111,12 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Controls.Add(this.lblcuidadosespeciales);
             this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.lbldenominacion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Modificar_raza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modificar_raza";
+            this.Text = "Modificar raza";
             this.ResumeLayout(false);
             this.PerformLayout();
 
