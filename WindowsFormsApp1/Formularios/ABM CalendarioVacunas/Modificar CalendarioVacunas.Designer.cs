@@ -208,8 +208,14 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.comboBoxEmpleados.FormattingEnabled = true;
             this.comboBoxEmpleados.Location = new System.Drawing.Point(222, 235);
             this.comboBoxEmpleados.Name = "comboBoxEmpleados";
+            this.comboBoxEmpleados.Pp_conseleccion = false;
+            this.comboBoxEmpleados.Pp_Descripcion = null;
+            this.comboBoxEmpleados.Pp_MessageError = null;
+            this.comboBoxEmpleados.Pp_Pk = null;
+            this.comboBoxEmpleados.Pp_Tabla = null;
             this.comboBoxEmpleados.Size = new System.Drawing.Size(198, 26);
             this.comboBoxEmpleados.TabIndex = 16;
+            this.comboBoxEmpleados.validable = false;
             // 
             // comboBoxLaboratorio
             // 
@@ -225,8 +231,14 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
             this.comboBoxLaboratorio.FormattingEnabled = true;
             this.comboBoxLaboratorio.Location = new System.Drawing.Point(222, 198);
             this.comboBoxLaboratorio.Name = "comboBoxLaboratorio";
+            this.comboBoxLaboratorio.Pp_conseleccion = false;
+            this.comboBoxLaboratorio.Pp_Descripcion = null;
+            this.comboBoxLaboratorio.Pp_MessageError = null;
+            this.comboBoxLaboratorio.Pp_Pk = null;
+            this.comboBoxLaboratorio.Pp_Tabla = null;
             this.comboBoxLaboratorio.Size = new System.Drawing.Size(200, 26);
             this.comboBoxLaboratorio.TabIndex = 10;
+            this.comboBoxLaboratorio.validable = false;
             // 
             // Modificar_CalendarioVacunas
             // 

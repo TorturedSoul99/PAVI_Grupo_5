@@ -93,6 +93,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet5.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -624,6 +639,39 @@
     </None>
     <None Include="BD3K3G05_2021DataSet5.xss">
       <DependentUpon>BD3K3G05_2021DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet6.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet6.xss">
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xss">
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xss">
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

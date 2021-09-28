@@ -101,5 +101,10 @@ namespace WindowsFormsApp1.Formularios.ABM_CalendarioVacunas
                 Cargar_calendario_vacunas();
             }
         }
+
+        private void dataGridViewCalendarioVacunas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

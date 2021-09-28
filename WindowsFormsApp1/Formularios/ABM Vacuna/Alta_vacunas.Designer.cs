@@ -77,17 +77,17 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(125, 61);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(199, 20);
             this.textBox1.TabIndex = 13;
-            this.textBox1.Visible = false;
             // 
             // Alta_vacunacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Otros40;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(437, 216);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_agregar);

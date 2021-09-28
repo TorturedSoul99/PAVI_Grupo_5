@@ -32,14 +32,14 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.components = new System.ComponentModel.Container();
             this.lbl_sucu = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.sucursalBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bD3K3G05_2021DataSet5 = new WindowsFormsApp1.BD3K3G05_2021DataSet5();
             this.btn_agregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.bD3K3G05_2021DataSet5 = new WindowsFormsApp1.BD3K3G05_2021DataSet5();
-            this.sucursalBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sucursalTableAdapter = new WindowsFormsApp1.BD3K3G05_2021DataSet5TableAdapters.sucursalTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet5)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_sucu
@@ -61,6 +61,16 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(241, 21);
             this.comboBox1.TabIndex = 1;
+            // 
+            // sucursalBindingSource
+            // 
+            this.sucursalBindingSource.DataMember = "sucursal";
+            this.sucursalBindingSource.DataSource = this.bD3K3G05_2021DataSet5;
+            // 
+            // bD3K3G05_2021DataSet5
+            // 
+            this.bD3K3G05_2021DataSet5.DataSetName = "BD3K3G05_2021DataSet5";
+            this.bD3K3G05_2021DataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btn_agregar
             // 
@@ -85,21 +95,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(181, 32);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 20);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Visible = false;
-            // 
-            // bD3K3G05_2021DataSet5
-            // 
-            this.bD3K3G05_2021DataSet5.DataSetName = "BD3K3G05_2021DataSet5";
-            this.bD3K3G05_2021DataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // sucursalBindingSource
-            // 
-            this.sucursalBindingSource.DataMember = "sucursal";
-            this.sucursalBindingSource.DataSource = this.bD3K3G05_2021DataSet5;
             // 
             // sucursalTableAdapter
             // 
@@ -109,6 +109,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(452, 154);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -122,8 +123,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta Receta";
             this.Load += new System.EventHandler(this.Alta_receta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

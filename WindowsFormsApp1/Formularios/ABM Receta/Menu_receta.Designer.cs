@@ -106,6 +106,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnEliminar.TabIndex = 28;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -132,6 +133,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.dgvreceta.Name = "dgvreceta";
             this.dgvreceta.Size = new System.Drawing.Size(420, 234);
             this.dgvreceta.TabIndex = 33;
+            this.dgvreceta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvreceta_CellContentClick);
             // 
             // ID
             // 
