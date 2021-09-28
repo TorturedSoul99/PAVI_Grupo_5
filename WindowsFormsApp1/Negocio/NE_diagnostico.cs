@@ -58,5 +58,11 @@ namespace WindowsFormsApp1.Negocio
 
             _BD.EjecutarABM(sql);
         }
+
+        public void Eliminar_diagnostico( int id, string nombre)
+        {
+            string sql = "DELETE FROM diagnostico WHERE ID_diagnostico = " + id + " AND Nombre = '" + nombre + "';";
+            _BD.EjecutarABM(sql);
+        }
     }
 }

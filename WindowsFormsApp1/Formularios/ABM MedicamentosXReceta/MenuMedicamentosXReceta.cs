@@ -86,5 +86,28 @@ namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
             dgvMXR.Cargar(tabla);
         }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvMXR.SelectedRows;
+
+            int id_rec = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+            int id_med = int.Parse(fila_seleccionada[0].Cells[1].Value.ToString());
+            string periodicidad = fila_seleccionada[0].Cells[2].Value.ToString();
+            string dosis = fila_seleccionada[0].Cells[3].Value.ToString();
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea eliminar antes de continuar", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Seleccione solo una fila", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                medicamentoXReceta.Eliminar_medicamentoxreceta(id_rec, id_med, dosis, periodicidad);
+                Cargar_medicamentoxreceta();
+            }
+        }
     }
 }

@@ -61,5 +61,11 @@ namespace WindowsFormsApp1.Negocio
             _BD.EjecutarABM(sql);
 
         }
+
+        public void Eliminar_receta( int id, int id_sucursal)
+        {
+            string sql = "DELETE FROM receta WHERE ID = " + id + " AND ID_sucursal = " + id_sucursal + ";";
+            _BD.EjecutarABM(sql);
+        }
     }
 }

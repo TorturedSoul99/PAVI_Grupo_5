@@ -79,5 +79,27 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             DataTable tabla = rece.Cargar_receta();
             dgvreceta.Cargar(tabla);
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvreceta.SelectedRows;
+
+            int id = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+            int id_sucursal = int.Parse(fila_seleccionada[0].Cells[1].Value.ToString());
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea eliminar antes de continuar", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Seleccione solo una fila", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                rece.Eliminar_receta(id, id_sucursal);
+                Cargar_receta();
+            }
+        }
     }
 }

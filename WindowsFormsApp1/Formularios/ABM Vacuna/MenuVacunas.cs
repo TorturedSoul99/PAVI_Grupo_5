@@ -72,5 +72,27 @@ namespace WindowsFormsApp1.Formularios
             DataTable vacu = vacuna.Cargar_vacunas();
             dgvVacunas.Cargar(vacu);
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvVacunas.SelectedRows;
+
+            int id = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+            string Nombre = fila_seleccionada[0].Cells[1].Value.ToString();
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea eliminar antes de continuar", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Seleccione solo una fila", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                vacuna.Eliminar_vacuna(id, Nombre);
+                Cargar_vacunas();
+            }
+        }
     }
 }

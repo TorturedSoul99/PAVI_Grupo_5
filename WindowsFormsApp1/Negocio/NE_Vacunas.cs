@@ -57,5 +57,11 @@ namespace WindowsFormsApp1.Negocio
             _BD.EjecutarABM(sql);
 
         }
+        public void Eliminar_vacuna(int id, string nombre)
+        {
+            string sql = "DELETE FROM vacunas WHERE ID_vacuna = " + id + " AND Nombre = '" + nombre + "';";
+            _BD.EjecutarABM(sql);
+        }
     }
+
 }
