@@ -20,11 +20,9 @@ C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\D
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
-C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.inicio_de_sesion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
-C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunacion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
@@ -229,3 +227,35 @@ C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de 
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
 C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacunacion.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
