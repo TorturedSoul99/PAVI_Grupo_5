@@ -30,14 +30,14 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         private void InitializeComponent()
         {
             this.btn_agregar = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dtp_fecha_compra = new System.Windows.Forms.DateTimePicker();
+            this.txt_nombre_medicamento = new System.Windows.Forms.TextBox();
             this.lbl_sucursal_medicamentos = new System.Windows.Forms.Label();
             this.lbl_fecha_compra = new System.Windows.Forms.Label();
             this.lbl_laboratorio_medicamento = new System.Windows.Forms.Label();
             this.lbl_nombre_medicamento = new System.Windows.Forms.Label();
+            this.cmb_lab_medic = new WindowsFormsApp1.Back_end.ComboBox01();
+            this.cmb_sucu_medicamento = new WindowsFormsApp1.Back_end.ComboBox01();
             this.SuspendLayout();
             // 
             // btn_agregar
@@ -49,36 +49,21 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.btn_agregar.TabIndex = 25;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
-            // dateTimePicker1
+            // dtp_fecha_compra
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(182, 141);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 22;
+            this.dtp_fecha_compra.Location = new System.Drawing.Point(182, 141);
+            this.dtp_fecha_compra.Name = "dtp_fecha_compra";
+            this.dtp_fecha_compra.Size = new System.Drawing.Size(200, 20);
+            this.dtp_fecha_compra.TabIndex = 22;
             // 
-            // comboBox2
+            // txt_nombre_medicamento
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(182, 90);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 21);
-            this.comboBox2.TabIndex = 21;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(182, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 20;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(182, 188);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 19;
+            this.txt_nombre_medicamento.Location = new System.Drawing.Point(182, 38);
+            this.txt_nombre_medicamento.Name = "txt_nombre_medicamento";
+            this.txt_nombre_medicamento.Size = new System.Drawing.Size(200, 20);
+            this.txt_nombre_medicamento.TabIndex = 20;
             // 
             // lbl_sucursal_medicamentos
             // 
@@ -120,16 +105,44 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.lbl_nombre_medicamento.TabIndex = 13;
             this.lbl_nombre_medicamento.Text = "Nombre";
             // 
+            // cmb_lab_medic
+            // 
+            this.cmb_lab_medic.FormattingEnabled = true;
+            this.cmb_lab_medic.Location = new System.Drawing.Point(183, 89);
+            this.cmb_lab_medic.Name = "cmb_lab_medic";
+            this.cmb_lab_medic.Pp_conseleccion = false;
+            this.cmb_lab_medic.Pp_Descripcion = "Nombre";
+            this.cmb_lab_medic.Pp_MessageError = null;
+            this.cmb_lab_medic.Pp_Pk = "ID_laboratorio";
+            this.cmb_lab_medic.Pp_Tabla = "laboratorios";
+            this.cmb_lab_medic.Size = new System.Drawing.Size(199, 21);
+            this.cmb_lab_medic.TabIndex = 26;
+            this.cmb_lab_medic.validable = false;
+            // 
+            // cmb_sucu_medicamento
+            // 
+            this.cmb_sucu_medicamento.FormattingEnabled = true;
+            this.cmb_sucu_medicamento.Location = new System.Drawing.Point(182, 189);
+            this.cmb_sucu_medicamento.Name = "cmb_sucu_medicamento";
+            this.cmb_sucu_medicamento.Pp_conseleccion = false;
+            this.cmb_sucu_medicamento.Pp_Descripcion = "Nombre_sucursal";
+            this.cmb_sucu_medicamento.Pp_MessageError = null;
+            this.cmb_sucu_medicamento.Pp_Pk = "ID_sucursal";
+            this.cmb_sucu_medicamento.Pp_Tabla = "sucursal";
+            this.cmb_sucu_medicamento.Size = new System.Drawing.Size(200, 21);
+            this.cmb_sucu_medicamento.TabIndex = 27;
+            this.cmb_sucu_medicamento.validable = false;
+            // 
             // Modificar_medicamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(404, 310);
+            this.Controls.Add(this.cmb_sucu_medicamento);
+            this.Controls.Add(this.cmb_lab_medic);
             this.Controls.Add(this.btn_agregar);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.dtp_fecha_compra);
+            this.Controls.Add(this.txt_nombre_medicamento);
             this.Controls.Add(this.lbl_sucursal_medicamentos);
             this.Controls.Add(this.lbl_fecha_compra);
             this.Controls.Add(this.lbl_laboratorio_medicamento);
@@ -138,6 +151,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Name = "Modificar_medicamentos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar Medicamentos";
+            this.Load += new System.EventHandler(this.Modificar_medicamentos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,13 +160,13 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         #endregion
 
         private System.Windows.Forms.Button btn_agregar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_compra;
+        private System.Windows.Forms.TextBox txt_nombre_medicamento;
         private System.Windows.Forms.Label lbl_sucursal_medicamentos;
         private System.Windows.Forms.Label lbl_fecha_compra;
         private System.Windows.Forms.Label lbl_laboratorio_medicamento;
         private System.Windows.Forms.Label lbl_nombre_medicamento;
+        private Back_end.ComboBox01 cmb_lab_medic;
+        private Back_end.ComboBox01 cmb_sucu_medicamento;
     }
 }

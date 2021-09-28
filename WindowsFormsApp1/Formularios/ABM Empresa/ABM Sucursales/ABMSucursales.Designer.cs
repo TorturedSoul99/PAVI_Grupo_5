@@ -33,13 +33,13 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.gridSucursales = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.chk_SucursalTodos = new System.Windows.Forms.CheckBox();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.chk_SucursalTodos = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridSucursales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,9 +82,31 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Modificar});
             this.gridSucursales.Location = new System.Drawing.Point(27, 144);
             this.gridSucursales.Name = "gridSucursales";
-            this.gridSucursales.Size = new System.Drawing.Size(434, 179);
+            this.gridSucursales.Size = new System.Drawing.Size(431, 179);
             this.gridSucursales.TabIndex = 23;
             this.gridSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
+            // 
+            // Nuevo
+            // 
+            this.Nuevo.HeaderText = "IDSucursal";
+            this.Nuevo.MinimumWidth = 10;
+            this.Nuevo.Name = "Nuevo";
+            // 
+            // nombre_sucursal
+            // 
+            this.nombre_sucursal.HeaderText = "Nombre";
+            this.nombre_sucursal.Name = "nombre_sucursal";
+            // 
+            // Consultar
+            // 
+            this.Consultar.HeaderText = "IDSupervisor";
+            this.Consultar.Name = "Consultar";
+            // 
+            // Modificar
+            // 
+            this.Modificar.DividerWidth = 10;
+            this.Modificar.HeaderText = "IDSupervisorSuplente";
+            this.Modificar.Name = "Modificar";
             // 
             // btnEliminar
             // 
@@ -114,28 +136,6 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.chk_SucursalTodos.TabIndex = 27;
             this.chk_SucursalTodos.Text = "Mostrar Todos";
             this.chk_SucursalTodos.UseVisualStyleBackColor = true;
-            // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "IDSucursal";
-            this.Nuevo.MinimumWidth = 10;
-            this.Nuevo.Name = "Nuevo";
-            // 
-            // nombre_sucursal
-            // 
-            this.nombre_sucursal.HeaderText = "Nombre";
-            this.nombre_sucursal.Name = "nombre_sucursal";
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "IDSupervisor";
-            this.Consultar.Name = "Consultar";
-            // 
-            // Modificar
-            // 
-            this.Modificar.DividerWidth = 10;
-            this.Modificar.HeaderText = "IDSupervisorSuplente";
-            this.Modificar.Name = "Modificar";
             // 
             // ABMSucursales
             // 
