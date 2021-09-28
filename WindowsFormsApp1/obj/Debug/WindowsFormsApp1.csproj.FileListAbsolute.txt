@@ -175,3 +175,4 @@ C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debu
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources

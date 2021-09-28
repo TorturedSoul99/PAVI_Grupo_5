@@ -17,7 +17,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
 {
     public partial class ABM_Empleado : Form
     {
-        
+         
+
         public ABM_Empleado()
         {
             InitializeComponent();
