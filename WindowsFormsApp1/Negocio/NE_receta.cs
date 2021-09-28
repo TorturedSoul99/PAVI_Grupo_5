@@ -20,24 +20,24 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sql);
         }
         
-        //public bool Alta_receta(int sucu)
-        //{
-         //   string sql = "SELECT ID, ID_sucursal FROM receta";
+        public bool Alta_receta(int sucu)
+        {
+            string sql = "SELECT ID, ID_sucursal FROM receta";
 
-           // DataTable receta = _BD.EjecutarSelect(sql);
+            DataTable receta = _BD.EjecutarSelect(sql);
 
-            //if (receta.Rows.Count == 0)
-            //{
-            //    return false;
-            //}
-            //sql = @"INSERT INTO receta ( ID_sucursal )
-             //       VALUES (" + sucu + ");";
+            if (receta.Rows.Count == 0)
+            {
+               return false;
+            }
+            sql = @"INSERT INTO receta ( ID_sucursal )
+                    VALUES (" + sucu + ");";
 
-            //_BD.EjecutarABM(sql);
+            _BD.EjecutarABM(sql);
 
-        //    return true;
+            return true;
         
-        //}
+        }
 
 
 }

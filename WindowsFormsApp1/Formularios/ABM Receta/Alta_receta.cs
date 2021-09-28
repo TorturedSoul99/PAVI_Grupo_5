@@ -28,16 +28,24 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            //    int id_sucu = Int32.Parse(comboBox1.Text);
-        //  bool agregar = receta.Alta_receta(id_sucu);
-         //   if (agregar)
-           // {
-            //    this.Close();
-            //}
-            //else
-            //{
-             //   MessageBox.Show("Ya existe una receta para esa sucursal", "Error al cargar la receta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            //}
+            if (comboBox1.SelectedItem != null)
+            {
+                int id_sucu = Int32.Parse(comboBox1.Text);
+                bool agregar = receta.Alta_receta(id_sucu);
+                if (agregar)
+                {
+                    MessageBox.Show("Se agrego correctamente la receta", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe una receta para esa sucursal", "Error al cargar la receta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se selecciono una sucursal", "Error al cargar la receta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 }

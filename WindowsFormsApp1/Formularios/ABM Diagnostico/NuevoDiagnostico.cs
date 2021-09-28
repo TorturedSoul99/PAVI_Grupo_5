@@ -21,15 +21,23 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text.ToString();
-            bool agregar = diagnostico.Alta_diagnostico(nombre);
-            if (agregar)
+            if (txtNombre.Text != "")
             {
-                this.Close();
+                string nombre = txtNombre.Text.ToString();
+                bool agregar = diagnostico.Alta_diagnostico(nombre);
+                if (agregar)
+                {
+                    MessageBox.Show("Se agrego correctamente el diagnostico", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe una diagnostico con ese nombre", "Error al cargar diagnostico", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
             else
             {
-                MessageBox.Show("Ya existe una diagnostico con ese nombre", "Error al cargar diagnostico", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Falto ingresar nombre al diagnostico", "Error al cargar el diagnostico", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }

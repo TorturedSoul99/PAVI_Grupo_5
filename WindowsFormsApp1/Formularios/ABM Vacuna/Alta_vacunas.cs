@@ -21,15 +21,23 @@ namespace WindowsFormsApp1.Formularios.ABM_Vacunacion
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            string nombre = txbNombre.Text.ToString();
-            bool agregar = vacuna.Alta_vacuna(nombre);
-            if (agregar)
+            if (txbNombre.Text != "")
             {
-                this.Close();
+                string nombre = txbNombre.Text.ToString();
+                bool agregar = vacuna.Alta_vacuna(nombre);
+                if (agregar)
+                {
+                    MessageBox.Show("Se agrego correctamente la vacuna", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe una vacuna con ese nombre", "Error al cargar la vacuna", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
             else
             {
-                MessageBox.Show("Ya existe una vacuna con ese nombre", "Error al cargar la vacuna", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("No se ingreso nombre para la vacuna", "Error al cargar la vacuna", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
