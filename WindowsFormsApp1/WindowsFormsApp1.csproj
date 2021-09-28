@@ -218,6 +218,12 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.Designer.cs">
+      <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -350,6 +356,7 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_diagnostico.cs" />
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
     <Compile Include="Negocio\NE_MedicamentoXReceta.cs" />
@@ -357,6 +364,7 @@
     <Compile Include="Negocio\NE_sintomas.cs" />
     <Compile Include="Negocio\NE_Empleados.cs" />
     <Compile Include="Negocio\NE_laboratorio.cs" />
+    <Compile Include="Negocio\NE_Medicamento.cs" />
     <Compile Include="Negocio\NE_Raza.cs" />
     <Compile Include="Negocio\NE_Sucursal.cs" />
     <Compile Include="Negocio\NE_usuario.cs" />

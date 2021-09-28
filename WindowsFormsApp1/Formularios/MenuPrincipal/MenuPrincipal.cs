@@ -18,8 +18,8 @@ using WindowsFormsApp1.Formularios.ABM_Diagnostico;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
 using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
-using WindowsFormsApp1.Formularios.ABM_Sintomas;
 using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
+using WindowsFormsApp1.Formularios.ABM_Sintomas;
 
 namespace WindowsFormsApp1
 {
@@ -122,16 +122,22 @@ namespace WindowsFormsApp1
             menu_deposito_x_sucursal.ShowDialog();
         }
 
+        private void depositosPorSucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMdeposito_x_sucursal menu_deposito_x_sucu = new ABMdeposito_x_sucursal();
+            menu_deposito_x_sucu.ShowDialog();
+        }
+
         private void síntomasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ABM_Sintomas abm_sintomas = new ABM_Sintomas();
-            abm_sintomas.ShowDialog();
+            ABM_Sintomas sintomas = new ABM_Sintomas();
+            sintomas.ShowDialog();
         }
 
         private void calendarioDeVacunaciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ABM_CalendarioVacunas abm_calendario_vacunas = new ABM_CalendarioVacunas();
-            abm_calendario_vacunas.ShowDialog();
+            ABM_CalendarioVacunas calendario_vacunas = new ABM_CalendarioVacunas();
+            calendario_vacunas.ShowDialog();
         }
     }
 }
