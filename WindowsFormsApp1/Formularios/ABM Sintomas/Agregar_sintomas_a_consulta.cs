@@ -27,5 +27,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
         {
             ComboBoxSintomas._Cargar();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
