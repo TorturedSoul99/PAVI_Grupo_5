@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.Negocio
         {
 
             string sqlModificar = @"UPDATE medicamentos SET ID_Sucursal = " + sucursal + ","
-                                          + "Laboratorio = " + laboratorio + ", " + "Nombre = '" + nombre + "',' FechaUltimaCompra = '" + fecha + "'  WHERE ID_medicamento = " + id;
+                                          + "Laboratorio = " + laboratorio + ", " + "Nombre = '" + nombre + "', FechaUltimaCompra = '" + fecha + "'  WHERE ID_medicamento = " + id;
 
             _BD.Insertar(sqlModificar);
         }

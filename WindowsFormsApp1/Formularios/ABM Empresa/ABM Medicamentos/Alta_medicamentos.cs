@@ -30,7 +30,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            medicamento.AltaMedicamento(txt_nombre_medicamento.Text, cmb_laboratorio_med.SelectedIndex, dtp_fechaCompra.Value.ToString(), cmb_sucursal_med.SelectedIndex);          
+            medicamento.AltaMedicamento(txt_nombre_medicamento.Text, cmb_laboratorio_med.SelectedIndex, dtp_fechaCompra.Value.ToString(), cmb_sucursal_med.SelectedIndex);
+            MessageBox.Show("Se cargo correctamente");
         }
     }
 }

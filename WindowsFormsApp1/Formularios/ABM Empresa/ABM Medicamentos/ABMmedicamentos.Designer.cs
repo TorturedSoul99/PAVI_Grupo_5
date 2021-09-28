@@ -34,13 +34,13 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.grid_medicamentos = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.ID_medicamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grid_medicamentos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,25 +85,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.grid_medicamentos.Name = "grid_medicamentos";
             this.grid_medicamentos.Size = new System.Drawing.Size(493, 179);
             this.grid_medicamentos.TabIndex = 29;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(421, 395);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
-            this.btnEliminar.TabIndex = 28;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(152, 395);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
-            this.btnNuevo.TabIndex = 27;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.grid_medicamentos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_medicamentos_CellClick);
             // 
             // ID_medicamento
             // 
@@ -134,6 +116,26 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Column3.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column3.HeaderText = "Fecha de compra";
             this.Column3.Name = "Column3";
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(421, 395);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(102, 23);
+            this.btnEliminar.TabIndex = 28;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(152, 395);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
+            this.btnNuevo.TabIndex = 27;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Menu_medicamentos
             // 

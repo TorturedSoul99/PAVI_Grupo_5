@@ -30,9 +30,28 @@ namespace WindowsFormsApp1.Negocio
             _BD.Insertar(sqlInsertar);
         }
 
-        public void BorrarSucursal()
+        public DataTable Recuperar_x_ID_Sucursal(int ID)
         {
-            string sqlBorrar = "DELETE FROM sucursal WHERE ID_sucursal = ";
+            string sqlRecuperarID = "SELECT * FROM sucursal WHERE ID_sucursal = " + ID;
+            //_BD.EjecutarSelect(sqlRecuperarID);
+            return _BD.EjecutarSelect(sqlRecuperarID);
         }
+
+        public void Modificar_Sucursal(string NomSucursal, int id_supervisor, int id_supervisor_suplente, int id_sucursal)
+        {
+            string sqlModificarSucursal = @"UPDATE sucursal SET Nombre_sucursal = '" + NomSucursal + "',"
+                                          + "ID_supervisor = " + id_supervisor + ","
+                                          + "ID_supervisor_suplente = " + id_supervisor_suplente + " "
+                                          + "WHERE ID_sucursal = " + id_sucursal;
+            _BD.Insertar(sqlModificarSucursal);
+        }
+
+
+        public void EliminarSucursal(int id)
+        {
+            string sqlEliminarSucursal = "DELETE FROM sucursal WHERE ID_sucursal = " + id;
+            _BD.Insertar(sqlEliminarSucursal);
+        }
+
     }
 }
