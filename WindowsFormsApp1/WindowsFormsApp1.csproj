@@ -63,11 +63,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="BD3K3G05_2021DataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +213,12 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.Designer.cs">
+      <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,17 +291,17 @@
     <Compile Include="Formularios\ABM Sintomas\Modificar Sintomas.Designer.cs">
       <DependentUpon>Modificar Sintomas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\Alta_vacunas.cs">
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\Alta_vacunas.Designer.cs">
-      <DependentUpon>Alta_vacunas.cs</DependentUpon>
+    <Compile Include="Formularios\ABM Vacunacion\Alta_vacunacion.Designer.cs">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\modificar_vacunas.cs">
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\modificar_vacunas.Designer.cs">
-      <DependentUpon>modificar_vacunas.cs</DependentUpon>
+    <Compile Include="Formularios\ABM Vacunacion\modificar_vacunacion.Designer.cs">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
@@ -344,23 +345,21 @@
     <Compile Include="Formularios\ABM Laboratorios\MenuLaboratorios.Designer.cs">
       <DependentUpon>MenuLaboratorios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\MenuVacunas.cs">
+    <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
-      <DependentUpon>MenuVacunas.cs</DependentUpon>
+    <Compile Include="Formularios\ABM Vacunacion\MenuVacunacion.Designer.cs">
+      <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Negocio\NE_diagnostico.cs" />
+    <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
-    <Compile Include="Negocio\NE_MedicamentoXReceta.cs" />
-    <Compile Include="Negocio\NE_receta.cs" />
     <Compile Include="Negocio\NE_sintomas.cs" />
     <Compile Include="Negocio\NE_Empleados.cs" />
     <Compile Include="Negocio\NE_laboratorio.cs" />
+    <Compile Include="Negocio\NE_Medicamento.cs" />
     <Compile Include="Negocio\NE_Raza.cs" />
     <Compile Include="Negocio\NE_Sucursal.cs" />
     <Compile Include="Negocio\NE_usuario.cs" />
-    <Compile Include="Negocio\NE_Vacunas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.resx">
@@ -474,11 +473,11 @@
     <EmbeddedResource Include="Formularios\ABM Sintomas\Modificar Sintomas.resx">
       <DependentUpon>Modificar Sintomas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ABM Vacuna\Alta_vacunas.resx">
-      <DependentUpon>Alta_vacunas.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\Alta_vacunacion.resx">
+      <DependentUpon>Alta_vacunacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ABM Vacuna\modificar_vacunas.resx">
-      <DependentUpon>modificar_vacunas.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\modificar_vacunacion.resx">
+      <DependentUpon>modificar_vacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -501,8 +500,8 @@
     <EmbeddedResource Include="Formularios\ABM Laboratorios\MenuLaboratorios.resx">
       <DependentUpon>MenuLaboratorios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ABM Vacuna\MenuVacunas.resx">
-      <DependentUpon>MenuVacunas.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\ABM Vacunacion\MenuVacunacion.resx">
+      <DependentUpon>MenuVacunacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -535,17 +534,6 @@
     </None>
     <None Include="BD3K3G05_2021DataSet1.xss">
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="BD3K3G05_2021DataSet2.xsc">
-      <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="BD3K3G05_2021DataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BD3K3G05_2021DataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BD3K3G05_2021DataSet2.xss">
-      <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
