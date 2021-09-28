@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Negocio;
+using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
 
 namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
 {
@@ -15,6 +16,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
     {
         NE_Sucursal sucursal = new NE_Sucursal();
         DataTable tabla = new DataTable();
+        public string ID__SUCURSAL {get;set;}
         public ABMSucursales()
         {
             InitializeComponent();
@@ -28,8 +30,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            Modificar_Sucursales modif = new Modificar_Sucursales();
-            modif.ShowDialog();
+            Modificar_Sucursales modificar_sucursal = new Modificar_Sucursales();
+            //Modificar_Sucursales modif = new Modificar_Sucursales();
+            modificar_sucursal.ID_sucursal_recuperado = ID__SUCURSAL;
+            modificar_sucursal.ShowDialog();
 
         }
 
@@ -75,6 +79,19 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
         {
             //int cont = 0;
             txtbConsulta.Text = ""; 
+        }
+
+        private void gridSucursales_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ID__SUCURSAL = gridSucursales.CurrentRow.Cells["Nuevo"].Value.ToString();          
+        }
+
+        private void gridSucursales_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Mostrar_sucursal mostrar_sucursal = new Mostrar_sucursal();
+            //Modificar_Sucursales modif = new Modificar_Sucursales();
+            mostrar_sucursal.Id_recuperado_sucursal = ID__SUCURSAL;
+            mostrar_sucursal.ShowDialog();
         }
     }
 }

@@ -14,6 +14,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
 {
     public partial class Menu_medicamentos : Form
     {
+        public string Id_MEDICAMENTO { get; set; }
+        
         public Menu_medicamentos()
         {
             InitializeComponent();
@@ -28,6 +30,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         private void btnModificar_Click(object sender, EventArgs e)
         {
             Modificar_medicamentos mod_medicamentos = new Modificar_medicamentos();
+            mod_medicamentos.ID_MEDICAMENTO = Id_MEDICAMENTO;
             mod_medicamentos.ShowDialog();
         }
 
@@ -52,6 +55,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
                 grid_medicamentos.Rows[i].Cells[4].Value = tabla.Rows[i]["FechaUltimaCompra"].ToString();
 
             }
+        }
+
+        private void grid_medicamentos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Id_MEDICAMENTO = grid_medicamentos.CurrentRow.Cells["ID_medicamento"].Value.ToString();
         }
     }
 
