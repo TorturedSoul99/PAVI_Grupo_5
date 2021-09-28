@@ -18,5 +18,22 @@ namespace WindowsFormsApp1.Negocio
 
             return _BD.EjecutarSelect(sql);
         }
+        public bool Alta_diagnostico(string nombre)
+        {
+            string sql = "SELECT ID_diagnostico, Nombre FROM diagnostico WHERE Nombre like '%" + nombre + "%'";
+
+            DataTable diagnostico = _BD.EjecutarSelect(sql);
+
+            if (diagnostico.Rows.Count != 0)
+            {
+                return false;
+            }
+            sql = @"INSERT INTO diagnostico ( Nombre )
+                    VALUES ('"+ nombre +"');";
+
+            _BD.EjecutarABM(sql);
+
+            return true;
+        }
     }
 }

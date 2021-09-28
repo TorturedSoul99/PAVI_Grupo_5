@@ -18,6 +18,22 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sql);
 
         }
+        public bool Alta_vacuna(string nombre)
+        {
+            string sql = "SELECT ID_vacuna, Nombre FROM vacunas WHERE Nombre like '%" + nombre + "%'";
 
+            DataTable vacuna = _BD.EjecutarSelect(sql);
+
+            if (vacuna.Rows.Count != 0)
+            {
+                return false;
+            }
+            sql = @"INSERT INTO vacunas ( Nombre )
+                    VALUES ('" + nombre + "');";
+
+            _BD.EjecutarABM(sql);
+
+            return true;
+        }
     }
 }

@@ -18,5 +18,22 @@ namespace WindowsFormsApp1.Negocio
 
             return _BD.EjecutarSelect(sql);
         }
+        public bool Alta_MedicamentoXReceta(int medicamento, int receta, string perio, string dosis)
+        {
+            string sql = "SELECT * FROM medicamentos_x_receta WHERE ID_medicamento = '" + medicamento + "' AND ID_receta = '" + receta+ "'";
+
+            DataTable MXReceta = _BD.EjecutarSelect(sql);
+
+            if (MXReceta.Rows.Count != 0)
+            {
+                return false;
+            }
+            sql = @"INSERT INTO medicamentos_x_receta ( ID_receta, ID_medicamento, Periodicidad, Dosis )
+                    VALUES ('" + receta + "' , '" + medicamento + "' , '"+ perio + "' , '" + dosis + "'); ";
+
+            _BD.EjecutarABM(sql);
+
+            return true;
+        }
     }
 }
