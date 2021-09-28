@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
+using WindowsFormsApp1.Negocio;
 
 namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 {
@@ -40,6 +41,25 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         {
             // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet.diagnostico' Puede moverla o quitarla según sea necesario.
             this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
+
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            NE_diagnostico diagnostico = new NE_diagnostico();
+            DataTable tabla = new DataTable();
+            tabla = diagnostico.BuscarDiagnostico(txtbConsulta.Text);
+            gdDiagnostico.Cargar(tabla);
+ 
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView011_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

@@ -76,7 +76,7 @@ namespace WindowsFormsApp1
 
         private void aBMVacunacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MenuVacunacion menu_vac = new MenuVacunacion();
+            MenuVacunas menu_vac = new MenuVacunas();
             menu_vac.ShowDialog();
         }
 
