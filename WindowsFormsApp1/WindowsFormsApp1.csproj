@@ -53,6 +53,12 @@
     <Compile Include="Back-end\DataGridView01.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Back-end\LabelText02.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Back-end\LabelText02.Designer.cs">
+      <DependentUpon>LabelText02.cs</DependentUpon>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -371,6 +377,9 @@
     <Compile Include="Negocio\NE_Vacunas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Back-end\LabelText02.resx">
+      <DependentUpon>LabelText02.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.resx">
       <DependentUpon>ABM CalendarioVacunas.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,17 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\WindowsFormsApp1",
-    "\\WindowsFormsApp1\\Back-end",
-    "\\WindowsFormsApp1\\Formularios",
-    "\\WindowsFormsApp1\\Formularios\\ABM Empresa",
-    "\\WindowsFormsApp1\\Formularios\\ABM Empresa\\ABM Sucursales",
-    "\\WindowsFormsApp1\\Formularios\\ABM InformacionCanes",
-    "\\WindowsFormsApp1\\Formularios\\ABM InformacionCanes\\ABM Raza",
-    "\\WindowsFormsApp1\\Formularios\\ABM MedicamentosXReceta",
-    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal",
-    "\\WindowsFormsApp1\\Negocio"
+    ""
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\ABM MedicamentosXReceta\\MenuMedicamentosXReceta.cs",
+  "SelectedNode": "\\WindowsFormsApp1.sln",
   "PreviewInSolutionExplorer": false
 }
