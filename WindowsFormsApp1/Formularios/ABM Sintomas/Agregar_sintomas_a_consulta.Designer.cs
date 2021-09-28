@@ -54,6 +54,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             this.btnAgregar.TabIndex = 64;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // button1
             // 
@@ -73,14 +74,24 @@ namespace WindowsFormsApp1.Formularios.ABM_Sintomas
             // 
             this.ComboBoxSintomas._ComboSinSeleccion = true;
             this.ComboBoxSintomas._tabla_cargar_combo = "sintomas";
+            this.ComboBoxSintomas._tabla_cargar_condicion = null;
             this.ComboBoxSintomas._tabla_cargar_descriptor = "Nombre";
+            this.ComboBoxSintomas._tabla_cargar_fk = null;
             this.ComboBoxSintomas._tabla_cargar_pk = "ID_sintoma";
+            this.ComboBoxSintomas._tabla_cargar_relacion = null;
+            this.ComboBoxSintomas._tabla_cargar_relacion_pk = null;
             this.ComboBoxSintomas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxSintomas.FormattingEnabled = true;
             this.ComboBoxSintomas.Location = new System.Drawing.Point(170, 47);
             this.ComboBoxSintomas.Name = "ComboBoxSintomas";
+            this.ComboBoxSintomas.Pp_conseleccion = false;
+            this.ComboBoxSintomas.Pp_Descripcion = null;
+            this.ComboBoxSintomas.Pp_MessageError = null;
+            this.ComboBoxSintomas.Pp_Pk = null;
+            this.ComboBoxSintomas.Pp_Tabla = null;
             this.ComboBoxSintomas.Size = new System.Drawing.Size(220, 24);
             this.ComboBoxSintomas.TabIndex = 66;
+            this.ComboBoxSintomas.validable = false;
             // 
             // Agregar_sintomas_a_consulta
             // 

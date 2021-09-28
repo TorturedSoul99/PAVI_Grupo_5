@@ -41,7 +41,7 @@ namespace WindowsFormsApp1.Back_end
             this.lblEtiqueta.Size = new System.Drawing.Size(35, 13);
             this.lblEtiqueta.TabIndex = 0;
             this.lblEtiqueta.Text = "label1";
-            this.lblEtiqueta.Click += new System.EventHandler(this.label1_Click);
+//            this.lblEtiqueta.Click += new System.EventHandler(this.label1_Click);
             // 
             // TxtDato
             // 
