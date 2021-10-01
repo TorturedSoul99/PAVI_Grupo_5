@@ -109,6 +109,7 @@ namespace WindowsFormsApp1
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
             this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.historiaClinicaToolStripMenuItem.Text = "Historia Clínica";
+            this.historiaClinicaToolStripMenuItem.Click += new System.EventHandler(this.historiaClinicaToolStripMenuItem_Click);
             // 
             // diagnosticoToolStripMenuItem
             // 

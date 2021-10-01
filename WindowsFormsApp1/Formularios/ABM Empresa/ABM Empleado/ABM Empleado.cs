@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Negocio;
-using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
+
 
 
 namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
