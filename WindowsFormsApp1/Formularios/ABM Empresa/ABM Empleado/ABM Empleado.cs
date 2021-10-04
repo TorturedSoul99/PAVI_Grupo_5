@@ -163,7 +163,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
 
         private void grid_empleados_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            ID_empleadoo = grid_empleados.CurrentRow.Cells["ID_empleado"].Value.ToString();
+           ID_empleadoo = grid_empleados.CurrentRow.Cells["ID_empleado"].Value.ToString();           
         }
 
         private void grid_empleados_CellContentClick(object sender, DataGridViewCellEventArgs e)

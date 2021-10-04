@@ -26,8 +26,16 @@ namespace WindowsFormsApp1.Negocio
 
         public void AltaSucursal(string nombre, int supervisor, int supervisorSuplente)
         {
-            string sqlInsertar = "INSERT INTO sucursal(Nombre_sucursal,ID_supervisor,ID_supervisor_suplente) VALUES('" + nombre + "'," + supervisor + "," + supervisorSuplente + ")";
-            _BD.Insertar(sqlInsertar);
+            if (nombre != "" & supervisor == -1 && supervisorSuplente == -1)
+            {
+                string sqlInsertar = "INSERT INTO sucursal(Nombre_sucursal,ID_supervisor,ID_supervisor_suplente) VALUES('" + nombre + "',null,null)";
+                _BD.Insertar(sqlInsertar);
+            }
+            else
+            {
+                string sqlInsertar = "INSERT INTO sucursal(Nombre_sucursal,ID_supervisor,ID_supervisor_suplente) VALUES('" + nombre + "'," + supervisor + "," + supervisorSuplente + ")";
+                _BD.Insertar(sqlInsertar);
+            }
         }
 
         public DataTable Recuperar_x_ID_Sucursal(int ID)
