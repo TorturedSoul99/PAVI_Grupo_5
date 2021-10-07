@@ -270,10 +270,10 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.Designer.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.Designer.cs">
       <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
@@ -389,6 +389,12 @@
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\Menu Estadisticas.Designer.cs">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.Designer.cs">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -512,6 +518,9 @@
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.resx">
       <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.resx">
+      <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.resx">
       <DependentUpon>Alta_raza.cs</DependentUpon>
     </EmbeddedResource>
@@ -583,6 +592,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\Menu Estadisticas.resx">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.resx">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
