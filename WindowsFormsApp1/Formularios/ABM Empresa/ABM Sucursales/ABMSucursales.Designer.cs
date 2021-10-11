@@ -84,7 +84,9 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.gridSucursales.Name = "gridSucursales";
             this.gridSucursales.Size = new System.Drawing.Size(431, 179);
             this.gridSucursales.TabIndex = 23;
+            this.gridSucursales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridSucursales_CellClick);
             this.gridSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
+            this.gridSucursales.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridSucursales_CellDoubleClick);
             // 
             // Nuevo
             // 

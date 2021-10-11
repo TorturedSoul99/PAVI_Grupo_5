@@ -234,6 +234,12 @@
     <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.Designer.cs">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.Designer.cs">
+      <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,10 +270,10 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.Designer.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.Designer.cs">
       <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
@@ -354,6 +360,24 @@
     <Compile Include="Formularios\ABM Vacuna\modificar_vacunas.Designer.cs">
       <DependentUpon>modificar_vacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.Designer.cs">
+      <DependentUpon>Alta_HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.Designer.cs">
+      <DependentUpon>Menu_HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.Designer.cs">
+      <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -365,6 +389,12 @@
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\Menu Estadisticas.Designer.cs">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.Designer.cs">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -402,9 +432,11 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_consulta.cs" />
     <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_diagnostico.cs" />
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
+    <Compile Include="Negocio\NE_historiaClinica.cs" />
     <Compile Include="Negocio\NE_MedicamentoXReceta.cs" />
     <Compile Include="Negocio\NE_receta.cs" />
     <Compile Include="Negocio\NE_sintomas.cs" />
@@ -483,6 +515,12 @@
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.resx">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.resx">
+      <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.resx">
+      <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.resx">
       <DependentUpon>Alta_raza.cs</DependentUpon>
     </EmbeddedResource>
@@ -540,11 +578,23 @@
     <EmbeddedResource Include="Formularios\ABM Vacuna\modificar_vacunas.resx">
       <DependentUpon>modificar_vacunas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.resx">
+      <DependentUpon>Alta_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.resx">
+      <DependentUpon>Menu_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.resx">
+      <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\Menu Estadisticas.resx">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.resx">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -707,5 +757,6 @@
   <ItemGroup>
     <None Include="Resources\3puntos.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

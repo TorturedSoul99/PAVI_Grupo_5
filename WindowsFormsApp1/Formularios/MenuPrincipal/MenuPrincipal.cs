@@ -20,6 +20,7 @@ using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
 using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
 using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
 using WindowsFormsApp1.Formularios.ABM_Sintomas;
+using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
 
 namespace WindowsFormsApp1
 {
@@ -138,6 +139,12 @@ namespace WindowsFormsApp1
         {
             ABM_CalendarioVacunas calendario_vacunas = new ABM_CalendarioVacunas();
             calendario_vacunas.ShowDialog();
+        }
+
+        private void historiaClinicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu_HistoriaClinica HC = new Menu_HistoriaClinica();
+            HC.ShowDialog();
         }
     }
 }
