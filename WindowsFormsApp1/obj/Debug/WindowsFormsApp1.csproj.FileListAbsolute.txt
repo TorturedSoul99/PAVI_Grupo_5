@@ -274,9 +274,7 @@ C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debu
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
 >>>>>>> f60423e09335f4049c0638b4c30b91a90ab4c39d
-<<<<<<< HEAD
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
-=======
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
@@ -348,3 +346,9 @@ C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debu
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
 >>>>>>> 97935cea94f528eadc5d49f76a447144edefa3c4
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources

@@ -108,6 +108,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -432,6 +437,12 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.Designer.cs">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\NE_consulta.cs" />
     <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_diagnostico.cs" />
@@ -614,6 +625,9 @@
     <EmbeddedResource Include="Formularios\ABM Vacuna\MenuVacunas.resx">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proceso_receta\Registrar_Receta.resx">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -722,6 +736,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet8.xss">
       <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xss">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
