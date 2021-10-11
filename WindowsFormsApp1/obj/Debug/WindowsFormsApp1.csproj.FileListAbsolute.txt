@@ -342,3 +342,5 @@ C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debu
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources

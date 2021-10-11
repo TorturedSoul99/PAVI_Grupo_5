@@ -30,9 +30,17 @@ namespace WindowsFormsApp1.Formularios
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            ModificarConsulta modificarconsulta = new ModificarConsulta();
-            modificarconsulta.Nro_orden = dgvConsulta.CurrentRow.Cells[0].Value.ToString();
-            modificarconsulta.ShowDialog();
+            if (tabla.Rows.Count == 0)
+            {
+                MessageBox.Show("No se encontro ninguna consulta con ese nombre o no selecciono ninguna fila, vuelva a intentarlo");
+            }
+            else
+            {
+
+                ModificarConsulta modificarconsulta = new ModificarConsulta();
+                modificarconsulta.Nro_orden = dgvConsulta.CurrentRow.Cells[0].Value.ToString();
+                modificarconsulta.ShowDialog();
+            }
 
         }
 

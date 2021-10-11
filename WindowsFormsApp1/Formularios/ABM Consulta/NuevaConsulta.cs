@@ -85,7 +85,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
         {
             BE_Acceso_datos _BD = new BE_Acceso_datos();
 
-            string sql = @"SELECT * FROM historia_clinica";
+            string sql = @"SELECT DISTINCT Nro_historia_clinica FROM historia_clinica";
 
             DataTable tabla = new DataTable();
 

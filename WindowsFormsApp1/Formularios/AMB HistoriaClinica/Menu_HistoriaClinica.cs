@@ -33,7 +33,7 @@ namespace WindowsFormsApp1.Formularios.AMB_HistoriaClinica
         {
             if (tabla.Rows.Count == 0)
             {
-                MessageBox.Show("No se encontro ninguna historia clinica con ese nombre, vuelva a intentarlo");
+                MessageBox.Show("No se encontro ninguna historia clinica con ese nombre o no selecciono ninguna fila, vuelva a intentarlo");
             }
             else
             {
