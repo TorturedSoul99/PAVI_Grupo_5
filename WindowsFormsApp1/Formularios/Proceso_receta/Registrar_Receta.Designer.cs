@@ -30,7 +30,7 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView011 = new WindowsFormsApp1.Back_end.DataGridView01();
+            this.dgvReceta2 = new WindowsFormsApp1.Back_end.DataGridView01();
             this.ID_Receta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_Sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_Medicamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,29 +39,35 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbID = new System.Windows.Forms.ComboBox();
+            this.recetaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bD3K3G05_2021DataSet10 = new WindowsFormsApp1.BD3K3G05_2021DataSet10();
             this.recetaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bD3K3G05_2021DataSet9 = new WindowsFormsApp1.BD3K3G05_2021DataSet9();
             this.recetaTableAdapter = new WindowsFormsApp1.BD3K3G05_2021DataSet9TableAdapters.recetaTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView011)).BeginInit();
+            this.recetaTableAdapter1 = new WindowsFormsApp1.BD3K3G05_2021DataSet10TableAdapters.recetaTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReceta2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet9)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView011
+            // dgvReceta2
             // 
-            this.dataGridView011.AllowUserToAddRows = false;
-            this.dataGridView011.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView011.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvReceta2.AllowUserToAddRows = false;
+            this.dgvReceta2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvReceta2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_Receta,
             this.Nombre_Sucursal,
             this.Nombre_Medicamento,
             this.Periodicidad,
             this.Dosis});
-            this.dataGridView011.Location = new System.Drawing.Point(9, 85);
-            this.dataGridView011.Name = "dataGridView011";
-            this.dataGridView011.Size = new System.Drawing.Size(627, 230);
-            this.dataGridView011.TabIndex = 0;
+            this.dgvReceta2.Location = new System.Drawing.Point(9, 85);
+            this.dgvReceta2.Name = "dgvReceta2";
+            this.dgvReceta2.Size = new System.Drawing.Size(718, 252);
+            this.dgvReceta2.TabIndex = 0;
+            this.dgvReceta2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView011_CellContentClick);
             // 
             // ID_Receta
             // 
@@ -97,6 +103,7 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
             this.button1.TabIndex = 1;
             this.button1.Text = "Consultar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -119,15 +126,26 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
             this.label2.Text = "Registrar Receta";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // comboBox1
+            // cbID
             // 
-            this.comboBox1.DataSource = this.recetaBindingSource;
-            this.comboBox1.DisplayMember = "ID";
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(418, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 5;
+            this.cbID.DataSource = this.recetaBindingSource1;
+            this.cbID.DisplayMember = "ID";
+            this.cbID.FormattingEnabled = true;
+            this.cbID.Location = new System.Drawing.Point(418, 33);
+            this.cbID.Name = "cbID";
+            this.cbID.Size = new System.Drawing.Size(121, 21);
+            this.cbID.TabIndex = 5;
+            this.cbID.ValueMember = "ID";
+            // 
+            // recetaBindingSource1
+            // 
+            this.recetaBindingSource1.DataMember = "receta";
+            this.recetaBindingSource1.DataSource = this.bD3K3G05_2021DataSet10;
+            // 
+            // bD3K3G05_2021DataSet10
+            // 
+            this.bD3K3G05_2021DataSet10.DataSetName = "BD3K3G05_2021DataSet10";
+            this.bD3K3G05_2021DataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // recetaBindingSource
             // 
@@ -143,17 +161,21 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
             // 
             this.recetaTableAdapter.ClearBeforeFill = true;
             // 
+            // recetaTableAdapter1
+            // 
+            this.recetaTableAdapter1.ClearBeforeFill = true;
+            // 
             // Registrar_Receta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
-            this.ClientSize = new System.Drawing.Size(648, 333);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(739, 410);
+            this.Controls.Add(this.cbID);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView011);
+            this.Controls.Add(this.dgvReceta2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -161,7 +183,9 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar_Receta";
             this.Load += new System.EventHandler(this.Registrar_Receta_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView011)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReceta2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet9)).EndInit();
             this.ResumeLayout(false);
@@ -171,7 +195,7 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
 
         #endregion
 
-        private Back_end.DataGridView01 dataGridView011;
+        private Back_end.DataGridView01 dgvReceta2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -180,9 +204,12 @@ namespace WindowsFormsApp1.Formularios.Proceso_receta
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_Medicamento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Periodicidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Dosis;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbID;
         private BD3K3G05_2021DataSet9 bD3K3G05_2021DataSet9;
         private System.Windows.Forms.BindingSource recetaBindingSource;
         private BD3K3G05_2021DataSet9TableAdapters.recetaTableAdapter recetaTableAdapter;
+        private BD3K3G05_2021DataSet10 bD3K3G05_2021DataSet10;
+        private System.Windows.Forms.BindingSource recetaBindingSource1;
+        private BD3K3G05_2021DataSet10TableAdapters.recetaTableAdapter recetaTableAdapter1;
     }
 }

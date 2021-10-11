@@ -67,5 +67,26 @@ namespace WindowsFormsApp1.Negocio
             string sql = "DELETE FROM receta WHERE ID = " + id + " AND ID_sucursal = " + id_sucursal + ";";
             _BD.EjecutarABM(sql);
         }
+
+        public DataTable CargarReceta()
+        {
+            string sql = @"SELECT r.ID 'ID Receta', s.Nombre_sucursal 'Nombre de Sucursal', m.Nombre 'Nombre de Medicamento', mxr.Periodicidad, mxr.Dosis
+                        FROM receta r JOIN sucursal s ON r.ID_sucursal = s.ID_sucursal
+                        JOIN medicamentos_x_receta mxr ON  r.ID = mxr.ID_receta
+                        JOIN medicamentos m ON mxr.ID_medicamento = m.ID_medicamento; ";
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            return tabla;
+        }
+
+        public DataTable BuscarReceta2(int id_receta)
+        {
+            string sql = @"SELECT r.ID 'ID Receta', s.Nombre_sucursal 'Nombre de Sucursal', m.Nombre 'Nombre de Medicamento', mxr.Periodicidad, mxr.Dosis
+                        FROM receta r JOIN sucursal s ON r.ID_sucursal = s.ID_sucursal
+                        JOIN medicamentos_x_receta mxr ON  r.ID = mxr.ID_receta
+                        JOIN medicamentos m ON mxr.ID_medicamento = m.ID_medicamento
+                        WHERE r.ID = " + id_receta + "; ";
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            return tabla;
+        }
     }
 }
