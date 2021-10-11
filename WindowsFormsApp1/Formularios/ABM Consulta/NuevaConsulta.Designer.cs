@@ -128,6 +128,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             this.cmbSucursal.Name = "cmbSucursal";
             this.cmbSucursal.Size = new System.Drawing.Size(202, 21);
             this.cmbSucursal.TabIndex = 45;
+            this.cmbSucursal.SelectedIndexChanged += new System.EventHandler(this.cmbSucursal_SelectedIndexChanged);
             // 
             // lblReceta
             // 

@@ -30,7 +30,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
         {
             NE_consulta consulta = new NE_consulta();
 
-            if (txtFechaEntrada.Text == "" || txtFechaSalida.Text == "" || cmbDiagnostico.SelectedValue == null  ||  cmbSucursal.SelectedValue == null || cmbEmpleado == null || cmbHistoriaClinica == null || cmbReceta == null || cmbSintoma == null || cmbSucursal == null)
+            if (txtFechaEntrada.Text == "" || txtFechaSalida.Text == "" || cmbDiagnostico.SelectedValue == null  ||  cmbSucursal.SelectedValue == null || cmbEmpleado.SelectedValue == null || cmbHistoriaClinica.SelectedValue == null || cmbReceta.SelectedValue == null || cmbSintoma.SelectedValue == null || cmbSucursal.SelectedValue == null)
             {
 
                 MessageBox.Show("Por favor, ingrese todos los campos");
@@ -59,7 +59,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
 
         private void NuevaConsulta_Load(object sender, EventArgs e)
         {
-            CargarComboHistoriaClnica();
+            
             CargarComboSucursal();
             CargarComboEmpleado();
             CargarComboSintoma();
@@ -81,11 +81,11 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             cmbSucursal.ValueMember = "ID_sucursal";
         }
 
-        private void CargarComboHistoriaClnica()
+        private void CargarComboHistoriaClinica(string id_sucursal)
         {
             BE_Acceso_datos _BD = new BE_Acceso_datos();
 
-            string sql = @"SELECT DISTINCT Nro_historia_clinica FROM historia_clinica";
+            string sql = @"SELECT DISTINCT Nro_historia_clinica FROM historia_clinica WHERE id_sucursal like '" + id_sucursal + "'";
 
             DataTable tabla = new DataTable();
 
@@ -151,6 +151,15 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
             cmbReceta.DataSource = tabla;
             cmbReceta.DisplayMember = "Medicamento";
             cmbReceta.ValueMember = "ID";
+        }
+
+        private void cmbSucursal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbSucursal.SelectedValue.ToString() != null)
+            {
+                string id_sucursal = cmbSucursal.SelectedValue.ToString();
+                CargarComboHistoriaClinica(id_sucursal);
+            }
         }
     }
 }
