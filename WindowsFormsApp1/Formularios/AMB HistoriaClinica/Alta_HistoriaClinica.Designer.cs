@@ -268,6 +268,7 @@ namespace WindowsFormsApp1.Formularios.AMB_HistoriaClinica
             this.Controls.Add(this.txtHistoriaClinica);
             this.Controls.Add(this.lblHistoriaClinica);
             this.Name = "Alta_HistoriaClinica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nueva Historia Clinica";
             this.Load += new System.EventHandler(this.Alta_HistoriaClinica_Load);
             this.ResumeLayout(false);

@@ -15,6 +15,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Consulta
 {
     public partial class NuevaConsulta : Form
     {
+        public int ID_HistoriaClinica_perro { get; set; }
+        public int ID_sucursal_perro { get; set; }
+
+
         public NuevaConsulta()
         {
             InitializeComponent();

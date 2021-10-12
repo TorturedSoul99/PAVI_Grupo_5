@@ -145,7 +145,7 @@ namespace WindowsFormsApp1
             this.aBMVacunacionToolStripMenuItem,
             this.calendarioDeVacunaciónToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
-            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.vacunacionToolStripMenuItem.Text = "Vacunación";
             // 
             // aBMVacunacionToolStripMenuItem
