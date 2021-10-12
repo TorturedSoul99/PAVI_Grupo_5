@@ -282,8 +282,8 @@ namespace WindowsFormsApp1
             this.RecetaStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.recetaToolStripMenuItem1});
             this.RecetaStripMenuItem1.Name = "RecetaStripMenuItem1";
-            this.RecetaStripMenuItem1.Size = new System.Drawing.Size(66, 20);
-            this.RecetaStripMenuItem1.Text = "Procesos";
+            this.RecetaStripMenuItem1.Size = new System.Drawing.Size(78, 20);
+            this.RecetaStripMenuItem1.Text = "Procesosos";
             this.RecetaStripMenuItem1.Click += new System.EventHandler(this.RecetaStripMenuItem1_Click);
             // 
             // recetaToolStripMenuItem1
