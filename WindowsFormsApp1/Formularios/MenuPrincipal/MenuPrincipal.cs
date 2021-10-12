@@ -156,8 +156,7 @@ namespace WindowsFormsApp1
 
         private void recetaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Registrar_Receta regRe = new Registrar_Receta();
-            regRe.ShowDialog();
+            
 
         }
 
@@ -165,6 +164,12 @@ namespace WindowsFormsApp1
         {
             Proceso_Consulta_Para_Canes consulta = new Proceso_Consulta_Para_Canes();
             consulta.ShowDialog();
+        }
+
+        private void recetaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Registrar_Receta regRe = new Registrar_Receta();
+            regRe.ShowDialog();
         }
     }
 }
