@@ -41,6 +41,19 @@ namespace WindowsFormsApp1.Negocio
 
 
             return _BD.EjecutarSelect(sql);
+        }
+
+        public void RegistrarConsulta(int id_histoClinica,int Id_sucursal,string fechaEntrada,int Id_empleado,string fechaSalida,int sintoma, int diagnostico, int receta)
+        {
+            string sqlInsert = "";
+
+            sqlInsert = @"INSERT INTO consulta (Nro_historia_clinica, ID_sucursal, Fecha_entrada , ID_empleado, Fecha_salida , Sintoma, Diagnostico, ID_receta ) 
+                        VALUES("+ id_histoClinica +","+ Id_sucursal +",'"+ fechaEntrada +"',"+ Id_empleado +",'"+ fechaSalida +"',"+ sintoma +","+ diagnostico +","+ receta +")";
+
+            
+
+
+            _BD.Insertar(sqlInsert);
 
         }
     }

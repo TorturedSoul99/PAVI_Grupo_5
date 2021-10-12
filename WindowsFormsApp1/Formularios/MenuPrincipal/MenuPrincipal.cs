@@ -21,6 +21,7 @@ using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
 using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
 using WindowsFormsApp1.Formularios.ABM_Sintomas;
 using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
+using WindowsFormsApp1.Formularios.Proceso_Consulta;
 
 namespace WindowsFormsApp1
 {
@@ -145,6 +146,12 @@ namespace WindowsFormsApp1
         {
             Menu_HistoriaClinica HC = new Menu_HistoriaClinica();
             HC.ShowDialog();
+        }
+
+        private void consultaCaninaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Proceso_Consulta_Para_Canes consulta = new Proceso_Consulta_Para_Canes();
+            consulta.ShowDialog();
         }
     }
 }

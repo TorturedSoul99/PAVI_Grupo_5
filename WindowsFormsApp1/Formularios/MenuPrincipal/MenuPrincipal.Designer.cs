@@ -56,6 +56,8 @@ namespace WindowsFormsApp1
             this.medicamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaCaninaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,10 +70,11 @@ namespace WindowsFormsApp1
             this.estadisticasToolStripMenuItem,
             this.laboratoriosToolStripMenuItem,
             this.empresaToolStripMenuItem,
-            this.miselaneoToolStripMenuItem});
+            this.miselaneoToolStripMenuItem,
+            this.procesosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(679, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(953, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -274,13 +277,28 @@ namespace WindowsFormsApp1
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
             // 
+            // procesosToolStripMenuItem
+            // 
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultaCaninaToolStripMenuItem});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // consultaCaninaToolStripMenuItem
+            // 
+            this.consultaCaninaToolStripMenuItem.Name = "consultaCaninaToolStripMenuItem";
+            this.consultaCaninaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultaCaninaToolStripMenuItem.Text = "Consulta Canina";
+            this.consultaCaninaToolStripMenuItem.Click += new System.EventHandler(this.consultaCaninaToolStripMenuItem_Click);
+            // 
             // frmMenuPPAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WhatsApp_Image_2021_09_07_at_15_52_30;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(679, 463);
+            this.ClientSize = new System.Drawing.Size(953, 544);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenuPPAL";
@@ -323,6 +341,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem depositoPorSucursalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem síntomasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calendarioDeVacunaciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaCaninaToolStripMenuItem;
     }
 }
 

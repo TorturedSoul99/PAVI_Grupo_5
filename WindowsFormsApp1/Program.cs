@@ -19,8 +19,8 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmMenuPPAL());
-            Application.Run(new Proceso_Consulta_Para_Canes());
+            Application.Run(new frmMenuPPAL());
+            //Application.Run(new Proceso_Consulta_Para_Canes());
             //Application.Run(new ABM_Empleado());
         }
     }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WindowsFormsApp1.Negocio;
 using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
 using WindowsFormsApp1.Formularios.ABM_Consulta;
+using WindowsFormsApp1.Back_end;
 
 namespace WindowsFormsApp1.Formularios.Proceso_Consulta
 {
@@ -95,26 +96,40 @@ namespace WindowsFormsApp1.Formularios.Proceso_Consulta
             cargar_grillaCONSULTA(tabla2);
         }
 
-        private void btn_agregarConsulta_Click(object sender, EventArgs e)
-        {
-            if (id_historia_perro != "" && id_sucursalPerro != "")
-            {
-                NuevaConsulta nueva_consulta = new NuevaConsulta();
-                nueva_consulta.ID_HistoriaClinica_perro = Convert.ToInt32(id_historia_perro);
-                nueva_consulta.ID_sucursal_perro = Convert.ToInt32(id_sucursalPerro);
-                nueva_consulta.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Porfavor Seleccione un Perro");
-            }
-                
-        }
-
         private void DGW_Perros_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             id_historia_perro = DGW_Perros.CurrentRow.Cells["N_Histo"].Value.ToString();
             id_sucursalPerro = DGW_Perros.CurrentRow.Cells["ID_sucursalPerro"].Value.ToString();
+            txt_histoClinica.Text = id_historia_perro;
+            txt_id_sucursal.Text = id_sucursalPerro;
+        }
+
+        private void Proceso_Consulta_Para_Canes_Load(object sender, EventArgs e)
+        {
+            cmb_diagnostico.cargarCombo();
+            cmb_empleado.cargarCombo();
+            cmb_receta.cargarCombo();
+            cmb_sintoma.cargarCombo();
+        }
+
+        private void btn_Agregar_Consulta_Click(object sender, EventArgs e)
+        {
+            if (txt_histoClinica.Text == "" || txt_id_sucursal.Text == "" || dtp_FechaEntrada.Value.ToString() == "" || cmb_empleado.SelectedIndex == -1 || dtp_FechaSalida.Value.ToString() == "" || cmb_sintoma.SelectedIndex == -1 || cmb_diagnostico.SelectedIndex == -1 || cmb_receta.SelectedIndex == -1)
+            {
+
+                MessageBox.Show("Por favor, ingrese todos los campos");
+
+            }
+            else
+            {
+                //MessageBox.Show(cmb_sintoma.SelectedValue.ToString());
+                //MessageBox.Show(cmb_diagnostico.SelectedValue.ToString());
+                //MessageBox.Show(cmb_receta.SelectedValue.ToString());
+
+
+                NE_Consulta_Perro.RegistrarConsulta(Convert.ToInt32(txt_histoClinica.Text), Convert.ToInt32(txt_id_sucursal.Text),dtp_FechaEntrada.Value.ToString(), cmb_empleado.SelectedIndex,dtp_FechaSalida.Value.ToString(), Convert.ToInt32(cmb_sintoma.SelectedValue.ToString()), Convert.ToInt32(cmb_diagnostico.SelectedValue.ToString()), Convert.ToInt32(cmb_receta.SelectedValue.ToString()));
+                MessageBox.Show("Se registro correctamente la consulta");
+            }
         }
     }
 }
