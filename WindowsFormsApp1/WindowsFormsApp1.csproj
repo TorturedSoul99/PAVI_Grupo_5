@@ -78,6 +78,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -675,6 +685,28 @@
     </None>
     <None Include="BD3K3G05_2021DataSet10.xss">
       <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xss">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xss">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
     </None>
     <None Include="BD3K3G05_2021DataSet2.xsc">
       <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>

@@ -88,5 +88,12 @@ namespace WindowsFormsApp1.Negocio
             DataTable tabla = _BD.EjecutarSelect(sql);
             return tabla;
         }
+        public int BuscarIDUltimaReceta()
+        {
+            string sql = "SELECT ID FROM receta ORDER BY ID DESC;";
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            int id = int.Parse(tabla.Rows[0][0].ToString());
+            return id;
+        }
     }
 }
