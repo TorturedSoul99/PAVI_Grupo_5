@@ -58,5 +58,6 @@ namespace WindowsFormsApp1.Negocio
             string sql = "DELETE FROM medicamentos_x_receta WHERE ID_receta = " + idReceta + " AND ID_medicamento = " + idMedic + " AND Periodicidad = '" + periodicidad +"' AND Dosis = '" + dosis + "';";
             _BD.EjecutarABM(sql);
         }
+
     }
 }

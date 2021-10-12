@@ -73,6 +73,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -107,6 +122,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
       <SubType>Form</SubType>
@@ -432,6 +452,12 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.Designer.cs">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Proceso Consulta\Proceso_Consulta_Para_Canes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -621,6 +647,9 @@
     <EmbeddedResource Include="Formularios\ABM Vacuna\MenuVacunas.resx">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proceso_receta\Registrar_Receta.resx">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </EmbeddedResource>
@@ -655,6 +684,39 @@
     </None>
     <None Include="BD3K3G05_2021DataSet1.xss">
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xss">
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xss">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xss">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
     </None>
     <None Include="BD3K3G05_2021DataSet2.xsc">
       <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
@@ -732,6 +794,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet8.xss">
       <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xss">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
