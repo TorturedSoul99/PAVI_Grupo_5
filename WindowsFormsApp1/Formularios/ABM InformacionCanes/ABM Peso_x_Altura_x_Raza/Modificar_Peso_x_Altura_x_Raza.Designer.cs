@@ -29,7 +29,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Eliminar = new System.Windows.Forms.Button();
+            this.btn_Modificar = new System.Windows.Forms.Button();
             this.textBox013 = new WindowsFormsApp1.Back_end.TextBox01();
             this.textBox012 = new WindowsFormsApp1.Back_end.TextBox01();
             this.textBox011 = new WindowsFormsApp1.Back_end.TextBox01();
@@ -42,14 +42,14 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_Eliminar
+            // btn_Modificar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(267, 275);
-            this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(94, 23);
-            this.btn_Eliminar.TabIndex = 21;
-            this.btn_Eliminar.Text = "Eliminar";
-            this.btn_Eliminar.UseVisualStyleBackColor = true;
+            this.btn_Modificar.Location = new System.Drawing.Point(267, 275);
+            this.btn_Modificar.Name = "btn_Modificar";
+            this.btn_Modificar.Size = new System.Drawing.Size(94, 23);
+            this.btn_Modificar.TabIndex = 21;
+            this.btn_Modificar.Text = "Modificar";
+            this.btn_Modificar.UseVisualStyleBackColor = true;
             // 
             // textBox013
             // 
@@ -98,10 +98,10 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.comboBox012.Location = new System.Drawing.Point(146, 62);
             this.comboBox012.Name = "comboBox012";
             this.comboBox012.Pp_conseleccion = false;
-            this.comboBox012.Pp_Descripcion = null;
-            this.comboBox012.Pp_MessageError = null;
-            this.comboBox012.Pp_Pk = null;
-            this.comboBox012.Pp_Tabla = null;
+            this.comboBox012.Pp_Descripcion = "Nombre";
+            this.comboBox012.Pp_MessageError = "Por favor seleccione un sexo";
+            this.comboBox012.Pp_Pk = "ID";
+            this.comboBox012.Pp_Tabla = "sexo";
             this.comboBox012.Size = new System.Drawing.Size(172, 21);
             this.comboBox012.TabIndex = 17;
             this.comboBox012.validable = false;
@@ -120,10 +120,10 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.comboBox011.Location = new System.Drawing.Point(146, 25);
             this.comboBox011.Name = "comboBox011";
             this.comboBox011.Pp_conseleccion = false;
-            this.comboBox011.Pp_Descripcion = null;
-            this.comboBox011.Pp_MessageError = null;
-            this.comboBox011.Pp_Pk = null;
-            this.comboBox011.Pp_Tabla = null;
+            this.comboBox011.Pp_Descripcion = "Denominacion";
+            this.comboBox011.Pp_MessageError = "Por favor seleccione una denominacion";
+            this.comboBox011.Pp_Pk = "Denominacion";
+            this.comboBox011.Pp_Tabla = "raza";
             this.comboBox011.Size = new System.Drawing.Size(172, 21);
             this.comboBox011.TabIndex = 16;
             this.comboBox011.validable = false;
@@ -183,7 +183,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 308);
-            this.Controls.Add(this.btn_Eliminar);
+            this.Controls.Add(this.btn_Modificar);
             this.Controls.Add(this.textBox013);
             this.Controls.Add(this.textBox012);
             this.Controls.Add(this.textBox011);
@@ -203,7 +203,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Eliminar;
+        private System.Windows.Forms.Button btn_Modificar;
         private Back_end.TextBox01 textBox013;
         private Back_end.TextBox01 textBox012;
         private Back_end.TextBox01 textBox011;

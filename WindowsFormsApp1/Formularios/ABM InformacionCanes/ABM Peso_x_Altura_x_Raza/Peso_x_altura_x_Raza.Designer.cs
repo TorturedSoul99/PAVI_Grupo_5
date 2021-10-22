@@ -33,14 +33,14 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txt_denominacion = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.grid_raza = new System.Windows.Forms.DataGridView();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.grid_Peso_altura_raza = new System.Windows.Forms.DataGridView();
             this.Denominacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Peso_minimo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Peso_maximo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Altura_media = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).BeginInit();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_Peso_altura_raza)).BeginInit();
             this.SuspendLayout();
             // 
             // chk_todos
@@ -79,29 +79,23 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.btnModificar.TabIndex = 26;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // grid_raza
+            // grid_Peso_altura_raza
             // 
-            this.grid_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.grid_Peso_altura_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_Peso_altura_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Denominacion,
             this.Sexo,
             this.Peso_minimo,
             this.Peso_maximo,
             this.Altura_media});
-            this.grid_raza.Location = new System.Drawing.Point(75, 89);
-            this.grid_raza.Name = "grid_raza";
-            this.grid_raza.Size = new System.Drawing.Size(543, 179);
-            this.grid_raza.TabIndex = 25;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(378, 309);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
-            this.btnNuevo.TabIndex = 23;
-            this.btnNuevo.Text = "Nueva";
-            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.grid_Peso_altura_raza.Location = new System.Drawing.Point(75, 89);
+            this.grid_Peso_altura_raza.Name = "grid_Peso_altura_raza";
+            this.grid_Peso_altura_raza.Size = new System.Drawing.Size(543, 179);
+            this.grid_Peso_altura_raza.TabIndex = 25;
+            this.grid_Peso_altura_raza.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_Peso_altura_raza_CellClick);
+            this.grid_Peso_altura_raza.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_Peso_altura_raza_CellDoubleClick);
             // 
             // Denominacion
             // 
@@ -128,6 +122,15 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.Altura_media.HeaderText = "Altura Media";
             this.Altura_media.Name = "Altura_media";
             // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(378, 309);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(90, 23);
+            this.btnNuevo.TabIndex = 23;
+            this.btnNuevo.Text = "Nueva";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            // 
             // Peso_x_altura_x_Raza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,12 +140,12 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txt_denominacion);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.grid_raza);
+            this.Controls.Add(this.grid_Peso_altura_raza);
             this.Controls.Add(this.btnNuevo);
             this.Name = "Peso_x_altura_x_Raza";
             this.Text = "Peso_x_altura_x_Raza";
             this.Load += new System.EventHandler(this.Peso_x_altura_x_Raza_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_Peso_altura_raza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,7 +157,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txt_denominacion;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.DataGridView grid_raza;
+        private System.Windows.Forms.DataGridView grid_Peso_altura_raza;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Denominacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Sexo;

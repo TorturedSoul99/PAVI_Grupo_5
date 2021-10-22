@@ -12,7 +12,6 @@ using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
 using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
-//using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
@@ -176,7 +175,8 @@ namespace WindowsFormsApp1
 
         private void pesoPorAlturaPorRazaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Peso ABM_peso_altura = new Peso_x_altura_x_Raza();
+            //Peso_x_altura_x_Raza = new Peso_x_altura_x_Raza();
+            
         }
     }
 }

@@ -12,6 +12,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
 {
     public partial class Mostrar_Peso_x_Altura_x_Raza : Form
     {
+        public string denominacion { get; set; }
+        
+        
         public Mostrar_Peso_x_Altura_x_Raza()
         {
             InitializeComponent();
