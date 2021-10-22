@@ -260,6 +260,18 @@
     <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.Designer.cs">
       <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Alta_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Mostrar_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -295,6 +307,12 @@
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.Designer.cs">
       <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Modificar_Peso_x_Altura_x_Raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
       <SubType>Form</SubType>
@@ -471,6 +489,7 @@
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
     <Compile Include="Negocio\NE_historiaClinica.cs" />
     <Compile Include="Negocio\NE_MedicamentoXReceta.cs" />
+    <Compile Include="Negocio\NE_Peso_x_Altura_x_Raza.cs" />
     <Compile Include="Negocio\NE_receta.cs" />
     <Compile Include="Negocio\NE_sintomas.cs" />
     <Compile Include="Negocio\NE_Empleados.cs" />
@@ -550,6 +569,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.resx">
       <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Alta_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Modificar_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Mostrar_Peso_x_Altura_x_Raza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.resx">
       <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>

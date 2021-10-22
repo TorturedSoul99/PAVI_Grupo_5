@@ -34,11 +34,12 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.txt_denominacion = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.grid_raza = new System.Windows.Forms.DataGridView();
-            this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
+            this.Denominacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Peso_minimo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Peso_maximo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Altura_media = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.btnConsultar.TabIndex = 28;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txt_denominacion
             // 
@@ -71,7 +73,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(196, 312);
+            this.btnModificar.Location = new System.Drawing.Point(499, 309);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(119, 23);
             this.btnModificar.TabIndex = 26;
@@ -82,61 +84,64 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             // 
             this.grid_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nuevo,
-            this.Consultar,
-            this.Modificar});
+            this.Denominacion,
+            this.Sexo,
+            this.Peso_minimo,
+            this.Peso_maximo,
+            this.Altura_media});
             this.grid_raza.Location = new System.Drawing.Point(75, 89);
             this.grid_raza.Name = "grid_raza";
-            this.grid_raza.Size = new System.Drawing.Size(372, 179);
+            this.grid_raza.Size = new System.Drawing.Size(543, 179);
             this.grid_raza.TabIndex = 25;
-            // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "Column1";
-            this.Nuevo.Name = "Nuevo";
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "Column1";
-            this.Consultar.Name = "Consultar";
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Column1";
-            this.Modificar.Name = "Modificar";
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(344, 312);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(103, 23);
-            this.btnEliminar.TabIndex = 24;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(75, 312);
+            this.btnNuevo.Location = new System.Drawing.Point(378, 309);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(90, 23);
             this.btnNuevo.TabIndex = 23;
             this.btnNuevo.Text = "Nueva";
             this.btnNuevo.UseVisualStyleBackColor = true;
             // 
+            // Denominacion
+            // 
+            this.Denominacion.HeaderText = "Denominacion";
+            this.Denominacion.Name = "Denominacion";
+            // 
+            // Sexo
+            // 
+            this.Sexo.HeaderText = "Sexo";
+            this.Sexo.Name = "Sexo";
+            // 
+            // Peso_minimo
+            // 
+            this.Peso_minimo.HeaderText = "Peso Minimo";
+            this.Peso_minimo.Name = "Peso_minimo";
+            // 
+            // Peso_maximo
+            // 
+            this.Peso_maximo.HeaderText = "Peso Maximo";
+            this.Peso_maximo.Name = "Peso_maximo";
+            // 
+            // Altura_media
+            // 
+            this.Altura_media.HeaderText = "Altura Media";
+            this.Altura_media.Name = "Altura_media";
+            // 
             // Peso_x_altura_x_Raza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(474, 344);
+            this.ClientSize = new System.Drawing.Size(630, 344);
             this.Controls.Add(this.chk_todos);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txt_denominacion);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.grid_raza);
-            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "Peso_x_altura_x_Raza";
             this.Text = "Peso_x_altura_x_Raza";
+            this.Load += new System.EventHandler(this.Peso_x_altura_x_Raza_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -150,10 +155,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
         private System.Windows.Forms.TextBox txt_denominacion;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.DataGridView grid_raza;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
-        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Denominacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sexo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Peso_minimo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Peso_maximo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Altura_media;
     }
 }

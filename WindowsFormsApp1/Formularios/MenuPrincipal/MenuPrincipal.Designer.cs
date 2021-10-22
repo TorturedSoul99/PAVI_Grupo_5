@@ -59,6 +59,7 @@ namespace WindowsFormsApp1
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaCaninaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recetaToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesoPorAlturaPorRazaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,7 +150,7 @@ namespace WindowsFormsApp1
             this.aBMVacunacionToolStripMenuItem,
             this.calendarioDeVacunaciónToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
-            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.vacunacionToolStripMenuItem.Text = "Vacunación";
             // 
             // aBMVacunacionToolStripMenuItem
@@ -266,7 +267,8 @@ namespace WindowsFormsApp1
             // miselaneoToolStripMenuItem
             // 
             this.miselaneoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.razaToolStripMenuItem});
+            this.razaToolStripMenuItem,
+            this.pesoPorAlturaPorRazaToolStripMenuItem});
             this.miselaneoToolStripMenuItem.Name = "miselaneoToolStripMenuItem";
             this.miselaneoToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.miselaneoToolStripMenuItem.Text = "Información Canes";
@@ -274,7 +276,7 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
             // 
@@ -290,16 +292,23 @@ namespace WindowsFormsApp1
             // consultaCaninaToolStripMenuItem
             // 
             this.consultaCaninaToolStripMenuItem.Name = "consultaCaninaToolStripMenuItem";
-            this.consultaCaninaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultaCaninaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.consultaCaninaToolStripMenuItem.Text = "Consulta Canina";
             this.consultaCaninaToolStripMenuItem.Click += new System.EventHandler(this.consultaCaninaToolStripMenuItem_Click);
             // 
             // recetaToolStripMenuItem2
             // 
             this.recetaToolStripMenuItem2.Name = "recetaToolStripMenuItem2";
-            this.recetaToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.recetaToolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
             this.recetaToolStripMenuItem2.Text = "Receta";
             this.recetaToolStripMenuItem2.Click += new System.EventHandler(this.recetaToolStripMenuItem2_Click);
+            // 
+            // pesoPorAlturaPorRazaToolStripMenuItem
+            // 
+            this.pesoPorAlturaPorRazaToolStripMenuItem.Name = "pesoPorAlturaPorRazaToolStripMenuItem";
+            this.pesoPorAlturaPorRazaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.pesoPorAlturaPorRazaToolStripMenuItem.Text = "Peso por Altura por Raza";
+            this.pesoPorAlturaPorRazaToolStripMenuItem.Click += new System.EventHandler(this.pesoPorAlturaPorRazaToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -353,6 +362,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaCaninaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem recetaToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem pesoPorAlturaPorRazaToolStripMenuItem;
     }
 }
 
