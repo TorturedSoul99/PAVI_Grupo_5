@@ -26,7 +26,7 @@ namespace WindowsFormsApp1.Negocio
 
         public void AltaSucursal(string nombre, int supervisor, int supervisorSuplente)
         {
-            if (nombre != "" & supervisor == -1 && supervisorSuplente == -1)
+            if (nombre != "" && supervisor == -1 && supervisorSuplente == -1)
             {
                 string sqlInsertar = "INSERT INTO sucursal(Nombre_sucursal,ID_supervisor,ID_supervisor_suplente) VALUES('" + nombre + "',null,null)";
                 _BD.Insertar(sqlInsertar);

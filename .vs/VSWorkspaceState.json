@@ -3,14 +3,10 @@
     "",
     "\\WindowsFormsApp1",
     "\\WindowsFormsApp1\\Formularios",
-    "\\WindowsFormsApp1\\Formularios\\ABM CalendarioVacunas",
     "\\WindowsFormsApp1\\Formularios\\ABM Empresa",
     "\\WindowsFormsApp1\\Formularios\\ABM Empresa\\ABM Empleado",
-    "\\WindowsFormsApp1\\Formularios\\ABM Empresa\\ABM Medicamentos",
-    "\\WindowsFormsApp1\\Formularios\\ABM Laboratorios",
-    "\\WindowsFormsApp1\\Formularios\\ABM Sintomas",
-    "\\WindowsFormsApp1\\Negocio"
+    "\\WindowsFormsApp1\\Formularios\\ABM InformacionCanes\\ABM Raza"
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\WindowsFormsApp1.sln",
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\ABM Empresa\\ABM Empleado\\ABM Empleado.cs",
   "PreviewInSolutionExplorer": false
 }
