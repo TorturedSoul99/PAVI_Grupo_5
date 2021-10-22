@@ -93,5 +93,10 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             mostrar_sucursal.Id_recuperado_sucursal = ID__SUCURSAL;
             mostrar_sucursal.ShowDialog();
         }
+
+        private void ABMSucursales_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

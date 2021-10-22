@@ -30,11 +30,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         private void InitializeComponent()
         {
             this.btnmodificar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_cuidados_especiales = new System.Windows.Forms.TextBox();
             this.txtdenominacion = new System.Windows.Forms.TextBox();
             this.lblcuidadosespeciales = new System.Windows.Forms.Label();
-            this.lblsexo = new System.Windows.Forms.Label();
             this.lbldenominacion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -47,23 +45,18 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnmodificar.TabIndex = 13;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = true;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
-            // textBox3
+            // txt_cuidados_especiales
             // 
-            this.textBox3.Location = new System.Drawing.Point(186, 101);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(204, 20);
-            this.textBox3.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(186, 155);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 20);
-            this.textBox2.TabIndex = 11;
+            this.txt_cuidados_especiales.Location = new System.Drawing.Point(186, 124);
+            this.txt_cuidados_especiales.Name = "txt_cuidados_especiales";
+            this.txt_cuidados_especiales.Size = new System.Drawing.Size(204, 20);
+            this.txt_cuidados_especiales.TabIndex = 11;
             // 
             // txtdenominacion
             // 
+            this.txtdenominacion.Enabled = false;
             this.txtdenominacion.Location = new System.Drawing.Point(186, 53);
             this.txtdenominacion.Name = "txtdenominacion";
             this.txtdenominacion.Size = new System.Drawing.Size(204, 20);
@@ -73,21 +66,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             this.lblcuidadosespeciales.AutoSize = true;
             this.lblcuidadosespeciales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcuidadosespeciales.Location = new System.Drawing.Point(23, 153);
+            this.lblcuidadosespeciales.Location = new System.Drawing.Point(23, 122);
             this.lblcuidadosespeciales.Name = "lblcuidadosespeciales";
             this.lblcuidadosespeciales.Size = new System.Drawing.Size(157, 20);
             this.lblcuidadosespeciales.TabIndex = 9;
             this.lblcuidadosespeciales.Text = "Cuidados Especiales";
-            // 
-            // lblsexo
-            // 
-            this.lblsexo.AutoSize = true;
-            this.lblsexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsexo.Location = new System.Drawing.Point(135, 101);
-            this.lblsexo.Name = "lblsexo";
-            this.lblsexo.Size = new System.Drawing.Size(45, 20);
-            this.lblsexo.TabIndex = 8;
-            this.lblsexo.Text = "Sexo";
             // 
             // lbldenominacion
             // 
@@ -105,11 +88,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 262);
             this.Controls.Add(this.btnmodificar);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_cuidados_especiales);
             this.Controls.Add(this.txtdenominacion);
             this.Controls.Add(this.lblcuidadosespeciales);
-            this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.lbldenominacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -117,6 +98,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.Name = "Modificar_raza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar raza";
+            this.Load += new System.EventHandler(this.Modificar_raza_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,11 +107,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         #endregion
 
         private System.Windows.Forms.Button btnmodificar;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_cuidados_especiales;
         private System.Windows.Forms.TextBox txtdenominacion;
         private System.Windows.Forms.Label lblcuidadosespeciales;
-        private System.Windows.Forms.Label lblsexo;
         private System.Windows.Forms.Label lbldenominacion;
     }
 }

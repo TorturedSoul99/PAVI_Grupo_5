@@ -158,6 +158,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Name = "ABMSucursales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sucursales";
+            this.Load += new System.EventHandler(this.ABMSucursales_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridSucursales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

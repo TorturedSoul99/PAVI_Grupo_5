@@ -16,5 +16,10 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
         {
             InitializeComponent();
         }
+
+        private void Alta_deposito_x_sucursal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

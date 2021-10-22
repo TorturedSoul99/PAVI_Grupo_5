@@ -355,3 +355,4 @@ C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\D
 C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
 C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources

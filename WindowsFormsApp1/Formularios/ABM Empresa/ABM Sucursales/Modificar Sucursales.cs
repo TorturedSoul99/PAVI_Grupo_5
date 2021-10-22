@@ -26,8 +26,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
         private void MostrarDatos(DataTable tabla)
         {
             txt_nombre_sucursal.Text = tabla.Rows[0]["Nombre_sucursal"].ToString();
-            cmb_supervisor.SelectedValue = (int.Parse(tabla.Rows[0]["ID_supervisor"].ToString())+1);
-            cmb_supervisor_suplente.SelectedValue = (int.Parse(tabla.Rows[0]["ID_supervisor_suplente"].ToString())+1);
+            cmb_supervisor.SelectedValue = (int.Parse(tabla.Rows[0]["ID_supervisor"].ToString()));
+            cmb_supervisor_suplente.SelectedValue = (int.Parse(tabla.Rows[0]["ID_supervisor_suplente"].ToString()));
             
         }
 
@@ -42,8 +42,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
         {
             if (sabueso.Validar(this.Controls) == Sabueso_Feliz_Validaciones.Resultado.correcto)
             {
-                sucursal.Modificar_Sucursal(txt_nombre_sucursal.Text,cmb_supervisor.SelectedIndex,
-                cmb_supervisor_suplente.SelectedIndex,Convert.ToInt32(ID_sucursal_recuperado));
+                //Convert.ToInt32(cmb_receta.SelectedValue.ToString())
+
+                sucursal.Modificar_Sucursal(txt_nombre_sucursal.Text, Convert.ToInt32(cmb_supervisor.SelectedValue.ToString()), Convert.ToInt32(cmb_supervisor_suplente.SelectedValue.ToString()), Convert.ToInt32(ID_sucursal_recuperado));
+
+                //sucursal.Modificar_Sucursal(txt_nombre_sucursal.Text,cmb_supervisor.SelectedIndex,
+                //cmb_supervisor_suplente.SelectedIndex,Convert.ToInt32(ID_sucursal_recuperado));
                 
                 MessageBox.Show("Se modifico correctamente");
             }

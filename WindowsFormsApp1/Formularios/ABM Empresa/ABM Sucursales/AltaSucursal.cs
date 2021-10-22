@@ -32,18 +32,13 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            sucursal.AltaSucursal(txt_nombreSurcursal.Text, cmb_supervisor.SelectedIndex, cmb_supervisorSuplente.SelectedIndex);
+            //Convert.ToInt32(cmb_receta.SelectedValue.ToString())
+
+            sucursal.AltaSucursal(txt_nombreSurcursal.Text, Convert.ToInt32(cmb_supervisor.SelectedValue.ToString()) , Convert.ToInt32(cmb_supervisorSuplente.SelectedValue.ToString()));
+            //sucursal.AltaSucursal(txt_nombreSurcursal.Text, cmb_supervisor.SelectedIndex, cmb_supervisorSuplente.SelectedIndex);
             MessageBox.Show("Se cargo correctamente");
 
-            //if (sabueso.Validar(this.Controls) == Sabueso_Feliz_Validaciones.Resultado.correcto)
-            //{
-            //    sucursal.AltaSucursal(txt_nombreSurcursal.Text, cmb_supervisor.SelectedIndex, cmb_supervisorSuplente.SelectedIndex);
-            //    MessageBox.Show("Se cargo correctamente");
-            //}
-            //else
-            //{
-            //    return;
-            //}
+            
         }
     }
 }

@@ -137,6 +137,7 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.Name = "Alta_deposito_x_sucursal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta_deposito_x_sucursal";
+            this.Load += new System.EventHandler(this.Alta_deposito_x_sucursal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

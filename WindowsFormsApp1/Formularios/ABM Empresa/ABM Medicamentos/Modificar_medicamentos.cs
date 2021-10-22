@@ -32,15 +32,18 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
         {            
             
             txt_nombre_medicamento.Text = tabla.Rows[0]["Nombre"].ToString();
-            cmb_lab_medic.SelectedIndex = int.Parse(tabla.Rows[0]["Laboratorio"].ToString());
+            cmb_lab_medic.SelectedValue = (int.Parse(tabla.Rows[0]["Laboratorio"].ToString()));
             dtp_fecha_compra.Value = (DateTime)tabla.Rows[0]["FechaUltimaCompra"];
-            cmb_sucu_medicamento.SelectedIndex = int.Parse(tabla.Rows[0]["ID_Sucursal"].ToString());
+            cmb_sucu_medicamento.SelectedValue = (int.Parse(tabla.Rows[0]["ID_Sucursal"].ToString()));
 
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            medicamento.Modificar_medicamento(Convert.ToInt32(ID_MEDICAMENTO), txt_nombre_medicamento.Text, cmb_lab_medic.SelectedIndex, dtp_fecha_compra.Value.ToString(), cmb_sucu_medicamento.SelectedIndex);
+            //Convert.ToInt32(cmb_receta.SelectedValue.ToString())
+            medicamento.Modificar_medicamento(Convert.ToInt32(ID_MEDICAMENTO), txt_nombre_medicamento.Text, Convert.ToInt32(cmb_lab_medic.SelectedValue.ToString()), dtp_fecha_compra.Value.ToString(), Convert.ToInt32(cmb_sucu_medicamento.SelectedValue.ToString()));
+
+            //medicamento.Modificar_medicamento(Convert.ToInt32(ID_MEDICAMENTO), txt_nombre_medicamento.Text, cmb_lab_medic.SelectedIndex, dtp_fecha_compra.Value.ToString(), cmb_sucu_medicamento.SelectedIndex);
             MessageBox.Show("Se modifico correctamente");
         }
     }

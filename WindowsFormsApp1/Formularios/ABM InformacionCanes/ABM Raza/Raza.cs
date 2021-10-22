@@ -15,6 +15,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
     public partial class Raza : Form
     {
 
+        public string denominacionn;
         NE_Raza raza = new NE_Raza();
         DataTable tabla = new DataTable();
 
@@ -32,6 +33,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         private void btnModificar_Click(object sender, EventArgs e)
         {
             Modificar_raza mod_raza = new Modificar_raza();
+            mod_raza.DENOMINACION = denominacionn;
             mod_raza.ShowDialog();
         }
 
@@ -62,6 +64,23 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
                 grid_raza.Rows[i].Cells[0].Value = tabla.Rows[i]["Denominacion"].ToString();
                 grid_raza.Rows[i].Cells[1].Value = tabla.Rows[i]["Cuidados_especiales"].ToString();
             }
+        }
+
+        private void grid_raza_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            denominacionn = grid_raza.CurrentRow.Cells["Nuevo"].Value.ToString();
+        }
+
+        private void Raza_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void grid_raza_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Mostrar_raza mostrar_raza = new Mostrar_raza();
+            mostrar_raza.denominacion = grid_raza.CurrentRow.Cells["Nuevo"].Value.ToString();
+            mostrar_raza.ShowDialog();
         }
     }
 }
