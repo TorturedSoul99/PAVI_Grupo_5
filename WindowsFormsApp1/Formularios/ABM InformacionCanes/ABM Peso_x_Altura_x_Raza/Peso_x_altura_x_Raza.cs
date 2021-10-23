@@ -15,7 +15,8 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
     public partial class Peso_x_altura_x_Raza : Form
     {
         public string DENOMINACION { get; set; }
-        
+        public string SEXO { get; set; }
+
         NE_Peso_x_Altura_x_Raza peso_altura = new NE_Peso_x_Altura_x_Raza();
         DataTable tabla = new DataTable();
         
@@ -57,7 +58,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             {
                 grid_Peso_altura_raza.Rows.Add();
                 grid_Peso_altura_raza.Rows[i].Cells[0].Value = tabla.Rows[i]["Denominacion"].ToString();
-                grid_Peso_altura_raza.Rows[i].Cells[1].Value = tabla.Rows[i]["Sexo"].ToString();
+                grid_Peso_altura_raza.Rows[i].Cells[1].Value = tabla.Rows[i]["Nombre"].ToString();
                 grid_Peso_altura_raza.Rows[i].Cells[2].Value = tabla.Rows[i]["Peso_minimo"].ToString();
                 grid_Peso_altura_raza.Rows[i].Cells[3].Value = tabla.Rows[i]["Peso_maximo"].ToString();
                 grid_Peso_altura_raza.Rows[i].Cells[4].Value = tabla.Rows[i]["Altura_media"].ToString();
@@ -67,12 +68,14 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
         private void grid_Peso_altura_raza_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DENOMINACION = grid_Peso_altura_raza.CurrentRow.Cells["Denominacion"].Value.ToString();
+            SEXO = grid_Peso_altura_raza.CurrentRow.Cells["Sexo"].Value.ToString();
         }
 
         private void grid_Peso_altura_raza_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             Mostrar_Peso_x_Altura_x_Raza mostrar_peso_altura = new Mostrar_Peso_x_Altura_x_Raza();
-            mostrar_peso_altura.denominacion = DENOMINACION;
+            mostrar_peso_altura.denominacion_recuperado = DENOMINACION;
+            mostrar_peso_altura.sexo_recuperado = SEXO;
             mostrar_peso_altura.ShowDialog();
         }
 
@@ -81,13 +84,22 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             if (DENOMINACION != "")
             {
                 Modificar_Peso_x_Altura_x_Raza modificar_peso_altura = new Modificar_Peso_x_Altura_x_Raza();
-
+                modificar_peso_altura.denominacion_recuperado = DENOMINACION;
+                modificar_peso_altura.sexo_recuperado = SEXO;
                 modificar_peso_altura.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Por favor seleccione una Denominacion");
             }
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            Alta_Peso_x_Altura_x_Raza alta_peso = new Alta_Peso_x_Altura_x_Raza();
+            alta_peso.contFEMENINO = true;
+            alta_peso.contMASCULINO = true;
+            alta_peso.ShowDialog();
         }
     }
 }

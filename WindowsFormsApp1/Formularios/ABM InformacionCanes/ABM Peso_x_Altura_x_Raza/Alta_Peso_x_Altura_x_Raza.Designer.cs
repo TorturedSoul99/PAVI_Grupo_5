@@ -30,9 +30,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
         private void InitializeComponent()
         {
             this.btn_Agregar = new System.Windows.Forms.Button();
-            this.textBox013 = new WindowsFormsApp1.Back_end.TextBox01();
-            this.textBox012 = new WindowsFormsApp1.Back_end.TextBox01();
-            this.textBox011 = new WindowsFormsApp1.Back_end.TextBox01();
+            this.txt_alturaMedia = new WindowsFormsApp1.Back_end.TextBox01();
+            this.txt_PesoMax = new WindowsFormsApp1.Back_end.TextBox01();
+            this.txt_pesoMin = new WindowsFormsApp1.Back_end.TextBox01();
             this.cmb_sexo = new WindowsFormsApp1.Back_end.ComboBox01();
             this.cmb_denominacion = new WindowsFormsApp1.Back_end.ComboBox01();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,38 +52,38 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
             this.btn_Agregar.UseVisualStyleBackColor = true;
             this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
-            // textBox013
+            // txt_alturaMedia
             // 
-            this.textBox013.Location = new System.Drawing.Point(222, 208);
-            this.textBox013.Name = "textBox013";
-            this.textBox013.Pp_campo = null;
-            this.textBox013.Pp_MensajeError = null;
-            this.textBox013.Pp_tabla = null;
-            this.textBox013.Pp_Validable = false;
-            this.textBox013.Size = new System.Drawing.Size(172, 20);
-            this.textBox013.TabIndex = 20;
+            this.txt_alturaMedia.Location = new System.Drawing.Point(222, 208);
+            this.txt_alturaMedia.Name = "txt_alturaMedia";
+            this.txt_alturaMedia.Pp_campo = null;
+            this.txt_alturaMedia.Pp_MensajeError = "Por favor agregue una altura media";
+            this.txt_alturaMedia.Pp_tabla = null;
+            this.txt_alturaMedia.Pp_Validable = false;
+            this.txt_alturaMedia.Size = new System.Drawing.Size(172, 20);
+            this.txt_alturaMedia.TabIndex = 20;
             // 
-            // textBox012
+            // txt_PesoMax
             // 
-            this.textBox012.Location = new System.Drawing.Point(222, 171);
-            this.textBox012.Name = "textBox012";
-            this.textBox012.Pp_campo = null;
-            this.textBox012.Pp_MensajeError = null;
-            this.textBox012.Pp_tabla = null;
-            this.textBox012.Pp_Validable = false;
-            this.textBox012.Size = new System.Drawing.Size(172, 20);
-            this.textBox012.TabIndex = 19;
+            this.txt_PesoMax.Location = new System.Drawing.Point(222, 171);
+            this.txt_PesoMax.Name = "txt_PesoMax";
+            this.txt_PesoMax.Pp_campo = null;
+            this.txt_PesoMax.Pp_MensajeError = "Por favor agregue un peso maximo";
+            this.txt_PesoMax.Pp_tabla = null;
+            this.txt_PesoMax.Pp_Validable = false;
+            this.txt_PesoMax.Size = new System.Drawing.Size(172, 20);
+            this.txt_PesoMax.TabIndex = 19;
             // 
-            // textBox011
+            // txt_pesoMin
             // 
-            this.textBox011.Location = new System.Drawing.Point(222, 135);
-            this.textBox011.Name = "textBox011";
-            this.textBox011.Pp_campo = null;
-            this.textBox011.Pp_MensajeError = null;
-            this.textBox011.Pp_tabla = null;
-            this.textBox011.Pp_Validable = false;
-            this.textBox011.Size = new System.Drawing.Size(172, 20);
-            this.textBox011.TabIndex = 18;
+            this.txt_pesoMin.Location = new System.Drawing.Point(222, 135);
+            this.txt_pesoMin.Name = "txt_pesoMin";
+            this.txt_pesoMin.Pp_campo = null;
+            this.txt_pesoMin.Pp_MensajeError = "Por favor agregue Un peso minimo";
+            this.txt_pesoMin.Pp_tabla = null;
+            this.txt_pesoMin.Pp_Validable = false;
+            this.txt_pesoMin.Size = new System.Drawing.Size(172, 20);
+            this.txt_pesoMin.TabIndex = 18;
             // 
             // cmb_sexo
             // 
@@ -183,11 +183,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 353);
+            this.ClientSize = new System.Drawing.Size(446, 345);
             this.Controls.Add(this.btn_Agregar);
-            this.Controls.Add(this.textBox013);
-            this.Controls.Add(this.textBox012);
-            this.Controls.Add(this.textBox011);
+            this.Controls.Add(this.txt_alturaMedia);
+            this.Controls.Add(this.txt_PesoMax);
+            this.Controls.Add(this.txt_pesoMin);
             this.Controls.Add(this.cmb_sexo);
             this.Controls.Add(this.cmb_denominacion);
             this.Controls.Add(this.label5);
@@ -196,6 +196,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Alta_Peso_x_Altura_x_Raza";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta Peso por Altura por Raza";
             this.Load += new System.EventHandler(this.Alta_Peso_x_Altura_x_Raza_Load);
             this.ResumeLayout(false);
@@ -206,9 +207,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_
         #endregion
 
         private System.Windows.Forms.Button btn_Agregar;
-        private Back_end.TextBox01 textBox013;
-        private Back_end.TextBox01 textBox012;
-        private Back_end.TextBox01 textBox011;
+        private Back_end.TextBox01 txt_alturaMedia;
+        private Back_end.TextBox01 txt_PesoMax;
+        private Back_end.TextBox01 txt_pesoMin;
         private Back_end.ComboBox01 cmb_sexo;
         private Back_end.ComboBox01 cmb_denominacion;
         private System.Windows.Forms.Label label5;

@@ -24,6 +24,7 @@ using WindowsFormsApp1.Formularios.ABM_Sintomas;
 using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
 using WindowsFormsApp1.Formularios.Proceso_receta;
 using WindowsFormsApp1.Formularios.Proceso_Consulta;
+using WindowsFormsApp1.Formularios.ABM_InformacionCanes;
 
 namespace WindowsFormsApp1
 {
@@ -173,10 +174,10 @@ namespace WindowsFormsApp1
             regRe.ShowDialog();
         }
 
-        private void pesoPorAlturaPorRazaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void PesoPorAlturaPorRazaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Peso_x_altura_x_Raza = new Peso_x_altura_x_Raza();
-            
+            Peso_x_altura_x_Raza peso_altura = new Peso_x_altura_x_Raza();
+            peso_altura.ShowDialog();
         }
     }
 }

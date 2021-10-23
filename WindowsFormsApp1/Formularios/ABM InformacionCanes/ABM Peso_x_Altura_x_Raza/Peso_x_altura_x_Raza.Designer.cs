@@ -130,6 +130,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.btnNuevo.TabIndex = 23;
             this.btnNuevo.Text = "Nueva";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Peso_x_altura_x_Raza
             // 
@@ -143,6 +144,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.Controls.Add(this.grid_Peso_altura_raza);
             this.Controls.Add(this.btnNuevo);
             this.Name = "Peso_x_altura_x_Raza";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Peso_x_altura_x_Raza";
             this.Load += new System.EventHandler(this.Peso_x_altura_x_Raza_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid_Peso_altura_raza)).EndInit();
