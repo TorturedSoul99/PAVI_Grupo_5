@@ -470,17 +470,23 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.cs">
+    <Compile Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Proceso_receta\Registrar_Receta.Designer.cs">
+    <Compile Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.Designer.cs">
       <DependentUpon>Registrar_Receta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Proceso Consulta\Proceso_Consulta_Para_Canes.cs">
+    <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
+    <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.Designer.cs">
+      <DependentUpon>Reporte_Peso_altura_x_Raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Negocio\Negocio_Proceso_Consulta_Canes.cs" />
     <Compile Include="Negocio\NE_consulta.cs" />
@@ -675,11 +681,14 @@
     <EmbeddedResource Include="Formularios\ABM Vacuna\MenuVacunas.resx">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Proceso_receta\Registrar_Receta.resx">
+    <EmbeddedResource Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.resx">
       <DependentUpon>Registrar_Receta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
+    <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.resx">
+      <DependentUpon>Reporte_Peso_altura_x_Raza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
