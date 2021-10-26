@@ -72,5 +72,13 @@ namespace WindowsFormsApp1.Negocio
             string sqlEliminarEmpleado = "DELETE FROM empleados WHERE ID_empleado = "+id;
             _BD.Insertar(sqlEliminarEmpleado);
         }
+
+
+
+        public DataTable Buscar_fechaIngreso_x_MesAnno(string mes,string anno)
+        {
+            string sql = "SELECT ID_empleado, Nro_documento, Nombre, Apellido FROM empleados WHERE Fecha_ingreso = '01-"+mes+"-"+anno+"'";
+            return _BD.EjecutarSelect(sql);
+        }
     }
 }

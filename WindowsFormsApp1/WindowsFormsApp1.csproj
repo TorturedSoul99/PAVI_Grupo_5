@@ -500,11 +500,16 @@
     <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.cs">
+    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.Designer.cs">
-      <DependentUpon>Reporte_Peso_altura_x_Raza.cs</DependentUpon>
+    <Compile Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Empleados.Designer.cs">
+      <DependentUpon>Reporte_Empleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Negocio\Negocio_Proceso_Consulta_Canes.cs" />
     <Compile Include="Negocio\NE_consulta.cs" />
@@ -706,8 +711,8 @@
     <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Peso_altura_x_Raza.resx">
-      <DependentUpon>Reporte_Peso_altura_x_Raza.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Reportes\Reporte_peso_altura_x_raza\Reporte_Empleados.resx">
+      <DependentUpon>Reporte_Empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -861,6 +866,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\Reporte_peso_altura_x_raza\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\Reporte_peso_altura_x_raza\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\Reporte_peso_altura_x_raza\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
