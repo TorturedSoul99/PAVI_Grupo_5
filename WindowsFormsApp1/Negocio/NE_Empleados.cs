@@ -75,9 +75,9 @@ namespace WindowsFormsApp1.Negocio
 
 
 
-        public DataTable Buscar_fechaIngreso_x_MesAnno(string mes,string anno)
+        public DataTable Buscar_empleado_x_FechaIngreso(int anno)
         {
-            string sql = "SELECT ID_empleado, Nro_documento, Nombre, Apellido FROM empleados WHERE Fecha_ingreso = '01-"+mes+"-"+anno+"'";
+            string sql = "SELECT ID_empleado, Nro_documento, Nombre, Apellido, Fecha_ingreso FROM empleados WHERE Fecha_ingreso between '"+anno+"0101' AND '"+anno+"1231' ORDER BY Fecha_ingreso" ;
             return _BD.EjecutarSelect(sql);
         }
     }

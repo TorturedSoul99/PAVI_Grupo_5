@@ -25,6 +25,8 @@ using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
 using WindowsFormsApp1.Formularios.Proceso_receta;
 using WindowsFormsApp1.Formularios.Proceso_Consulta;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes;
+using WindowsFormsApp1.Formularios.Reportes;
+//using WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza;
 
 namespace WindowsFormsApp1
 {
@@ -178,6 +180,12 @@ namespace WindowsFormsApp1
         {
             Peso_x_altura_x_Raza peso_altura = new Peso_x_altura_x_Raza();
             peso_altura.ShowDialog();
+        }
+
+        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //Reporte_empleado rep_emple = new Reporte_empleado();
+            //rep_emple.ShowDialog();
         }
     }
 }
