@@ -34,8 +34,13 @@ namespace WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza
             {
                 tabla = empleado.Buscar_empleado_x_FechaIngreso(Convert.ToInt32(txt_anno.Text));
                 ReportDataSource datos = new ReportDataSource("DataSet1", tabla);
-                //rv01.LocalReport.ReportEmbeddedResource = WindowsFormsApp1.Formularios.Reportes.;
-
+                rv01.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado.Rprt_empleado_x_FechaDeIngreso.rdlc";
+                ReportParameter[] parametro = new ReportParameter[1];
+                parametro[0] = new ReportParameter("RP01", "Para el Año :" + txt_anno.Text);
+                rv01.LocalReport.SetParameters(parametro);
+                rv01.LocalReport.DataSources.Clear();
+                rv01.LocalReport.DataSources.Add(datos);
+                rv01.RefreshReport();
             }
             else
             {

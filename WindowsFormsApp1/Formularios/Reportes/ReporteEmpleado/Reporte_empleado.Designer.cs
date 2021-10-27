@@ -122,6 +122,7 @@ namespace WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza
             this.ClientSize = new System.Drawing.Size(943, 451);
             this.Controls.Add(this.tabControl1);
             this.Name = "Reporte_empleado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte Empleado";
             this.Load += new System.EventHandler(this.Reporte_empleado_Load);
             this.tabControl1.ResumeLayout(false);
