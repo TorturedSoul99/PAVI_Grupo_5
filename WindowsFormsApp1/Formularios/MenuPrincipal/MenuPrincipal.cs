@@ -28,6 +28,7 @@ using WindowsFormsApp1.Formularios.ABM_InformacionCanes;
 using WindowsFormsApp1.Formularios.Reportes;
 using WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza;
 using WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado;
+using WindowsFormsApp1.Formularios.Reportes.ReporteConsulta;
 
 namespace WindowsFormsApp1
 {
@@ -187,6 +188,12 @@ namespace WindowsFormsApp1
         {
             Reporte_empleado rep_emple = new Reporte_empleado();
             rep_emple.ShowDialog();
+        }
+
+        private void consultasPorAñoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reporte_consulta rptconsulta = new Reporte_consulta();
+            rptconsulta.ShowDialog();
         }
     }
 }

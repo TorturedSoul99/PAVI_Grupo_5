@@ -92,5 +92,10 @@ namespace WindowsFormsApp1.Negocio
             _BD.Insertar(sqlModificar);
 
         }
+        public DataTable Buscar_orden_x_FechaEntrada(int anno)
+        {
+            string sql = "SELECT c.Nro_orden, c.Nro_historia_clinica, c.ID_sucursal, c.Fecha_entrada, c.Fecha_salida, hc.Nombre FROM consulta c JOIN historia_clinica hc ON c.Nro_historia_clinica=hc.Nro_historia_clinica AND c.ID_sucursal= hc.ID_sucursal WHERE Fecha_entrada between '" + anno + "0101' AND '" + anno + "1231' ORDER BY Fecha_entrada";
+            return _BD.EjecutarSelect(sql);
+        }
     }
 }
