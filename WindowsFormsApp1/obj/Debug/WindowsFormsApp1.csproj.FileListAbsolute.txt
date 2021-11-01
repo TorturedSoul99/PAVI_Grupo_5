@@ -535,3 +535,4 @@ C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\ob
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
 C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources

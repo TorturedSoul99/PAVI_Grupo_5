@@ -63,6 +63,7 @@ namespace WindowsFormsApp1
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empleadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasPorAñoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pacientesPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -318,7 +319,8 @@ namespace WindowsFormsApp1
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.empleadosToolStripMenuItem1,
-            this.consultasPorAñoToolStripMenuItem});
+            this.consultasPorAñoToolStripMenuItem,
+            this.pacientesPorSucursalToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -336,6 +338,13 @@ namespace WindowsFormsApp1
             this.consultasPorAñoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultasPorAñoToolStripMenuItem.Text = "Consultas por Año";
             this.consultasPorAñoToolStripMenuItem.Click += new System.EventHandler(this.consultasPorAñoToolStripMenuItem_Click);
+            // 
+            // pacientesPorSucursalToolStripMenuItem
+            // 
+            this.pacientesPorSucursalToolStripMenuItem.Name = "pacientesPorSucursalToolStripMenuItem";
+            this.pacientesPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.pacientesPorSucursalToolStripMenuItem.Text = "Pacientes por Sucursal";
+            this.pacientesPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.pacientesPorSucursalToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -393,6 +402,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem consultasPorAñoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pacientesPorSucursalToolStripMenuItem;
     }
 }
 
