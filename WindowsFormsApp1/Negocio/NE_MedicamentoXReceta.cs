@@ -59,5 +59,16 @@ namespace WindowsFormsApp1.Negocio
             _BD.EjecutarABM(sql);
         }
 
+        public DataTable Calcular_cantidad_medicamentos_x_fecha (string mes, string año)
+        {
+            string sql = @"SELECT c.Nro_orden, COUNT(m.ID_medicamento) AS 'Cantidad de medicamentos', c.Fecha_entrada AS 'Fecha'
+                          FROM medicamentos_x_receta m JOIN consulta c ON c.ID_receta = m.ID_receta
+                          GROUP BY c.Nro_orden, c.Fecha_entrada
+                          HAVING MONTH(c.Fecha_entrada) = " + mes + " AND YEAR(c.Fecha_entrada) = " + año + ";";
+
+            DataTable tabla = _BD.EjecutarSelect(sql);
+            return tabla;
+        }
+
     }
 }

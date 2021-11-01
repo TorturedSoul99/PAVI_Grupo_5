@@ -28,6 +28,7 @@ using WindowsFormsApp1.Formularios.ABM_InformacionCanes;
 using WindowsFormsApp1.Formularios.Reportes;
 using WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza;
 using WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado;
+using WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos;
 
 namespace WindowsFormsApp1
 {
@@ -187,6 +188,12 @@ namespace WindowsFormsApp1
         {
             Reporte_empleado rep_emple = new Reporte_empleado();
             rep_emple.ShowDialog();
+        }
+
+        private void medicamentosPorRecetasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_reportes_medicamentos rep_med = new Frm_reportes_medicamentos();
+            rep_med.ShowDialog();
         }
     }
 }
