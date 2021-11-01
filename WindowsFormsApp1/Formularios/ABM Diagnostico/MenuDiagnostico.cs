@@ -14,6 +14,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 {
     public partial class MenuDiagnostico : Form
     {
+        NE_diagnostico diagnostico = new NE_diagnostico();
         public MenuDiagnostico()
         {
             InitializeComponent();
@@ -33,20 +34,45 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            ModificarDiagnostico modificar = new ModificarDiagnostico();
-            modificar.ShowDialog();
+            DataGridViewSelectedRowCollection fila_seleccionada = gdDiagnostico.SelectedRows;
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea modificar para continuar", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Debe seleccionar una sola fila", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                int id = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+                string nombre = fila_seleccionada[0].Cells[1].Value.ToString();
+
+                ModificarDiagnostico modificar = new ModificarDiagnostico();
+                modificar._id = id;
+                modificar._nombre = nombre;
+                modificar.ShowDialog();
+                Cargar_diagnostico();
+            }
+        }
+
+        private void Cargar_diagnostico()
+        {
+           DataTable tabla = diagnostico.Cargar_diagnostico();
+           gdDiagnostico.Cargar(tabla);
         }
 
         private void MenuDiagnostico_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet.diagnostico' Puede moverla o quitarla según sea necesario.
-            this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
-
+            //this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
+            DataTable tabla = diagnostico.Cargar_diagnostico();
+            gdDiagnostico.Cargar(tabla);
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            NE_diagnostico diagnostico = new NE_diagnostico();
             DataTable tabla = new DataTable();
             tabla = diagnostico.BuscarDiagnostico(txtbConsulta.Text);
             gdDiagnostico.Cargar(tabla);
@@ -61,6 +87,28 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         private void dataGridView011_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection fila_seleccionada = gdDiagnostico.SelectedRows;
+
+            int id = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+            string nombre = fila_seleccionada[0].Cells[1].Value.ToString();
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea eliminar antes de continuar", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if(fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Seleccione solo una fila", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                diagnostico.Eliminar_diagnostico(id, nombre);
+                Cargar_diagnostico();
+            }
         }
     }
 }

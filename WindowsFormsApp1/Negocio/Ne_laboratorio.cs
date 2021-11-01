@@ -23,6 +23,26 @@ namespace WindowsFormsApp1.Negocio
             string sqlInsertar = "INSERT INTO laboratorios(Nombre,Descripcion) VALUES('"+nombre+"','"+descripcion+"')";
             _BD.Insertar(sqlInsertar);
         }
+        public DataTable recuperar_por_id_laboratorio(int id)
+        {
+            string sqlRecuperarID = "SELECT * FROM laboratorios WHERE ID_laboratorio = " + id;
+            //_BD.EjecutarSelect(sqlRecuperarID);
+            return _BD.EjecutarSelect(sqlRecuperarID);
+        }
+        public void Modificar_laboratorio(int id, string nombre, string descripcion)
+        {
+
+            string sqlModificar = @"UPDATE laboratorios SET Nombre = '" + nombre + "',"
+                                          + "Descripcion = '" + descripcion + "' WHERE ID_laboratorio = " + id;
+
+            _BD.Insertar(sqlModificar);
+        }
+        public void Eliminar_laboratorio(int id)
+        {
+            string sqlEliminar = "DELETE FROM laboratorios WHERE ID_laboratorio = " + id;
+            _BD.Insertar(sqlEliminar);
+        }
+
 
     }    
     

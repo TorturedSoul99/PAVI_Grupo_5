@@ -40,18 +40,26 @@ namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            int receta = int.Parse(comboBox2.Text);
-            int medicamentos = int.Parse(comboBox1.Text);
-            string perio = textBox4.Text.ToString();
-            string dosis = textBox2.Text.ToString();
-            bool agregar = medicam.Alta_MedicamentoXReceta(medicamentos, receta, perio, dosis);
-            if (agregar)
+            if (comboBox1.SelectedItem != null && comboBox2.SelectedItem != null )
             {
-                this.Close();
+                int receta = int.Parse(comboBox2.Text);
+                int medicamentos = int.Parse(comboBox1.Text);
+                string perio = textBox4.Text.ToString();
+                string dosis = textBox2.Text.ToString();
+                bool agregar = medicam.Alta_MedicamentoXReceta(medicamentos, receta, perio, dosis);
+                if (agregar)
+                {
+                    MessageBox.Show("Se agrego correctamente el medicamento a la receta", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe un medicamento registrado o la receta no existe, por favor seleccione otra receta u otro medicamento", "Error al cargar medicamentos para la receta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
             else
             {
-                MessageBox.Show("Ya existe un medicamento registrado o la receta no existe, por favor seleccione otra receta u otro medicamento", "Error al cargar medicamentos para la receta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Falto llenar un campo ", "Error al cargar medicamento a una receta ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 

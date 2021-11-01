@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WindowsFormsApp1",
+    "\\WindowsFormsApp1\\Formularios",
+    "\\WindowsFormsApp1\\Formularios\\ABM MedicamentosXReceta",
+    "\\WindowsFormsApp1\\Formularios\\ABM Receta",
+    "\\WindowsFormsApp1\\Formularios\\FORMULARIO BASE",
+    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal",
+    "\\WindowsFormsApp1\\Formularios\\Reportes",
+    "\\WindowsFormsApp1\\Formularios\\Reportes\\Reporte_peso_altura_x_raza",
+    "\\WindowsFormsApp1\\Negocio"
   ],
-  "SelectedNode": "\\WindowsFormsApp1.sln",
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\Reportes\\Reporte_peso_altura_x_raza",
   "PreviewInSolutionExplorer": false
 }

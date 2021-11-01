@@ -23,5 +23,29 @@ namespace WindowsFormsApp1.Negocio
             string sql = "SELECT * FROM raza";
             return _BD.EjecutarSelect(sql);
         }
+        public void AltaRaza(string denominacion,string cuidados)
+        {
+            string sqlInsertar = "INSERT INTO raza(Denominacion,Cuidados_especiales) VALUES('" + denominacion + "','" + cuidados + "')";
+            _BD.Insertar(sqlInsertar);
+        }
+        public DataTable recuperar_por_Denominacion_Raza(string denominacion)
+        {
+            string sqlRecuperarID = "SELECT * FROM raza WHERE Denominacion = '" + denominacion +"'";
+            //_BD.EjecutarSelect(sqlRecuperarID);
+            return _BD.EjecutarSelect(sqlRecuperarID);
+        }
+        public void Modificar_Raza(string cuidados,string Actual_denominacion)
+        {
+
+            string sqlModificar = @"UPDATE raza SET Denominacion = '" + Actual_denominacion + "',"
+                                          + "Cuidados_especiales = '" + cuidados + "'  WHERE Denominacion = '" + Actual_denominacion+"'";
+
+            _BD.Insertar(sqlModificar);
+        }
+        public void Eliminar_Raza(string Actual_denominacion)
+        {
+            string sqlEliminar = "DELETE FROM raza WHERE Denominacion = '" + Actual_denominacion+"'";
+            _BD.Insertar(sqlEliminar);
+        }
     }
 }

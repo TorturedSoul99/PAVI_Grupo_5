@@ -33,6 +33,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +66,10 @@
   <ItemGroup>
     <Compile Include="Back-end\BE_Acceso_datos.cs" />
     <Compile Include="Back-end\ComboBox01.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Back-end\Sabueso_Feliz_Validaciones.cs" />
+    <Compile Include="Back-end\TextBox01.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Back-end\DataGridView01.cs">
@@ -69,6 +91,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,6 +125,26 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD3K3G05_2021DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM CalendarioVacunas\ABM CalendarioVacunas.cs">
       <SubType>Form</SubType>
@@ -173,6 +230,12 @@
     <Compile Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.Designer.cs">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.Designer.cs">
+      <DependentUpon>MostrarEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +272,24 @@
     <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.Designer.cs">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.Designer.cs">
+      <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Alta_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Mostrar_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,11 +320,17 @@
     <Compile Include="Formularios\ABM InformacionCanes\ABM Raza\Raza.Designer.cs">
       <DependentUpon>Raza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Peso_x_altura_x_Raza.Designer.cs">
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.Designer.cs">
       <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.Designer.cs">
+      <DependentUpon>Modificar_Peso_x_Altura_x_Raza.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ABM Laboratorios\Alta_laboratorio.cs">
       <SubType>Form</SubType>
@@ -329,6 +416,24 @@
     <Compile Include="Formularios\ABM Vacuna\modificar_vacunas.Designer.cs">
       <DependentUpon>modificar_vacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.Designer.cs">
+      <DependentUpon>Alta_HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.Designer.cs">
+      <DependentUpon>Menu_HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.Designer.cs">
+      <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,6 +445,12 @@
     </Compile>
     <Compile Include="Formularios\ABM InformacionCanes\Menu Estadisticas.Designer.cs">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.Designer.cs">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\MenuPrincipal\MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -377,10 +488,37 @@
     <Compile Include="Formularios\ABM Vacuna\MenuVacunas.Designer.cs">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.Designer.cs">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
+      <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteEmpleado\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.Designer.cs">
+      <DependentUpon>Reporte_empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Negocio_Proceso_Consulta_Canes.cs" />
+    <Compile Include="Negocio\NE_consulta.cs" />
     <Compile Include="Negocio\NE_Deposito_x_sucursal.cs" />
     <Compile Include="Negocio\NE_diagnostico.cs" />
     <Compile Include="Negocio\NE_calendario_vacunas.cs" />
+    <Compile Include="Negocio\NE_historiaClinica.cs" />
     <Compile Include="Negocio\NE_MedicamentoXReceta.cs" />
+    <Compile Include="Negocio\NE_Peso_x_Altura_x_Raza.cs" />
     <Compile Include="Negocio\NE_receta.cs" />
     <Compile Include="Negocio\NE_sintomas.cs" />
     <Compile Include="Negocio\NE_Empleados.cs" />
@@ -392,6 +530,7 @@
     <Compile Include="Negocio\NE_Vacunas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Back-end\LabelText02.resx">
       <DependentUpon>LabelText02.cs</DependentUpon>
     </EmbeddedResource>
@@ -437,6 +576,9 @@
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\Modificar Empleado.resx">
       <DependentUpon>Modificar Empleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Empleado\MostrarEmpleado.resx">
+      <DependentUpon>MostrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Medicamentos\ABMmedicamentos.resx">
       <DependentUpon>ABMmedicamentos.cs</DependentUpon>
     </EmbeddedResource>
@@ -454,6 +596,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Modificar Sucursales.resx">
       <DependentUpon>Modificar Sucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM Empresa\ABM Sucursales\Mostrar_sucursal.resx">
+      <DependentUpon>Mostrar_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Alta_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Alta_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Modificar_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Modificar_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Mostrar_Peso_x_Altura_x_Raza.resx">
+      <DependentUpon>Mostrar_Peso_x_Altura_x_Raza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Peso_x_Altura_x_Raza\Peso_x_altura_x_Raza.resx">
+      <DependentUpon>Peso_x_altura_x_Raza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\ABM Raza\Alta_raza.resx">
       <DependentUpon>Alta_raza.cs</DependentUpon>
@@ -512,11 +669,23 @@
     <EmbeddedResource Include="Formularios\ABM Vacuna\modificar_vacunas.resx">
       <DependentUpon>modificar_vacunas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Alta_HistoriaClinica.resx">
+      <DependentUpon>Alta_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Menu_HistoriaClinica.resx">
+      <DependentUpon>Menu_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.resx">
+      <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM InformacionCanes\Menu Estadisticas.resx">
       <DependentUpon>Menu Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.resx">
+      <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuPrincipal\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -535,6 +704,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ABM Vacuna\MenuVacunas.resx">
       <DependentUpon>MenuVacunas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Procesos\Proceso_receta\Registrar_Receta.resx">
+      <DependentUpon>Registrar_Receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
+      <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReporteEmpleado\Rprt_empleado_x_FechaDeIngreso.rdlc" />
+    <EmbeddedResource Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.resx">
+      <DependentUpon>Reporte_empleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -567,6 +746,39 @@
     </None>
     <None Include="BD3K3G05_2021DataSet1.xss">
       <DependentUpon>BD3K3G05_2021DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet10.xss">
+      <DependentUpon>BD3K3G05_2021DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet11.xss">
+      <DependentUpon>BD3K3G05_2021DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet12.xss">
+      <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
     </None>
     <None Include="BD3K3G05_2021DataSet2.xsc">
       <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
@@ -612,6 +824,62 @@
     <None Include="BD3K3G05_2021DataSet5.xss">
       <DependentUpon>BD3K3G05_2021DataSet5.xsd</DependentUpon>
     </None>
+    <None Include="BD3K3G05_2021DataSet6.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet6.xss">
+      <DependentUpon>BD3K3G05_2021DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet7.xss">
+      <DependentUpon>BD3K3G05_2021DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet8.xss">
+      <DependentUpon>BD3K3G05_2021DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet9.xss">
+      <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReporteEmpleado\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReporteEmpleado\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\ReporteEmpleado\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -645,6 +913,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\3puntos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

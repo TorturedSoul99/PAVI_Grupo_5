@@ -56,6 +56,12 @@ namespace WindowsFormsApp1
             this.medicamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miselaneoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.razaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PesoPorAlturaPorRazaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaCaninaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.recetaToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empleadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,10 +74,12 @@ namespace WindowsFormsApp1
             this.estadisticasToolStripMenuItem,
             this.laboratoriosToolStripMenuItem,
             this.empresaToolStripMenuItem,
-            this.miselaneoToolStripMenuItem});
+            this.miselaneoToolStripMenuItem,
+            this.procesosToolStripMenuItem,
+            this.reportesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(679, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(953, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -109,6 +117,7 @@ namespace WindowsFormsApp1
             this.historiaClinicaToolStripMenuItem.Name = "historiaClinicaToolStripMenuItem";
             this.historiaClinicaToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.historiaClinicaToolStripMenuItem.Text = "Historia Clínica";
+            this.historiaClinicaToolStripMenuItem.Click += new System.EventHandler(this.historiaClinicaToolStripMenuItem_Click);
             // 
             // diagnosticoToolStripMenuItem
             // 
@@ -144,7 +153,7 @@ namespace WindowsFormsApp1
             this.aBMVacunacionToolStripMenuItem,
             this.calendarioDeVacunaciónToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
-            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.vacunacionToolStripMenuItem.Text = "Vacunación";
             // 
             // aBMVacunacionToolStripMenuItem
@@ -261,7 +270,8 @@ namespace WindowsFormsApp1
             // miselaneoToolStripMenuItem
             // 
             this.miselaneoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.razaToolStripMenuItem});
+            this.razaToolStripMenuItem,
+            this.PesoPorAlturaPorRazaToolStripMenuItem});
             this.miselaneoToolStripMenuItem.Name = "miselaneoToolStripMenuItem";
             this.miselaneoToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.miselaneoToolStripMenuItem.Text = "Información Canes";
@@ -269,9 +279,54 @@ namespace WindowsFormsApp1
             // razaToolStripMenuItem
             // 
             this.razaToolStripMenuItem.Name = "razaToolStripMenuItem";
-            this.razaToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.razaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.razaToolStripMenuItem.Text = "Raza";
             this.razaToolStripMenuItem.Click += new System.EventHandler(this.razaToolStripMenuItem_Click);
+            // 
+            // PesoPorAlturaPorRazaToolStripMenuItem
+            // 
+            this.PesoPorAlturaPorRazaToolStripMenuItem.Name = "PesoPorAlturaPorRazaToolStripMenuItem";
+            this.PesoPorAlturaPorRazaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.PesoPorAlturaPorRazaToolStripMenuItem.Text = "Peso por Altura por Raza";
+            this.PesoPorAlturaPorRazaToolStripMenuItem.Click += new System.EventHandler(this.PesoPorAlturaPorRazaToolStripMenuItem_Click);
+            // 
+            // procesosToolStripMenuItem
+            // 
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultaCaninaToolStripMenuItem,
+            this.recetaToolStripMenuItem2});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // consultaCaninaToolStripMenuItem
+            // 
+            this.consultaCaninaToolStripMenuItem.Name = "consultaCaninaToolStripMenuItem";
+            this.consultaCaninaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.consultaCaninaToolStripMenuItem.Text = "Consulta Canina";
+            this.consultaCaninaToolStripMenuItem.Click += new System.EventHandler(this.consultaCaninaToolStripMenuItem_Click);
+            // 
+            // recetaToolStripMenuItem2
+            // 
+            this.recetaToolStripMenuItem2.Name = "recetaToolStripMenuItem2";
+            this.recetaToolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
+            this.recetaToolStripMenuItem2.Text = "Receta";
+            this.recetaToolStripMenuItem2.Click += new System.EventHandler(this.recetaToolStripMenuItem2_Click);
+            // 
+            // reportesToolStripMenuItem
+            // 
+            this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.empleadosToolStripMenuItem1});
+            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.reportesToolStripMenuItem.Text = "Reportes";
+            // 
+            // empleadosToolStripMenuItem1
+            // 
+            this.empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
+            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.empleadosToolStripMenuItem1.Text = "Empleados";
+            this.empleadosToolStripMenuItem1.Click += new System.EventHandler(this.empleadosToolStripMenuItem1_Click);
             // 
             // frmMenuPPAL
             // 
@@ -279,7 +334,7 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.WhatsApp_Image_2021_09_07_at_15_52_30;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(679, 463);
+            this.ClientSize = new System.Drawing.Size(953, 544);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenuPPAL";
@@ -322,6 +377,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem depositoPorSucursalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem síntomasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calendarioDeVacunaciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaCaninaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem recetaToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem PesoPorAlturaPorRazaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem1;
     }
 }
 

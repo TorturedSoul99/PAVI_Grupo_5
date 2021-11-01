@@ -17,5 +17,34 @@ namespace WindowsFormsApp1.Negocio
             string sql = "SELECT * FROM deposito_x_sucursal WHERE ID_Medicamento like '%" + id_medicamento + "%'";
             return _BD.EjecutarSelect(sql);
         }
+        public void AltaDeposito_x_sucursal(int id_med, int id_sucu, int minimo, int stock_act)
+        {
+           string sqlInsertar = "INSERT INTO deposito_x_sucursal(ID_Medicamento,ID_Sucursal,Minimo_stock,Stock_Actual) VALUES(" + id_med + "," + id_sucu +"," + minimo + "," + stock_act + ")";
+                _BD.Insertar(sqlInsertar);
+            
+        }
+
+        public DataTable Recuperar_x_ID_medicamento_sucursal(int ID_med, int ID_sucu)
+        {
+            string sqlRecuperarID = "SELECT * FROM deposito_x_sucursal WHERE ID_Medicamento = " + ID_med + "AND ID_Sucursal = " + ID_sucu;
+            return _BD.EjecutarSelect(sqlRecuperarID);
+        }
+
+        public void Modificar_deposito_x_sucursal(int ID_med, int ID_sucu, int minimo, int actual, int nuevo_med, int nueva_sucu)
+        {
+            string sqlModificar_deposito_x_sucursal = @"UPDATE deposito_x_sucursal SET ID_Medicamento = " + ID_med + ","
+                                                      + "ID_Sucursal = " + ID_sucu + ","
+                                                      + "Minimo_stock = " + minimo + ","
+                                                      + "Stock_Actual = " + actual + " "
+                                                      + "WHERE ID_Medicamento = " + nuevo_med + "AND ID_Sucursal = " + nueva_sucu;
+            _BD.Insertar(sqlModificar_deposito_x_sucursal);
+        }
+
+
+        public void Eliminardeposito_x_sucursal(int id_med, int id_sucu)
+        {
+            string sqlEliminardeposito_x_sucursal = "DELETE FROM deposito_x_sucursal WHERE ID_Medicamento = " + id_med + "AND ID_Sucursal = " +id_sucu;
+            _BD.Insertar(sqlEliminardeposito_x_sucursal);
+        }
     }
 }

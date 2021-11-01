@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Reporte_Empleado_x_FechaDeIngreso" msprop:Generator_TableClassName="Reporte_Empleado_x_FechaDeIngresoDataTable" msprop:Generator_TableVarName="tableReporte_Empleado_x_FechaDeIngreso" msprop:Generator_TablePropName="Reporte_Empleado_x_FechaDeIngreso" msprop:Generator_RowDeletingName="Reporte_Empleado_x_FechaDeIngresoRowDeleting" msprop:Generator_RowChangingName="Reporte_Empleado_x_FechaDeIngresoRowChanging" msprop:Generator_RowEvHandlerName="Reporte_Empleado_x_FechaDeIngresoRowChangeEventHandler" msprop:Generator_RowDeletedName="Reporte_Empleado_x_FechaDeIngresoRowDeleted" msprop:Generator_UserTableName="Reporte_Empleado_x_FechaDeIngreso" msprop:Generator_RowChangedName="Reporte_Empleado_x_FechaDeIngresoRowChanged" msprop:Generator_RowEvArgName="Reporte_Empleado_x_FechaDeIngresoRowChangeEvent" msprop:Generator_RowClassName="Reporte_Empleado_x_FechaDeIngresoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_empleado" msprop:Generator_ColumnVarNameInTable="columnID_empleado" msprop:Generator_ColumnPropNameInRow="ID_empleado" msprop:Generator_ColumnPropNameInTable="ID_empleadoColumn" msprop:Generator_UserColumnName="ID_empleado" type="xs:int" minOccurs="0" />
+              <xs:element name="Nro_documento" msprop:Generator_ColumnVarNameInTable="columnNro_documento" msprop:Generator_ColumnPropNameInRow="Nro_documento" msprop:Generator_ColumnPropNameInTable="Nro_documentoColumn" msprop:Generator_UserColumnName="Nro_documento" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Apellido" msprop:Generator_ColumnVarNameInTable="columnApellido" msprop:Generator_ColumnPropNameInRow="Apellido" msprop:Generator_ColumnPropNameInTable="ApellidoColumn" msprop:Generator_UserColumnName="Apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_ingreso" msprop:Generator_ColumnVarNameInTable="columnFecha_ingreso" msprop:Generator_ColumnPropNameInRow="Fecha_ingreso" msprop:Generator_ColumnPropNameInTable="Fecha_ingresoColumn" msprop:Generator_UserColumnName="Fecha_ingreso" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

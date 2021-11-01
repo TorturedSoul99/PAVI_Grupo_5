@@ -76,6 +76,7 @@ namespace WindowsFormsApp1.Formularios
             this.btnEliminar.TabIndex = 10;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -128,6 +129,7 @@ namespace WindowsFormsApp1.Formularios
             this.Name = "MenuVacunas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Vacunas";
+            this.Load += new System.EventHandler(this.MenuVacunas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvVacunas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

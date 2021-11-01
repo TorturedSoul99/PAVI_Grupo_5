@@ -29,41 +29,35 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnagregar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.txt_cuidados_especiales = new System.Windows.Forms.TextBox();
             this.txtdenominacion = new System.Windows.Forms.TextBox();
             this.lblcuidadosespeciales = new System.Windows.Forms.Label();
-            this.lblsexo = new System.Windows.Forms.Label();
             this.lbldenominacion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnagregar
+            // btnEliminar
             // 
-            this.btnagregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnagregar.Location = new System.Drawing.Point(308, 204);
-            this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(77, 27);
-            this.btnagregar.TabIndex = 13;
-            this.btnagregar.Text = "Mostrar";
-            this.btnagregar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(308, 204);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(77, 27);
+            this.btnEliminar.TabIndex = 13;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
-            // textBox3
+            // txt_cuidados_especiales
             // 
-            this.textBox3.Location = new System.Drawing.Point(181, 91);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(204, 20);
-            this.textBox3.TabIndex = 12;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(181, 145);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 20);
-            this.textBox2.TabIndex = 11;
+            this.txt_cuidados_especiales.Enabled = false;
+            this.txt_cuidados_especiales.Location = new System.Drawing.Point(181, 99);
+            this.txt_cuidados_especiales.Name = "txt_cuidados_especiales";
+            this.txt_cuidados_especiales.Size = new System.Drawing.Size(204, 20);
+            this.txt_cuidados_especiales.TabIndex = 11;
             // 
             // txtdenominacion
             // 
+            this.txtdenominacion.Enabled = false;
             this.txtdenominacion.Location = new System.Drawing.Point(181, 43);
             this.txtdenominacion.Name = "txtdenominacion";
             this.txtdenominacion.Size = new System.Drawing.Size(204, 20);
@@ -73,21 +67,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             this.lblcuidadosespeciales.AutoSize = true;
             this.lblcuidadosespeciales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcuidadosespeciales.Location = new System.Drawing.Point(18, 145);
+            this.lblcuidadosespeciales.Location = new System.Drawing.Point(18, 99);
             this.lblcuidadosespeciales.Name = "lblcuidadosespeciales";
             this.lblcuidadosespeciales.Size = new System.Drawing.Size(157, 20);
             this.lblcuidadosespeciales.TabIndex = 9;
             this.lblcuidadosespeciales.Text = "Cuidados Especiales";
-            // 
-            // lblsexo
-            // 
-            this.lblsexo.AutoSize = true;
-            this.lblsexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsexo.Location = new System.Drawing.Point(130, 91);
-            this.lblsexo.Name = "lblsexo";
-            this.lblsexo.Size = new System.Drawing.Size(45, 20);
-            this.lblsexo.TabIndex = 8;
-            this.lblsexo.Text = "Sexo";
             // 
             // lbldenominacion
             // 
@@ -104,15 +88,14 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(405, 248);
-            this.Controls.Add(this.btnagregar);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.txt_cuidados_especiales);
             this.Controls.Add(this.txtdenominacion);
             this.Controls.Add(this.lblcuidadosespeciales);
-            this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.lbldenominacion);
             this.Name = "Mostrar_raza";
             this.Text = "Mostrar_raza";
+            this.Load += new System.EventHandler(this.Mostrar_raza_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,12 +103,10 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
 
         #endregion
 
-        private System.Windows.Forms.Button btnagregar;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.TextBox txt_cuidados_especiales;
         private System.Windows.Forms.TextBox txtdenominacion;
         private System.Windows.Forms.Label lblcuidadosespeciales;
-        private System.Windows.Forms.Label lblsexo;
         private System.Windows.Forms.Label lbldenominacion;
     }
 }

@@ -12,6 +12,7 @@ using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales;
 using WindowsFormsApp1.Formularios.ABM_Laboratorios;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza;
+using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza;
 using WindowsFormsApp1.Formularios.ABM_Vacunacion;
 using WindowsFormsApp1.Formularios.ABM_Receta;
 using WindowsFormsApp1.Formularios.ABM_Diagnostico;
@@ -20,6 +21,13 @@ using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos;
 using WindowsFormsApp1.Formularios.ABM_DepositoXSucursal;
 using WindowsFormsApp1.Formularios.ABM_CalendarioVacunas;
 using WindowsFormsApp1.Formularios.ABM_Sintomas;
+using WindowsFormsApp1.Formularios.AMB_HistoriaClinica;
+using WindowsFormsApp1.Formularios.Proceso_receta;
+using WindowsFormsApp1.Formularios.Proceso_Consulta;
+using WindowsFormsApp1.Formularios.ABM_InformacionCanes;
+using WindowsFormsApp1.Formularios.Reportes;
+using WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza;
+using WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado;
 
 namespace WindowsFormsApp1
 {
@@ -138,6 +146,47 @@ namespace WindowsFormsApp1
         {
             ABM_CalendarioVacunas calendario_vacunas = new ABM_CalendarioVacunas();
             calendario_vacunas.ShowDialog();
+        }
+
+        private void historiaClinicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu_HistoriaClinica HC = new Menu_HistoriaClinica();
+            HC.ShowDialog();
+        }
+
+        private void RecetaStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void recetaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void consultaCaninaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Proceso_Consulta_Para_Canes consulta = new Proceso_Consulta_Para_Canes();
+            consulta.ShowDialog();
+        }
+
+        private void recetaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Registrar_Receta regRe = new Registrar_Receta();
+            regRe.ShowDialog();
+        }
+
+        private void PesoPorAlturaPorRazaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Peso_x_altura_x_Raza peso_altura = new Peso_x_altura_x_Raza();
+            peso_altura.ShowDialog();
+        }
+
+        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Reporte_empleado rep_emple = new Reporte_empleado();
+            rep_emple.ShowDialog();
         }
     }
 }
