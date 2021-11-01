@@ -100,7 +100,11 @@ namespace WindowsFormsApp1.Negocio
 
         }
 
-
+        public DataTable Buscar_sucursal_x_historiaClinica(int id_sucursal)
+        {
+            string sql = "SELECT Nro_historia_clinica, Nombre, Fecha_nacimiento, Raza, Nombre_dueño, Apellido_dueño FROM historia_clinica WHERE ID_sucursal = " + id_sucursal;
+            return _BD.EjecutarSelect(sql);
+        }
 
 
     }

@@ -500,6 +500,17 @@
     <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConsulta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteConsulta\Reporte_consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteConsulta\Reporte_consulta.Designer.cs">
+      <DependentUpon>Reporte_consulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reportes\ReporteEmpleado\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -510,6 +521,17 @@
     </Compile>
     <Compile Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.Designer.cs">
       <DependentUpon>Reporte_empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPacientesSucursal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Reporte_pacientes_x_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Reporte_pacientes_x_sucursal.Designer.cs">
+      <DependentUpon>Reporte_pacientes_x_sucursal.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Reportes\ReportesMedicamentos\frm_reportes_medicamentos.cs">
       <SubType>Form</SubType>
@@ -717,6 +739,10 @@
     <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReporteConsulta\Reporte_consulta.resx">
+      <DependentUpon>Reporte_consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReporteConsulta\Rprt_consultas_x_Año.rdlc" />
     <EmbeddedResource Include="Formularios\Reportes\ReporteEmpleado\Rprt_empleado_x_FechaDeIngreso.rdlc" />
     <EmbeddedResource Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.resx">
       <DependentUpon>Reporte_empleado.cs</DependentUpon>
@@ -724,6 +750,10 @@
     <EmbeddedResource Include="Formularios\Reportes\ReportesMedicamentos\frm_reportes_medicamentos.resx">
       <DependentUpon>frm_reportes_medicamentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Reporte_pacientes_x_sucursal.resx">
+      <DependentUpon>Reporte_pacientes_x_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Rprt_pacientes_x_sucursal.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -877,6 +907,17 @@
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
     </None>
+    <None Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.xsc">
+      <DependentUpon>DataSetConsulta.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConsulta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.xss">
+      <DependentUpon>DataSetConsulta.xsd</DependentUpon>
+    </None>
     <None Include="Formularios\Reportes\ReporteEmpleado\DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -887,6 +928,17 @@
     </None>
     <None Include="Formularios\Reportes\ReporteEmpleado\DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.xsc">
+      <DependentUpon>DataSetPacientesSucursal.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPacientesSucursal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.xss">
+      <DependentUpon>DataSetPacientesSucursal.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
