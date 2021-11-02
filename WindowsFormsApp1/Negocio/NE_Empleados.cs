@@ -80,5 +80,12 @@ namespace WindowsFormsApp1.Negocio
             string sql = "SELECT ID_empleado, Nro_documento, Nombre, Apellido, Fecha_ingreso FROM empleados WHERE Fecha_ingreso between '"+anno+"0101' AND '"+anno+"1231' ORDER BY Fecha_ingreso" ;
             return _BD.EjecutarSelect(sql);
         }
+
+        public DataTable Empleados_x_Sucursal(int sucursal)
+        {
+            string sql = "SELECT e.Nro_documento,e.Nombre,e.Apellido,e.Fecha_nacimiento,e.Matricula FROM empleados e WHERE e.ID_sucursal = "+sucursal;
+            return _BD.EjecutarSelect(sql);
+        }
+        
     }
 }
