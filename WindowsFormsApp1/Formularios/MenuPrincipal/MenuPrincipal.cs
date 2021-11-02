@@ -32,6 +32,7 @@ using WindowsFormsApp1.Formularios.Reportes.ReporteConsulta;
 using WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal;
 using WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos;
 using WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados;
+using WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal;
 
 namespace WindowsFormsApp1
 {
@@ -216,6 +217,12 @@ namespace WindowsFormsApp1
             PromedioDiasInternados promedioDiasInternados = new PromedioDiasInternados();
             promedioDiasInternados.ShowDialog();
 
+        }
+
+        private void medicamentosPorSucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_reportes_depositos_x_sucursales med_sucu = new Frm_reportes_depositos_x_sucursales();
+            med_sucu.ShowDialog();
         }
     }
 }

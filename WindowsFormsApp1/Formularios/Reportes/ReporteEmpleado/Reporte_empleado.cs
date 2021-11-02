@@ -26,6 +26,8 @@ namespace WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza
         {
 
             this.rv01.RefreshReport();
+            this.RV_empleado_x_sucursal.RefreshReport();
+            cmb_sucursales.cargarCombo();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,6 +47,26 @@ namespace WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza
             else
             {
                 MessageBox.Show("Por favor ingrese una Año");
+            }
+        }
+
+        private void btn_buscar_sucu_Click(object sender, EventArgs e)
+        {
+            if (cmb_sucursales.SelectedIndex != -1)
+            {
+                tabla = empleado.Empleados_x_Sucursal(Convert.ToInt32(cmb_sucursales.SelectedValue.ToString()));
+                ReportDataSource datos = new ReportDataSource("DataSet1", tabla);
+                RV_empleado_x_sucursal.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado.Rprt_Empleados_x_Sucursal.rdlc";
+                ReportParameter[] parametro = new ReportParameter[1];
+                parametro[0] = new ReportParameter("RP_empleado_sucursal", "Para la Sucursal :" + cmb_sucursales.SelectedIndex +" Cantidad de Empleados = "+tabla.Rows.Count);
+                RV_empleado_x_sucursal.LocalReport.SetParameters(parametro);
+                RV_empleado_x_sucursal.LocalReport.DataSources.Clear();
+                RV_empleado_x_sucursal.LocalReport.DataSources.Add(datos);
+                RV_empleado_x_sucursal.RefreshReport();
+            }
+            else
+            {
+                MessageBox.Show("Por favor una Sucursal");
             }
         }
     }
