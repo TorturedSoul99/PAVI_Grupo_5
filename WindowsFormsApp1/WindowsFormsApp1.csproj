@@ -500,6 +500,17 @@
     <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\MedicamentosPorSucursal\Frm_reportes_depositos_x_sucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\MedicamentosPorSucursal\Frm_reportes_depositos_x_sucursales.Designer.cs">
+      <DependentUpon>Frm_reportes_depositos_x_sucursales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.cs">
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </Compile>
@@ -761,6 +772,9 @@
     <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\MedicamentosPorSucursal\Frm_reportes_depositos_x_sucursales.resx">
+      <DependentUpon>Frm_reportes_depositos_x_sucursales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reportes\PromedioDiasInternados\PromedioDiasInternados.resx">
       <DependentUpon>PromedioDiasInternados.cs</DependentUpon>
     </EmbeddedResource>
@@ -933,6 +947,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.xsc">
       <DependentUpon>DataSet2.xsd</DependentUpon>
