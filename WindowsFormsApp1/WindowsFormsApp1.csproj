@@ -566,6 +566,20 @@
     <Compile Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Reporte_pacientes_x_sucursal.Designer.cs">
       <DependentUpon>Reporte_pacientes_x_sucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\DataSet3.cs">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\DataSet3.Designer.cs">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\ReporteVacunadosDiarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\ReporteVacunadosDiarios.Designer.cs">
+      <DependentUpon>ReporteVacunadosDiarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -794,6 +808,10 @@
     <EmbeddedResource Include="Formularios\Reportes\ReporteEmpleado\Reporte_empleado.resx">
       <DependentUpon>Reporte_empleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\ReporteVacunadosDiarios.resx">
+      <DependentUpon>ReporteVacunadosDiarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\Rprt_PromedioVacunadosDiarios.rdlc" />
     <EmbeddedResource Include="Formularios\Reportes\ReportesMedicamentos\frm_reportes_medicamentos.resx">
       <DependentUpon>frm_reportes_medicamentos.cs</DependentUpon>
     </EmbeddedResource>
@@ -1021,6 +1039,17 @@
     <None Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.xss">
       <DependentUpon>DataSetPacientesSucursal.xsd</DependentUpon>
     </None>
+    <None Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Formularios\Reportes\ReportePromedioDeVacunadosDiarios\DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
     <None Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.xsc">
       <DependentUpon>DataSet_Medicamentos.xsd</DependentUpon>
     </None>
@@ -1033,6 +1062,10 @@
       <DependentUpon>DataSet_Medicamentos.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.DataSet2.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.DataSet21.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.DataSet3.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.ReporteVacunadosDiarios.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -1081,6 +1114,9 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -104,5 +104,16 @@ namespace WindowsFormsApp1.Negocio
             sql = "DELETE FROM calendario_vacunas WHERE ID_historia_clinica = " + nhc + " AND ID_sucursal = " + sucursal + " AND ID_vacuna = " + vacuna +";";
             _BD.EjecutarABM(sql);
         }
+
+        public DataTable CalcularCantidadPromedioDeVacunadosDiarios(int Ano,int mes, int dia)
+        {
+            String sql = @"SELECT Fecha_estimada, Fecha_real FROM calendario_vacunas
+                           WHERE Fecha_real = '" + Ano + "-" + mes + "-" + dia +"'";
+
+
+            return _BD.EjecutarSelect(sql);
+
+
+        }
     }
 }

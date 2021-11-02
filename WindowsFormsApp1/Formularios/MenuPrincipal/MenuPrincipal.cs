@@ -34,6 +34,7 @@ using WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos;
 using WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados;
 using WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal;
 
+using WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios;
 namespace WindowsFormsApp1
 {
     public partial class frmMenuPPAL : Form
@@ -223,6 +224,13 @@ namespace WindowsFormsApp1
         {
             Frm_reportes_depositos_x_sucursales med_sucu = new Frm_reportes_depositos_x_sucursales();
             med_sucu.ShowDialog();
+        }
+
+        private void promedioDeVacunadosDiariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteVacunadosDiarios repo = new ReporteVacunadosDiarios();
+            repo.ShowDialog();
+
         }
     }
 }
