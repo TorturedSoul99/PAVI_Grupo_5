@@ -533,6 +533,11 @@
     <Compile Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Reporte_pacientes_x_sucursal.Designer.cs">
       <DependentUpon>Reporte_pacientes_x_sucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Medicamentos.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reportes\ReportesMedicamentos\frm_reportes_medicamentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -754,6 +759,7 @@
       <DependentUpon>Reporte_pacientes_x_sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reportes\ReportePacientes_x_Sucursal\Rprt_pacientes_x_sucursal.rdlc" />
+    <EmbeddedResource Include="Formularios\Reportes\ReportesMedicamentos\Rprt_cantidad_medicamentos_consulta.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -939,6 +945,17 @@
     </None>
     <None Include="Formularios\Reportes\ReportePacientes_x_Sucursal\DataSetPacientesSucursal.xss">
       <DependentUpon>DataSetPacientesSucursal.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.xsc">
+      <DependentUpon>DataSet_Medicamentos.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Medicamentos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Reportes\ReportesMedicamentos\DataSet_Medicamentos.xss">
+      <DependentUpon>DataSet_Medicamentos.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

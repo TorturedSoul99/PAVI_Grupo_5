@@ -64,6 +64,7 @@ namespace WindowsFormsApp1
             this.empleadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasPorAñoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medicamentosPorConsultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -320,7 +321,8 @@ namespace WindowsFormsApp1
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.empleadosToolStripMenuItem1,
             this.consultasPorAñoToolStripMenuItem,
-            this.pacientesPorSucursalToolStripMenuItem});
+            this.pacientesPorSucursalToolStripMenuItem,
+            this.medicamentosPorConsultaToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -328,23 +330,30 @@ namespace WindowsFormsApp1
             // empleadosToolStripMenuItem1
             // 
             this.empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
-            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(222, 22);
             this.empleadosToolStripMenuItem1.Text = "Empleados";
             this.empleadosToolStripMenuItem1.Click += new System.EventHandler(this.empleadosToolStripMenuItem1_Click);
             // 
             // consultasPorAñoToolStripMenuItem
             // 
             this.consultasPorAñoToolStripMenuItem.Name = "consultasPorAñoToolStripMenuItem";
-            this.consultasPorAñoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultasPorAñoToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.consultasPorAñoToolStripMenuItem.Text = "Consultas por Año";
             this.consultasPorAñoToolStripMenuItem.Click += new System.EventHandler(this.consultasPorAñoToolStripMenuItem_Click);
             // 
             // pacientesPorSucursalToolStripMenuItem
             // 
             this.pacientesPorSucursalToolStripMenuItem.Name = "pacientesPorSucursalToolStripMenuItem";
-            this.pacientesPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.pacientesPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.pacientesPorSucursalToolStripMenuItem.Text = "Pacientes por Sucursal";
             this.pacientesPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.pacientesPorSucursalToolStripMenuItem_Click);
+            // 
+            // medicamentosPorConsultaToolStripMenuItem
+            // 
+            this.medicamentosPorConsultaToolStripMenuItem.Name = "medicamentosPorConsultaToolStripMenuItem";
+            this.medicamentosPorConsultaToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.medicamentosPorConsultaToolStripMenuItem.Text = "Medicamentos por receta";
+            this.medicamentosPorConsultaToolStripMenuItem.Click += new System.EventHandler(this.medicamentosPorRecetasToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -403,6 +412,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem consultasPorAñoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pacientesPorSucursalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medicamentosPorConsultaToolStripMenuItem;
     }
 }
 

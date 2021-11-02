@@ -35,6 +35,17 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             string año = txt_año.Text;
 
             tabla = medicamentos_x_receta.Calcular_cantidad_medicamentos_x_fecha(mes, año);
+
+            ReportDataSource datos = new ReportDataSource("DataSet_Medicamentos", tabla);
+            reportViewer_medicamentos.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Rprt_cantidad_medicamentos_consulta.rdlc";
+            ReportParameter[] parametro = new ReportParameter[1];
+            parametro[0] = new ReportParameter("RP_medicamentos", "Para el Año: " + año + " y el mes: " + cmb_mes.Text);
+            reportViewer_medicamentos.LocalReport.SetParameters(parametro);
+            reportViewer_medicamentos.LocalReport.DataSources.Clear();
+            reportViewer_medicamentos.LocalReport.DataSources.Add(datos);
+            reportViewer_medicamentos.RefreshReport();
+
+
         }
     }
 }

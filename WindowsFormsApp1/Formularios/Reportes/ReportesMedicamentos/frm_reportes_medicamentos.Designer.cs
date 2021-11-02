@@ -32,7 +32,8 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.cmb_mes = new System.Windows.Forms.ComboBox();
+            this.reportViewer_medicamentos = new Microsoft.Reporting.WinForms.ReportViewer();
             this.btn_calcular = new System.Windows.Forms.Button();
             this.txt_año = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             this.btn_buscar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmb_mes = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -74,7 +74,7 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.cmb_mes);
-            this.tabPage2.Controls.Add(this.reportViewer2);
+            this.tabPage2.Controls.Add(this.reportViewer_medicamentos);
             this.tabPage2.Controls.Add(this.btn_calcular);
             this.tabPage2.Controls.Add(this.txt_año);
             this.tabPage2.Controls.Add(this.label4);
@@ -87,16 +87,38 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             this.tabPage2.Text = "Cantidad de medicamentos por consulta en el mes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // reportViewer2
+            // cmb_mes
             // 
-            this.reportViewer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cmb_mes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_mes.FormattingEnabled = true;
+            this.cmb_mes.Items.AddRange(new object[] {
+            "Enero",
+            "Febrero",
+            "Marzo",
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Julio",
+            "Agosto",
+            "Septiembre",
+            "Octubre",
+            "Noviembre",
+            "Diciembre"});
+            this.cmb_mes.Location = new System.Drawing.Point(79, 5);
+            this.cmb_mes.Name = "cmb_mes";
+            this.cmb_mes.Size = new System.Drawing.Size(118, 28);
+            this.cmb_mes.TabIndex = 8;
+            // 
+            // reportViewer_medicamentos
+            // 
+            this.reportViewer_medicamentos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.reportViewer2.Location = new System.Drawing.Point(0, 89);
-            this.reportViewer2.Name = "reportViewer2";
-            this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.Size = new System.Drawing.Size(792, 309);
-            this.reportViewer2.TabIndex = 7;
+            this.reportViewer_medicamentos.Location = new System.Drawing.Point(0, 89);
+            this.reportViewer_medicamentos.Name = "reportViewer_medicamentos";
+            this.reportViewer_medicamentos.ServerReport.BearerToken = null;
+            this.reportViewer_medicamentos.Size = new System.Drawing.Size(792, 309);
+            this.reportViewer_medicamentos.TabIndex = 7;
             // 
             // btn_calcular
             // 
@@ -190,28 +212,6 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
             this.label2.TabIndex = 0;
             this.label2.Text = "Precio";
             // 
-            // cmb_mes
-            // 
-            this.cmb_mes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_mes.FormattingEnabled = true;
-            this.cmb_mes.Items.AddRange(new object[] {
-            "Enero",
-            "Febrero",
-            "Marzo",
-            "Abril",
-            "Mayo",
-            "Junio",
-            "Julio",
-            "Agosto",
-            "Septiembre",
-            "Octubre",
-            "Noviembre",
-            "Diciembre"});
-            this.cmb_mes.Location = new System.Drawing.Point(79, 5);
-            this.cmb_mes.Name = "cmb_mes";
-            this.cmb_mes.Size = new System.Drawing.Size(118, 28);
-            this.cmb_mes.TabIndex = 8;
-            // 
             // Frm_reportes_medicamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -246,7 +246,7 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer2;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer_medicamentos;
         private System.Windows.Forms.Button btn_calcular;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txt_año;
