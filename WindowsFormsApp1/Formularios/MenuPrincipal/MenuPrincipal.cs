@@ -32,7 +32,7 @@ using WindowsFormsApp1.Formularios.Reportes.ReporteConsulta;
 using WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal;
 using WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos;
 using WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados;
-
+using WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios;
 namespace WindowsFormsApp1
 {
     public partial class frmMenuPPAL : Form
@@ -215,6 +215,13 @@ namespace WindowsFormsApp1
         {
             PromedioDiasInternados promedioDiasInternados = new PromedioDiasInternados();
             promedioDiasInternados.ShowDialog();
+
+        }
+
+        private void promedioDeVacunadosDiariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteVacunadosDiarios repo = new ReporteVacunadosDiarios();
+            repo.ShowDialog();
 
         }
     }
