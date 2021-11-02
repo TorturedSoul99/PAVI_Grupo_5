@@ -327,7 +327,7 @@ namespace WindowsFormsApp1
             this.promedioDiasInternacionToolStripMenuItem,
             this.pacientesPorSucursalToolStripMenuItem,
             this.medicamentosPorConsultaToolStripMenuItem,
-            this.medicamentosPorSucursalToolStripMenuItem});
+            this.medicamentosPorSucursalToolStripMenuItem,
             this.medicamentosPorConsultaToolStripMenuItem,
             this.promedioDeVacunadosDiariosToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
