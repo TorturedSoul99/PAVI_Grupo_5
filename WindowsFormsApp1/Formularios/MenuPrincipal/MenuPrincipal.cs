@@ -30,6 +30,7 @@ using WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza;
 using WindowsFormsApp1.Formularios.Reportes.ReporteEmpleado;
 using WindowsFormsApp1.Formularios.Reportes.ReporteConsulta;
 using WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal;
+using WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados;
 
 namespace WindowsFormsApp1
 {
@@ -201,6 +202,13 @@ namespace WindowsFormsApp1
         {
             Reporte_pacientes_x_sucursal rpt_pacientes_sucursal = new Reporte_pacientes_x_sucursal();
             rpt_pacientes_sucursal.ShowDialog();
+        }
+
+        private void promedioDiasInternacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PromedioDiasInternados promedioDiasInternados = new PromedioDiasInternados();
+            promedioDiasInternados.ShowDialog();
+
         }
     }
 }

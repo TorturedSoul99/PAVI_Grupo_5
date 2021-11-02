@@ -500,6 +500,20 @@
     <Compile Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.Designer.cs">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.cs">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.Designer.cs">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Formularios\Reportes\PromedioDiasInternados\PromedioDiasInternados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\PromedioDiasInternados\PromedioDiasInternados.Designer.cs">
+      <DependentUpon>PromedioDiasInternados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -510,6 +524,9 @@
     </Compile>
     <Compile Include="Formularios\Reportes\ReporteConsulta\Reporte_consulta.Designer.cs">
       <DependentUpon>Reporte_consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\ReporteEmpleado\DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Reportes\ReporteEmpleado\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -733,6 +750,10 @@
     <EmbeddedResource Include="Formularios\Procesos\Proceso Consulta\Proceso_Consulta_Para_Canes.resx">
       <DependentUpon>Proceso_Consulta_Para_Canes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\PromedioDiasInternados\PromedioDiasInternados.resx">
+      <DependentUpon>PromedioDiasInternados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\PromedioDiasInternados\Rprt_PromedioDiasInternados.rdlc" />
     <EmbeddedResource Include="Formularios\Reportes\ReporteConsulta\Reporte_consulta.resx">
       <DependentUpon>Reporte_consulta.cs</DependentUpon>
     </EmbeddedResource>
@@ -897,6 +918,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Formularios\Reportes\PromedioDiasInternados\DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Reportes\ReporteConsulta\DataSetConsulta.xsc">
       <DependentUpon>DataSetConsulta.xsd</DependentUpon>

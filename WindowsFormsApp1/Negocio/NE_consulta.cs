@@ -40,6 +40,14 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sql);
         }
 
+        public DataTable MostrarConsultaXleo(int annoE,int annoS)
+        {
+            string sql = @"SELECT Fecha_entrada, Fecha_salida FROM consulta 
+                           WHERE Fecha_entrada between '"+annoE+"-01-01' AND '"+annoS+"-12-31' ORDER BY Fecha_salida";
+            
+
+            return _BD.EjecutarSelect(sql);
+        }
         public DataTable RecuperarConsulta(string nro_orden)
         {
 
