@@ -323,7 +323,7 @@ namespace WindowsFormsApp1
             this.empleadosToolStripMenuItem1,
             this.consultasPorAñoToolStripMenuItem,
             this.pacientesPorSucursalToolStripMenuItem,
-            this.promedioDiasInternacionToolStripMenuItem});
+            this.promedioDiasInternacionToolStripMenuItem,
             this.pacientesPorSucursalToolStripMenuItem,
             this.medicamentosPorConsultaToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
