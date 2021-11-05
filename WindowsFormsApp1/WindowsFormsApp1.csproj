@@ -434,6 +434,14 @@
     <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.Designer.cs">
       <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.cs">
+      <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -445,12 +453,6 @@
     </Compile>
     <Compile Include="Formularios\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Menu Estadisticas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\ABM InformacionCanes\Menu Estadisticas.Designer.cs">
-      <DependentUpon>Menu Estadisticas.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.cs">
       <SubType>Form</SubType>
@@ -767,11 +769,9 @@
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.resx">
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_x_año.rdlc" />
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ABM InformacionCanes\Menu Estadisticas.resx">
-      <DependentUpon>Menu Estadisticas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FORMULARIO BASE\Formulario_Base_ABM.resx">
       <DependentUpon>Formulario_Base_ABM.cs</DependentUpon>
@@ -981,6 +981,17 @@
     </None>
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xsc">
+      <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEstadisticaConsulta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xss">
+      <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet_Medicamentos_x_Sucursal.xsc">
       <DependentUpon>DataSet_Medicamentos_x_Sucursal.xsd</DependentUpon>

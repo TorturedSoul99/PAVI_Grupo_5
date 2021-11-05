@@ -33,8 +33,8 @@ using WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal;
 using WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos;
 using WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados;
 using WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal;
-
 using WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios;
+using WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño;
 namespace WindowsFormsApp1
 {
     public partial class frmMenuPPAL : Form
@@ -231,6 +231,12 @@ namespace WindowsFormsApp1
             ReporteVacunadosDiarios repo = new ReporteVacunadosDiarios();
             repo.ShowDialog();
 
+        }
+
+        private void cantidadConsultasPorAñoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Estadistica_consultas_x_año consulta_x_año = new Estadistica_consultas_x_año();
+            consulta_x_año.ShowDialog();
         }
     }
 }
