@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
+namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño
 {
-    partial class Reporte_consulta
+    partial class Estadistica_consultas_x_año
     {
         /// <summary>
         /// Required designer variable.
@@ -46,11 +46,11 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(27, 12);
+            this.tabControl1.Location = new System.Drawing.Point(26, 24);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(748, 485);
-            this.tabControl1.TabIndex = 2;
+            this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
             // 
@@ -73,9 +73,9 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 24);
+            this.label2.Size = new System.Drawing.Size(281, 24);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Reporte consultas por año";
+            this.label2.Text = "Estadistica consultas por año";
             // 
             // txt_anno
             // 
@@ -113,16 +113,15 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             this.btn_calcular.TabIndex = 1;
             this.btn_calcular.Text = "Buscar";
             this.btn_calcular.UseVisualStyleBackColor = true;
-            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
             // 
-            // Reporte_consulta
+            // Estadistica_consultas_x_año
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 526);
+            this.ClientSize = new System.Drawing.Size(800, 532);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Reporte_consulta";
-            this.Text = "Reporte consulta";
+            this.Name = "Estadistica_consultas_x_año";
+            this.Text = "Estadistica_consultas_x_año";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
