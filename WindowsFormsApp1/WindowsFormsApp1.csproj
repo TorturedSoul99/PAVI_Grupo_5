@@ -448,6 +448,17 @@
     <Compile Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.Designer.cs">
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.Designer.cs">
+      <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -770,6 +781,10 @@
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_x_año.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.resx">
+      <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprt_Meicamento_por_anno.rdlc" />
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -993,6 +1008,17 @@
     <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xss">
       <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
     </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xsc">
+      <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetMedicamentos_por_Anno.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xss">
+      <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>
+    </None>
     <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet_Medicamentos_x_Sucursal.xsc">
       <DependentUpon>DataSet_Medicamentos_x_Sucursal.xsd</DependentUpon>
     </None>
@@ -1138,5 +1164,6 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

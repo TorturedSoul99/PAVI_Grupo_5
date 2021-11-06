@@ -41,5 +41,14 @@ namespace WindowsFormsApp1.Negocio
             string sqlEliminar = "DELETE FROM medicamentos WHERE ID_medicamento = " + id;
             _BD.Insertar(sqlEliminar);
         }
+
+        public DataTable medicamentos_por_anno(int anno_Desde, int anno_Hasta)
+        {
+            string sqlRecuperarID = @"SELECT convert(char(4), year(m.FechaUltimaCompra)) Anno, count(*) cuantos_medicamentos"
+                                    + " FROM medicamentos m"
+                                    + " WHERE year(m.FechaUltimaCompra) between" + anno_Desde + "AND" + anno_Hasta
+                                    + " GROUP BY year(m.FechaUltimaCompra)";
+            return _BD.EjecutarSelect(sqlRecuperarID);
+        }
     }
 }
