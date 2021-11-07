@@ -892,3 +892,4 @@ C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Micro
 C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño.Estadistica_consultas_x_año.resources
 C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.ReporteVacunadosDiarios.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño.Frm_MedicamentosPorAnno.resources

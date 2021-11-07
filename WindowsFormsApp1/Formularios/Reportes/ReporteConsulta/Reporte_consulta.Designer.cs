@@ -32,10 +32,10 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_anno = new System.Windows.Forms.TextBox();
             this.rv01 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_calcular = new System.Windows.Forms.Button();
+            this.txt_anno = new System.Windows.Forms.MaskedTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -54,8 +54,8 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.txt_anno);
+            this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.rv01);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.btn_calcular);
@@ -76,13 +76,6 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             this.label2.Size = new System.Drawing.Size(256, 24);
             this.label2.TabIndex = 5;
             this.label2.Text = "Reporte consultas por año";
-            // 
-            // txt_anno
-            // 
-            this.txt_anno.Location = new System.Drawing.Point(223, 86);
-            this.txt_anno.Name = "txt_anno";
-            this.txt_anno.Size = new System.Drawing.Size(115, 20);
-            this.txt_anno.TabIndex = 4;
             // 
             // rv01
             // 
@@ -115,6 +108,14 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
             this.btn_calcular.UseVisualStyleBackColor = true;
             this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
             // 
+            // txt_anno
+            // 
+            this.txt_anno.Location = new System.Drawing.Point(223, 85);
+            this.txt_anno.Mask = "9999";
+            this.txt_anno.Name = "txt_anno";
+            this.txt_anno.Size = new System.Drawing.Size(100, 20);
+            this.txt_anno.TabIndex = 6;
+            // 
             // Reporte_consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,9 +136,9 @@ namespace WindowsFormsApp1.Formularios.Reportes.ReporteConsulta
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_anno;
         private Microsoft.Reporting.WinForms.ReportViewer rv01;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_calcular;
+        private System.Windows.Forms.MaskedTextBox txt_anno;
     }
 }

@@ -780,6 +780,7 @@
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.resx">
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_entre_años.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_x_año.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.resx">
       <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>

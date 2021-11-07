@@ -407,7 +407,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Cantidad consultas por mes y año</Value>
+                    <Value>Cantidad consultas por mes </Value>
                     <Style>
                       <FontSize>14pt</FontSize>
                       <FontWeight>Bold</FontWeight>
@@ -470,7 +470,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>descripcion</Value>
+                                  <Value>Año y mes</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -616,7 +616,7 @@
             <Top>4.46828cm</Top>
             <Left>19.49662cm</Left>
             <Height>1.2cm</Height>
-            <Width>8.26083cm</Width>
+            <Width>8.26084cm</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>

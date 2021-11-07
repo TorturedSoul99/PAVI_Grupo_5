@@ -43,7 +43,28 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño
             }
             else
             {
-                MessageBox.Show("Por favor ingrese un año");
+                MessageBox.Show("Por favor complete los campos restantes");
+            }
+        }
+
+        private void btn_buscar_Click(object sender, EventArgs e)
+        {
+            if (txt_anno1.Text != "" && txt_anno2.Text != "")
+            {
+                tabla = consulta.ConsultaPorAños(txt_anno1.Text, txt_anno2.Text);
+                ReportDataSource datos = new ReportDataSource("DataSetConsultaEntreAños", tabla);
+                rv02.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño.Rprt_cantidad_consultas_entre_años.rdlc";
+                ReportParameter[] parametro = new ReportParameter[1];
+                parametro[0] = new ReportParameter("RPconsultaEntreAños", "Entre el Año " + txt_anno1.Text + "y el año " + txt_anno2);
+                rv02.LocalReport.SetParameters(parametro);
+                rv02.LocalReport.DataSources.Clear();
+                rv02.LocalReport.DataSources.Add(datos);
+                rv02.RefreshReport();
+            }
+
+            else
+            {
+                MessageBox.Show("Por favor complete los campos restantes");
             }
         }
     }

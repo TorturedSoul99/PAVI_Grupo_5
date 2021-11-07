@@ -112,5 +112,11 @@ namespace WindowsFormsApp1.Negocio
             FROM consulta c WHERE year(c.Fecha_entrada) = " + anno + " AND month(c.Fecha_entrada) between " + mes1 + " AND " + mes2 + " group by year(c.Fecha_entrada), month(c.Fecha_entrada)";
             return _BD.EjecutarSelect(sql);
         }
+
+        public DataTable ConsultaPorAños(string anno1, string anno2)
+        {
+            string sql = @"SELECT year(c.Fecha_entrada) anno, count(*) cantidad_años FROM consulta c WHERE year(c.Fecha_entrada) between " + anno1 + " AND " + anno2 + " GROUP BY year(c.Fecha_entrada)";
+            return _BD.EjecutarSelect(sql);
+        }
     }
 }

@@ -26,6 +26,8 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
         
         private CantidadConsultasPorAñoDataTable tableCantidadConsultasPorAño;
         
+        private CantidadConsultasEntreAñosDataTable tableCantidadConsultasEntreAños;
+        
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -57,6 +59,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
                 if ((ds.Tables["CantidadConsultasPorAño"] != null)) {
                     base.Tables.Add(new CantidadConsultasPorAñoDataTable(ds.Tables["CantidadConsultasPorAño"]));
                 }
+                if ((ds.Tables["CantidadConsultasEntreAños"] != null)) {
+                    base.Tables.Add(new CantidadConsultasEntreAñosDataTable(ds.Tables["CantidadConsultasEntreAños"]));
+                }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -82,6 +87,16 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
         public CantidadConsultasPorAñoDataTable CantidadConsultasPorAño {
             get {
                 return this.tableCantidadConsultasPorAño;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public CantidadConsultasEntreAñosDataTable CantidadConsultasEntreAños {
+            get {
+                return this.tableCantidadConsultasEntreAños;
             }
         }
         
@@ -155,6 +170,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
                 if ((ds.Tables["CantidadConsultasPorAño"] != null)) {
                     base.Tables.Add(new CantidadConsultasPorAñoDataTable(ds.Tables["CantidadConsultasPorAño"]));
                 }
+                if ((ds.Tables["CantidadConsultasEntreAños"] != null)) {
+                    base.Tables.Add(new CantidadConsultasEntreAñosDataTable(ds.Tables["CantidadConsultasEntreAños"]));
+                }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -194,6 +212,12 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
                     this.tableCantidadConsultasPorAño.InitVars();
                 }
             }
+            this.tableCantidadConsultasEntreAños = ((CantidadConsultasEntreAñosDataTable)(base.Tables["CantidadConsultasEntreAños"]));
+            if ((initTable == true)) {
+                if ((this.tableCantidadConsultasEntreAños != null)) {
+                    this.tableCantidadConsultasEntreAños.InitVars();
+                }
+            }
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -206,11 +230,19 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableCantidadConsultasPorAño = new CantidadConsultasPorAñoDataTable();
             base.Tables.Add(this.tableCantidadConsultasPorAño);
+            this.tableCantidadConsultasEntreAños = new CantidadConsultasEntreAñosDataTable();
+            base.Tables.Add(this.tableCantidadConsultasEntreAños);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private bool ShouldSerializeCantidadConsultasPorAño() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        private bool ShouldSerializeCantidadConsultasEntreAños() {
             return false;
         }
         
@@ -271,6 +303,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public delegate void CantidadConsultasPorAñoRowChangeEventHandler(object sender, CantidadConsultasPorAñoRowChangeEvent e);
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        public delegate void CantidadConsultasEntreAñosRowChangeEventHandler(object sender, CantidadConsultasEntreAñosRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -534,6 +569,267 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
         }
         
         /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class CantidadConsultasEntreAñosDataTable : global::System.Data.TypedTableBase<CantidadConsultasEntreAñosRow> {
+            
+            private global::System.Data.DataColumn columnanno;
+            
+            private global::System.Data.DataColumn columncantidad_años;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosDataTable() {
+                this.TableName = "CantidadConsultasEntreAños";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            internal CantidadConsultasEntreAñosDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected CantidadConsultasEntreAñosDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn annoColumn {
+                get {
+                    return this.columnanno;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn cantidad_añosColumn {
+                get {
+                    return this.columncantidad_años;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosRow this[int index] {
+                get {
+                    return ((CantidadConsultasEntreAñosRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public event CantidadConsultasEntreAñosRowChangeEventHandler CantidadConsultasEntreAñosRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public event CantidadConsultasEntreAñosRowChangeEventHandler CantidadConsultasEntreAñosRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public event CantidadConsultasEntreAñosRowChangeEventHandler CantidadConsultasEntreAñosRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public event CantidadConsultasEntreAñosRowChangeEventHandler CantidadConsultasEntreAñosRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void AddCantidadConsultasEntreAñosRow(CantidadConsultasEntreAñosRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosRow AddCantidadConsultasEntreAñosRow(int anno, int cantidad_años) {
+                CantidadConsultasEntreAñosRow rowCantidadConsultasEntreAñosRow = ((CantidadConsultasEntreAñosRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        anno,
+                        cantidad_años};
+                rowCantidadConsultasEntreAñosRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowCantidadConsultasEntreAñosRow);
+                return rowCantidadConsultasEntreAñosRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                CantidadConsultasEntreAñosDataTable cln = ((CantidadConsultasEntreAñosDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new CantidadConsultasEntreAñosDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            internal void InitVars() {
+                this.columnanno = base.Columns["anno"];
+                this.columncantidad_años = base.Columns["cantidad_años"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            private void InitClass() {
+                this.columnanno = new global::System.Data.DataColumn("anno", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnanno);
+                this.columncantidad_años = new global::System.Data.DataColumn("cantidad_años", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columncantidad_años);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosRow NewCantidadConsultasEntreAñosRow() {
+                return ((CantidadConsultasEntreAñosRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new CantidadConsultasEntreAñosRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(CantidadConsultasEntreAñosRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.CantidadConsultasEntreAñosRowChanged != null)) {
+                    this.CantidadConsultasEntreAñosRowChanged(this, new CantidadConsultasEntreAñosRowChangeEvent(((CantidadConsultasEntreAñosRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.CantidadConsultasEntreAñosRowChanging != null)) {
+                    this.CantidadConsultasEntreAñosRowChanging(this, new CantidadConsultasEntreAñosRowChangeEvent(((CantidadConsultasEntreAñosRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.CantidadConsultasEntreAñosRowDeleted != null)) {
+                    this.CantidadConsultasEntreAñosRowDeleted(this, new CantidadConsultasEntreAñosRowChangeEvent(((CantidadConsultasEntreAñosRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.CantidadConsultasEntreAñosRowDeleting != null)) {
+                    this.CantidadConsultasEntreAñosRowDeleting(this, new CantidadConsultasEntreAñosRowChangeEvent(((CantidadConsultasEntreAñosRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void RemoveCantidadConsultasEntreAñosRow(CantidadConsultasEntreAñosRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                DataSetEstadisticaConsulta ds = new DataSetEstadisticaConsulta();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "CantidadConsultasEntreAñosDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class CantidadConsultasPorAñoRow : global::System.Data.DataRow {
@@ -607,6 +903,79 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
         }
         
         /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class CantidadConsultasEntreAñosRow : global::System.Data.DataRow {
+            
+            private CantidadConsultasEntreAñosDataTable tableCantidadConsultasEntreAños;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            internal CantidadConsultasEntreAñosRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableCantidadConsultasEntreAños = ((CantidadConsultasEntreAñosDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int anno {
+                get {
+                    try {
+                        return ((int)(this[this.tableCantidadConsultasEntreAños.annoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'anno\' de la tabla \'CantidadConsultasEntreAños\' es DBNull." +
+                                "", e);
+                    }
+                }
+                set {
+                    this[this.tableCantidadConsultasEntreAños.annoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int cantidad_años {
+                get {
+                    try {
+                        return ((int)(this[this.tableCantidadConsultasEntreAños.cantidad_añosColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'cantidad_años\' de la tabla \'CantidadConsultasEntreAños\' e" +
+                                "s DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableCantidadConsultasEntreAños.cantidad_añosColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsannoNull() {
+                return this.IsNull(this.tableCantidadConsultasEntreAños.annoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetannoNull() {
+                this[this.tableCantidadConsultasEntreAños.annoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool Iscantidad_añosNull() {
+                return this.IsNull(this.tableCantidadConsultasEntreAños.cantidad_añosColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void Setcantidad_añosNull() {
+                this[this.tableCantidadConsultasEntreAños.cantidad_añosColumn] = global::System.Convert.DBNull;
+            }
+        }
+        
+        /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -626,6 +995,40 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public CantidadConsultasPorAñoRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        public class CantidadConsultasEntreAñosRowChangeEvent : global::System.EventArgs {
+            
+            private CantidadConsultasEntreAñosRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosRowChangeEvent(CantidadConsultasEntreAñosRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public CantidadConsultasEntreAñosRow Row {
                 get {
                     return this.eventRow;
                 }
