@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta;
+using WindowsFormsApp1.Negocio;
 
 namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
 {
     public partial class MenuMedicamentosXReceta : Form
     {
+        NE_MedicamentoXReceta medicamentoXReceta = new NE_MedicamentoXReceta();
         public MenuMedicamentosXReceta()
         {
             InitializeComponent();
@@ -31,23 +33,81 @@ namespace WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            ModificarMedicamentosXReceta modificar = new ModificarMedicamentosXReceta();
-            modificar.ShowDialog();
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvMXR.SelectedRows;
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea modificar para continuar", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Debe seleccionar una sola fila", "Error al modificar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                int id_receta = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+                int id_medicamento = int.Parse(fila_seleccionada[0].Cells[1].Value.ToString());
+                string perioricidad = fila_seleccionada[0].Cells[2].Value.ToString();
+                string dosis = fila_seleccionada[0].Cells[3].Value.ToString();
+
+                ModificarMedicamentosXReceta modificar = new ModificarMedicamentosXReceta();
+                modificar._idReceta = id_receta;
+                modificar._idMedicamento = id_medicamento;
+                modificar._periodicidad = perioricidad;
+                modificar._dosis = dosis;
+                modificar.ShowDialog();
+                Cargar_medicamentoxreceta();
+            }
+            
 
         }
 
         private void MenuMedicamentosXReceta_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet1.medicamentosXReceta' Puede moverla o quitarla según sea necesario.
-            this.medicamentosXRecetaTableAdapter.Fill(this.bD3K3G05_2021DataSet1.medicamentosXReceta);
-            // TODO: esta línea de código carga datos en la tabla 'bD3K3G05_2021DataSet.diagnostico' Puede moverla o quitarla según sea necesario.
-            this.diagnosticoTableAdapter.Fill(this.bD3K3G05_2021DataSet.diagnostico);
-
+            DataTable tabla = medicamentoXReceta.Cargar_medicamentosxreceta();
+            dgvMXR.Cargar(tabla);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
 
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = new DataTable();
+            tabla = medicamentoXReceta.BuscarMedicamentosReceta(Int32.Parse(txtbConsulta.Text));
+            dgvMXR.Cargar(tabla);
+        }
+
+        private void Cargar_medicamentoxreceta()
+        {
+            DataTable tabla = medicamentoXReceta.Cargar_medicamentosxreceta();
+            dgvMXR.Cargar(tabla);
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection fila_seleccionada = dgvMXR.SelectedRows;
+
+            int id_rec = int.Parse(fila_seleccionada[0].Cells[0].Value.ToString());
+            int id_med = int.Parse(fila_seleccionada[0].Cells[1].Value.ToString());
+            string periodicidad = fila_seleccionada[0].Cells[2].Value.ToString();
+            string dosis = fila_seleccionada[0].Cells[3].Value.ToString();
+
+            if (fila_seleccionada.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar la fila que desea eliminar antes de continuar", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (fila_seleccionada.Count > 1)
+            {
+                MessageBox.Show("Seleccione solo una fila", "Error al eliminar fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                medicamentoXReceta.Eliminar_medicamentoxreceta(id_rec, id_med, dosis, periodicidad);
+                Cargar_medicamentoxreceta();
+            }
         }
     }
 }

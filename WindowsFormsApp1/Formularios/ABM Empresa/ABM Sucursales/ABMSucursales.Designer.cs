@@ -32,13 +32,15 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbConsulta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.dgvSucursales = new System.Windows.Forms.DataGridView();
+            this.gridSucursales = new System.Windows.Forms.DataGridView();
             this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
+            this.chk_SucursalTodos = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.gridSucursales)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
@@ -49,6 +51,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.btnConsultar.TabIndex = 26;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txtbConsulta
             // 
@@ -56,7 +59,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.txtbConsulta.Name = "txtbConsulta";
             this.txtbConsulta.Size = new System.Drawing.Size(235, 20);
             this.txtbConsulta.TabIndex = 25;
-            this.txtbConsulta.Text = "Buscar Segun ID";
+            this.txtbConsulta.Text = "Buscar Segun Nombre";
+            this.txtbConsulta.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtbConsulta_MouseClick);
             // 
             // btnModificar
             // 
@@ -68,24 +72,32 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // dgvSucursales
+            // gridSucursales
             // 
-            this.dgvSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSucursales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gridSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridSucursales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nuevo,
+            this.nombre_sucursal,
             this.Consultar,
             this.Modificar});
-            this.dgvSucursales.Location = new System.Drawing.Point(71, 144);
-            this.dgvSucursales.Name = "dgvSucursales";
-            this.dgvSucursales.Size = new System.Drawing.Size(333, 179);
-            this.dgvSucursales.TabIndex = 23;
-            this.dgvSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
+            this.gridSucursales.Location = new System.Drawing.Point(27, 144);
+            this.gridSucursales.Name = "gridSucursales";
+            this.gridSucursales.Size = new System.Drawing.Size(431, 179);
+            this.gridSucursales.TabIndex = 23;
+            this.gridSucursales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridSucursales_CellClick);
+            this.gridSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
+            this.gridSucursales.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridSucursales_CellDoubleClick);
             // 
             // Nuevo
             // 
             this.Nuevo.HeaderText = "IDSucursal";
             this.Nuevo.MinimumWidth = 10;
             this.Nuevo.Name = "Nuevo";
+            // 
+            // nombre_sucursal
+            // 
+            this.nombre_sucursal.HeaderText = "Nombre";
+            this.nombre_sucursal.Name = "nombre_sucursal";
             // 
             // Consultar
             // 
@@ -117,16 +129,27 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
+            // chk_SucursalTodos
+            // 
+            this.chk_SucursalTodos.AutoSize = true;
+            this.chk_SucursalTodos.Location = new System.Drawing.Point(145, 79);
+            this.chk_SucursalTodos.Name = "chk_SucursalTodos";
+            this.chk_SucursalTodos.Size = new System.Drawing.Size(94, 17);
+            this.chk_SucursalTodos.TabIndex = 27;
+            this.chk_SucursalTodos.Text = "Mostrar Todos";
+            this.chk_SucursalTodos.UseVisualStyleBackColor = true;
+            // 
             // ABMSucursales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(496, 448);
+            this.Controls.Add(this.chk_SucursalTodos);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.dgvSucursales);
+            this.Controls.Add(this.gridSucursales);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -135,7 +158,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Name = "ABMSucursales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sucursales";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).EndInit();
+            this.Load += new System.EventHandler(this.ABMSucursales_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridSucursales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,10 +170,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtbConsulta;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.DataGridView dgvSucursales;
+        private System.Windows.Forms.DataGridView gridSucursales;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.CheckBox chk_SucursalTodos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre_sucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modificar;
     }

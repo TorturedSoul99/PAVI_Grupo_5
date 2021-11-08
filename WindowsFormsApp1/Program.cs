@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
+using WindowsFormsApp1.Formularios.Proceso_Consulta;
+using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza;
 
 namespace WindowsFormsApp1
 {
@@ -19,7 +21,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMenuPPAL());
-            //Application.Run(new MenuConsulta());
+            //Application.Run(new Proceso_Consulta_Para_Canes());
             //Application.Run(new ABM_Empleado());
         }
     }

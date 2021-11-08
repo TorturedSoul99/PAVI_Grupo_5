@@ -34,5 +34,24 @@ namespace WindowsFormsApp1.Back_end
             Cerrar();
             return tabla;
         }
+
+        public void Insertar(string sqlInsertar)
+        {
+            Conectar();
+
+            Cmd.CommandText = sqlInsertar;
+            Cmd.ExecuteNonQuery();
+            Cerrar();
+        }
+
+
+
+        public void EjecutarABM(string sql)
+        {
+            Conectar();
+            Cmd.CommandText = sql;
+            Cmd.ExecuteNonQuery();
+            Cerrar();
+        }
     }
 }

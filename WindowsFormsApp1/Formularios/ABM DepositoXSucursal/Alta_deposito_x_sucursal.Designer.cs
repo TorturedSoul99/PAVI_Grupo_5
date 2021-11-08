@@ -34,10 +34,10 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.lbl_minimo_stock = new System.Windows.Forms.Label();
             this.lbl_ID_sucursal = new System.Windows.Forms.Label();
             this.lbl_stock_actual = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_minimo_stock = new System.Windows.Forms.TextBox();
+            this.txt_stock_actual = new System.Windows.Forms.TextBox();
+            this.cmb_id_medicamento = new WindowsFormsApp1.Back_end.ComboBox01();
+            this.cmb_id_sucursal = new WindowsFormsApp1.Back_end.ComboBox01();
             this.SuspendLayout();
             // 
             // btn_agregar
@@ -49,6 +49,7 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.btn_agregar.TabIndex = 0;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // lbl_ID_Medicamento
             // 
@@ -90,43 +91,73 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.lbl_stock_actual.TabIndex = 4;
             this.lbl_stock_actual.Text = "Stock Actual";
             // 
-            // textBox1
+            // txt_minimo_stock
             // 
-            this.textBox1.Location = new System.Drawing.Point(195, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 20);
-            this.textBox1.TabIndex = 5;
+            this.txt_minimo_stock.Location = new System.Drawing.Point(195, 169);
+            this.txt_minimo_stock.Name = "txt_minimo_stock";
+            this.txt_minimo_stock.Size = new System.Drawing.Size(184, 20);
+            this.txt_minimo_stock.TabIndex = 6;
             // 
-            // textBox2
+            // txt_stock_actual
             // 
-            this.textBox2.Location = new System.Drawing.Point(195, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 20);
-            this.textBox2.TabIndex = 6;
+            this.txt_stock_actual.Location = new System.Drawing.Point(195, 220);
+            this.txt_stock_actual.Name = "txt_stock_actual";
+            this.txt_stock_actual.Size = new System.Drawing.Size(184, 20);
+            this.txt_stock_actual.TabIndex = 8;
             // 
-            // textBox3
+            // cmb_id_medicamento
             // 
-            this.textBox3.Location = new System.Drawing.Point(195, 121);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 20);
-            this.textBox3.TabIndex = 7;
+            this.cmb_id_medicamento._ComboSinSeleccion = false;
+            this.cmb_id_medicamento._tabla_cargar_combo = null;
+            this.cmb_id_medicamento._tabla_cargar_condicion = null;
+            this.cmb_id_medicamento._tabla_cargar_descriptor = null;
+            this.cmb_id_medicamento._tabla_cargar_fk = null;
+            this.cmb_id_medicamento._tabla_cargar_pk = null;
+            this.cmb_id_medicamento._tabla_cargar_relacion = null;
+            this.cmb_id_medicamento._tabla_cargar_relacion_pk = null;
+            this.cmb_id_medicamento.FormattingEnabled = true;
+            this.cmb_id_medicamento.Location = new System.Drawing.Point(196, 66);
+            this.cmb_id_medicamento.Name = "cmb_id_medicamento";
+            this.cmb_id_medicamento.Pp_conseleccion = false;
+            this.cmb_id_medicamento.Pp_Descripcion = "Nombre";
+            this.cmb_id_medicamento.Pp_MessageError = null;
+            this.cmb_id_medicamento.Pp_Pk = "ID_medicamento";
+            this.cmb_id_medicamento.Pp_Tabla = "medicamentos";
+            this.cmb_id_medicamento.Size = new System.Drawing.Size(183, 21);
+            this.cmb_id_medicamento.TabIndex = 9;
+            this.cmb_id_medicamento.validable = false;
             // 
-            // textBox4
+            // cmb_id_sucursal
             // 
-            this.textBox4.Location = new System.Drawing.Point(195, 220);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 20);
-            this.textBox4.TabIndex = 8;
+            this.cmb_id_sucursal._ComboSinSeleccion = false;
+            this.cmb_id_sucursal._tabla_cargar_combo = null;
+            this.cmb_id_sucursal._tabla_cargar_condicion = null;
+            this.cmb_id_sucursal._tabla_cargar_descriptor = null;
+            this.cmb_id_sucursal._tabla_cargar_fk = null;
+            this.cmb_id_sucursal._tabla_cargar_pk = null;
+            this.cmb_id_sucursal._tabla_cargar_relacion = null;
+            this.cmb_id_sucursal._tabla_cargar_relacion_pk = null;
+            this.cmb_id_sucursal.FormattingEnabled = true;
+            this.cmb_id_sucursal.Location = new System.Drawing.Point(196, 119);
+            this.cmb_id_sucursal.Name = "cmb_id_sucursal";
+            this.cmb_id_sucursal.Pp_conseleccion = false;
+            this.cmb_id_sucursal.Pp_Descripcion = "Nombre_sucursal";
+            this.cmb_id_sucursal.Pp_MessageError = null;
+            this.cmb_id_sucursal.Pp_Pk = "ID_sucursal";
+            this.cmb_id_sucursal.Pp_Tabla = "sucursal";
+            this.cmb_id_sucursal.Size = new System.Drawing.Size(183, 21);
+            this.cmb_id_sucursal.TabIndex = 10;
+            this.cmb_id_sucursal.validable = false;
             // 
             // Alta_deposito_x_sucursal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(415, 332);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cmb_id_sucursal);
+            this.Controls.Add(this.cmb_id_medicamento);
+            this.Controls.Add(this.txt_stock_actual);
+            this.Controls.Add(this.txt_minimo_stock);
             this.Controls.Add(this.lbl_stock_actual);
             this.Controls.Add(this.lbl_ID_sucursal);
             this.Controls.Add(this.lbl_minimo_stock);
@@ -137,6 +168,7 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.Name = "Alta_deposito_x_sucursal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta_deposito_x_sucursal";
+            this.Load += new System.EventHandler(this.Alta_deposito_x_sucursal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,9 +181,9 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
         private System.Windows.Forms.Label lbl_minimo_stock;
         private System.Windows.Forms.Label lbl_ID_sucursal;
         private System.Windows.Forms.Label lbl_stock_actual;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_minimo_stock;
+        private System.Windows.Forms.TextBox txt_stock_actual;
+        private Back_end.ComboBox01 cmb_id_medicamento;
+        private Back_end.ComboBox01 cmb_id_sucursal;
     }
 }

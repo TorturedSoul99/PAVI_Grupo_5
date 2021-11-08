@@ -29,19 +29,19 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.lblSucursal = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblHC = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox2
+            // txtNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(138, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 20);
-            this.textBox2.TabIndex = 37;
+            this.txtNombre.Location = new System.Drawing.Point(138, 65);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(202, 20);
+            this.txtNombre.TabIndex = 37;
             // 
             // btnAgregar
             // 
@@ -51,6 +51,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.btnAgregar.TabIndex = 36;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // lblSucursal
             // 
@@ -64,6 +65,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(138, 26);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -86,7 +88,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Windows_7_02;
             this.ClientSize = new System.Drawing.Size(371, 162);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lblSucursal);
             this.Controls.Add(this.textBox1);
@@ -104,7 +106,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Diagnostico
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblSucursal;
         private System.Windows.Forms.TextBox textBox1;

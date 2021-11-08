@@ -20,11 +20,9 @@ C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\D
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
-C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.inicio_de_sesion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
-C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunacion.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
@@ -125,3 +123,773 @@ C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Deb
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
 C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.ModificarConsulta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.NuevaConsulta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.ABM_Empleado.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.AltaEmpleado.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.Modificar_Empleado.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.ABMSucursales.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.AltaSucursal.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Modificar_Sucursales.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacunacion.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.ModificarConsulta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.NuevaConsulta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.ABM_Empleado.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.AltaEmpleado.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.Modificar_Empleado.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.ABMSucursales.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.AltaSucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Modificar_Sucursales.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacunacion.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunacion.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+<<<<<<< HEAD
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+=======
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+>>>>>>> f60423e09335f4049c0638b4c30b91a90ab4c39d
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.ModificarConsulta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.NuevaConsulta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.ABM_Empleado.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.AltaEmpleado.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.Modificar_Empleado.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.ABMSucursales.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.AltaSucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Modificar_Sucursales.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+>>>>>>> 97935cea94f528eadc5d49f76a447144edefa3c4
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Usuario\source\repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\stdole.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE80.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\VSLangProj.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\VSLangProj80.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\VSLangProj2.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_Empleados.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\stdole.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Ariel\Source\Repos\PPAI\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Frm_reportes_medicamentos.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
+C:\Users\Tortured Soul\Desktop\Estudio\Universidad\Tercer Año\Programación de Aplicaciones Visuales 1\Proyecto\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\stdole.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados.PromedioDiasInternados.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Frm_reportes_medicamentos.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\stdole.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados.PromedioDiasInternados.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Frm_reportes_medicamentos.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\fidel\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal.Frm_reportes_depositos_x_sucursales.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados.PromedioDiasInternados.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Frm_reportes_medicamentos.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.ReporteVacunadosDiarios.resources
+C:\Users\Usuario\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal.Frm_reportes_depositos_x_sucursales.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Back_end.LabelText02.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.ABM_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Alta_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_CalendarioVacunas.Modificar_CalendarioVacunas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.ModificarConsulta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Consulta.NuevaConsulta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.ABMdeposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Alta_deposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_DepositoXSucursal.Modificar_deposito_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.MenuDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.ModificarDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Diagnostico.NuevoDiagnostico.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.ABM_Empleado.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.AltaEmpleado.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.Modificar_Empleado.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado.MostrarEmpleado.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Menu_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Alta_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos.Modificar_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.ABMSucursales.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.AltaSucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Modificar_Sucursales.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales.Mostrar_sucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Alta_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Modificar_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza.Mostrar_Peso_x_Altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.Peso_x_altura_x_Raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Alta_raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Borrar_raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Modificar_raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Mostrar_raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza.Raza.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Alta_laboratorio.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Laboratorios.Modificar_laboratorio.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.MenuMedicamentosXReceta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.ModificarMedicamentosXReceta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_MedicamentosXReceta.NuevoMedicamentoXReceta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Alta_receta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Menu_receta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Receta.Modificar_receta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.ABM_Sintomas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Agregar_sintomas_a_consulta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Alta_Sintoma.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Sintomas.Modificar_Sintomas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.Alta_vacunacion.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.ABM_Vacunacion.modificar_vacuna.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Alta_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Menu_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.AMB_HistoriaClinica.Modificar_HistoriaClinica.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño.Estadistica_consultas_x_año.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Form2.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.FORMULARIO_BASE.Formulario_Base_ABM.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMenuPPAL.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.frm_inicio_de_sesion.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuConsulta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuInternacion.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuLaboratorios.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.MenuVacunas.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_receta.Registrar_Receta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Proceso_Consulta.Proceso_Consulta_Para_Canes.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.MedicamentosPorSucursal.Frm_reportes_depositos_x_sucursales.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.PromedioDiasInternados.PromedioDiasInternados.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReporteConsulta.Reporte_consulta.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.Reporte_peso_altura_x_raza.Reporte_empleado.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.ReporteVacunadosDiarios.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportesMedicamentos.Frm_reportes_medicamentos.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePacientes_x_Sucursal.Reporte_pacientes_x_sucursal.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.cache
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\RdlCompile.compiled
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\EnvDTE.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\stdole.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño.Estadistica_consultas_x_año.resources
+C:\Users\Tomi\Source\Repos\TorturedSoul99\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios.ReporteVacunadosDiarios.resources
+C:\Users\Ariel\Source\Repos\PAVI_Grupo_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño.Frm_MedicamentosPorAnno.resources

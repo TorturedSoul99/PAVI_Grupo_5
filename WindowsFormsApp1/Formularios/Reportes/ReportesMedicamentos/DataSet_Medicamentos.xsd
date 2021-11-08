@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Medicamentos" targetNamespace="http://tempuri.org/DataSet_Medicamentos.xsd" xmlns:mstns="http://tempuri.org/DataSet_Medicamentos.xsd" xmlns="http://tempuri.org/DataSet_Medicamentos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Medicamentos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Medicamentos" msprop:Generator_UserDSName="DataSet_Medicamentos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Medicamentos_x0020_por_x0020_consulta" msprop:Generator_TableClassName="Medicamentos_por_consultaDataTable" msprop:Generator_TableVarName="tableMedicamentos_por_consulta" msprop:Generator_TablePropName="Medicamentos_por_consulta" msprop:Generator_RowDeletingName="Medicamentos_por_consultaRowDeleting" msprop:Generator_RowChangingName="Medicamentos_por_consultaRowChanging" msprop:Generator_RowEvHandlerName="Medicamentos_por_consultaRowChangeEventHandler" msprop:Generator_RowDeletedName="Medicamentos_por_consultaRowDeleted" msprop:Generator_UserTableName="Medicamentos por consulta" msprop:Generator_RowChangedName="Medicamentos_por_consultaRowChanged" msprop:Generator_RowEvArgName="Medicamentos_por_consultaRowChangeEvent" msprop:Generator_RowClassName="Medicamentos_por_consultaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nro_orden" msprop:Generator_ColumnVarNameInTable="columnNro_orden" msprop:Generator_ColumnPropNameInRow="Nro_orden" msprop:Generator_ColumnPropNameInTable="Nro_ordenColumn" msprop:Generator_UserColumnName="Nro_orden" type="xs:int" minOccurs="0" />
+              <xs:element name="ID_medicamento" msprop:Generator_ColumnVarNameInTable="columnID_medicamento" msprop:Generator_ColumnPropNameInRow="ID_medicamento" msprop:Generator_ColumnPropNameInTable="ID_medicamentoColumn" msprop:Generator_UserColumnName="ID_medicamento" type="xs:int" minOccurs="0" />
+              <xs:element name="Fecha_entrada" msdata:DataType="System.DateTimeOffset" msprop:Generator_ColumnVarNameInTable="columnFecha_entrada" msprop:Generator_ColumnPropNameInRow="Fecha_entrada" msprop:Generator_ColumnPropNameInTable="Fecha_entradaColumn" msprop:Generator_UserColumnName="Fecha_entrada" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

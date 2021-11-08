@@ -29,15 +29,25 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.txtbreceta = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.dgvSucursales = new System.Windows.Forms.DataGridView();
-            this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.recetaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bD3K3G052021DataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bD3K3G05_2021DataSet2 = new WindowsFormsApp1.BD3K3G05_2021DataSet2();
+            this.recetaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).BeginInit();
+            this.recetaTableAdapter = new WindowsFormsApp1.BD3K3G05_2021DataSet2TableAdapters.recetaTableAdapter();
+            this.dgvreceta = new WindowsFormsApp1.Back_end.DataGridView01();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_sucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G052021DataSet2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvreceta)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultar
@@ -48,6 +58,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnConsultar.TabIndex = 32;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txtbreceta
             // 
@@ -67,28 +78,25 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // dgvSucursales
+            // recetaBindingSource1
             // 
-            this.dgvSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSucursales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nuevo,
-            this.Consultar});
-            this.dgvSucursales.Location = new System.Drawing.Point(90, 122);
-            this.dgvSucursales.Name = "dgvSucursales";
-            this.dgvSucursales.Size = new System.Drawing.Size(332, 179);
-            this.dgvSucursales.TabIndex = 29;
+            this.recetaBindingSource1.DataMember = "receta";
+            this.recetaBindingSource1.DataSource = this.bD3K3G052021DataSet2BindingSource;
             // 
-            // Nuevo
+            // bD3K3G052021DataSet2BindingSource
             // 
-            this.Nuevo.HeaderText = "ID Receta";
-            this.Nuevo.MinimumWidth = 10;
-            this.Nuevo.Name = "Nuevo";
+            this.bD3K3G052021DataSet2BindingSource.DataSource = this.bD3K3G05_2021DataSet2;
+            this.bD3K3G052021DataSet2BindingSource.Position = 0;
             // 
-            // Consultar
+            // bD3K3G05_2021DataSet2
             // 
-            this.Consultar.HeaderText = "Medicamento";
-            this.Consultar.Name = "Consultar";
-            this.Consultar.Width = 200;
+            this.bD3K3G05_2021DataSet2.DataSetName = "BD3K3G05_2021DataSet2";
+            this.bD3K3G05_2021DataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // recetaBindingSource
+            // 
+            this.recetaBindingSource.DataMember = "receta";
+            this.recetaBindingSource.DataSource = this.bD3K3G05_2021DataSet2;
             // 
             // btnEliminar
             // 
@@ -98,6 +106,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnEliminar.TabIndex = 28;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -109,15 +118,42 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
+            // recetaTableAdapter
+            // 
+            this.recetaTableAdapter.ClearBeforeFill = true;
+            // 
+            // dgvreceta
+            // 
+            this.dgvreceta.AllowUserToAddRows = false;
+            this.dgvreceta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvreceta.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.ID_sucursal});
+            this.dgvreceta.Location = new System.Drawing.Point(44, 91);
+            this.dgvreceta.Name = "dgvreceta";
+            this.dgvreceta.Size = new System.Drawing.Size(420, 234);
+            this.dgvreceta.TabIndex = 33;
+            this.dgvreceta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvreceta_CellContentClick);
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // ID_sucursal
+            // 
+            this.ID_sucursal.HeaderText = "ID_sucursal";
+            this.ID_sucursal.Name = "ID_sucursal";
+            // 
             // Menu_receta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 450);
+            this.Controls.Add(this.dgvreceta);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbreceta);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.dgvSucursales);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -126,7 +162,12 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
             this.Name = "Menu_receta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Receta";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSucursales)).EndInit();
+            this.Load += new System.EventHandler(this.Menu_receta_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G052021DataSet2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD3K3G05_2021DataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recetaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvreceta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,10 +178,15 @@ namespace WindowsFormsApp1.Formularios.ABM_Receta
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.TextBox txtbreceta;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.DataGridView dgvSucursales;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nuevo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Consultar;
+        private BD3K3G05_2021DataSet2 bD3K3G05_2021DataSet2;
+        private System.Windows.Forms.BindingSource recetaBindingSource;
+        private BD3K3G05_2021DataSet2TableAdapters.recetaTableAdapter recetaTableAdapter;
+        private System.Windows.Forms.BindingSource recetaBindingSource1;
+        private System.Windows.Forms.BindingSource bD3K3G052021DataSet2BindingSource;
+        private Back_end.DataGridView01 dgvreceta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_sucursal;
     }
 }

@@ -30,12 +30,10 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         private void InitializeComponent()
         {
             this.lbldenominacion = new System.Windows.Forms.Label();
-            this.lblsexo = new System.Windows.Forms.Label();
             this.lblcuidadosespeciales = new System.Windows.Forms.Label();
             this.txtdenominacion = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.btnagregar = new System.Windows.Forms.Button();
+            this.txt_Cuidados_especiales = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbldenominacion
@@ -48,21 +46,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.lbldenominacion.TabIndex = 0;
             this.lbldenominacion.Text = "Denominacion";
             // 
-            // lblsexo
-            // 
-            this.lblsexo.AutoSize = true;
-            this.lblsexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsexo.Location = new System.Drawing.Point(147, 105);
-            this.lblsexo.Name = "lblsexo";
-            this.lblsexo.Size = new System.Drawing.Size(45, 20);
-            this.lblsexo.TabIndex = 1;
-            this.lblsexo.Text = "Sexo";
-            // 
             // lblcuidadosespeciales
             // 
             this.lblcuidadosespeciales.AutoSize = true;
             this.lblcuidadosespeciales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcuidadosespeciales.Location = new System.Drawing.Point(35, 159);
+            this.lblcuidadosespeciales.Location = new System.Drawing.Point(35, 124);
             this.lblcuidadosespeciales.Name = "lblcuidadosespeciales";
             this.lblcuidadosespeciales.Size = new System.Drawing.Size(157, 20);
             this.lblcuidadosespeciales.TabIndex = 2;
@@ -75,20 +63,6 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.txtdenominacion.Size = new System.Drawing.Size(204, 20);
             this.txtdenominacion.TabIndex = 3;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(198, 159);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 20);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(198, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(204, 20);
-            this.textBox3.TabIndex = 5;
-            // 
             // btnagregar
             // 
             this.btnagregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -98,18 +72,24 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.btnagregar.TabIndex = 6;
             this.btnagregar.Text = "Agregar";
             this.btnagregar.UseVisualStyleBackColor = true;
+            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
+            // 
+            // txt_Cuidados_especiales
+            // 
+            this.txt_Cuidados_especiales.Location = new System.Drawing.Point(198, 126);
+            this.txt_Cuidados_especiales.Name = "txt_Cuidados_especiales";
+            this.txt_Cuidados_especiales.Size = new System.Drawing.Size(204, 20);
+            this.txt_Cuidados_especiales.TabIndex = 7;
             // 
             // Alta_raza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(415, 272);
+            this.Controls.Add(this.txt_Cuidados_especiales);
             this.Controls.Add(this.btnagregar);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.txtdenominacion);
             this.Controls.Add(this.lblcuidadosespeciales);
-            this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.lbldenominacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -126,11 +106,9 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
         #endregion
 
         private System.Windows.Forms.Label lbldenominacion;
-        private System.Windows.Forms.Label lblsexo;
         private System.Windows.Forms.Label lblcuidadosespeciales;
         private System.Windows.Forms.TextBox txtdenominacion;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btnagregar;
+        private System.Windows.Forms.TextBox txt_Cuidados_especiales;
     }
 }
