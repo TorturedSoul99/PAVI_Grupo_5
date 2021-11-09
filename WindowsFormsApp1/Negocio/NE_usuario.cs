@@ -17,7 +17,7 @@ namespace WindowsFormsApp1.Negocio
         {
             string sql = @"SELECT * FROM usuarios 
                           WHERE[nombre usuario] = '" + nombre +"'" 
-                          + " AND contraseña = " + password;
+                          + " AND contraseña = '" + password + "'";
 
             DataTable tabla = new DataTable();
             tabla = _BD.EjecutarSelect(sql);

@@ -106,6 +106,7 @@ namespace WindowsFormsApp1.Formularios
             this.Name = "frm_inicio_de_sesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio De Sesion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_inicio_de_sesion_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

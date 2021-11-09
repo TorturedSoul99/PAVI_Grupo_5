@@ -50,7 +50,11 @@ namespace WindowsFormsApp1.Formularios
             {
                 MessageBox.Show("Validacion Incorrecta", "", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
-            
+        }
+
+        private void frm_inicio_de_sesion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //Application.Exit();
         }
     }
 }
