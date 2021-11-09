@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSucursal_anno_meessss" targetNamespace="http://tempuri.org/DataSetSucursal_anno_meessss.xsd" xmlns:mstns="http://tempuri.org/DataSetSucursal_anno_meessss.xsd" xmlns="http://tempuri.org/DataSetSucursal_anno_meessss.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSucursal_anno_meessss" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetSucursal_anno_meessss" msprop:Generator_UserDSName="DataSetSucursal_anno_meessss">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cantidad_x0020_por_x0020_Sucu_x0020_rango_x0020_mes_x0020_y_x0020_anno" msprop:Generator_TableClassName="Cantidad_por_Sucu_rango_mes_y_annoDataTable" msprop:Generator_TableVarName="tableCantidad_por_Sucu_rango_mes_y_anno" msprop:Generator_TablePropName="Cantidad_por_Sucu_rango_mes_y_anno" msprop:Generator_RowDeletingName="Cantidad_por_Sucu_rango_mes_y_annoRowDeleting" msprop:Generator_RowChangingName="Cantidad_por_Sucu_rango_mes_y_annoRowChanging" msprop:Generator_RowEvHandlerName="Cantidad_por_Sucu_rango_mes_y_annoRowChangeEventHandler" msprop:Generator_RowDeletedName="Cantidad_por_Sucu_rango_mes_y_annoRowDeleted" msprop:Generator_UserTableName="Cantidad por Sucu rango mes y anno" msprop:Generator_RowChangedName="Cantidad_por_Sucu_rango_mes_y_annoRowChanged" msprop:Generator_RowEvArgName="Cantidad_por_Sucu_rango_mes_y_annoRowChangeEvent" msprop:Generator_RowClassName="Cantidad_por_Sucu_rango_mes_y_annoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre_sucursal" msprop:Generator_ColumnVarNameInTable="columnNombre_sucursal" msprop:Generator_ColumnPropNameInRow="Nombre_sucursal" msprop:Generator_ColumnPropNameInTable="Nombre_sucursalColumn" msprop:Generator_UserColumnName="Nombre_sucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad_de_visitas" msprop:Generator_ColumnVarNameInTable="columncantidad_de_visitas" msprop:Generator_ColumnPropNameInRow="cantidad_de_visitas" msprop:Generator_ColumnPropNameInTable="cantidad_de_visitasColumn" msprop:Generator_UserColumnName="cantidad_de_visitas" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

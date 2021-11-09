@@ -37,8 +37,18 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
             this.label2 = new System.Windows.Forms.Label();
             this.btn_consultar = new System.Windows.Forms.Button();
             this.txt_Anno_Desde = new System.Windows.Forms.MaskedTextBox();
+            this.txt_ano_sucu = new System.Windows.Forms.MaskedTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt_mes_sucu = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txt_mes_sucu_hasta = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.rp_sucu1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btn_consulta22222 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -70,12 +80,21 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btn_consulta22222);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.rp_sucu1);
+            this.tabPage2.Controls.Add(this.txt_mes_sucu_hasta);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.txt_mes_sucu);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.txt_ano_sucu);
+            this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(806, 396);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Consulta por Sucursales por Mes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // rv_consulta_sucursal
@@ -126,6 +145,91 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
             this.txt_Anno_Desde.Size = new System.Drawing.Size(100, 20);
             this.txt_Anno_Desde.TabIndex = 8;
             // 
+            // txt_ano_sucu
+            // 
+            this.txt_ano_sucu.Location = new System.Drawing.Point(48, 14);
+            this.txt_ano_sucu.Mask = "9999";
+            this.txt_ano_sucu.Name = "txt_ano_sucu";
+            this.txt_ano_sucu.Size = new System.Drawing.Size(100, 20);
+            this.txt_ano_sucu.TabIndex = 10;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(16, 17);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Año";
+            // 
+            // txt_mes_sucu
+            // 
+            this.txt_mes_sucu.Location = new System.Drawing.Point(122, 56);
+            this.txt_mes_sucu.Mask = "99";
+            this.txt_mes_sucu.Name = "txt_mes_sucu";
+            this.txt_mes_sucu.Size = new System.Drawing.Size(100, 20);
+            this.txt_mes_sucu.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(78, 59);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Desde";
+            // 
+            // txt_mes_sucu_hasta
+            // 
+            this.txt_mes_sucu_hasta.Location = new System.Drawing.Point(292, 56);
+            this.txt_mes_sucu_hasta.Mask = "99";
+            this.txt_mes_sucu_hasta.Name = "txt_mes_sucu_hasta";
+            this.txt_mes_sucu_hasta.Size = new System.Drawing.Size(100, 20);
+            this.txt_mes_sucu_hasta.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(251, 59);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Hasta";
+            // 
+            // rp_sucu1
+            // 
+            this.rp_sucu1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rp_sucu1.Location = new System.Drawing.Point(6, 85);
+            this.rp_sucu1.Name = "rp_sucu1";
+            this.rp_sucu1.ServerReport.BearerToken = null;
+            this.rp_sucu1.Size = new System.Drawing.Size(794, 305);
+            this.rp_sucu1.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(16, 59);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(30, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Mes";
+            // 
+            // btn_consulta22222
+            // 
+            this.btn_consulta22222.Location = new System.Drawing.Point(465, 53);
+            this.btn_consulta22222.Name = "btn_consulta22222";
+            this.btn_consulta22222.Size = new System.Drawing.Size(75, 23);
+            this.btn_consulta22222.TabIndex = 17;
+            this.btn_consulta22222.Text = "Consultar";
+            this.btn_consulta22222.UseVisualStyleBackColor = true;
+            this.btn_consulta22222.Click += new System.EventHandler(this.btn_consulta22222_Click);
+            // 
             // Frm_Consulta_por_sucursal_por_anno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -139,6 +243,8 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +260,14 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_consultar;
         private System.Windows.Forms.MaskedTextBox txt_Anno_Desde;
+        private Microsoft.Reporting.WinForms.ReportViewer rp_sucu1;
+        private System.Windows.Forms.MaskedTextBox txt_mes_sucu_hasta;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.MaskedTextBox txt_mes_sucu;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.MaskedTextBox txt_ano_sucu;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btn_consulta22222;
     }
 }

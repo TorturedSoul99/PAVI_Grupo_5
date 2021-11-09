@@ -14,6 +14,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
 {
     public partial class Frm_Consulta_por_sucursal_por_anno : Form
     {
+        NE_consulta consulta = new NE_consulta();
+
+
         public Frm_Consulta_por_sucursal_por_anno()
         {
             InitializeComponent();
@@ -23,11 +26,12 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
         {
 
             this.rv_consulta_sucursal.RefreshReport();
+            this.rp_sucu1.RefreshReport();
         }
 
         private void btn_consultar_Click(object sender, EventArgs e)
         {
-            NE_consulta consulta = new NE_consulta();
+            
             
             if (txt_Anno_Desde.Text != "")
             {
@@ -39,6 +43,25 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño
                 rv_consulta_sucursal.LocalReport.DataSources.Clear();
                 rv_consulta_sucursal.LocalReport.DataSources.Add(Datos);
                 rv_consulta_sucursal.RefreshReport();
+            }
+            else
+            {
+                MessageBox.Show("Porfavor Ingrese un Año");
+            }
+        }
+
+        private void btn_consulta22222_Click(object sender, EventArgs e)
+        {
+            if (txt_ano_sucu.Text != "" && txt_mes_sucu.Text != "" && txt_mes_sucu_hasta.Text != "")
+            {
+                ReportDataSource Datos = new ReportDataSource("DataSet_sucu_mes", consulta.Consultas_por_sucursales_porAnnoYRangoDeMes(Convert.ToInt32(txt_ano_sucu.Text), Convert.ToInt32(txt_mes_sucu.Text), Convert.ToInt32(txt_mes_sucu_hasta.Text)));
+                rp_sucu1.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño.Report1.rdlc";
+                ReportParameter[] parametrosss = new ReportParameter[1];
+                parametrosss[0] = new ReportParameter("RP01", "Para el Año: " + txt_ano_sucu.Text+ " En rango de Mes Desde: "+txt_mes_sucu.Text+" Hasta: "+txt_mes_sucu_hasta.Text);
+                rp_sucu1.LocalReport.SetParameters(parametrosss);
+                rp_sucu1.LocalReport.DataSources.Clear();
+                rp_sucu1.LocalReport.DataSources.Add(Datos);
+                rp_sucu1.RefreshReport();
             }
             else
             {
