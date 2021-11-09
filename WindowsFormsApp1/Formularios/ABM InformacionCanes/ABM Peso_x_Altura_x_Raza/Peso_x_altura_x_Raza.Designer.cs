@@ -83,6 +83,8 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             // 
             // grid_Peso_altura_raza
             // 
+            this.grid_Peso_altura_raza.AllowUserToAddRows = false;
+            this.grid_Peso_altura_raza.AllowUserToDeleteRows = false;
             this.grid_Peso_altura_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_Peso_altura_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Denominacion,
@@ -92,6 +94,7 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             this.Altura_media});
             this.grid_Peso_altura_raza.Location = new System.Drawing.Point(75, 89);
             this.grid_Peso_altura_raza.Name = "grid_Peso_altura_raza";
+            this.grid_Peso_altura_raza.ReadOnly = true;
             this.grid_Peso_altura_raza.Size = new System.Drawing.Size(543, 179);
             this.grid_Peso_altura_raza.TabIndex = 25;
             this.grid_Peso_altura_raza.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_Peso_altura_raza_CellClick);
@@ -101,26 +104,31 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes
             // 
             this.Denominacion.HeaderText = "Denominacion";
             this.Denominacion.Name = "Denominacion";
+            this.Denominacion.ReadOnly = true;
             // 
             // Sexo
             // 
             this.Sexo.HeaderText = "Sexo";
             this.Sexo.Name = "Sexo";
+            this.Sexo.ReadOnly = true;
             // 
             // Peso_minimo
             // 
             this.Peso_minimo.HeaderText = "Peso Minimo";
             this.Peso_minimo.Name = "Peso_minimo";
+            this.Peso_minimo.ReadOnly = true;
             // 
             // Peso_maximo
             // 
             this.Peso_maximo.HeaderText = "Peso Maximo";
             this.Peso_maximo.Name = "Peso_maximo";
+            this.Peso_maximo.ReadOnly = true;
             // 
             // Altura_media
             // 
             this.Altura_media.HeaderText = "Altura Media";
             this.Altura_media.Name = "Altura_media";
+            this.Altura_media.ReadOnly = true;
             // 
             // btnNuevo
             // 

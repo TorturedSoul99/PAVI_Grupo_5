@@ -74,6 +74,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             // 
             // gridSucursales
             // 
+            this.gridSucursales.AllowUserToAddRows = false;
+            this.gridSucursales.AllowUserToDeleteRows = false;
             this.gridSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridSucursales.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nuevo,
@@ -82,7 +84,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Modificar});
             this.gridSucursales.Location = new System.Drawing.Point(27, 144);
             this.gridSucursales.Name = "gridSucursales";
-            this.gridSucursales.Size = new System.Drawing.Size(431, 179);
+            this.gridSucursales.ReadOnly = true;
+            this.gridSucursales.Size = new System.Drawing.Size(446, 179);
             this.gridSucursales.TabIndex = 23;
             this.gridSucursales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridSucursales_CellClick);
             this.gridSucursales.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSucursales_CellContentClick);
@@ -93,22 +96,26 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.Nuevo.HeaderText = "IDSucursal";
             this.Nuevo.MinimumWidth = 10;
             this.Nuevo.Name = "Nuevo";
+            this.Nuevo.ReadOnly = true;
             // 
             // nombre_sucursal
             // 
             this.nombre_sucursal.HeaderText = "Nombre";
             this.nombre_sucursal.Name = "nombre_sucursal";
+            this.nombre_sucursal.ReadOnly = true;
             // 
             // Consultar
             // 
             this.Consultar.HeaderText = "IDSupervisor";
             this.Consultar.Name = "Consultar";
+            this.Consultar.ReadOnly = true;
             // 
             // Modificar
             // 
             this.Modificar.DividerWidth = 10;
             this.Modificar.HeaderText = "IDSupervisorSuplente";
             this.Modificar.Name = "Modificar";
+            this.Modificar.ReadOnly = true;
             // 
             // btnEliminar
             // 
@@ -144,7 +151,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Sucursales
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
-            this.ClientSize = new System.Drawing.Size(496, 448);
+            this.ClientSize = new System.Drawing.Size(494, 445);
             this.Controls.Add(this.chk_SucursalTodos);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.txtbConsulta);

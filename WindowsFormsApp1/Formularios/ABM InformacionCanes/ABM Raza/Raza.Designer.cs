@@ -33,11 +33,11 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.txt_denominacion = new System.Windows.Forms.TextBox();
             this.btnModificar = new System.Windows.Forms.Button();
             this.grid_raza = new System.Windows.Forms.DataGridView();
+            this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.chk_todos = new System.Windows.Forms.CheckBox();
-            this.Nuevo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Consultar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grid_raza)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,16 +71,32 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             // 
             // grid_raza
             // 
+            this.grid_raza.AllowUserToAddRows = false;
+            this.grid_raza.AllowUserToDeleteRows = false;
             this.grid_raza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_raza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nuevo,
             this.Consultar});
             this.grid_raza.Location = new System.Drawing.Point(87, 109);
             this.grid_raza.Name = "grid_raza";
+            this.grid_raza.ReadOnly = true;
             this.grid_raza.Size = new System.Drawing.Size(469, 179);
             this.grid_raza.TabIndex = 17;
             this.grid_raza.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_raza_CellClick);
             this.grid_raza.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_raza_CellDoubleClick);
+            // 
+            // Nuevo
+            // 
+            this.Nuevo.HeaderText = "Denominacion";
+            this.Nuevo.Name = "Nuevo";
+            this.Nuevo.ReadOnly = true;
+            // 
+            // Consultar
+            // 
+            this.Consultar.HeaderText = "Cuidados Especiales";
+            this.Consultar.Name = "Consultar";
+            this.Consultar.ReadOnly = true;
+            this.Consultar.Width = 300;
             // 
             // btnEliminar
             // 
@@ -110,17 +126,6 @@ namespace WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Raza
             this.chk_todos.TabIndex = 22;
             this.chk_todos.Text = "Todos";
             this.chk_todos.UseVisualStyleBackColor = true;
-            // 
-            // Nuevo
-            // 
-            this.Nuevo.HeaderText = "Denominacion";
-            this.Nuevo.Name = "Nuevo";
-            // 
-            // Consultar
-            // 
-            this.Consultar.HeaderText = "Cuidados Especiales";
-            this.Consultar.Name = "Consultar";
-            this.Consultar.Width = 300;
             // 
             // Raza
             // 

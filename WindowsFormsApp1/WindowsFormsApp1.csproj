@@ -497,6 +497,11 @@
     <Compile Include="Formularios\Estadisticas\EmpleadoConMasConsultas\Estadistica_empleado_con_mas_consultas.Designer.cs">
       <DependentUpon>Estadistica_empleado_con_mas_consultas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -869,6 +874,7 @@
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.resx">
       <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\ReporteMedicamentos1.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprto_medicamentosPorMes.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprt_Meicamento_por_anno.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\RazasXConsulta\CantidadDeCanesXRazaXConsulta.resx">
@@ -1156,6 +1162,17 @@
     </None>
     <None Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.xss">
       <DependentUpon>DataEC.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xsc">
       <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>

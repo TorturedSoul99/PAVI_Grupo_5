@@ -74,6 +74,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             // grid_medicamentos
             // 
+            this.grid_medicamentos.AllowUserToAddRows = false;
+            this.grid_medicamentos.AllowUserToDeleteRows = false;
             this.grid_medicamentos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_medicamentos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_medicamento,
@@ -83,6 +85,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Column3});
             this.grid_medicamentos.Location = new System.Drawing.Point(89, 172);
             this.grid_medicamentos.Name = "grid_medicamentos";
+            this.grid_medicamentos.ReadOnly = true;
             this.grid_medicamentos.Size = new System.Drawing.Size(493, 179);
             this.grid_medicamentos.TabIndex = 29;
             this.grid_medicamentos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_medicamentos_CellClick);
@@ -91,22 +94,26 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             // 
             this.ID_medicamento.HeaderText = "ID_medicamento";
             this.ID_medicamento.Name = "ID_medicamento";
+            this.ID_medicamento.ReadOnly = true;
             this.ID_medicamento.Visible = false;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Sucursal";
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Laboratorio";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Nombre";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 150;
             // 
             // Column3
@@ -116,6 +123,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Medicamentos
             this.Column3.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column3.HeaderText = "Fecha de compra";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // btnEliminar
             // 

@@ -61,6 +61,8 @@ namespace WindowsFormsApp1.Formularios
             // 
             // Grid_laboratorio
             // 
+            this.Grid_laboratorio.AllowUserToAddRows = false;
+            this.Grid_laboratorio.AllowUserToDeleteRows = false;
             this.Grid_laboratorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Grid_laboratorio.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_lab,
@@ -68,6 +70,7 @@ namespace WindowsFormsApp1.Formularios
             this.Modificar});
             this.Grid_laboratorio.Location = new System.Drawing.Point(12, 97);
             this.Grid_laboratorio.Name = "Grid_laboratorio";
+            this.Grid_laboratorio.ReadOnly = true;
             this.Grid_laboratorio.Size = new System.Drawing.Size(393, 179);
             this.Grid_laboratorio.TabIndex = 23;
             this.Grid_laboratorio.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Grid_laboratorio_CellClick);
@@ -76,16 +79,19 @@ namespace WindowsFormsApp1.Formularios
             // 
             this.ID_lab.HeaderText = "ID";
             this.ID_lab.Name = "ID_lab";
+            this.ID_lab.ReadOnly = true;
             // 
             // Consultar
             // 
             this.Consultar.HeaderText = "Nombre";
             this.Consultar.Name = "Consultar";
+            this.Consultar.ReadOnly = true;
             // 
             // Modificar
             // 
             this.Modificar.HeaderText = "Descripcion";
             this.Modificar.Name = "Modificar";
+            this.Modificar.ReadOnly = true;
             this.Modificar.Width = 250;
             // 
             // btnagregar

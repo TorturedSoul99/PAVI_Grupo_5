@@ -83,6 +83,8 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             // grid_empleados
             // 
+            this.grid_empleados.AllowUserToAddRows = false;
+            this.grid_empleados.AllowUserToDeleteRows = false;
             this.grid_empleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_empleados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_empleado,
@@ -96,6 +98,7 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             this.Matricula});
             this.grid_empleados.Location = new System.Drawing.Point(36, 169);
             this.grid_empleados.Name = "grid_empleados";
+            this.grid_empleados.ReadOnly = true;
             this.grid_empleados.Size = new System.Drawing.Size(922, 211);
             this.grid_empleados.TabIndex = 11;
             this.grid_empleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_empleados_CellClick);
@@ -105,46 +108,55 @@ namespace WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado
             // 
             this.ID_empleado.HeaderText = "ID Empleado";
             this.ID_empleado.Name = "ID_empleado";
+            this.ID_empleado.ReadOnly = true;
             // 
             // Tipo_documento
             // 
             this.Tipo_documento.HeaderText = "Tipo de Documento";
             this.Tipo_documento.Name = "Tipo_documento";
+            this.Tipo_documento.ReadOnly = true;
             // 
             // Nro_documento
             // 
             this.Nro_documento.HeaderText = "Documento";
             this.Nro_documento.Name = "Nro_documento";
+            this.Nro_documento.ReadOnly = true;
             // 
             // Nombre
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
             // Apellido
             // 
             this.Apellido.HeaderText = "Apellido";
             this.Apellido.Name = "Apellido";
+            this.Apellido.ReadOnly = true;
             // 
             // Fecha_nacimiento
             // 
             this.Fecha_nacimiento.HeaderText = "Fecha de Nacimiento";
             this.Fecha_nacimiento.Name = "Fecha_nacimiento";
+            this.Fecha_nacimiento.ReadOnly = true;
             // 
             // Fecha_ingreso
             // 
             this.Fecha_ingreso.HeaderText = "Fecha de Ingreso";
             this.Fecha_ingreso.Name = "Fecha_ingreso";
+            this.Fecha_ingreso.ReadOnly = true;
             // 
             // ID_sucursal
             // 
             this.ID_sucursal.HeaderText = "ID Sucursal";
             this.ID_sucursal.Name = "ID_sucursal";
+            this.ID_sucursal.ReadOnly = true;
             // 
             // Matricula
             // 
             this.Matricula.HeaderText = "Matricula";
             this.Matricula.Name = "Matricula";
+            this.Matricula.ReadOnly = true;
             // 
             // btnEliminar
             // 

@@ -26,6 +26,7 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         {
 
             this.rp_medicamentos_Anno.RefreshReport();
+            this.rp_01.RefreshReport();
         }
 
         NE_Medicamento medicamento = new NE_Medicamento();
@@ -78,6 +79,18 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             else
                 MessageBox.Show("El campo año no puede estar vacío");
 
+        }
+
+        private void btn_calcular_Click(object sender, EventArgs e)
+        {
+            ReportDataSource Datos = new ReportDataSource("DataSet_Medicamento", medicamento.cantidad_medicamentos());
+            rp_01.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño.ReporteMedicamentos1.rdlc";
+            //ReportParameter[] parametros = new ReportParameter[1];
+            //parametros[0] = new ReportParameter("PR_medicamentos_por_mes", "Para el año: " + txt_año.Text);
+            //rv_medicamentos_por_mes.LocalReport.SetParameters(parametros);
+            rp_01.LocalReport.DataSources.Clear();
+            rp_01.LocalReport.DataSources.Add(Datos);
+            rp_01.RefreshReport();
         }
     }
 }

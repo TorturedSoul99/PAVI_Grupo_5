@@ -72,6 +72,8 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             // 
             // grid_deposito_x_sucursal
             // 
+            this.grid_deposito_x_sucursal.AllowUserToAddRows = false;
+            this.grid_deposito_x_sucursal.AllowUserToDeleteRows = false;
             this.grid_deposito_x_sucursal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_deposito_x_sucursal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_medicamento,
@@ -80,6 +82,7 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             this.c});
             this.grid_deposito_x_sucursal.Location = new System.Drawing.Point(67, 141);
             this.grid_deposito_x_sucursal.Name = "grid_deposito_x_sucursal";
+            this.grid_deposito_x_sucursal.ReadOnly = true;
             this.grid_deposito_x_sucursal.Size = new System.Drawing.Size(421, 179);
             this.grid_deposito_x_sucursal.TabIndex = 35;
             this.grid_deposito_x_sucursal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_Sucursales_CellClick);
@@ -88,21 +91,25 @@ namespace WindowsFormsApp1.Formularios.ABM_DepositoXSucursal
             // 
             this.ID_medicamento.HeaderText = "ID_medicamento";
             this.ID_medicamento.Name = "ID_medicamento";
+            this.ID_medicamento.ReadOnly = true;
             // 
             // ID_sucursal
             // 
             this.ID_sucursal.HeaderText = "Sucursal";
             this.ID_sucursal.Name = "ID_sucursal";
+            this.ID_sucursal.ReadOnly = true;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Minimo Stock";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // c
             // 
             this.c.HeaderText = "Stock Actual";
             this.c.Name = "c";
+            this.c.ReadOnly = true;
             // 
             // btnEliminar
             // 

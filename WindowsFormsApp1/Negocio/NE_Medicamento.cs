@@ -60,5 +60,16 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sqlRecuperarID);
 
         }
+
+
+        public DataTable cantidad_medicamentos()
+        {
+            string sql = @"SELECT n.Nombre, count(*) cantidad_medicamento"
+                                        + " FROM medicamentos_x_receta m join medicamentos n on m.ID_medicamento = n.ID_medicamento"
+                                        + " GROUP BY n.Nombre";
+            return _BD.EjecutarSelect(sql);
+
+        }
+
     }
 }

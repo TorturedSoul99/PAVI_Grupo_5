@@ -39,14 +39,19 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.btn_Consultar = new System.Windows.Forms.Button();
             this.rp_medicamentos_Anno = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.txt_año = new System.Windows.Forms.MaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_consultar_medicamentosXmes = new System.Windows.Forms.Button();
             this.rv_medicamentos_por_mes = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.rp_01 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btn_calcular = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -56,6 +61,7 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(-1, 36);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -160,16 +166,6 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.tabPage2.Text = "Medicamentos por mes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(232, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Estadisticas de Medicamentos";
-            // 
             // txt_año
             // 
             this.txt_año.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -212,6 +208,59 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.rv_medicamentos_por_mes.Size = new System.Drawing.Size(927, 343);
             this.rv_medicamentos_por_mes.TabIndex = 9;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(232, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(291, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Estadisticas de Medicamentos";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.btn_calcular);
+            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.rp_01);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(942, 405);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Medicamentos mas usados";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // rp_01
+            // 
+            this.rp_01.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rp_01.Location = new System.Drawing.Point(9, 57);
+            this.rp_01.Name = "rp_01";
+            this.rp_01.ServerReport.BearerToken = null;
+            this.rp_01.Size = new System.Drawing.Size(927, 341);
+            this.rp_01.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(10, 19);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(296, 17);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Cantidad de Medicamentos mas Usados";
+            // 
+            // btn_calcular
+            // 
+            this.btn_calcular.Location = new System.Drawing.Point(351, 19);
+            this.btn_calcular.Name = "btn_calcular";
+            this.btn_calcular.Size = new System.Drawing.Size(75, 23);
+            this.btn_calcular.TabIndex = 2;
+            this.btn_calcular.Text = "Calcular";
+            this.btn_calcular.UseVisualStyleBackColor = true;
+            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
+            // 
             // Frm_MedicamentosPorAnno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,6 +277,8 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,5 +301,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_consultar_medicamentosXmes;
         private Microsoft.Reporting.WinForms.ReportViewer rv_medicamentos_por_mes;
+        private System.Windows.Forms.TabPage tabPage3;
+        private Microsoft.Reporting.WinForms.ReportViewer rp_01;
+        private System.Windows.Forms.Button btn_calcular;
+        private System.Windows.Forms.Label label6;
     }
 }
