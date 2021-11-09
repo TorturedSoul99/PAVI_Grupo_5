@@ -20,6 +20,14 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="Medicamento_por_mes" msprop:Generator_TableClassName="Medicamento_por_mesDataTable" msprop:Generator_TableVarName="tableMedicamento_por_mes" msprop:Generator_RowChangedName="Medicamento_por_mesRowChanged" msprop:Generator_TablePropName="Medicamento_por_mes" msprop:Generator_RowDeletingName="Medicamento_por_mesRowDeleting" msprop:Generator_RowChangingName="Medicamento_por_mesRowChanging" msprop:Generator_RowEvHandlerName="Medicamento_por_mesRowChangeEventHandler" msprop:Generator_RowDeletedName="Medicamento_por_mesRowDeleted" msprop:Generator_RowClassName="Medicamento_por_mesRow" msprop:Generator_UserTableName="Medicamento_por_mes" msprop:Generator_RowEvArgName="Medicamento_por_mesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad_de_medicamentos" msprop:Generator_ColumnVarNameInTable="columnCantidad_de_medicamentos" msprop:Generator_ColumnPropNameInRow="Cantidad_de_medicamentos" msprop:Generator_ColumnPropNameInTable="Cantidad_de_medicamentosColumn" msprop:Generator_UserColumnName="Cantidad_de_medicamentos" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
   </xs:element>

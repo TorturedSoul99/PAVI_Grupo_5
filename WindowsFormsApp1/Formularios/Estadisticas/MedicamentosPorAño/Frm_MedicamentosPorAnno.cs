@@ -28,9 +28,10 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.rp_medicamentos_Anno.RefreshReport();
         }
 
+        NE_Medicamento medicamento = new NE_Medicamento();
+
         private void btn_Consultar_Click(object sender, EventArgs e)
         {
-            NE_Medicamento medicamento = new NE_Medicamento();
             //DataTable tabla = new DataTable();
 
 
@@ -59,6 +60,24 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             {
                 MessageBox.Show("Porfavor Ingrese todos los campos requeridos por este formulario porfavor");
             }
+        }
+
+        private void btn_consultar_medicamentosXmes_Click(object sender, EventArgs e)
+        {
+            if (txt_año.Text != String.Empty)
+            {
+                ReportDataSource Datos = new ReportDataSource("DS_medicamentosXmes", medicamento.medicamentos_por_mes(txt_año.Text));
+                rv_medicamentos_por_mes.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño.Rprto_medicamentosPorMes.rdlc";
+                ReportParameter[] parametros = new ReportParameter[1];
+                parametros[0] = new ReportParameter("PR_medicamentos_por_mes", "Para el año: " + txt_año.Text);
+                rv_medicamentos_por_mes.LocalReport.SetParameters(parametros);
+                rv_medicamentos_por_mes.LocalReport.DataSources.Clear();
+                rv_medicamentos_por_mes.LocalReport.DataSources.Add(Datos);
+                rv_medicamentos_por_mes.RefreshReport();
+            }
+            else
+                MessageBox.Show("El campo año no puede estar vacío");
+
         }
     }
 }

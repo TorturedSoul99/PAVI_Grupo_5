@@ -40,8 +40,13 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.rp_medicamentos_Anno = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
+            this.txt_año = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btn_consultar_medicamentosXmes = new System.Windows.Forms.Button();
+            this.rv_medicamentos_por_mes = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -143,12 +148,16 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.txt_año);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.btn_consultar_medicamentosXmes);
+            this.tabPage2.Controls.Add(this.rv_medicamentos_por_mes);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(942, 405);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Medicamentos por mes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -161,6 +170,48 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.label1.TabIndex = 1;
             this.label1.Text = "Estadisticas de Medicamentos";
             // 
+            // txt_año
+            // 
+            this.txt_año.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_año.Location = new System.Drawing.Point(189, 17);
+            this.txt_año.Mask = "9999";
+            this.txt_año.Name = "txt_año";
+            this.txt_año.Size = new System.Drawing.Size(50, 29);
+            this.txt_año.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(138, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 24);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Año:";
+            // 
+            // btn_consultar_medicamentosXmes
+            // 
+            this.btn_consultar_medicamentosXmes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_consultar_medicamentosXmes.Location = new System.Drawing.Point(257, 16);
+            this.btn_consultar_medicamentosXmes.Name = "btn_consultar_medicamentosXmes";
+            this.btn_consultar_medicamentosXmes.Size = new System.Drawing.Size(91, 35);
+            this.btn_consultar_medicamentosXmes.TabIndex = 10;
+            this.btn_consultar_medicamentosXmes.Text = "Calcular";
+            this.btn_consultar_medicamentosXmes.UseVisualStyleBackColor = true;
+            this.btn_consultar_medicamentosXmes.Click += new System.EventHandler(this.btn_consultar_medicamentosXmes_Click);
+            // 
+            // rv_medicamentos_por_mes
+            // 
+            this.rv_medicamentos_por_mes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rv_medicamentos_por_mes.DocumentMapWidth = 90;
+            this.rv_medicamentos_por_mes.Location = new System.Drawing.Point(8, 56);
+            this.rv_medicamentos_por_mes.Name = "rv_medicamentos_por_mes";
+            this.rv_medicamentos_por_mes.ServerReport.BearerToken = null;
+            this.rv_medicamentos_por_mes.Size = new System.Drawing.Size(927, 343);
+            this.rv_medicamentos_por_mes.TabIndex = 9;
+            // 
             // Frm_MedicamentosPorAnno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,11 +221,13 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.Controls.Add(this.tabControl1);
             this.Name = "Frm_MedicamentosPorAnno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frm_MedicamentosPorAnno";
+            this.Text = "Estadísticas de medicamentos";
             this.Load += new System.EventHandler(this.Frm_MedicamentosPorAnno_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,5 +246,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         private System.Windows.Forms.Button btn_Consultar;
         private System.Windows.Forms.MaskedTextBox txt_Anno_Hasta;
         private System.Windows.Forms.MaskedTextBox txt_Anno_Desde;
+        private System.Windows.Forms.MaskedTextBox txt_año;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_consultar_medicamentosXmes;
+        private Microsoft.Reporting.WinForms.ReportViewer rv_medicamentos_por_mes;
     }
 }

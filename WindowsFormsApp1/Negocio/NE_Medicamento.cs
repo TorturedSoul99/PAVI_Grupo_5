@@ -50,5 +50,15 @@ namespace WindowsFormsApp1.Negocio
                                     + " GROUP BY year(m.FechaUltimaCompra)";
             return _BD.EjecutarSelect(sqlRecuperarID);
         }
+
+        public DataTable medicamentos_por_mes(string año)
+        {
+            string sqlRecuperarID = @"SELECT DATENAME (MONTH, DATEADD(MONTH, MONTH(m.FechaUltimaCompra) - 1, '1900-01-01')) AS 'Mes', count(*) AS 'Cantidad_de_medicamentos'
+                                      FROM medicamentos m
+                                      WHERE YEAR(m.FechaUltimaCompra) = " + año +
+                                    " GROUP BY m.FechaUltimaCompra";
+            return _BD.EjecutarSelect(sqlRecuperarID);
+
+        }
     }
 }

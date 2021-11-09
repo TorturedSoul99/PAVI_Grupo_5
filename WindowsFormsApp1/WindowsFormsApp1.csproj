@@ -869,6 +869,7 @@
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.resx">
       <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprto_medicamentosPorMes.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprt_Meicamento_por_anno.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\RazasXConsulta\CantidadDeCanesXRazaXConsulta.resx">
       <DependentUpon>CantidadDeCanesXRazaXConsulta.cs</DependentUpon>
