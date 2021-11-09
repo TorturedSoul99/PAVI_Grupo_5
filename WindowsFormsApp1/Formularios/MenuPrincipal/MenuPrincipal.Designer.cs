@@ -46,6 +46,7 @@ namespace WindowsFormsApp1
             this.estadisticasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cantidadConsultasPorAñoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentosPorAñoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLaboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informacionDeLaboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,7 +70,10 @@ namespace WindowsFormsApp1
             this.medicamentosPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicamentosPorConsultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promedioDeVacunadosDiariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vacunasPorSucursalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diagnosticosMasFrecuentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasSegunLaRazaDelCanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasPorEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -161,7 +165,7 @@ namespace WindowsFormsApp1
             this.aBMVacunacionToolStripMenuItem,
             this.calendarioDeVacunaciónToolStripMenuItem});
             this.vacunacionToolStripMenuItem.Name = "vacunacionToolStripMenuItem";
-            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.vacunacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.vacunacionToolStripMenuItem.Text = "Vacunación";
             // 
             // aBMVacunacionToolStripMenuItem
@@ -197,7 +201,11 @@ namespace WindowsFormsApp1
             this.estadisticasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cantidadConsultasPorAñoToolStripMenuItem,
             this.medicamentosPorAñoToolStripMenuItem,
-            this.consultasPorSucursalToolStripMenuItem});
+            this.consultasPorSucursalToolStripMenuItem,
+            this.vacunasPorSucursalToolStripMenuItem,
+            this.diagnosticosMasFrecuentesToolStripMenuItem,
+            this.consultasSegunLaRazaDelCanToolStripMenuItem,
+            this.consultasPorEmpleadoToolStripMenuItem});
             this.estadisticasToolStripMenuItem.Name = "estadisticasToolStripMenuItem";
             this.estadisticasToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.estadisticasToolStripMenuItem.Text = "Estadísticas";
@@ -215,6 +223,13 @@ namespace WindowsFormsApp1
             this.medicamentosPorAñoToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.medicamentosPorAñoToolStripMenuItem.Text = "Medicamentos Por Año";
             this.medicamentosPorAñoToolStripMenuItem.Click += new System.EventHandler(this.medicamentosPorAñoToolStripMenuItem_Click);
+            // 
+            // consultasPorSucursalToolStripMenuItem
+            // 
+            this.consultasPorSucursalToolStripMenuItem.Name = "consultasPorSucursalToolStripMenuItem";
+            this.consultasPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.consultasPorSucursalToolStripMenuItem.Text = "Consultas Por Sucursal";
+            this.consultasPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.consultasPorSucursalToolStripMenuItem_Click);
             // 
             // laboratoriosToolStripMenuItem
             // 
@@ -393,12 +408,33 @@ namespace WindowsFormsApp1
             this.promedioDeVacunadosDiariosToolStripMenuItem.Text = "Promedio de vacunados diarios";
             this.promedioDeVacunadosDiariosToolStripMenuItem.Click += new System.EventHandler(this.promedioDeVacunadosDiariosToolStripMenuItem_Click);
             // 
-            // consultasPorSucursalToolStripMenuItem
+            // vacunasPorSucursalToolStripMenuItem
             // 
-            this.consultasPorSucursalToolStripMenuItem.Name = "consultasPorSucursalToolStripMenuItem";
-            this.consultasPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.consultasPorSucursalToolStripMenuItem.Text = "Consultas Por Sucursal";
-            this.consultasPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.consultasPorSucursalToolStripMenuItem_Click);
+            this.vacunasPorSucursalToolStripMenuItem.Name = "vacunasPorSucursalToolStripMenuItem";
+            this.vacunasPorSucursalToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.vacunasPorSucursalToolStripMenuItem.Text = "Vacunas Por Sucursal";
+            this.vacunasPorSucursalToolStripMenuItem.Click += new System.EventHandler(this.vacunasPorSucursalToolStripMenuItem_Click);
+            // 
+            // diagnosticosMasFrecuentesToolStripMenuItem
+            // 
+            this.diagnosticosMasFrecuentesToolStripMenuItem.Name = "diagnosticosMasFrecuentesToolStripMenuItem";
+            this.diagnosticosMasFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.diagnosticosMasFrecuentesToolStripMenuItem.Text = "Diagnosticos mas frecuentes";
+            this.diagnosticosMasFrecuentesToolStripMenuItem.Click += new System.EventHandler(this.diagnosticosMasFrecuentesToolStripMenuItem_Click);
+            // 
+            // consultasSegunLaRazaDelCanToolStripMenuItem
+            // 
+            this.consultasSegunLaRazaDelCanToolStripMenuItem.Name = "consultasSegunLaRazaDelCanToolStripMenuItem";
+            this.consultasSegunLaRazaDelCanToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.consultasSegunLaRazaDelCanToolStripMenuItem.Text = "Consultas segun la raza del can";
+            this.consultasSegunLaRazaDelCanToolStripMenuItem.Click += new System.EventHandler(this.consultasSegunLaRazaDelCanToolStripMenuItem_Click);
+            // 
+            // consultasPorEmpleadoToolStripMenuItem
+            // 
+            this.consultasPorEmpleadoToolStripMenuItem.Name = "consultasPorEmpleadoToolStripMenuItem";
+            this.consultasPorEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.consultasPorEmpleadoToolStripMenuItem.Text = "Consultas Por Empleado";
+            this.consultasPorEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.consultasPorEmpleadoToolStripMenuItem_Click);
             // 
             // frmMenuPPAL
             // 
@@ -463,6 +499,10 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem cantidadConsultasPorAñoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem medicamentosPorAñoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasPorSucursalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vacunasPorSucursalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diagnosticosMasFrecuentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasSegunLaRazaDelCanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasPorEmpleadoToolStripMenuItem;
     }
 }
 

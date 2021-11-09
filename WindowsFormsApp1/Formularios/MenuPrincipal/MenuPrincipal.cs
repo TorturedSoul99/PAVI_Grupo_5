@@ -37,6 +37,10 @@ using WindowsFormsApp1.Formularios.Reportes.ReportePromedioDeVacunadosDiarios;
 using WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño;
 using WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño;
 using WindowsFormsApp1.Formularios.Estadisticas.ConsultaPorSucursalesPorAño;
+using WindowsFormsApp1.Formularios.Estadisticas.EmpleadoConMasConsultas;
+using WindowsFormsApp1.Formularios.Estadisticas.VacunasXSucursal;
+using WindowsFormsApp1.Formularios.Estadisticas.RazasXConsulta;
+using WindowsFormsApp1.Formularios.Estadisticas.Diagnosticos_mas_frecuentes;
 namespace WindowsFormsApp1
 {
     public partial class frmMenuPPAL : Form
@@ -251,6 +255,30 @@ namespace WindowsFormsApp1
         {
             Frm_Consulta_por_sucursal_por_anno consulta = new Frm_Consulta_por_sucursal_por_anno();
             consulta.ShowDialog();
+        }
+
+        private void vacunasPorSucursalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VacunasPorSucursal vacunas = new VacunasPorSucursal();
+            vacunas.ShowDialog();
+        }
+
+        private void diagnosticosMasFrecuentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DiagnosticosMasFrecuentes diag = new DiagnosticosMasFrecuentes();
+            diag.ShowDialog();
+        }
+
+        private void consultasSegunLaRazaDelCanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CantidadDeCanesXRazaXConsulta cant = new CantidadDeCanesXRazaXConsulta();
+            cant.ShowDialog();
+        }
+
+        private void consultasPorEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Estadistica_empleado_con_mas_consultas emple = new Estadistica_empleado_con_mas_consultas();
+            emple.ShowDialog();
         }
     }
 }
