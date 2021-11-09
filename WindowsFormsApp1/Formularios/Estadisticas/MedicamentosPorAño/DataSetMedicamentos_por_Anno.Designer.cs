@@ -279,7 +279,7 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class Medicamento_por_annoDataTable : global::System.Data.TypedTableBase<Medicamento_por_annoRow> {
             
-            private global::System.Data.DataColumn columnAño;
+            private global::System.Data.DataColumn columnAnno;
             
             private global::System.Data.DataColumn columncuantos_medicamentos;
             
@@ -318,9 +318,9 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn AñoColumn {
+            public global::System.Data.DataColumn AnnoColumn {
                 get {
-                    return this.columnAño;
+                    return this.columnAnno;
                 }
             }
             
@@ -369,10 +369,10 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Medicamento_por_annoRow AddMedicamento_por_annoRow(int Año, int cuantos_medicamentos) {
+            public Medicamento_por_annoRow AddMedicamento_por_annoRow(int Anno, int cuantos_medicamentos) {
                 Medicamento_por_annoRow rowMedicamento_por_annoRow = ((Medicamento_por_annoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        Año,
+                        Anno,
                         cuantos_medicamentos};
                 rowMedicamento_por_annoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowMedicamento_por_annoRow);
@@ -396,15 +396,15 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnAño = base.Columns["Año"];
+                this.columnAnno = base.Columns["Anno"];
                 this.columncuantos_medicamentos = base.Columns["cuantos_medicamentos"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnAño = new global::System.Data.DataColumn("Año", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnAño);
+                this.columnAnno = new global::System.Data.DataColumn("Anno", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAnno);
                 this.columncuantos_medicamentos = new global::System.Data.DataColumn("cuantos_medicamentos", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncuantos_medicamentos);
             }
@@ -549,17 +549,17 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public int Año {
+            public int Anno {
                 get {
                     try {
-                        return ((int)(this[this.tableMedicamento_por_anno.AñoColumn]));
+                        return ((int)(this[this.tableMedicamento_por_anno.AnnoColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Año\' de la tabla \'Medicamento_por_anno\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Anno\' de la tabla \'Medicamento_por_anno\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableMedicamento_por_anno.AñoColumn] = value;
+                    this[this.tableMedicamento_por_anno.AnnoColumn] = value;
                 }
             }
             
@@ -582,14 +582,14 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsAñoNull() {
-                return this.IsNull(this.tableMedicamento_por_anno.AñoColumn);
+            public bool IsAnnoNull() {
+                return this.IsNull(this.tableMedicamento_por_anno.AnnoColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetAñoNull() {
-                this[this.tableMedicamento_por_anno.AñoColumn] = global::System.Convert.DBNull;
+            public void SetAnnoNull() {
+                this[this.tableMedicamento_por_anno.AnnoColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

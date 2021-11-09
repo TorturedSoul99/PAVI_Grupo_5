@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Negocio;
+using Microsoft.Reporting.WinForms;
 
 
 namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
@@ -24,23 +25,29 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         private void Frm_MedicamentosPorAnno_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer1.RefreshReport();
+            this.rp_medicamentos_Anno.RefreshReport();
         }
 
         private void btn_Consultar_Click(object sender, EventArgs e)
         {
             NE_Medicamento medicamento = new NE_Medicamento();
-            DataTable tabla = new DataTable();
+            //DataTable tabla = new DataTable();
 
 
             if (txt_Anno_Desde.Text != "" && txt_Anno_Hasta.Text != "")
             {
                 if (Convert.ToInt32(txt_Anno_Desde.Text) < Convert.ToInt32(txt_Anno_Hasta.Text))
                 {
-                    tabla = medicamento.medicamentos_por_anno(Convert.ToInt32(txt_Anno_Desde.Text), Convert.ToInt32(txt_Anno_Hasta.Text));
+                    //tabla = medicamento.medicamentos_por_anno(Convert.ToInt32(txt_Anno_Desde.Text), Convert.ToInt32(txt_Anno_Hasta.Text));
 
-
-
+                    ReportDataSource Datos = new ReportDataSource("DataSet1", medicamento.medicamentos_por_anno(Convert.ToInt32(txt_Anno_Desde.Text), Convert.ToInt32(txt_Anno_Hasta.Text)));
+                    rp_medicamentos_Anno.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño.Rprt_Meicamento_por_anno.rdlc";
+                    ReportParameter[] parametros = new ReportParameter[1];
+                    parametros[0] = new ReportParameter("Parametro_medicamentos_Anno", "Para los Años Desde: "+txt_Anno_Desde.Text+" Hasta: "+txt_Anno_Hasta.Text);
+                    rp_medicamentos_Anno.LocalReport.SetParameters(parametros);
+                    rp_medicamentos_Anno.LocalReport.DataSources.Clear();
+                    rp_medicamentos_Anno.LocalReport.DataSources.Add(Datos);
+                    rp_medicamentos_Anno.RefreshReport();
 
                 }
                 else
