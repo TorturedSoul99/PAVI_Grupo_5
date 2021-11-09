@@ -54,7 +54,12 @@ namespace WindowsFormsApp1.Formularios
 
         private void frm_inicio_de_sesion_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //Application.Exit();
+            
+        }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -34,6 +34,7 @@ namespace WindowsFormsApp1.Formularios
             this.lblContraseña = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.txt_contraseña = new System.Windows.Forms.MaskedTextBox();
+            this.btn_cancel = new System.Windows.Forms.Button();
             lblUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -89,24 +90,35 @@ namespace WindowsFormsApp1.Formularios
             this.txt_contraseña.Size = new System.Drawing.Size(152, 20);
             this.txt_contraseña.TabIndex = 12;
             // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancel.Location = new System.Drawing.Point(210, 134);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(72, 32);
+            this.btn_cancel.TabIndex = 13;
+            this.btn_cancel.Text = "Cancelar";
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
+            // 
             // frm_inicio_de_sesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.leather_black_minimalistic_1920x1080_wallpaper_www_wallpaperto_com_44;
             this.ClientSize = new System.Drawing.Size(384, 178);
+            this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(lblUsuario);
             this.Controls.Add(this.btnIngresar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frm_inicio_de_sesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio De Sesion";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_inicio_de_sesion_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,5 +129,6 @@ namespace WindowsFormsApp1.Formularios
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.MaskedTextBox txt_contraseña;
+        private System.Windows.Forms.Button btn_cancel;
     }
 }
