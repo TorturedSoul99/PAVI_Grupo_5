@@ -4,8 +4,11 @@
     "\\WindowsFormsApp1",
     "\\WindowsFormsApp1\\Formularios",
     "\\WindowsFormsApp1\\Formularios\\Estadisticas",
-    "\\WindowsFormsApp1\\Formularios\\MenuPrincipal"
+    "\\WindowsFormsApp1\\Formularios\\Estadisticas\\ConsultasPorAño",
+    "\\WindowsFormsApp1\\Formularios\\Reportes",
+    "\\WindowsFormsApp1\\Formularios\\Reportes\\ReporteConsulta",
+    "\\WindowsFormsApp1\\Negocio"
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\MenuPrincipal\\MenuPrincipal.Designer.cs",
+  "SelectedNode": "\\WindowsFormsApp1\\Formularios\\Estadisticas\\ConsultasPorAño\\Estadistica_consultas_x_año.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -7,6 +7,7 @@ using WindowsFormsApp1.Formularios;
 using WindowsFormsApp1.Formularios.ABM_Empresa.ABM_Empleado;
 using WindowsFormsApp1.Formularios.Proceso_Consulta;
 using WindowsFormsApp1.Formularios.ABM_InformacionCanes.ABM_Peso_x_Altura_x_Raza;
+using WindowsFormsApp1.Formularios.Estadisticas.RazasXConsulta;
 
 namespace WindowsFormsApp1
 {
