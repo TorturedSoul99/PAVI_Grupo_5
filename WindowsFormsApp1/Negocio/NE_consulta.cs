@@ -118,5 +118,26 @@ namespace WindowsFormsApp1.Negocio
             string sql = @"SELECT year(c.Fecha_entrada) anno, count(*) cantidad_años FROM consulta c WHERE year(c.Fecha_entrada) between " + anno1 + " AND " + anno2 + " GROUP BY year(c.Fecha_entrada)";
             return _BD.EjecutarSelect(sql);
         }
+
+        public DataTable Consultas_por_sucursales_porAnno(int anno1)
+        {
+            string sql = @"SELECT s.Nombre_sucursal ,convert(char(4), year(c.Fecha_entrada)) Anno, count(*) cuantos_visita"
+                           + " FROM consulta c JOIN sucursal s on c.ID_sucursal = s.ID_sucursal"
+                           + " WHERE year(c.Fecha_entrada) = "+ anno1
+                           + " GROUP BY s.Nombre_sucursal, year(c.Fecha_entrada)";
+            return _BD.EjecutarSelect(sql);
+        }
+
+        public DataTable Consultas_por_sucursales_porAnnoYRangoDeMes(int anno1, int mes1, int mes2)
+        {
+            string sql = @"SELECT s.Nombre_sucursal ,convert(char(4), year(c.Fecha_entrada)) + '/' + convert(char(2), month(c.Fecha_entrada)) descripcion, count(*) cantidad_de_visitas"
+                            + " FROM consulta c JOIN sucursal s on c.ID_sucursal = s.ID_sucursal"
+                            + " WHERE  year(c.Fecha_entrada) = " + anno1 + " AND month(c.Fecha_entrada) between " + mes1 + " AND " + mes2
+                            + " GROUP BY s.Nombre_sucursal, year(c.Fecha_entrada),month(c.Fecha_entrada)"
+                            + " ORDER BY s.Nombre_sucursal";
+            return _BD.EjecutarSelect(sql);
+        }
+
+
     }
 }

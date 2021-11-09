@@ -46,7 +46,7 @@ namespace WindowsFormsApp1.Negocio
         {
             string sqlRecuperarID = @"SELECT convert(char(4), year(m.FechaUltimaCompra)) Anno, count(*) cuantos_medicamentos"
                                     + " FROM medicamentos m"
-                                    + " WHERE year(m.FechaUltimaCompra) between" + anno_Desde + "AND" + anno_Hasta
+                                    + " WHERE year(m.FechaUltimaCompra) between " + anno_Desde + " AND " + anno_Hasta
                                     + " GROUP BY year(m.FechaUltimaCompra)";
             return _BD.EjecutarSelect(sqlRecuperarID);
         }

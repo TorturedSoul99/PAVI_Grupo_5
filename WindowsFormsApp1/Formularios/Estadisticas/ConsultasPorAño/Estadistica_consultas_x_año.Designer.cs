@@ -41,13 +41,13 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño
             this.label1 = new System.Windows.Forms.Label();
             this.btn_calcular = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.rv02 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.txt_anno1 = new System.Windows.Forms.MaskedTextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.txt_anno2 = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btn_buscar = new System.Windows.Forms.Button();
+            this.txt_anno1 = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.rv02 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -186,34 +186,25 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño
             this.tabPage2.Text = "Consultas por Año";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // rv02
+            // btn_buscar
             // 
-            this.rv02.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.rv02.Location = new System.Drawing.Point(3, 135);
-            this.rv02.Name = "rv02";
-            this.rv02.ServerReport.BearerToken = null;
-            this.rv02.Size = new System.Drawing.Size(734, 369);
-            this.rv02.TabIndex = 4;
+            this.btn_buscar.Location = new System.Drawing.Point(530, 88);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
+            this.btn_buscar.TabIndex = 12;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
-            // txt_anno1
+            // label7
             // 
-            this.txt_anno1.Location = new System.Drawing.Point(109, 89);
-            this.txt_anno1.Mask = "9999";
-            this.txt_anno1.Name = "txt_anno1";
-            this.txt_anno1.Size = new System.Drawing.Size(84, 20);
-            this.txt_anno1.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(25, 89);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 18);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Año desde";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(24, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(281, 24);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Estadisticas consulta por año";
             // 
             // txt_anno2
             // 
@@ -233,25 +224,34 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.ConsultasPorAño
             this.label6.TabIndex = 9;
             this.label6.Text = "Año hasta";
             // 
-            // label7
+            // txt_anno1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(24, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(281, 24);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Estadisticas consulta por año";
+            this.txt_anno1.Location = new System.Drawing.Point(109, 89);
+            this.txt_anno1.Mask = "9999";
+            this.txt_anno1.Name = "txt_anno1";
+            this.txt_anno1.Size = new System.Drawing.Size(84, 20);
+            this.txt_anno1.TabIndex = 8;
             // 
-            // btn_buscar
+            // label5
             // 
-            this.btn_buscar.Location = new System.Drawing.Point(530, 88);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
-            this.btn_buscar.TabIndex = 12;
-            this.btn_buscar.Text = "Buscar";
-            this.btn_buscar.UseVisualStyleBackColor = true;
-            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(25, 89);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 18);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Año desde";
+            // 
+            // rv02
+            // 
+            this.rv02.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rv02.Location = new System.Drawing.Point(3, 135);
+            this.rv02.Name = "rv02";
+            this.rv02.ServerReport.BearerToken = null;
+            this.rv02.Size = new System.Drawing.Size(734, 369);
+            this.rv02.TabIndex = 4;
             // 
             // Estadistica_consultas_x_año
             // 

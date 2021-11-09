@@ -15,7 +15,7 @@
         <xs:element name="Medicamento_por_anno" msprop:Generator_TableClassName="Medicamento_por_annoDataTable" msprop:Generator_TableVarName="tableMedicamento_por_anno" msprop:Generator_TablePropName="Medicamento_por_anno" msprop:Generator_RowDeletingName="Medicamento_por_annoRowDeleting" msprop:Generator_RowChangingName="Medicamento_por_annoRowChanging" msprop:Generator_RowEvHandlerName="Medicamento_por_annoRowChangeEventHandler" msprop:Generator_RowDeletedName="Medicamento_por_annoRowDeleted" msprop:Generator_UserTableName="Medicamento_por_anno" msprop:Generator_RowChangedName="Medicamento_por_annoRowChanged" msprop:Generator_RowEvArgName="Medicamento_por_annoRowChangeEvent" msprop:Generator_RowClassName="Medicamento_por_annoRow">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="Anno" msprop:Generator_ColumnVarNameInTable="columnAnno" msprop:Generator_ColumnPropNameInRow="Anno" msprop:Generator_ColumnPropNameInTable="AnnoColumn" msprop:Generator_UserColumnName="Anno" type="xs:int" minOccurs="0" />
               <xs:element name="cuantos_medicamentos" msprop:Generator_ColumnVarNameInTable="columncuantos_medicamentos" msprop:Generator_ColumnPropNameInRow="cuantos_medicamentos" msprop:Generator_ColumnPropNameInTable="cuantos_medicamentosColumn" msprop:Generator_UserColumnName="cuantos_medicamentos" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>

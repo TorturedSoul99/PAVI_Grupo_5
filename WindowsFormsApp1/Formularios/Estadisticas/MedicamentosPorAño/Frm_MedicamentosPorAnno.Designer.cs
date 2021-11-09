@@ -31,15 +31,15 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txt_Anno_Hasta = new System.Windows.Forms.MaskedTextBox();
+            this.txt_Anno_Desde = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_Consultar = new System.Windows.Forms.Button();
+            this.rp_medicamentos_Anno = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.btn_Consultar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txt_Anno_Desde = new System.Windows.Forms.MaskedTextBox();
-            this.txt_Anno_Hasta = new System.Windows.Forms.MaskedTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -65,7 +65,7 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.btn_Consultar);
-            this.tabPage1.Controls.Add(this.reportViewer1);
+            this.tabPage1.Controls.Add(this.rp_medicamentos_Anno);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -74,12 +74,79 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.tabPage1.Text = "Medicamentos por Año";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // txt_Anno_Hasta
+            // 
+            this.txt_Anno_Hasta.Location = new System.Drawing.Point(266, 25);
+            this.txt_Anno_Hasta.Mask = "9999";
+            this.txt_Anno_Hasta.Name = "txt_Anno_Hasta";
+            this.txt_Anno_Hasta.Size = new System.Drawing.Size(100, 20);
+            this.txt_Anno_Hasta.TabIndex = 8;
+            // 
+            // txt_Anno_Desde
+            // 
+            this.txt_Anno_Desde.Location = new System.Drawing.Point(112, 25);
+            this.txt_Anno_Desde.Mask = "9999";
+            this.txt_Anno_Desde.Name = "txt_Anno_Desde";
+            this.txt_Anno_Desde.Size = new System.Drawing.Size(100, 20);
+            this.txt_Anno_Desde.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(209, 5);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 18);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Año";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(225, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Hasta";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(68, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Desde";
+            // 
+            // btn_Consultar
+            // 
+            this.btn_Consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Consultar.Location = new System.Drawing.Point(604, 25);
+            this.btn_Consultar.Name = "btn_Consultar";
+            this.btn_Consultar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Consultar.TabIndex = 1;
+            this.btn_Consultar.Text = "Calcular";
+            this.btn_Consultar.UseVisualStyleBackColor = true;
+            this.btn_Consultar.Click += new System.EventHandler(this.btn_Consultar_Click);
+            // 
+            // rp_medicamentos_Anno
+            // 
+            this.rp_medicamentos_Anno.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rp_medicamentos_Anno.DocumentMapWidth = 90;
+            this.rp_medicamentos_Anno.Location = new System.Drawing.Point(9, 56);
+            this.rp_medicamentos_Anno.Name = "rp_medicamentos_Anno";
+            this.rp_medicamentos_Anno.ServerReport.BearerToken = null;
+            this.rp_medicamentos_Anno.Size = new System.Drawing.Size(927, 343);
+            this.rp_medicamentos_Anno.TabIndex = 0;
+            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.Size = new System.Drawing.Size(942, 405);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -93,73 +160,6 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
             this.label1.Size = new System.Drawing.Size(291, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Estadisticas de Medicamentos";
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.reportViewer1.DocumentMapWidth = 90;
-            this.reportViewer1.Location = new System.Drawing.Point(9, 56);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(927, 343);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // btn_Consultar
-            // 
-            this.btn_Consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Consultar.Location = new System.Drawing.Point(604, 25);
-            this.btn_Consultar.Name = "btn_Consultar";
-            this.btn_Consultar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Consultar.TabIndex = 1;
-            this.btn_Consultar.Text = "Calcular";
-            this.btn_Consultar.UseVisualStyleBackColor = true;
-            this.btn_Consultar.Click += new System.EventHandler(this.btn_Consultar_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Desde";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(225, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Hasta";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(209, 5);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 18);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Año";
-            // 
-            // txt_Anno_Desde
-            // 
-            this.txt_Anno_Desde.Location = new System.Drawing.Point(112, 25);
-            this.txt_Anno_Desde.Mask = "9999";
-            this.txt_Anno_Desde.Name = "txt_Anno_Desde";
-            this.txt_Anno_Desde.Size = new System.Drawing.Size(100, 20);
-            this.txt_Anno_Desde.TabIndex = 7;
-            // 
-            // txt_Anno_Hasta
-            // 
-            this.txt_Anno_Hasta.Location = new System.Drawing.Point(266, 25);
-            this.txt_Anno_Hasta.Mask = "9999";
-            this.txt_Anno_Hasta.Name = "txt_Anno_Hasta";
-            this.txt_Anno_Hasta.Size = new System.Drawing.Size(100, 20);
-            this.txt_Anno_Hasta.TabIndex = 8;
             // 
             // Frm_MedicamentosPorAnno
             // 
@@ -186,7 +186,7 @@ namespace WindowsFormsApp1.Formularios.Estadisticas.MedicamentosPorAño
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private Microsoft.Reporting.WinForms.ReportViewer rp_medicamentos_Anno;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

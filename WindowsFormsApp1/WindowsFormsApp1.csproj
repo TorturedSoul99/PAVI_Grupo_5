@@ -434,6 +434,22 @@
     <Compile Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.Designer.cs">
       <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSetSucursal_anno_meessss.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSucursal_anno_meessss.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSet_Consultas_sucursal_anno.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Consultas_sucursal_anno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\Frm_Consulta_por_sucursal_por_anno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\Frm_Consulta_por_sucursal_por_anno.Designer.cs">
+      <DependentUpon>Frm_Consulta_por_sucursal_por_anno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.cs">
       <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
     </Compile>
@@ -777,6 +793,11 @@
     <EmbeddedResource Include="Formularios\AMB HistoriaClinica\Modificar_HistoriaClinica.resx">
       <DependentUpon>Modificar_HistoriaClinica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\Frm_Consulta_por_sucursal_por_anno.resx">
+      <DependentUpon>Frm_Consulta_por_sucursal_por_anno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\Report1.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\Rprt_consultas_por_sucursal_anno.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.resx">
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </EmbeddedResource>
@@ -997,6 +1018,28 @@
     </None>
     <None Include="BD3K3G05_2021DataSet9.xss">
       <DependentUpon>BD3K3G05_2021DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSetSucursal_anno_meessss.xsc">
+      <DependentUpon>DataSetSucursal_anno_meessss.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSetSucursal_anno_meessss.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSucursal_anno_meessss.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSetSucursal_anno_meessss.xss">
+      <DependentUpon>DataSetSucursal_anno_meessss.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSet_Consultas_sucursal_anno.xsc">
+      <DependentUpon>DataSet_Consultas_sucursal_anno.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSet_Consultas_sucursal_anno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Consultas_sucursal_anno.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\ConsultaPorSucursalesPorAño\DataSet_Consultas_sucursal_anno.xss">
+      <DependentUpon>DataSet_Consultas_sucursal_anno.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xsc">
       <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>

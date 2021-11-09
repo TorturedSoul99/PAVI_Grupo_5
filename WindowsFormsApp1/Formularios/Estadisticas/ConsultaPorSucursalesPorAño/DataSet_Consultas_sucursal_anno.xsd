@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Consultas_sucursal_anno" targetNamespace="http://tempuri.org/DataSet_Consultas_sucursal_anno.xsd" xmlns:mstns="http://tempuri.org/DataSet_Consultas_sucursal_anno.xsd" xmlns="http://tempuri.org/DataSet_Consultas_sucursal_anno.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Consultas_sucursal_anno" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Consultas_sucursal_anno" msprop:Generator_UserDSName="DataSet_Consultas_sucursal_anno">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Consultas_x0020_Por_x0020_Sucursal" msprop:Generator_TableClassName="Consultas_Por_SucursalDataTable" msprop:Generator_TableVarName="tableConsultas_Por_Sucursal" msprop:Generator_TablePropName="Consultas_Por_Sucursal" msprop:Generator_RowDeletingName="Consultas_Por_SucursalRowDeleting" msprop:Generator_RowChangingName="Consultas_Por_SucursalRowChanging" msprop:Generator_RowEvHandlerName="Consultas_Por_SucursalRowChangeEventHandler" msprop:Generator_RowDeletedName="Consultas_Por_SucursalRowDeleted" msprop:Generator_UserTableName="Consultas Por Sucursal" msprop:Generator_RowChangedName="Consultas_Por_SucursalRowChanged" msprop:Generator_RowEvArgName="Consultas_Por_SucursalRowChangeEvent" msprop:Generator_RowClassName="Consultas_Por_SucursalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre_sucursal" msprop:Generator_ColumnVarNameInTable="columnNombre_sucursal" msprop:Generator_ColumnPropNameInRow="Nombre_sucursal" msprop:Generator_ColumnPropNameInTable="Nombre_sucursalColumn" msprop:Generator_UserColumnName="Nombre_sucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="Anno" msprop:Generator_ColumnVarNameInTable="columnAnno" msprop:Generator_ColumnPropNameInRow="Anno" msprop:Generator_ColumnPropNameInTable="AnnoColumn" msprop:Generator_UserColumnName="Anno" type="xs:int" minOccurs="0" />
+              <xs:element name="cuantos_visita" msprop:Generator_ColumnVarNameInTable="columncuantos_visita" msprop:Generator_ColumnPropNameInRow="cuantos_visita" msprop:Generator_ColumnPropNameInTable="cuantos_visitaColumn" msprop:Generator_UserColumnName="cuantos_visita" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
