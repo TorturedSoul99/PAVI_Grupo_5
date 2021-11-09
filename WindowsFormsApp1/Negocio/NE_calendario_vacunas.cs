@@ -115,5 +115,12 @@ namespace WindowsFormsApp1.Negocio
 
 
         }
+        public DataTable VacunasXSucursal(int sucursal)
+        {
+            string sql = @"SELECT v.Nombre, v.ID_vacuna, COUNT(cv.ID_vacuna) cantidad
+                            FROM calendario_vacunas cv JOIN vacunas v ON (cv.ID_vacuna = v.ID_vacuna)
+                            WHERE cv.ID_sucursal = "+ sucursal + "GROUP BY v.ID_vacuna, v.Nombre";
+            return _BD.EjecutarSelect(sql);
+        }
     }
 }

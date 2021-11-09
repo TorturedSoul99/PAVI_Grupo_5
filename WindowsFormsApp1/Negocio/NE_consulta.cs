@@ -119,6 +119,30 @@ namespace WindowsFormsApp1.Negocio
             return _BD.EjecutarSelect(sql);
         }
 
+        public DataTable CantidadDeConsultaPorEmpleado()
+        {
+            string sql = @"SELECT e.ID_empleado, e.Nombre, COUNT(e.ID_empleado) cantidad
+                            FROM consulta c JOIN empleados e ON c.ID_empleado = e.ID_empleado
+                            GROUP BY e.ID_empleado, e.Nombre";
+            return _BD.EjecutarSelect(sql);
+        }
+
+        public DataTable RazasXConsulta()
+        {
+            string sql = @"SELECT hc.Raza, COUNT(hc.Raza) cantidad
+                           FROM consulta c JOIN historia_clinica hc ON c.Nro_historia_clinica = hc.Nro_historia_clinica
+                           GROUP BY hc.Raza";
+            return _BD.EjecutarSelect(sql);
+        }
+
+        public DataTable DiagnosticosMasFrecuentes()
+        {
+            string sql = @"SELECT d.ID_diagnostico, d.Nombre, COUNT(d.ID_diagnostico) cantidad
+                            FROM consulta c JOIN diagnostico d ON c.Diagnostico = d.ID_diagnostico
+                            group by d.ID_diagnostico, d.Nombre";
+            return _BD.EjecutarSelect(sql);
+        }
+
         public DataTable Consultas_por_sucursales_porAnno(int anno1)
         {
             string sql = @"SELECT s.Nombre_sucursal ,convert(char(4), year(c.Fecha_entrada)) Anno, count(*) cuantos_visita"

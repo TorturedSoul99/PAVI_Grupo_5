@@ -106,6 +106,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BD3K3G05_2021DataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD3K3G05_2021DataSet13.xsd</DependentUpon>
+    </Compile>
     <Compile Include="BD3K3G05_2021DataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -464,6 +469,34 @@
     <Compile Include="Formularios\Estadisticas\ConsultasPorAño\Estadistica_consultas_x_año.Designer.cs">
       <DependentUpon>Estadistica_consultas_x_año.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DataSetDiagMasFrec.cs">
+      <DependentUpon>DataSetDiagMasFrec.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DataSetDiagMasFrec.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDiagMasFrec.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DiagnosticosMasFrecuentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DiagnosticosMasFrecuentes.Designer.cs">
+      <DependentUpon>DiagnosticosMasFrecuentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.cs">
+      <DependentUpon>DataEC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataEC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\EmpleadoConMasConsultas\Estadistica_empleado_con_mas_consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\EmpleadoConMasConsultas\Estadistica_empleado_con_mas_consultas.Designer.cs">
+      <DependentUpon>Estadistica_empleado_con_mas_consultas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -474,6 +507,28 @@
     </Compile>
     <Compile Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.Designer.cs">
       <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\RazasXConsulta\CantidadDeCanesXRazaXConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\RazasXConsulta\CantidadDeCanesXRazaXConsulta.Designer.cs">
+      <DependentUpon>CantidadDeCanesXRazaXConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\RazasXConsulta\DataRXC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataRXC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\VacunasXSucursal\DataVS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataVS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\VacunasXSucursal\VacunasPorSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estadisticas\VacunasXSucursal\VacunasPorSucursal.Designer.cs">
+      <DependentUpon>VacunasPorSucursal.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Form2.cs">
       <SubType>Form</SubType>
@@ -803,10 +858,26 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_entre_años.rdlc" />
     <EmbeddedResource Include="Formularios\Estadisticas\ConsultasPorAño\Rprt_cantidad_consultas_x_año.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DiagnosticosMasFrecuentes.resx">
+      <DependentUpon>DiagnosticosMasFrecuentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\EstadisticaDiagnosticosMasFrecuentes.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\EmpleadoConMasConsultas\EstadisticaConXEmp.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\EmpleadoConMasConsultas\Estadistica_empleado_con_mas_consultas.resx">
+      <DependentUpon>Estadistica_empleado_con_mas_consultas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Frm_MedicamentosPorAnno.resx">
       <DependentUpon>Frm_MedicamentosPorAnno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Estadisticas\MedicamentosPorAño\Rprt_Meicamento_por_anno.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\RazasXConsulta\CantidadDeCanesXRazaXConsulta.resx">
+      <DependentUpon>CantidadDeCanesXRazaXConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\RazasXConsulta\EstadisticaConsultasXRaza.rdlc" />
+    <EmbeddedResource Include="Formularios\Estadisticas\VacunasXSucursal\VacunasPorSucursal.resx">
+      <DependentUpon>VacunasPorSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estadisticas\VacunasXSucursal\VacunasXSucursal.rdlc" />
     <EmbeddedResource Include="Formularios\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -931,6 +1002,17 @@
     <None Include="BD3K3G05_2021DataSet12.xss">
       <DependentUpon>BD3K3G05_2021DataSet12.xsd</DependentUpon>
     </None>
+    <None Include="BD3K3G05_2021DataSet13.xsc">
+      <DependentUpon>BD3K3G05_2021DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="BD3K3G05_2021DataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD3K3G05_2021DataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD3K3G05_2021DataSet13.xss">
+      <DependentUpon>BD3K3G05_2021DataSet13.xsd</DependentUpon>
+    </None>
     <None Include="BD3K3G05_2021DataSet2.xsc">
       <DependentUpon>BD3K3G05_2021DataSet2.xsd</DependentUpon>
     </None>
@@ -1052,6 +1134,28 @@
     <None Include="Formularios\Estadisticas\ConsultasPorAño\DataSetEstadisticaConsulta.xss">
       <DependentUpon>DataSetEstadisticaConsulta.xsd</DependentUpon>
     </None>
+    <None Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DataSetDiagMasFrec.xsc">
+      <DependentUpon>DataSetDiagMasFrec.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DataSetDiagMasFrec.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDiagMasFrec.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\Diagnosticos_mas_frecuentes\DataSetDiagMasFrec.xss">
+      <DependentUpon>DataSetDiagMasFrec.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.xsc">
+      <DependentUpon>DataEC.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataEC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\EmpleadoConMasConsultas\DataEC.xss">
+      <DependentUpon>DataEC.xsd</DependentUpon>
+    </None>
     <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xsc">
       <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>
     </None>
@@ -1062,6 +1166,28 @@
     </None>
     <None Include="Formularios\Estadisticas\MedicamentosPorAño\DataSetMedicamentos_por_Anno.xss">
       <DependentUpon>DataSetMedicamentos_por_Anno.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\RazasXConsulta\DataRXC.xsc">
+      <DependentUpon>DataRXC.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\RazasXConsulta\DataRXC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataRXC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\RazasXConsulta\DataRXC.xss">
+      <DependentUpon>DataRXC.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\VacunasXSucursal\DataVS.xsc">
+      <DependentUpon>DataVS.xsd</DependentUpon>
+    </None>
+    <None Include="Formularios\Estadisticas\VacunasXSucursal\DataVS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataVS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\Estadisticas\VacunasXSucursal\DataVS.xss">
+      <DependentUpon>DataVS.xsd</DependentUpon>
     </None>
     <None Include="Formularios\Reportes\MedicamentosPorSucursal\DataSet_Medicamentos_x_Sucursal.xsc">
       <DependentUpon>DataSet_Medicamentos_x_Sucursal.xsd</DependentUpon>
